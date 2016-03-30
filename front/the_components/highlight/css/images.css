@@ -1,0 +1,17 @@
+
+/* cursor -- cursor and hot-spot position; requires a default cursor, after the URL one */ 
+html.clearly_highlighting_enabled { cursor: url("../img/highlight--cursor.png") 14 16, text; } 
+
+/* highlight tag */ 
+em.clearly_highlight_element { background-image: url("../img/highlight--yellow.png"); } 
+
+/* delete buttons */ 
+em.clearly_highlight_element a.clearly_highlight_delete_element { background-image: url("../img/highlight--delete-sprite.png"); }
+
+/* retina */ 
+@media (min--moz-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) { 
+
+    em.clearly_highlight_element { background-image: url("../img/highlight--yellow@2x.png"); } 
+    em.clearly_highlight_element a.clearly_highlight_delete_element { background-image: url("../img/highlight--delete-sprite@2x.png"); background-size: 68px 34px; } 
+
+} 

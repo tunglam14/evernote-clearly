@@ -1,0 +1,10 @@
+
+    #text h1 { color: #000; }
+    #text h2, #text h3, #text h4, #text h5, #text h6 { color: #444; }
+
+    #text blockquote { border-color: #d1d1d1; }
+
+    #text thead { background-color: #444; color: #fff; }
+    #text tr:nth-child(even) { background: #d1d1d1; }
+
+    #text hr { border-color: #000; }

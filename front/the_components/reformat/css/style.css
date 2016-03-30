@@ -1,0 +1,157 @@
+
+/* general */
+/* ======= */
+
+    html, body { background-color: transparent; }
+
+/* main */
+/* ==== */
+
+    /* z order */
+    #background { z-index: 100; }
+    #box { z-index: 200; }
+
+    /* containers */
+    html.readableVisible { overflow-y: scroll; }
+    #background { position: fixed; top: 0; right: 0; width: 100%; height: 100%; }
+    #box, .setBoxWidth { padding-left: 2em; padding-right: 2em; margin-left: auto; margin-right: auto; position: relative; }
+    #box_inner, .setBoxWidthInner { position: relative; margin-left: -25px; margin-right: 25px; }
+    #text { position: relative; }
+    
+/* text */
+/* ==== */
+
+    #text #articleHeader { margin-bottom: 0; }
+    #text #articleHeader__title { padding: 0; margin: 0; }
+    #text #articleHeader__author { padding: 0; margin: 0; }
+    #text #articleHeader__date { padding: 0; margin: 0; }
+    #text #articleHeader a { text-decoration: none }
+
+    #text p:last-child, 
+    #text div:last-child, 
+    #text blockquote:last-child, 
+    #text table:last-child { margin-bottom: 0 !important; } 
+
+    #text pre { width: auto; }
+
+    /* containers */
+    /* ========== */
+
+        #text div.readableLargeObjectContainer { display: block; text-align: center; }
+        #text div.readableLargeObjectContainer > object,
+        #text div.readableLargeObjectContainer > embed,
+        #text div.readableLargeObjectContainer > iframe
+            { display: block; margin-left:auto; margin-right: auto; }
+    
+        #text div.readableLargeImageContainer { display: block; text-align: center; }
+        #text div.readableLargeImageContainer img { display: block; max-width: 100%; }
+        #text div.readableLargeImageContainer.float { float: left; margin-right: 1em; }
+    
+        #text a.readableLinkWithLargeImage:link { display: block; margin: 0; padding: 0; background-color: transparent; }
+        #text a.readableLinkWithLargeImage:link div.readableLargeImageContainer { margin: 0; }
+        #text a.readableLinkWithLargeImage:link div.readableLargeImageContainer.float { margin-right: 1em; }
+
+    /* pages */
+    /* ===== */
+
+        #text div.page { position: relative; }
+        #text div.page_content { }
+    
+    /* page separators */
+    /* =============== */
+
+        #text div.separateSection { }
+        
+        #text div.separator { position: relative; margin: 0; height: 1em; line-height: 1; text-align: center; }
+        #text div.separatorLabel { position: relative; z-index: 100; padding: 0 0.5em; display: inline; }
+        #text div.separatorLine, #text section::before { 
+            position: absolute; left: -4em; top: 50%; z-index: 10;
+            width: 100%; padding-left: 4em; padding-right: 4em;
+            height: 0.1em; margin: 0; opacity: 0.5;
+        }
+        
+        #text section { position: relative; }
+        #text section::before { 
+            content: " "; display: block; 
+            left: 25%; top: 0; 
+            width: 50%;
+            padding-left: 0; padding-right: 0;
+            opacity: 0.25; 
+        }
+
+        #text section:first-child { margin-top: 0 !important; padding-top: 0 !important; }
+        #text section:first-child::before { display: none !important; }
+
+        #text #articleHeader + section::before { display: none !important; }
+        #text #articleHeader + section { margin-top: 0 !important; padding-top: 0 !important; }
+
+    /* measure */
+    /* ======= */
+        #text #measure__lineHeight { position: absolute; top: -1000px; left: -1000px; }
+        #text #measure__fontSize { position: absolute; top: -1000px; left: -1000px; line-height: 1; }
+
+    /* options */
+    /* ======= */
+
+        /* footnote links */
+        /* ============== */
+        
+            #text sup.readableLinkFootnote { vertical-align: super; font-size: 0.875em; }
+
+            #text #footnotedLinks { margin-top: 2em; }
+            #text #footnotedLinks li { margin-bottom: 0.5em; }
+
+            /* on print */
+            /* ======== */
+        
+                body.footnote_links__on_print #text sup.readableLinkFootnote { display: none; }
+                body.footnote_links__on_print #footnotedLinks { display: none; }
+            
+                @media print
+                {
+                    body.footnote_links__on_print #text sup.readableLinkFootnote { display: inline; }
+                    body.footnote_links__on_print #footnotedLinks { display: block; }
+                }
+    
+            /* always */
+            /* ====== */
+        
+                body.footnote_links__always #text sup.readableLinkFootnote { display: inline; }
+                body.footnote_links__always #footnotedLinks { display: block; }
+
+            /* never */
+            /* ===== */
+        
+                body.footnote_links__never #text sup.readableLinkFootnote { display: none; }
+                body.footnote_links__never #footnotedLinks { display: none; }
+    
+        /* large graphics */
+        /* ============== */
+    
+            /* hide on print */
+            /* ============= */
+        
+                @media print
+                {
+                    body.large_graphics__hide_on_print #text div.readableLargeObjectContainer,
+                    body.large_graphics__hide_on_print #text div.readableLargeImageContainer,
+                    body.large_graphics__hide_on_print #text a.readableLinkWithLargeImage
+                        { display: none; }
+                }
+        
+            /* hide always */
+            /* =========== */
+        
+                body.large_graphics__hide_always #text div.readableLargeObjectContainer,
+                body.large_graphics__hide_always #text div.readableLargeImageContainer,
+                body.large_graphics__hide_always #text a.readableLinkWithLargeImage
+                    { display: none; }
+                        
+/* print */
+/* ===== */
+
+    @media print
+    {
+        #box { margin: 0; width: auto; }
+        #background { display: none !important; }
+    }

@@ -1,0 +1,698 @@
+{
+   "chrome_browser_action": {
+      "message": "Bekijk deze pagina in Clearly"
+   },
+   "chrome_context_menu": {
+      "message": "Clearly"
+   },
+   "firefox_button": {
+      "message": "Clearly"
+   },
+   "firefox_button_tooltip": {
+      "message": "Bekijk deze pagina in Clearly"
+   },
+   "firefox_context_menu": {
+      "message": "Clearly"
+   },
+   "firefox_menu": {
+      "message": "Clearly"
+   },
+   "inside__blank__heading": {
+      "message": "Gebruikstips voor Evernote Clearly"
+   },
+   "inside__blank__text": {
+      "message": "Clearly is op dit moment ontworpen om te werken op artikel pagina's. Een artikel pagina is een pagina die een groot blok van tekst bevat — zoals, bijvoorbeeld, een krantenartikel of blog post."
+   },
+   "inside__features__clipping__text": {
+      "message": "Sla met één klik in je Evernote-account op wat je leest. Open op elk moment en vanaf elke plaats clips in Evernote."
+   },
+   "inside__features__clipping__title": {
+      "message": "Naar Evernote sturen"
+   },
+   "inside__features__close2": {
+      "message": "Sluiten"
+   },
+   "inside__features__eula": {
+      "message": "Licentieovereenkomst voor eindgebruikers"
+   },
+   "inside__features__eula_notice": {
+      "message": "Door Clearly te gebruiken stem je in met onze [=eula]."
+   },
+   "inside__features__highlighting__text": {
+      "message": "Markeer tekst die je wilt onthouden en snel wilt terugvinden in je Evernote/account. Markeringswijzigingen in Clearly worden automatisch bijgewerkt in je Evernote-account."
+   },
+   "inside__features__highlighting__title": {
+      "message": "Markeren"
+   },
+   "inside__features__related_notes__text": {
+      "message": "Ontdek je notities uit je Evernote-account die zijn gerelateerd aan de pagina die je bekijkt. Gerelateerde notities worden onderaan het artikel of, wanneer de ruimte dat toestaat, rechts getoond."
+   },
+   "inside__features__related_notes__title": {
+      "message": "Gerelateerde notities"
+   },
+   "inside__features__smart_filing__text": {
+      "message": "Wijst automatisch labels aan jouw webknipsels toe en sla ze op in het juiste notitieboek zodat je hier niet aan hoeft te denken."
+   },
+   "inside__features__smart_filing__title": {
+      "message": "Smart Filing"
+   },
+   "inside__features__speech__no_language_explanation": {
+      "message": "Evernote Clearly kan niet vaststellen in welke taal dit artikel is geschreven. Als je de taal herkent, selecteer het dan hieronder en we spelen het af."
+   },
+   "inside__features__speech__no_language_title": {
+      "message": "Taal wordt niet ondersteund"
+   },
+   "inside__features__speech__text": {
+      "message": "Leun achterover en laat Clearly blogberichten, artikelen en webpagina's voorlezen dankzij de nieuwe Tekst-naar-spraak-functie, exclusief beschikbaar voor abonnees van Evernote Premium."
+   },
+   "inside__features__speech__text__available": {
+      "message": "Tekst-naar-spraak in 21 talen:"
+   },
+   "inside__features__speech__text__available_languages": {
+      "message": "Engels, Japans, Spaans, Frans, Duits, Chinees, Koreaans, Arabisch, Tsjechisch, Deens, Nederlands, Fins, Grieks, Hongaars, Italiaans, Noors, Pools, Portugees, Russisch, Zweeds en Turks."
+   },
+   "inside__features__speech__text__cancel": {
+      "message": "Annuleren"
+   },
+   "inside__features__speech__text__language": {
+      "message": "Taal wordt niet ondersteund"
+   },
+   "inside__features__speech__text__play": {
+      "message": "Afspelen met deze taal"
+   },
+   "inside__features__speech__text__powered": {
+      "message": "Evernote is een Add-on van [=service]."
+   },
+   "inside__features__speech__text__requires": {
+      "message": "Vereist [=product]."
+   },
+   "inside__features__speech__text__try": {
+      "message": "Tekst-naar-spraak proberen"
+   },
+   "inside__features__speech__text__upgrade": {
+      "message": "Naar Evernote Premium upgraden"
+   },
+   "inside__features__speech__title": {
+      "message": "Tekst-naar-spraak"
+   },
+   "inside__features__title__all": {
+      "message": "Welkom bij het nieuwe Evernote Clearly"
+   },
+   "inside__features__title__new": {
+      "message": "Je hebt een nieuwe versie van Evernote Clearly"
+   },
+   "inside__filing_info__add_tag": {
+      "message": "Voeg een label toe"
+   },
+   "inside__filing_info__change_notebook": {
+      "message": "Wijzig notitieboek"
+   },
+   "inside__filing_info__clipped": {
+      "message": "Geknipt"
+   },
+   "inside__filing_info__default_notebook": {
+      "message": "Je standaard notitieboek"
+   },
+   "inside__filing_info__edit": {
+      "message": "Bewerken"
+   },
+   "inside__filing_info__find_notebook": {
+      "message": "Vind een notitieboek"
+   },
+   "inside__filing_info__no_tags": {
+      "message": "Labels zijn niet toegestaan"
+   },
+   "inside__filing_info__open_note": {
+      "message": "Open notitie"
+   },
+   "inside__filing_info__refresh_notebooks": {
+      "message": "Vernieuw notitieboeklijst"
+   },
+   "inside__filing_info__refresh_tags": {
+      "message": "Vernieuw labellijst"
+   },
+   "inside__filing_info__remove_tag": {
+      "message": "Verwijder trefwoord"
+   },
+   "inside__filing_info__sentence": {
+      "message": "Vastgelegd in het notitieboek [=notebook] en voorzien van de labels [=tags]."
+   },
+   "inside__filing_info__sentence_and": {
+      "message": "en"
+   },
+   "inside__filing_info__sentence_no_tags": {
+      "message": "Vastgelegd in het notitieboek [=notebook]."
+   },
+   "inside__filing_info__sentence_other_tags": {
+      "message": "overige labels"
+   },
+   "inside__filing_info__title_normal": {
+      "message": "Opgeslagen in:"
+   },
+   "inside__filing_info__title_smart": {
+      "message": "Slim opgeslagen in:"
+   },
+   "inside__filing_info__view": {
+      "message": "Bekijken"
+   },
+   "inside__footer__button": {
+      "message": "Account aanmaken"
+   },
+   "inside__footer__text": {
+      "message": "Neem een gratis Evernote-account om dit artikel op te slaan en bekijk het op elk soort apparaat."
+   },
+   "inside__login__button_cancel__label": {
+      "message": "Annuleren"
+   },
+   "inside__login__button_do__label": {
+      "message": "Inloggen"
+   },
+   "inside__login__create_account": {
+      "message": "Maak een account aan"
+   },
+   "inside__login__email__error__format": {
+      "message": "De e-mail bevat verkeerde tekens."
+   },
+   "inside__login__email__error__invalid": {
+      "message": "Geen geldige, actieve gebruiker."
+   },
+   "inside__login__email__error__length": {
+      "message": "De e-mail moet tussen de 1 en 64 tekens lang zijn."
+   },
+   "inside__login__email__error__required": {
+      "message": "E-mailadres is verplicht."
+   },
+   "inside__login__email__label": {
+      "message": "E-mailadres"
+   },
+   "inside__login__general__error": {
+      "message": "Authenticatie mislukt."
+   },
+   "inside__login__heading": {
+      "message": "Inloggen bij Evernote"
+   },
+   "inside__login__password__error__format": {
+      "message": "Wachtwoord bevat verkeerde tekens."
+   },
+   "inside__login__password__error__invalid": {
+      "message": "E-mail en wachtwoord komen niet overeen met de bestaande gebruiker."
+   },
+   "inside__login__password__error__length": {
+      "message": "Wachtwoord moet tussen de 6 en 64 tekens lang zijn."
+   },
+   "inside__login__password__error__required": {
+      "message": "Een wachtwoord is vereist."
+   },
+   "inside__login__password__error__reset": {
+      "message": "Je wachtwoord is verlopen. Reset je wachtwoord nu."
+   },
+   "inside__login__password__error__timeout": {
+      "message": "Loginsessie heeft time-out. Probeer opnieuw."
+   },
+   "inside__login__password__label": {
+      "message": "Wachtwoord"
+   },
+   "inside__login__rememberMe__label": {
+      "message": "Onthoud mij"
+   },
+   "inside__login__spinner": {
+      "message": "Bezig met het inloggen bij Evernote"
+   },
+   "inside__menu__clip_to_evernote__tooltip": {
+      "message": "Naar Evernote sturen."
+   },
+   "inside__menu__close__tooltip": {
+      "message": "Verberg de overlay."
+   },
+   "inside__menu__fitts__tooltip": {
+      "message": "Verberg de overlay."
+   },
+   "inside__menu__highlight_to_evernote__tooltip": {
+      "message": "Markeren."
+   },
+   "inside__menu__print__tooltip": {
+      "message": "Afdrukken."
+   },
+   "inside__menu__settings__tooltip": {
+      "message": "Toon thema's."
+   },
+   "inside__menu__speak__forward__tooltip": {
+      "message": "Vooruit"
+   },
+   "inside__menu__speak__pause__tooltip": {
+      "message": "Pauze"
+   },
+   "inside__menu__speak__play__tooltip": {
+      "message": "Afspelen"
+   },
+   "inside__menu__speak__rewind__tooltip": {
+      "message": "Achteruit"
+   },
+   "inside__menu__speak__tooltip": {
+      "message": "Tekst-naar-spraak"
+   },
+   "inside__misc__clipping__doing": {
+      "message": "Opnemen..."
+   },
+   "inside__misc__clipping__failed": {
+      "message": "Knippen mislukt."
+   },
+   "inside__misc__login_request": {
+      "message": "Klik op het Clearly-icoon in de werkbalk om in te loggen bij Evernote."
+   },
+   "inside__misc__login_request__chrome": {
+      "message": "Klik op het Clearly-icoon in de werkbalk van Chrome om in te loggen bij Evernote."
+   },
+   "inside__misc__login_request__firefox": {
+      "message": "Klik op het Clearly-icoon in de werkbalk van Firefox om in te loggen bij Evernote."
+   },
+   "inside__misc__login_request__opera": {
+      "message": "Klik op het Clearly-icoon in de werkbalk van Opera om in te loggen bij Evernote."
+   },
+   "inside__misc__page": {
+      "message": "Pagina [=page]"
+   },
+   "inside__related_notes__disable_long": {
+      "message": "Wil je Gerelateerde notities uitschakelen?"
+   },
+   "inside__related_notes__disable_short": {
+      "message": "Uitschakelen?"
+   },
+   "inside__related_notes__title": {
+      "message": "Gerelateerde notities"
+   },
+   "inside__reminder__button": {
+      "message": "Lees met Clearly"
+   },
+   "inside__reminder__heading": {
+      "message": "Haal meer uit het online lezen met Clearly"
+   },
+   "inside__reminder__text": {
+      "message": "Met slechts één klik ontdoe je een artikel van alle afleidingen. Klik je nog een keer, dan sla je het artikel in Evernote op, voor altijd. Probeer het nu!"
+   },
+   "inside__rtl__ltr__label": {
+      "message": "Van links naar rechts"
+   },
+   "inside__rtl__main__label": {
+      "message": "Tekstrichting?"
+   },
+   "inside__rtl__rtl__label": {
+      "message": "Van rechts naar links"
+   },
+   "inside__settings__fontSize__large": {
+      "message": "groot"
+   },
+   "inside__settings__fontSize__medium": {
+      "message": "middel"
+   },
+   "inside__settings__fontSize__small": {
+      "message": "klein"
+   },
+   "inside__settings__more_options": {
+      "message": "Meer opties"
+   },
+   "inside__settings__theme__1": {
+      "message": "Krantenafdruk"
+   },
+   "inside__settings__theme__2": {
+      "message": "Opvallend"
+   },
+   "inside__settings__theme__3": {
+      "message": "Nachtbraker"
+   },
+   "inside__settings__theme__custom": {
+      "message": "Aangepast"
+   },
+   "inside__two_factor__button_do__label": {
+      "message": "Doorgaan"
+   },
+   "inside__two_factor__button_help__label": {
+      "message": "Ik heb hulp nodig met het krijgen van een verificatiecode"
+   },
+   "inside__two_factor__code__error__format": {
+      "message": "Verificatiecode moet alleen nummers bevatten."
+   },
+   "inside__two_factor__code__error__invalid": {
+      "message": "Verificatiecode is onjuist."
+   },
+   "inside__two_factor__code__error__length": {
+      "message": "Verificatiecode moet ten minste 6 tekens lang zijn."
+   },
+   "inside__two_factor__code__error__required": {
+      "message": "Verificatiecode is verplicht."
+   },
+   "inside__two_factor__code__label": {
+      "message": "Zescijferige code"
+   },
+   "inside__two_factor__message__google": {
+      "message": "Voer de verificatiecode in die wordt getoond in je Google Authenticator-app."
+   },
+   "inside__two_factor__message__sms": {
+      "message": "We stuurden een sms met een verificatiecode naar"
+   },
+   "meta_extension_author": {
+      "message": "Evernote Corp."
+   },
+   "meta_extension_description": {
+      "message": "Clearly zorgt dat je blogberichten, artikelen en webpagina’s eenvoudig kunt lezen. Sla ze op in Evernote en lees ze overal."
+   },
+   "meta_extension_name": {
+      "message": "Clearly"
+   },
+   "options__account__sign_out": {
+      "message": "Permanent aangemeld als [[=username]]."
+   },
+   "options__account__sign_out_link": {
+      "message": "Uitloggen."
+   },
+   "options__account__signed_out": {
+      "message": "Je bent niet permanent ingelogd. Klik op het Evernote-icoon, in de Clearly zijbalk, om in te loggen."
+   },
+   "options__base__label": {
+      "message": "Basis CSS"
+   },
+   "options__box_width__label": {
+      "message": "Regelbreedte"
+   },
+   "options__button__more_options": {
+      "message": "Meer opties"
+   },
+   "options__button__reset_custom": {
+      "message": "Herstellen"
+   },
+   "options__button__save_custom": {
+      "message": "Thema opslaan"
+   },
+   "options__button__save_general": {
+      "message": "Opties opslaan"
+   },
+   "options__clip_notebook__business": {
+      "message": "Zakelijke notitieboeken"
+   },
+   "options__clip_notebook__default": {
+      "message": "Standaard"
+   },
+   "options__clip_notebook__shared": {
+      "message": "Gedeelde notitieboeken"
+   },
+   "options__clip_notebook__smart__label": {
+      "message": "Gebruik Smart Filing"
+   },
+   "options__clip_notebook__specific__label": {
+      "message": "Gebruik specifiek notitieboek"
+   },
+   "options__clip_notebook__your": {
+      "message": "Jouw notitieboeken"
+   },
+   "options__clip_tag__smart__label": {
+      "message": "Gebruik Smart Filing"
+   },
+   "options__clip_tag__specific__label": {
+      "message": "Gebruik specifiek label"
+   },
+   "options__color_background__label": {
+      "message": "Achtergrondkleur"
+   },
+   "options__color_links__label": {
+      "message": "Kleur link"
+   },
+   "options__color_text__label": {
+      "message": "Voorgrondkleur"
+   },
+   "options__custom_css__label": {
+      "message": "Aangepaste CSS"
+   },
+   "options__footnote_links__label": {
+      "message": "Als voetnoten gekoppeld"
+   },
+   "options__keys_activation__label": {
+      "message": "Toon pagina in Clearly"
+   },
+   "options__keys_clip__label": {
+      "message": "Naar Evernote sturen"
+   },
+   "options__keys_highlight__label": {
+      "message": "Markeren"
+   },
+   "options__keys_speech__label": {
+      "message": "Tekst-naar-spraak"
+   },
+   "options__large_graphics__label": {
+      "message": "Grote afbeeldingen"
+   },
+   "options__message__keys": {
+      "message": "Plaats de cursor in het veld en druk op een toetscombinatie om te wijzigen."
+   },
+   "options__message__keys_firefox": {
+      "message": "Herstart de browser na het opslaan."
+   },
+   "options__message__notebook": {
+      "message": "Notitieboek waar knipsels in opgeslagen worden, wanneer je een Clip naar Evernote stuurt."
+   },
+   "options__message__open_notes_in": {
+      "message": "Gebruik een specifiek Evernote-app wanneer je Clearly notities opent."
+   },
+   "options__message__related_notes": {
+      "message": "Laat Evernote knipsels ophalen uit je account die mogelijk relevant zijn voor dat wat je nu leest."
+   },
+   "options__message__smart_filing": {
+      "message": "Laat Evernote bepalen in welk notitieboek de knipsels opgeslagen worden, en welke labels ze moeten krijgen."
+   },
+   "options__message__tags": {
+      "message": "Te gebruiken labels wanneer je een knipsel naar Evernote stuurt."
+   },
+   "options__misc__print_preview": {
+      "message": "Afdrukvoorbeeld"
+   },
+   "options__misc__reset_theme": {
+      "message": "Reset aangepast thema"
+   },
+   "options__misc__reset_theme__confirm": {
+      "message": "Hierdoor worden jouw aangepaste thema waardes teruggezet tot de standaard waardes. Weet je zeker dat je dat wil?"
+   },
+   "options__misc__saved": {
+      "message": "De instellingen zijn geldig op alle nieuwe tabs waar je Clearly op gebruikt."
+   },
+   "options__misc__saving": {
+      "message": "Opslaan"
+   },
+   "options__open_notes_in__desktop__label": {
+      "message": "Desktop-app"
+   },
+   "options__open_notes_in__web__label": {
+      "message": "Web-app"
+   },
+   "options__related_notes__disabled__label": {
+      "message": "Gerelateerde notities uitschakelen"
+   },
+   "options__related_notes__enabled__label": {
+      "message": "Gerelateerde notities inschakelen"
+   },
+   "options__related_notes__just_at_bottom__label": {
+      "message": "Gerelateerde notities inschakelen, maar alleen onderaan tonen"
+   },
+   "options__smart_filing__disabled__label": {
+      "message": "Smart Filing uitschakelen"
+   },
+   "options__smart_filing__enabled__label": {
+      "message": "Smart Filing inschakelen"
+   },
+   "options__smart_filing__just_notebooks__label": {
+      "message": "Smart Filing inschakelen, maar alleen voor notitieblokken"
+   },
+   "options__smart_filing__just_tags__label": {
+      "message": "Smart Filing inschakelen, maar alleen voor labels"
+   },
+   "options__smart_filing_for_business__notebooks__label": {
+      "message": "Ook voor zakelijke notitieboeken"
+   },
+   "options__smart_filing_for_business__tags__label": {
+      "message": "Ook voor zakelijke labels"
+   },
+   "options__speech_demo__label": {
+      "message": "Demo"
+   },
+   "options__speech_gender__label": {
+      "message": "Voorleesstem"
+   },
+   "options__speech_speed__label": {
+      "message": "Voorleessnelheid"
+   },
+   "options__text_align__label": {
+      "message": "Tekst uitlijnen"
+   },
+   "options__text_font__label": {
+      "message": "Lettertype hoofdtekst"
+   },
+   "options__text_font_header__label": {
+      "message": "Lettertype kopteksten"
+   },
+   "options__text_font_monospace__label": {
+      "message": "Niet-proportionele Font"
+   },
+   "options__text_line_height__label": {
+      "message": "Regelafstand"
+   },
+   "options__text_size__label": {
+      "message": "Basis Font grootte"
+   },
+   "options__title__custom": {
+      "message": "Aangepaste thema"
+   },
+   "options__title__features": {
+      "message": "Clearly-functies"
+   },
+   "options__title__general": {
+      "message": "Opties"
+   },
+   "options__title__page": {
+      "message": "Clearly / Opties"
+   },
+   "options__title__speech": {
+      "message": "Tekst-naar-spraak"
+   },
+   "options__title__sub__account": {
+      "message": "Account"
+   },
+   "options__title__sub__keyboard": {
+      "message": "Sneltoetsen"
+   },
+   "options__title__sub__notebook": {
+      "message": "Notitieboekselectie"
+   },
+   "options__title__sub__open_notes_in": {
+      "message": "Open notities in"
+   },
+   "options__title__sub__related_notes": {
+      "message": "Gerelateerde notities"
+   },
+   "options__title__sub__smart_filing": {
+      "message": "Smart Filing"
+   },
+   "options__title__sub__tags": {
+      "message": "Labelselectie"
+   },
+   "options__values__base__Blueprint": {
+      "message": "Blauwdruk"
+   },
+   "options__values__base__None": {
+      "message": "Geen"
+   },
+   "options__values__base__Theme_1": {
+      "message": "Klassiek"
+   },
+   "options__values__base__Theme_2": {
+      "message": "Modern"
+   },
+   "options__values__base__Theme_3": {
+      "message": "´s Nachts"
+   },
+   "options__values__footnote_links__Always": {
+      "message": "Altijd"
+   },
+   "options__values__footnote_links__Never": {
+      "message": "Nooit"
+   },
+   "options__values__footnote_links__On_Print": {
+      "message": "Bij afdrukken"
+   },
+   "options__values__large_graphics__Do_Nothing": {
+      "message": "Altijd tonen"
+   },
+   "options__values__large_graphics__Hide_Always": {
+      "message": "Altijd verbergen"
+   },
+   "options__values__large_graphics__Hide_on_Print": {
+      "message": "Verbergen bij afdrukken"
+   },
+   "options__values__menu_placement__Bottom_Right": {
+      "message": "Rechtsonder"
+   },
+   "options__values__menu_placement__Top_Right": {
+      "message": "Rechtsboven"
+   },
+   "options__values__speech_gender__default": {
+      "message": "Standaard"
+   },
+   "options__values__speech_gender__female": {
+      "message": "Vrouw (indien beschikbaar)"
+   },
+   "options__values__speech_gender__male": {
+      "message": "Man (indien beschikbaar)"
+   },
+   "options__values__speech_speed__fast": {
+      "message": "Snel"
+   },
+   "options__values__speech_speed__faster": {
+      "message": "Sneller"
+   },
+   "options__values__speech_speed__fastest": {
+      "message": "Snelst"
+   },
+   "options__values__speech_speed__normal": {
+      "message": "Normaal"
+   },
+   "options__values__speech_speed__slow": {
+      "message": "Langzaam"
+   },
+   "options__values__speech_speed__slower": {
+      "message": "Langzamer"
+   },
+   "options__values__speech_speed__slowest": {
+      "message": "Langzaamst"
+   },
+   "options__values__text_align__Justified": {
+      "message": "Bevestigd"
+   },
+   "options__values__text_align__Normal": {
+      "message": "Normaal"
+   },
+   "register__after__1": {
+      "message": "Jouw Evernote-account is nu aan Clearly gekoppeld."
+   },
+   "register__after__2": {
+      "message": "Klik op het Evernote-icoon, in de Clearly zijbalk, om meteen een artikel op te slaan."
+   },
+   "register__after__3": {
+      "message": "Download Evernote op al je apparaten om overal en altijd te kunnen lezen."
+   },
+   "register__after__heading": {
+      "message": "Registratie voltooid"
+   },
+   "register__agree": {
+      "message": "Door op 'Registeren' te klikken, stem ik in met de [=terms] en [=privacy]."
+   },
+   "register__agree__privacy": {
+      "message": "Privacybeleid"
+   },
+   "register__agree__terms": {
+      "message": "Gebruiksvoorwaarden"
+   },
+   "register__button": {
+      "message": "Registreren"
+   },
+   "register__captcha__error__incorrect": {
+      "message": "Captcha code is onjuist."
+   },
+   "register__captcha__error__required": {
+      "message": "Captcha code is nodig."
+   },
+   "register__captcha__label": {
+      "message": "Captcha"
+   },
+   "register__email__error__conflict": {
+      "message": "Dit e-mailadres is al aan een account gekoppeld."
+   },
+   "register__evernote_heading": {
+      "message": "Jouw levenswerk"
+   },
+   "register__evernote_text": {
+      "message": "Evernote is dé werkplek om alles wat je wil doen, gedaan te krijgen."
+   },
+   "register__page_title": {
+      "message": "Clearly / Registreren"
+   },
+   "register__text": {
+      "message": "Gebruik Clearly met een Evernote account en je kan al je artikelen opslaan en ze later op elk soort apparaat lezen."
+   }
+}

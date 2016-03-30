@@ -1,0 +1,698 @@
+{
+   "chrome_browser_action": {
+      "message": "Näytä tämä sivu Clearlyssa."
+   },
+   "chrome_context_menu": {
+      "message": "Clearly"
+   },
+   "firefox_button": {
+      "message": "Clearly"
+   },
+   "firefox_button_tooltip": {
+      "message": "Näytä tämä sivu Clearlyssa."
+   },
+   "firefox_context_menu": {
+      "message": "Clearly"
+   },
+   "firefox_menu": {
+      "message": "Clearly"
+   },
+   "inside__blank__heading": {
+      "message": "Vinkkejä Evernote Clearlyn käyttöön"
+   },
+   "inside__blank__text": {
+      "message": "Clearly on suunniteltu toimimaan artikkelisivuilla. Artikkelisivu on mikä tahansa sivu, joka sisältää suuren määrän tekstiä —  kuten lehti- tai blogiartikkeli."
+   },
+   "inside__features__clipping__text": {
+      "message": "Tallenna lukemasi Evernote-tilille yhdellä napsautuksella. Käytä Evernoten leikkeitä millä tahansa laitteella ja milloin vain."
+   },
+   "inside__features__clipping__title": {
+      "message": "Leike Evernoteen"
+   },
+   "inside__features__close2": {
+      "message": "Sulje"
+   },
+   "inside__features__eula": {
+      "message": "Loppukäyttäjän lisenssiehtosopimus"
+   },
+   "inside__features__eula_notice": {
+      "message": "Käyttämällä Clearlya hyväksyt loppukäyttäjän lisenssisopimuksen [=eula]."
+   },
+   "inside__features__highlighting__text": {
+      "message": "Korosta teksti, jonka haluat muistaa, ja löydä se nopeasti Evernote-tililtäsi. Clearlyssa tekemäsi korostusmuutokset päivitetään Evernote-tilillesi automaattisesti."
+   },
+   "inside__features__highlighting__title": {
+      "message": "Korostus"
+   },
+   "inside__features__related_notes__text": {
+      "message": "Löydä automaattisesti Evernote-tilillesi tallennetut muistiinpanot, jotka liittyvät lukemasi sivun aiheeseen. Aiheeseen liittyvät muistiinpanot näytetään artikkelin alaosassa tai oikeassa reunassa, jos tilaa on riittävästi."
+   },
+   "inside__features__related_notes__title": {
+      "message": "Liittyvät muistiinpanot"
+   },
+   "inside__features__smart_filing__text": {
+      "message": "Määrittää automaattisesti avainsanat verkkoleikkeillesi ja tallentaa ne puolestasi asiaankuuluvaan muistikirjaan."
+   },
+   "inside__features__smart_filing__title": {
+      "message": "Älykäs arkistointi"
+   },
+   "inside__features__speech__no_language_explanation": {
+      "message": "Evernote Clearly ei onnistunut määrittämään artikkelin kieltä. Jos tunnistat kielen, valitse se alta, niin toistamme tekstin."
+   },
+   "inside__features__speech__no_language_title": {
+      "message": "Kieltä ei tueta"
+   },
+   "inside__features__speech__text": {
+      "message": "Rentoudu ja anna Clearlyn lukea ääneen blogikirjoituksia, artikkeleita ja verkkosivuja uuden tekstistä puheeksi -toiminnon avulla. Toiminto on Evernoten Premium-tilaajien käytettävissä."
+   },
+   "inside__features__speech__text__available": {
+      "message": "Tekstistä puheeksi -toiminto 21 kielellä:"
+   },
+   "inside__features__speech__text__available_languages": {
+      "message": "englanti, japani, espanja, ranska, saksa, kiina, korea, arabia, tsekki, tanska, hollanti, suomi, kreikka, unkari, italia, norja, puola, portugali, venäjä, ruotsi ja turkki."
+   },
+   "inside__features__speech__text__cancel": {
+      "message": "Peruuta"
+   },
+   "inside__features__speech__text__language": {
+      "message": "Kieltä ei tueta"
+   },
+   "inside__features__speech__text__play": {
+      "message": "Toista tällä kielellä"
+   },
+   "inside__features__speech__text__powered": {
+      "message": "Evernote Clearlyn voimanlähteenä on [=service]."
+   },
+   "inside__features__speech__text__requires": {
+      "message": "Vaatii [=product]."
+   },
+   "inside__features__speech__text__try": {
+      "message": "Kokeile tekstistä puheeksi -toimintoa"
+   },
+   "inside__features__speech__text__upgrade": {
+      "message": "Päivitä Evernote Premiumiin"
+   },
+   "inside__features__speech__title": {
+      "message": "Tekstistä puheeksi"
+   },
+   "inside__features__title__all": {
+      "message": "Tervetuloa uuteen Evernote Clearlyyn"
+   },
+   "inside__features__title__new": {
+      "message": "Sinulla on uusi versio Evernote Clearlysta"
+   },
+   "inside__filing_info__add_tag": {
+      "message": "Lisää avainsana"
+   },
+   "inside__filing_info__change_notebook": {
+      "message": "Vaihda muistikirjaa"
+   },
+   "inside__filing_info__clipped": {
+      "message": "Leike lisätty"
+   },
+   "inside__filing_info__default_notebook": {
+      "message": "Oma oletusmuistikirja"
+   },
+   "inside__filing_info__edit": {
+      "message": "Muokkaa"
+   },
+   "inside__filing_info__find_notebook": {
+      "message": "Etsi muistikirja"
+   },
+   "inside__filing_info__no_tags": {
+      "message": "Avainsanoja ei sallita"
+   },
+   "inside__filing_info__open_note": {
+      "message": "Avaa muistiinpano"
+   },
+   "inside__filing_info__refresh_notebooks": {
+      "message": "Virkistä muistikirjalista"
+   },
+   "inside__filing_info__refresh_tags": {
+      "message": "Virkistä avainsanalista"
+   },
+   "inside__filing_info__remove_tag": {
+      "message": "Poista avainsana"
+   },
+   "inside__filing_info__sentence": {
+      "message": "Leike tallennettu muistikirjaan [=notebook] ja merkitty avainsanoilla [=tags]."
+   },
+   "inside__filing_info__sentence_and": {
+      "message": "ja"
+   },
+   "inside__filing_info__sentence_no_tags": {
+      "message": "Leike tallennettu muistikirjaan [=notebook]."
+   },
+   "inside__filing_info__sentence_other_tags": {
+      "message": "muut avainsanat"
+   },
+   "inside__filing_info__title_normal": {
+      "message": "Arkistoitu kohteeseen:"
+   },
+   "inside__filing_info__title_smart": {
+      "message": "Arkistoitu älykkäästi kohteeseen:"
+   },
+   "inside__filing_info__view": {
+      "message": "Näytä"
+   },
+   "inside__footer__button": {
+      "message": "Luo tunnus"
+   },
+   "inside__footer__text": {
+      "message": "Hanki ilmainen Evernote-tili, niin voit tallentaa tämän artikkelin ja lukea sen millä tahansa laitteella."
+   },
+   "inside__login__button_cancel__label": {
+      "message": "Peruuta"
+   },
+   "inside__login__button_do__label": {
+      "message": "Kirjaudu sisään"
+   },
+   "inside__login__create_account": {
+      "message": "Luo tili"
+   },
+   "inside__login__email__error__format": {
+      "message": "Sähköposti sisältää kiellettyjä merkkejä."
+   },
+   "inside__login__email__error__invalid": {
+      "message": "Ei kelvollinen, aktiivinen käyttäjä."
+   },
+   "inside__login__email__error__length": {
+      "message": "Sähköpostiosoitteen on oltava 1–64 merkkiä pitkä."
+   },
+   "inside__login__email__error__required": {
+      "message": "Sähköposti vaaditaan."
+   },
+   "inside__login__email__label": {
+      "message": "Sähköpostiosoite"
+   },
+   "inside__login__general__error": {
+      "message": "Todennus epäonnistui."
+   },
+   "inside__login__heading": {
+      "message": "Kirjaudu sisään Evernoteen"
+   },
+   "inside__login__password__error__format": {
+      "message": "Salasana sisältää kiellettyjä merkkejä."
+   },
+   "inside__login__password__error__invalid": {
+      "message": "Sähköposti ja salasana eivät täsmää olemassa olevaan käyttäjään."
+   },
+   "inside__login__password__error__length": {
+      "message": "Salasanan tulee olla vähintään 6 ja enimmillään 64 merkkiä pitkä."
+   },
+   "inside__login__password__error__required": {
+      "message": "Salasana vaaditaan."
+   },
+   "inside__login__password__error__reset": {
+      "message": "Salasanasi on vanhentunut. Palauta se nyt."
+   },
+   "inside__login__password__error__timeout": {
+      "message": "Kirjautumisistunto on vanhentunut. Yritä uudelleen."
+   },
+   "inside__login__password__label": {
+      "message": "Salasana"
+   },
+   "inside__login__rememberMe__label": {
+      "message": "Muista minut"
+   },
+   "inside__login__spinner": {
+      "message": "Kirjaudutaan sisään Evernoteen"
+   },
+   "inside__menu__clip_to_evernote__tooltip": {
+      "message": "Leike Evernoteen."
+   },
+   "inside__menu__close__tooltip": {
+      "message": "Piilota Clearly."
+   },
+   "inside__menu__fitts__tooltip": {
+      "message": "Piilota Clearly."
+   },
+   "inside__menu__highlight_to_evernote__tooltip": {
+      "message": "Korosta."
+   },
+   "inside__menu__print__tooltip": {
+      "message": "Tulosta."
+   },
+   "inside__menu__settings__tooltip": {
+      "message": "Näytä teemat."
+   },
+   "inside__menu__speak__forward__tooltip": {
+      "message": "Siirry eteenpäin"
+   },
+   "inside__menu__speak__pause__tooltip": {
+      "message": "Pysäytä"
+   },
+   "inside__menu__speak__play__tooltip": {
+      "message": "Toista"
+   },
+   "inside__menu__speak__rewind__tooltip": {
+      "message": "Siirry taaksepäin"
+   },
+   "inside__menu__speak__tooltip": {
+      "message": "Tekstistä puheeksi"
+   },
+   "inside__misc__clipping__doing": {
+      "message": "Otetaan leikettä..."
+   },
+   "inside__misc__clipping__failed": {
+      "message": "Leike epäonnistui."
+   },
+   "inside__misc__login_request": {
+      "message": "Voit kirjautua Evernoteen napsauttamalla työkalurivillä olevaa Clearly-kuvaketta."
+   },
+   "inside__misc__login_request__chrome": {
+      "message": "Voit kirjautua Evernoteen napsauttamalla Chromen työkalurivillä olevaa Clearly-kuvaketta."
+   },
+   "inside__misc__login_request__firefox": {
+      "message": "Voit kirjautua Evernoteen napsauttamalla Firefoxin työkalurivillä olevaa Clearly-kuvaketta."
+   },
+   "inside__misc__login_request__opera": {
+      "message": "Voit kirjautua Evernoteen napsauttamalla Operan työkalurivillä olevaa Clearly-kuvaketta."
+   },
+   "inside__misc__page": {
+      "message": "Sivu [=sivu]"
+   },
+   "inside__related_notes__disable_long": {
+      "message": "Haluatko ottaa aiheeseen liittyvät muistiinpanot pois käytöstä?"
+   },
+   "inside__related_notes__disable_short": {
+      "message": "Otetaanko pois käytöstä?"
+   },
+   "inside__related_notes__title": {
+      "message": "Liittyvät muistiinpanot"
+   },
+   "inside__reminder__button": {
+      "message": "Lue valitsemalla Clearly"
+   },
+   "inside__reminder__heading": {
+      "message": "Paranna online-lukukokemustasi valitsemalla Clearly"
+   },
+   "inside__reminder__text": {
+      "message": "Yhdellä napsautuksella voit poistaa artikkelista kaikki häiriötekijät. Toisella napsautuksella voit tallentaa pysyvästi minkä tahansa artikkelin Evernotessa. Kokeile heti!"
+   },
+   "inside__rtl__ltr__label": {
+      "message": "Vasemmalta oikealle"
+   },
+   "inside__rtl__main__label": {
+      "message": "Tekstin suunta?"
+   },
+   "inside__rtl__rtl__label": {
+      "message": "Oikealta vasemmalle"
+   },
+   "inside__settings__fontSize__large": {
+      "message": "suuri"
+   },
+   "inside__settings__fontSize__medium": {
+      "message": "keskikoko"
+   },
+   "inside__settings__fontSize__small": {
+      "message": "pieni"
+   },
+   "inside__settings__more_options": {
+      "message": "Lisäasetukset"
+   },
+   "inside__settings__theme__1": {
+      "message": "Sanomalehti"
+   },
+   "inside__settings__theme__2": {
+      "message": "Muistio"
+   },
+   "inside__settings__theme__3": {
+      "message": "Yökyöpeli"
+   },
+   "inside__settings__theme__custom": {
+      "message": "Mukautettu"
+   },
+   "inside__two_factor__button_do__label": {
+      "message": "Jatka"
+   },
+   "inside__two_factor__button_help__label": {
+      "message": "Tarvitsen apua varmennuskoodin saamisessa"
+   },
+   "inside__two_factor__code__error__format": {
+      "message": "Varmennuskoodi saa sisältää vain numeroita."
+   },
+   "inside__two_factor__code__error__invalid": {
+      "message": "Varmennuskoodi on virheellinen."
+   },
+   "inside__two_factor__code__error__length": {
+      "message": "Varmennuskoodin on oltava vähintään kuusi merkkiä pitkä."
+   },
+   "inside__two_factor__code__error__required": {
+      "message": "Varmennuskoodi on pakollinen."
+   },
+   "inside__two_factor__code__label": {
+      "message": "Kuusinumeroinen koodi"
+   },
+   "inside__two_factor__message__google": {
+      "message": "Anna Google Authenticator -sovelluksessa näkyvä varmennuskoodi."
+   },
+   "inside__two_factor__message__sms": {
+      "message": "Lähetimme varmennuskoodin sisältävän tekstiviestin vastaanottajalle"
+   },
+   "meta_extension_author": {
+      "message": "Evernote Corp."
+   },
+   "meta_extension_description": {
+      "message": "Clearly tekee blogeista, artikkeleista ja verkkosivuista selkeitä ja helppolukuisia. Tallenna ne Evernoteen ja lue missä tahansa."
+   },
+   "meta_extension_name": {
+      "message": "Clearly"
+   },
+   "options__account__sign_out": {
+      "message": "Pysyvästi sisäänkirjautuneena tunnuksella [[=username]]."
+   },
+   "options__account__sign_out_link": {
+      "message": "Kirjaudu ulos."
+   },
+   "options__account__signed_out": {
+      "message": "Et ole kirjautunut sisään pysyvästi. Napsauta Evernote-kuvaketta Clearlyn sivupalkissa kirjautuaksesi."
+   },
+   "options__base__label": {
+      "message": "CSS-kanta"
+   },
+   "options__box_width__label": {
+      "message": "Rivin pituus"
+   },
+   "options__button__more_options": {
+      "message": "Lisäasetukset"
+   },
+   "options__button__reset_custom": {
+      "message": "Nollaa"
+   },
+   "options__button__save_custom": {
+      "message": "Tallenna teema"
+   },
+   "options__button__save_general": {
+      "message": "Tallenna asetukset"
+   },
+   "options__clip_notebook__business": {
+      "message": "Business-muistikirjat"
+   },
+   "options__clip_notebook__default": {
+      "message": "Oletus"
+   },
+   "options__clip_notebook__shared": {
+      "message": "Jaetut muistikirjat"
+   },
+   "options__clip_notebook__smart__label": {
+      "message": "Käytä älykästä arkistointia"
+   },
+   "options__clip_notebook__specific__label": {
+      "message": "Käytä erityistä muistikirjaa"
+   },
+   "options__clip_notebook__your": {
+      "message": "Omat muistikirjasi"
+   },
+   "options__clip_tag__smart__label": {
+      "message": "Käytä älykästä arkistointia"
+   },
+   "options__clip_tag__specific__label": {
+      "message": "Käytä erityistä avainsanaa"
+   },
+   "options__color_background__label": {
+      "message": "Taustaväri"
+   },
+   "options__color_links__label": {
+      "message": "Linkkien värit"
+   },
+   "options__color_text__label": {
+      "message": "Edustaväri"
+   },
+   "options__custom_css__label": {
+      "message": "Muokattu CSS"
+   },
+   "options__footnote_links__label": {
+      "message": "Linkit alaviitteissä"
+   },
+   "options__keys_activation__label": {
+      "message": "Näytä sivu Clearlyssa"
+   },
+   "options__keys_clip__label": {
+      "message": "Leike Evernoteen"
+   },
+   "options__keys_highlight__label": {
+      "message": "Korosta"
+   },
+   "options__keys_speech__label": {
+      "message": "Tekstistä puheeksi"
+   },
+   "options__large_graphics__label": {
+      "message": "Suuret grafiikat"
+   },
+   "options__message__keys": {
+      "message": "Muuta asettamalla kursorin kenttään ja painamalla näppäinyhdistelmää näppäimistöllä."
+   },
+   "options__message__keys_firefox": {
+      "message": "Käynnistä selain uudelleen tallennuksen jälkeen."
+   },
+   "options__message__notebook": {
+      "message": "Muistikirja, johon leike tallennetaan, kun otat leikkeen Evernoteen."
+   },
+   "options__message__open_notes_in": {
+      "message": "Kun avaat muistiinpanoja kohteesta Clearly, käytä tiettyä Evernote-sovellusta."
+   },
+   "options__message__related_notes": {
+      "message": "Anna Evernoten hakea tililtäsi leikkeitä, jotka saattavat liittyä siihen, mitä olet juuri lukemassa."
+   },
+   "options__message__smart_filing": {
+      "message": "Anna Evernoten määrittää, mihin muistikirjaan leikkeet sijoitetaan ja mitä avainsanoja niille annetaan."
+   },
+   "options__message__tags": {
+      "message": "Annettavat avainsanat, kun otat leikkeen Evernoteen."
+   },
+   "options__misc__print_preview": {
+      "message": "Tulostuksen esikatselu"
+   },
+   "options__misc__reset_theme": {
+      "message": "Palauta Oma teema"
+   },
+   "options__misc__reset_theme__confirm": {
+      "message": "Tämä palauttaa Oman teemasi arvot oletusteeman arvoiksi. Haluatko varmasti tehdä niin?"
+   },
+   "options__misc__saved": {
+      "message": "Asetukset tulevat voimaan kaikissa uusissa välilehdissä, joilla käytät Clearlya."
+   },
+   "options__misc__saving": {
+      "message": "Tallennetaan"
+   },
+   "options__open_notes_in__desktop__label": {
+      "message": "Työpöytäohjelma"
+   },
+   "options__open_notes_in__web__label": {
+      "message": "Web-palvelu"
+   },
+   "options__related_notes__disabled__label": {
+      "message": "Ota aiheeseen liittyvät muistiinpanot pois käytöstä"
+   },
+   "options__related_notes__enabled__label": {
+      "message": "Ota aiheeseen liittyvät muistiinpanot käyttöön"
+   },
+   "options__related_notes__just_at_bottom__label": {
+      "message": "Ota aiheeseen liittyvät muistiinpanot käyttöön, mutta näytä vain alareunassa"
+   },
+   "options__smart_filing__disabled__label": {
+      "message": "Ota älykäs arkistointi pois käytöstä"
+   },
+   "options__smart_filing__enabled__label": {
+      "message": "Ota älykäs arkistointi käyttöön"
+   },
+   "options__smart_filing__just_notebooks__label": {
+      "message": "Ota älykäs arkistointi käyttöön, mutta vain muistikirjoille"
+   },
+   "options__smart_filing__just_tags__label": {
+      "message": "Ota älykäs arkistointi käyttöön vain avainsanoille"
+   },
+   "options__smart_filing_for_business__notebooks__label": {
+      "message": "Myös Business-muistikirjoille"
+   },
+   "options__smart_filing_for_business__tags__label": {
+      "message": "Myös Business-avainsanoille"
+   },
+   "options__speech_demo__label": {
+      "message": "Demo"
+   },
+   "options__speech_gender__label": {
+      "message": "Lukuääni"
+   },
+   "options__speech_speed__label": {
+      "message": "Lukunopeus"
+   },
+   "options__text_align__label": {
+      "message": "Tekstin tasaus"
+   },
+   "options__text_font__label": {
+      "message": "Rungon kirjasin"
+   },
+   "options__text_font_header__label": {
+      "message": "Otsikon kirjasin"
+   },
+   "options__text_font_monospace__label": {
+      "message": "Tasavälinen kirjasin"
+   },
+   "options__text_line_height__label": {
+      "message": "Rivin korkeus"
+   },
+   "options__text_size__label": {
+      "message": "Rungon tekstikoko"
+   },
+   "options__title__custom": {
+      "message": "Oma teema"
+   },
+   "options__title__features": {
+      "message": "Clearlyn ominaisuudet"
+   },
+   "options__title__general": {
+      "message": "Asetukset"
+   },
+   "options__title__page": {
+      "message": "Clearly / Asetukset"
+   },
+   "options__title__speech": {
+      "message": "Tekstistä puheeksi"
+   },
+   "options__title__sub__account": {
+      "message": "Käyttäjätunnus"
+   },
+   "options__title__sub__keyboard": {
+      "message": "Näppäinoikotiet"
+   },
+   "options__title__sub__notebook": {
+      "message": "Muistikirjan valinta"
+   },
+   "options__title__sub__open_notes_in": {
+      "message": "Avaa muistiinpanot kohteessa"
+   },
+   "options__title__sub__related_notes": {
+      "message": "Liittyvät muistiinpanot"
+   },
+   "options__title__sub__smart_filing": {
+      "message": "Älykäs arkistointi"
+   },
+   "options__title__sub__tags": {
+      "message": "Avainsanan valinta"
+   },
+   "options__values__base__Blueprint": {
+      "message": "Pohjapiirros"
+   },
+   "options__values__base__None": {
+      "message": "Ei mitään"
+   },
+   "options__values__base__Theme_1": {
+      "message": "Klassinen"
+   },
+   "options__values__base__Theme_2": {
+      "message": "Moderni"
+   },
+   "options__values__base__Theme_3": {
+      "message": "Yöaika"
+   },
+   "options__values__footnote_links__Always": {
+      "message": "Aina"
+   },
+   "options__values__footnote_links__Never": {
+      "message": "Ei koskaan"
+   },
+   "options__values__footnote_links__On_Print": {
+      "message": "Tulosteessa"
+   },
+   "options__values__large_graphics__Do_Nothing": {
+      "message": "Näytä aina"
+   },
+   "options__values__large_graphics__Hide_Always": {
+      "message": "Piilota aina"
+   },
+   "options__values__large_graphics__Hide_on_Print": {
+      "message": "Piilota tulosteessa"
+   },
+   "options__values__menu_placement__Bottom_Right": {
+      "message": "Alaoikea"
+   },
+   "options__values__menu_placement__Top_Right": {
+      "message": "Yläoikea"
+   },
+   "options__values__speech_gender__default": {
+      "message": "Oletus"
+   },
+   "options__values__speech_gender__female": {
+      "message": "Nainen (jos saatavilla)"
+   },
+   "options__values__speech_gender__male": {
+      "message": "Mies (jos saatavilla)"
+   },
+   "options__values__speech_speed__fast": {
+      "message": "Nopea"
+   },
+   "options__values__speech_speed__faster": {
+      "message": "Nopeampi"
+   },
+   "options__values__speech_speed__fastest": {
+      "message": "Nopein"
+   },
+   "options__values__speech_speed__normal": {
+      "message": "Normaali"
+   },
+   "options__values__speech_speed__slow": {
+      "message": "Hidas"
+   },
+   "options__values__speech_speed__slower": {
+      "message": "Hitaampi"
+   },
+   "options__values__speech_speed__slowest": {
+      "message": "Hitain"
+   },
+   "options__values__text_align__Justified": {
+      "message": "Tasattu"
+   },
+   "options__values__text_align__Normal": {
+      "message": "Normaali"
+   },
+   "register__after__1": {
+      "message": "Evernote-tilisi on nyt yhdistetty Clearlyyn."
+   },
+   "register__after__2": {
+      "message": "Napsauta Evernote-kuvaketta Clearlyn sivupalkissa tallentaaksesi artikkelin välittömästi."
+   },
+   "register__after__3": {
+      "message": "Hanki Evernote kaikkiin laitteisiisi lukeaksesi missä ja milloin tahansa."
+   },
+   "register__after__heading": {
+      "message": "Rekisteröinti valmis"
+   },
+   "register__agree": {
+      "message": "Napsauttamalla Rekisteröidy-painiketta, hyväksyt [=ehdot] ja [=tietosuojan]."
+   },
+   "register__agree__privacy": {
+      "message": "Yksityisyyden suoja"
+   },
+   "register__agree__terms": {
+      "message": "Käyttöehdot"
+   },
+   "register__button": {
+      "message": "Rekisteröidy"
+   },
+   "register__captcha__error__incorrect": {
+      "message": "Captcha on virheellinen."
+   },
+   "register__captcha__error__required": {
+      "message": "Kuvavarmennus vaaditaan."
+   },
+   "register__captcha__label": {
+      "message": "Kuvavarmennus"
+   },
+   "register__email__error__conflict": {
+      "message": "Tämä sähköpostiosoite liittyy jo tiliin."
+   },
+   "register__evernote_heading": {
+      "message": "Elämäntyösi"
+   },
+   "register__evernote_text": {
+      "message": "Mitä tahansa teetkin, Evernote on paikka, jossa se kannattaa tehdä."
+   },
+   "register__page_title": {
+      "message": "Clearly / Rekisteröidy"
+   },
+   "register__text": {
+      "message": "Kun käytät Clearly-palvelua Evernote-tilin kanssa, voit tallentaa artikkelit ja lukea ne myöhemmin millä tahansa laitteella."
+   }
+}

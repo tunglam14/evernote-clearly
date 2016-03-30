@@ -1,0 +1,698 @@
+{
+   "chrome_browser_action": {
+      "message": "Xem trang này trong Clearly."
+   },
+   "chrome_context_menu": {
+      "message": "Clearly"
+   },
+   "firefox_button": {
+      "message": "Clearly"
+   },
+   "firefox_button_tooltip": {
+      "message": "Xem trang này với Clearly."
+   },
+   "firefox_context_menu": {
+      "message": "Clearly"
+   },
+   "firefox_menu": {
+      "message": "Clearly"
+   },
+   "inside__blank__heading": {
+      "message": "Các mách nước sử dụng Evernote Clearly"
+   },
+   "inside__blank__text": {
+      "message": "Clearly hiện được thiết kế để làm việc trên các trang bài viết. Một trang bài viết là một trang bất kỳ chứa một khối văn bản lớn — ví dụ như, bài báo hoặc mục blog."
+   },
+   "inside__features__clipping__text": {
+      "message": "Lưu các thông tin bạn đang đọc vào tài khoản Evernote của bạn chỉ bằng 1 thao tác bấm chuột. Xem clip trên mọi thiết bị và vào bất kỳ lúc nào trong Evernote."
+   },
+   "inside__features__clipping__title": {
+      "message": "Tạo clip vào Evernote"
+   },
+   "inside__features__close2": {
+      "message": "Đóng"
+   },
+   "inside__features__eula": {
+      "message": "Thoả thuận cấp phép cho người dùng"
+   },
+   "inside__features__eula_notice": {
+      "message": "Bằng việc sử dụng Clearly, bạn đang đồng ý với [=eula] của chúng tôi."
+   },
+   "inside__features__highlighting__text": {
+      "message": "Đánh dấu phần văn bản bạn muốn ghi nhớ & Tìm kiếm văn bản nhanh chóng trong tài khoản Evernote của bạn. Các phần đánh dấu bạn tạo ra trong Clearly sẽ được tự động cập nhật trong tài khoản Evernote của bạn."
+   },
+   "inside__features__highlighting__title": {
+      "message": "Đang đánh dấu"
+   },
+   "inside__features__related_notes__text": {
+      "message": "Tìm lại các ghi chú từ tài khoản Evernote của bạn có liên quan tới trang bạn đang xem. Các ghi chú liên quan được hiển thị ở cuối bài viết hoặc ở phía bên phải nếu còn khoảng trống."
+   },
+   "inside__features__related_notes__title": {
+      "message": "Ghi chú Liên quan"
+   },
+   "inside__features__smart_filing__text": {
+      "message": "Tự động gán thẻ cho các clip Web của bạn và lưu chúng vào sổ tay thích hợp, tiết kiệm thời gian và công sức cho bạn"
+   },
+   "inside__features__smart_filing__title": {
+      "message": "Xếp Thông minh"
+   },
+   "inside__features__speech__no_language_explanation": {
+      "message": "Evernote Clearly đã không thể xác định ngôn ngữ của bài viết này. Nếu bạn nhận ra ngôn ngữ, chọn nó ở dưới đây và chúng tôi sẽ phát nó."
+   },
+   "inside__features__speech__no_language_title": {
+      "message": "Ngôn ngữ không được hỗ trợ"
+   },
+   "inside__features__speech__text": {
+      "message": "Hãy ngồi yên và để Clearly đọc các mục đăng blog, bài viết và trang web cho bạn nhờ có tính năng mới Văn bản Sang Tiếng nói, sẵn có dành riêng cho các đăng ký Evernote Premium."
+   },
+   "inside__features__speech__text__available": {
+      "message": "Văn bản Sang Tiếng nói trong 21 thứ tiếng:"
+   },
+   "inside__features__speech__text__available_languages": {
+      "message": "Tiếng Anh, Tiếng Nhật, Tiếng Tây Ban Nha, Tiếng Pháp, Tiếng Đức, Tiếng Trung, Tiếng Hàn Quốc, Tiếng Ả-rập, Tiếng Séc, Tiếng Đan Mạch, Tiếng Hà Lan, Tiếng Phần Lan, Tiếng Hy Lạp, Tiếng Hung-ga-ri, Tiếng Ý, Tiếng Na-uy, Tiếng Ba Lan, Tiếng Bồ Đào Nha, Tiếng Nga, Tiếng Thụy Điển và Tiếng Thổ Nhĩ Kỳ."
+   },
+   "inside__features__speech__text__cancel": {
+      "message": "Huỷ bỏ"
+   },
+   "inside__features__speech__text__language": {
+      "message": "Ngôn ngữ không được hỗ trợ"
+   },
+   "inside__features__speech__text__play": {
+      "message": "Phát dùng ngôn ngữ này"
+   },
+   "inside__features__speech__text__powered": {
+      "message": "Evernote Clearly được cung cấp bởi [=service]."
+   },
+   "inside__features__speech__text__requires": {
+      "message": "Yêu cầu có [=product]."
+   },
+   "inside__features__speech__text__try": {
+      "message": "Thử Văn bản Sang Tiếng nói"
+   },
+   "inside__features__speech__text__upgrade": {
+      "message": "Nâng cấp lên Evernote Premium"
+   },
+   "inside__features__speech__title": {
+      "message": "Văn bản Sang Tiếng nói"
+   },
+   "inside__features__title__all": {
+      "message": "Chào mừng đến với Evernote Clearly mới"
+   },
+   "inside__features__title__new": {
+      "message": "Bạn có một phiên bản mới của Evernote Clearly"
+   },
+   "inside__filing_info__add_tag": {
+      "message": "Thêm một thẻ"
+   },
+   "inside__filing_info__change_notebook": {
+      "message": "Thay đổi sổ tay"
+   },
+   "inside__filing_info__clipped": {
+      "message": "Đã tạo clip"
+   },
+   "inside__filing_info__default_notebook": {
+      "message": "Sổ tay mặc định của bạn"
+   },
+   "inside__filing_info__edit": {
+      "message": "Sửa"
+   },
+   "inside__filing_info__find_notebook": {
+      "message": "Tìm sổ tay"
+   },
+   "inside__filing_info__no_tags": {
+      "message": "Các thẻ không được phép"
+   },
+   "inside__filing_info__open_note": {
+      "message": "Mở ghi chú"
+   },
+   "inside__filing_info__refresh_notebooks": {
+      "message": "Làm mới danh sách sổ tay"
+   },
+   "inside__filing_info__refresh_tags": {
+      "message": "Làm mới danh sách thẻ"
+   },
+   "inside__filing_info__remove_tag": {
+      "message": "Loại bỏ thẻ"
+   },
+   "inside__filing_info__sentence": {
+      "message": "Đã tạo clip vào sổ tay [=notebook] và tạo thẻ [=tags]."
+   },
+   "inside__filing_info__sentence_and": {
+      "message": "và"
+   },
+   "inside__filing_info__sentence_no_tags": {
+      "message": "Đã tạo clip vào sổ tay [=notebook]."
+   },
+   "inside__filing_info__sentence_other_tags": {
+      "message": "các thẻ khác"
+   },
+   "inside__filing_info__title_normal": {
+      "message": "Lưu vào:"
+   },
+   "inside__filing_info__title_smart": {
+      "message": "Lưu nhanh vào:"
+   },
+   "inside__filing_info__view": {
+      "message": "Xem"
+   },
+   "inside__footer__button": {
+      "message": "Tạo trương mục"
+   },
+   "inside__footer__text": {
+      "message": "Đăng kí tài khoản Evernote miễn phí để lưu và xem lại bài viết này trên thiết bị bất kỳ."
+   },
+   "inside__login__button_cancel__label": {
+      "message": "Huỷ bỏ"
+   },
+   "inside__login__button_do__label": {
+      "message": "Đăng nhập"
+   },
+   "inside__login__create_account": {
+      "message": "Tạo một tài khoản"
+   },
+   "inside__login__email__error__format": {
+      "message": "Email chứa ký tự không được phép."
+   },
+   "inside__login__email__error__invalid": {
+      "message": "Không phải người dùng hiện hoạt, hợp lệ"
+   },
+   "inside__login__email__error__length": {
+      "message": "Thư điện tử phải dài từ 1 đến 64 kí tự."
+   },
+   "inside__login__email__error__required": {
+      "message": "Yêu cầu thư điện tử."
+   },
+   "inside__login__email__label": {
+      "message": "Địa chỉ email"
+   },
+   "inside__login__general__error": {
+      "message": "Xác thực thất bại."
+   },
+   "inside__login__heading": {
+      "message": "Đăng nhập vào Evernote"
+   },
+   "inside__login__password__error__format": {
+      "message": "Mật khẩu chứa các ký tự không được phép."
+   },
+   "inside__login__password__error__invalid": {
+      "message": "Email và mật khẩu không khớp với người dùng hiện có."
+   },
+   "inside__login__password__error__length": {
+      "message": "Mật khẩu phải dài từ 6 đến 64 ký tự."
+   },
+   "inside__login__password__error__required": {
+      "message": "Mật khẩu là bắt buộc."
+   },
+   "inside__login__password__error__reset": {
+      "message": "Mật khẩu của bạn đã hết hạn. Hãy đặt lại nó ngay bây giờ."
+   },
+   "inside__login__password__error__timeout": {
+      "message": "Phiên đăng nhập đã hết hạn. Xin vui lòng thử lại."
+   },
+   "inside__login__password__label": {
+      "message": "Mật khẩu"
+   },
+   "inside__login__rememberMe__label": {
+      "message": "Nhớ tôi"
+   },
+   "inside__login__spinner": {
+      "message": "Đang đăng nhập vào Evernote"
+   },
+   "inside__menu__clip_to_evernote__tooltip": {
+      "message": "Tạo clip vào Evernote."
+   },
+   "inside__menu__close__tooltip": {
+      "message": "Ẩn phần chồng lấp."
+   },
+   "inside__menu__fitts__tooltip": {
+      "message": "Ẩn phần chồng lấp."
+   },
+   "inside__menu__highlight_to_evernote__tooltip": {
+      "message": "Tô sáng."
+   },
+   "inside__menu__print__tooltip": {
+      "message": "In."
+   },
+   "inside__menu__settings__tooltip": {
+      "message": "Hiện Chủ đề."
+   },
+   "inside__menu__speak__forward__tooltip": {
+      "message": "Tua đi"
+   },
+   "inside__menu__speak__pause__tooltip": {
+      "message": "Tạm dừng"
+   },
+   "inside__menu__speak__play__tooltip": {
+      "message": "Phát"
+   },
+   "inside__menu__speak__rewind__tooltip": {
+      "message": "Tua lại"
+   },
+   "inside__menu__speak__tooltip": {
+      "message": "Văn bản Sang Tiếng nói"
+   },
+   "inside__misc__clipping__doing": {
+      "message": "Đang tạo clip..."
+   },
+   "inside__misc__clipping__failed": {
+      "message": "Tạo clip thất bại."
+   },
+   "inside__misc__login_request": {
+      "message": "Để đăng nhập vào Evernote, vui lòng nhấp chọn biểu tượng Clearly trên thanh công cụ."
+   },
+   "inside__misc__login_request__chrome": {
+      "message": "Để đăng nhập vào Evernote, vui lòng bấm biểu tượng Clearly trong thanh công cụ của Chrome."
+   },
+   "inside__misc__login_request__firefox": {
+      "message": "Để đăng nhập vào Evernote, vui lòng nhấp chọn biểu tượng Clearly trên thanh công cụ của Firefox."
+   },
+   "inside__misc__login_request__opera": {
+      "message": "Để đăng nhập vào Evernote, vui lòng nhấp chọn biểu tượng Clearly trên thanh công cụ của Opera."
+   },
+   "inside__misc__page": {
+      "message": "Trang [=page]"
+   },
+   "inside__related_notes__disable_long": {
+      "message": "Bạn có muốn vô hiệu hóa các Ghi chú liên quan?"
+   },
+   "inside__related_notes__disable_short": {
+      "message": "Vô hiệu hóa?"
+   },
+   "inside__related_notes__title": {
+      "message": "Ghi chú Liên quan"
+   },
+   "inside__reminder__button": {
+      "message": "Đọc với Clearly"
+   },
+   "inside__reminder__heading": {
+      "message": "Đọc trực tuyến hiệu quả hơn, cùng Clearly"
+   },
+   "inside__reminder__text": {
+      "message": "Chỉ vơi một click, loại bỏ tất cả phiền toái khỏi những bài viết. Cần thêm một click, lưu bài viết bất kỳ vào Evernote, mãi mãi. Hãy trải nghiệm ngay bây giờ!"
+   },
+   "inside__rtl__ltr__label": {
+      "message": "Trái-sang-phải"
+   },
+   "inside__rtl__main__label": {
+      "message": "Hướng văn bản?"
+   },
+   "inside__rtl__rtl__label": {
+      "message": "Phải-sang-trái"
+   },
+   "inside__settings__fontSize__large": {
+      "message": "lớn"
+   },
+   "inside__settings__fontSize__medium": {
+      "message": "trung bình"
+   },
+   "inside__settings__fontSize__small": {
+      "message": "nhỏ"
+   },
+   "inside__settings__more_options": {
+      "message": "Nhiều tùy chọn hơn"
+   },
+   "inside__settings__theme__1": {
+      "message": "Giấy in báo"
+   },
+   "inside__settings__theme__2": {
+      "message": "Nổi tiếng"
+   },
+   "inside__settings__theme__3": {
+      "message": "Cú Đêm"
+   },
+   "inside__settings__theme__custom": {
+      "message": "Tùy chỉnh"
+   },
+   "inside__two_factor__button_do__label": {
+      "message": "Tiếp tục"
+   },
+   "inside__two_factor__button_help__label": {
+      "message": "Tôi cần trợ giúp về việc nhận mã kiểm chứng"
+   },
+   "inside__two_factor__code__error__format": {
+      "message": "Mã kiểm chứng chỉ được bao gồm số."
+   },
+   "inside__two_factor__code__error__invalid": {
+      "message": "Mã kiểm chứng không đúng."
+   },
+   "inside__two_factor__code__error__length": {
+      "message": "Mã kiểm chứng phải dài ít nhất 6 ký tự."
+   },
+   "inside__two_factor__code__error__required": {
+      "message": "Bạn vui lòng nhập mã kiểm chứng."
+   },
+   "inside__two_factor__code__label": {
+      "message": "Mã bao gồm 6 con số"
+   },
+   "inside__two_factor__message__google": {
+      "message": "Nhập mã xác minh trong ứng dụng Google Authenticator."
+   },
+   "inside__two_factor__message__sms": {
+      "message": "Chúng tôi đã gửi một tin nhắn văn bản với mã xác minh tới"
+   },
+   "meta_extension_author": {
+      "message": "Evernote Corp."
+   },
+   "meta_extension_description": {
+      "message": "Clearly tạo các mục đăng blog, bài viết và trang web rõ ràng và dễ đọc. Lưu chúng vào Evernote để đọc ở bất cứ đâu."
+   },
+   "meta_extension_name": {
+      "message": "Clearly"
+   },
+   "options__account__sign_out": {
+      "message": "Vĩnh viễn được đăng nhập là [[=username]]."
+   },
+   "options__account__sign_out_link": {
+      "message": "Đăng xuất."
+   },
+   "options__account__signed_out": {
+      "message": "Bạn chưa đăng nhập. Bấm vào biểu tượng Evernote, trong dải tiện ích Clearly, để đăng nhập."
+   },
+   "options__base__label": {
+      "message": "CSS Cơ sở"
+   },
+   "options__box_width__label": {
+      "message": "Độ rộng Nét"
+   },
+   "options__button__more_options": {
+      "message": "Nhiều Tùy chọn hơn"
+   },
+   "options__button__reset_custom": {
+      "message": "Đặt lại"
+   },
+   "options__button__save_custom": {
+      "message": "Lưu Chủ đề"
+   },
+   "options__button__save_general": {
+      "message": "Lưu Tùy chọn"
+   },
+   "options__clip_notebook__business": {
+      "message": "Sổ tay công việc"
+   },
+   "options__clip_notebook__default": {
+      "message": "Mặc định"
+   },
+   "options__clip_notebook__shared": {
+      "message": "Sổ tay Chia sẻ"
+   },
+   "options__clip_notebook__smart__label": {
+      "message": "Sử dụng Xếp Thông Minh"
+   },
+   "options__clip_notebook__specific__label": {
+      "message": "Sử dụng Sổ Tay cụ thể"
+   },
+   "options__clip_notebook__your": {
+      "message": "Sổ tay của Bạn"
+   },
+   "options__clip_tag__smart__label": {
+      "message": "Sử dụng Xếp Thông Minh"
+   },
+   "options__clip_tag__specific__label": {
+      "message": "Sử dụng Thẻ cụ thể"
+   },
+   "options__color_background__label": {
+      "message": "Màu nền"
+   },
+   "options__color_links__label": {
+      "message": "Màu Nối kết"
+   },
+   "options__color_text__label": {
+      "message": "Màu Tiền cảnh"
+   },
+   "options__custom_css__label": {
+      "message": "CSS Tùy chỉnh"
+   },
+   "options__footnote_links__label": {
+      "message": "Các nối kết như Phụ chú"
+   },
+   "options__keys_activation__label": {
+      "message": "Xem trang trong Clearly"
+   },
+   "options__keys_clip__label": {
+      "message": "Tạo clip vào Evernote"
+   },
+   "options__keys_highlight__label": {
+      "message": "Tô sáng"
+   },
+   "options__keys_speech__label": {
+      "message": "Văn bản Sang Tiếng nói"
+   },
+   "options__large_graphics__label": {
+      "message": "Đồ họa Lớn"
+   },
+   "options__message__keys": {
+      "message": "Để thay đổi, đặt con trỏ vào trường và gõ tổ hợp phím trên bàn phím của bạn."
+   },
+   "options__message__keys_firefox": {
+      "message": "Khởi động lại trình duyệt của bạn, sau khi lưu."
+   },
+   "options__message__notebook": {
+      "message": "Sổ tay để tạo clip vào, khi bạn Tạo clip vào Evernote."
+   },
+   "options__message__open_notes_in": {
+      "message": "Khi mở các ghi chú từ Clearly, dùng một hệ khách Evernote cụ thể."
+   },
+   "options__message__related_notes": {
+      "message": "Để Evernote lấy các clip từ trương mục của bạn mà liên quan đến những gì bạn đang đọc."
+   },
+   "options__message__smart_filing": {
+      "message": "Để Evernote quyết định nên đưa vào clip Sổ tay nào và Thẻ nào chúng nên có."
+   },
+   "options__message__tags": {
+      "message": "Thẻ để áp dụng, khi bạn Tạo clip vào Evernote."
+   },
+   "options__misc__print_preview": {
+      "message": "Xem trước khi In"
+   },
+   "options__misc__reset_theme": {
+      "message": "Thiết lập lại chủ đề tùy chỉnh"
+   },
+   "options__misc__reset_theme__confirm": {
+      "message": "Điều này sẽ thiết lập giá trị chủ đề tùy chỉnh của bạn giống với giá trị chủ đề mặc định. Bạn có chắc muốn làm điều này?"
+   },
+   "options__misc__saved": {
+      "message": "Các thiết đặt sẽ có hiệu lực trên bất kỳ tab mới nào bạn sử dụng Clearly."
+   },
+   "options__misc__saving": {
+      "message": "Đang lưu"
+   },
+   "options__open_notes_in__desktop__label": {
+      "message": "Hệ sử dụng máy để bàn"
+   },
+   "options__open_notes_in__web__label": {
+      "message": "Hệ sử dụng Web"
+   },
+   "options__related_notes__disabled__label": {
+      "message": "Vô hiệu Ghi chú Liên quan"
+   },
+   "options__related_notes__enabled__label": {
+      "message": "Hiệu lực hóa Ghi chú Liên quan"
+   },
+   "options__related_notes__just_at_bottom__label": {
+      "message": "Hiệu lực hóa Ghi chú Liên quan nhưng chỉ hiện ở đáy"
+   },
+   "options__smart_filing__disabled__label": {
+      "message": "Vô hiệu Xếp Thông minh"
+   },
+   "options__smart_filing__enabled__label": {
+      "message": "Hiệu lực hóa Xếp Thông minh"
+   },
+   "options__smart_filing__just_notebooks__label": {
+      "message": "Hiệu lực hóa Xếp Thông minh nhưng chỉ dành cho Sổ tay"
+   },
+   "options__smart_filing__just_tags__label": {
+      "message": "Hiệu lực hóa Xếp Thông minh nhưng chỉ dành cho Thẻ"
+   },
+   "options__smart_filing_for_business__notebooks__label": {
+      "message": "Đối với cả Sổ Tay Doanh Nghiệp"
+   },
+   "options__smart_filing_for_business__tags__label": {
+      "message": "Cho cả Thẻ Doanh nghiệp"
+   },
+   "options__speech_demo__label": {
+      "message": "Diễn thử"
+   },
+   "options__speech_gender__label": {
+      "message": "Giọng Đọc"
+   },
+   "options__speech_speed__label": {
+      "message": "Tốc độ Đọc"
+   },
+   "options__text_align__label": {
+      "message": "Căn chỉnh Văn bản"
+   },
+   "options__text_font__label": {
+      "message": "Phông chữ Nội dung"
+   },
+   "options__text_font_header__label": {
+      "message": "Phông chữ Tiêu đề"
+   },
+   "options__text_font_monospace__label": {
+      "message": "Phông chữ Đơn cách"
+   },
+   "options__text_line_height__label": {
+      "message": "Độ cao Nét"
+   },
+   "options__text_size__label": {
+      "message": "Cỡ Phông Cơ sở"
+   },
+   "options__title__custom": {
+      "message": "Chủ đề Tùy chỉnh"
+   },
+   "options__title__features": {
+      "message": "Các tính năng Clearly"
+   },
+   "options__title__general": {
+      "message": "Tùy chọn"
+   },
+   "options__title__page": {
+      "message": "Clearly / Tùy chọn"
+   },
+   "options__title__speech": {
+      "message": "Văn bản Sang Tiếng nói"
+   },
+   "options__title__sub__account": {
+      "message": "Trương mục"
+   },
+   "options__title__sub__keyboard": {
+      "message": "Lối tắt bàn phím"
+   },
+   "options__title__sub__notebook": {
+      "message": "Lựa chọn Sổ Tay"
+   },
+   "options__title__sub__open_notes_in": {
+      "message": "Mở ghi chú trong"
+   },
+   "options__title__sub__related_notes": {
+      "message": "Ghi chú Liên quan"
+   },
+   "options__title__sub__smart_filing": {
+      "message": "Xếp Thông minh"
+   },
+   "options__title__sub__tags": {
+      "message": "Lựa chọn Thẻ"
+   },
+   "options__values__base__Blueprint": {
+      "message": "Giấy nền xanh"
+   },
+   "options__values__base__None": {
+      "message": "Không có"
+   },
+   "options__values__base__Theme_1": {
+      "message": "Cổ điển"
+   },
+   "options__values__base__Theme_2": {
+      "message": "Hiện đại"
+   },
+   "options__values__base__Theme_3": {
+      "message": "Ban đêm"
+   },
+   "options__values__footnote_links__Always": {
+      "message": "Luôn luôn"
+   },
+   "options__values__footnote_links__Never": {
+      "message": "Không bao giờ"
+   },
+   "options__values__footnote_links__On_Print": {
+      "message": "Khi In"
+   },
+   "options__values__large_graphics__Do_Nothing": {
+      "message": "Luôn Hiện"
+   },
+   "options__values__large_graphics__Hide_Always": {
+      "message": "Luôn Ẩn"
+   },
+   "options__values__large_graphics__Hide_on_Print": {
+      "message": "Ẩn khi In"
+   },
+   "options__values__menu_placement__Bottom_Right": {
+      "message": "Phải Dưới"
+   },
+   "options__values__menu_placement__Top_Right": {
+      "message": "Phải Trên"
+   },
+   "options__values__speech_gender__default": {
+      "message": "mặc định"
+   },
+   "options__values__speech_gender__female": {
+      "message": "Nữ (nếu có)"
+   },
+   "options__values__speech_gender__male": {
+      "message": "Nam (nếu có)"
+   },
+   "options__values__speech_speed__fast": {
+      "message": "Nhanh"
+   },
+   "options__values__speech_speed__faster": {
+      "message": "Nhanh hơn"
+   },
+   "options__values__speech_speed__fastest": {
+      "message": "Nhanh nhất"
+   },
+   "options__values__speech_speed__normal": {
+      "message": "Bình thường"
+   },
+   "options__values__speech_speed__slow": {
+      "message": "Chậm"
+   },
+   "options__values__speech_speed__slower": {
+      "message": "Chậm hơn"
+   },
+   "options__values__speech_speed__slowest": {
+      "message": "Chậm nhất"
+   },
+   "options__values__text_align__Justified": {
+      "message": "Căn đều"
+   },
+   "options__values__text_align__Normal": {
+      "message": "Bình thường"
+   },
+   "register__after__1": {
+      "message": "Tài khoản Evernote của bạn hiện đã được ghép nối với Clearly."
+   },
+   "register__after__2": {
+      "message": "Nhấp vào biểu tượng Evernote trên thanh sidebar của Clearly để ngay lập tức lưu bài viết."
+   },
+   "register__after__3": {
+      "message": "Cài đặt Evernote trên tất cả thiết bị của bạn để có thể đọc bất cứ lúc nào tại bất cứ nơi nào."
+   },
+   "register__after__heading": {
+      "message": "Đăng kí hoàn tất"
+   },
+   "register__agree": {
+      "message": "Bằng cách nhấp chọn 'Đăng ký', bạn đồng ý với [=term] và [=privacy] của chúng tôi."
+   },
+   "register__agree__privacy": {
+      "message": "Chính sách về Quyền riêng tư"
+   },
+   "register__agree__terms": {
+      "message": "Điều khoản Dịch vụ"
+   },
+   "register__button": {
+      "message": "Đăng ký"
+   },
+   "register__captcha__error__incorrect": {
+      "message": "Captcha không đúng."
+   },
+   "register__captcha__error__required": {
+      "message": "Yêu cầu nhập Captcha."
+   },
+   "register__captcha__label": {
+      "message": "Captcha"
+   },
+   "register__email__error__conflict": {
+      "message": "Địa chỉ Email đã được liên kết với một tài khoản."
+   },
+   "register__evernote_heading": {
+      "message": "Sự nghiệp của cuộc đời bạn"
+   },
+   "register__evernote_text": {
+      "message": "Trong suốt sự nghiệp của mình, Evernote là nơi giúp bạn bạn hoàn thành công việc."
+   },
+   "register__page_title": {
+      "message": "Clearly / Đăng Ký"
+   },
+   "register__text": {
+      "message": "Sử dụng Clearly cùng với tài khoản Evernote của mình cho phép bạn lưu tất cả bài viết và đọc chúng sau này trên thiết bị bất kỳ."
+   }
+}

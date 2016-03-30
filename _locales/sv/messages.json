@@ -1,0 +1,698 @@
+{
+   "chrome_browser_action": {
+      "message": "Visa sidan med Clearly."
+   },
+   "chrome_context_menu": {
+      "message": "Clearly"
+   },
+   "firefox_button": {
+      "message": "Clearly"
+   },
+   "firefox_button_tooltip": {
+      "message": "Visa sidan med Clearly."
+   },
+   "firefox_context_menu": {
+      "message": "Clearly"
+   },
+   "firefox_menu": {
+      "message": "Clearly"
+   },
+   "inside__blank__heading": {
+      "message": "Några användartips för Evernote Clearly"
+   },
+   "inside__blank__text": {
+      "message": "Clearly är just nu designad för att fungera på artikelsidor. En artikelsida är vilken sida som helst som innehåller stora block av text — som till exempel en nyhetsartikel eller ett blogginlägg."
+   },
+   "inside__features__clipping__text": {
+      "message": "Spara det du läser till ditt Evernote-konto med ett klick. Nå dina klipp från alla enheter, närsomhelst i Evernote."
+   },
+   "inside__features__clipping__title": {
+      "message": "Klipp till Evernote"
+   },
+   "inside__features__close2": {
+      "message": "Stäng"
+   },
+   "inside__features__eula": {
+      "message": "Licensavtal för slutanvändare"
+   },
+   "inside__features__eula_notice": {
+      "message": "Genom att använda Clearly godtar du vår [=eula]."
+   },
+   "inside__features__highlighting__text": {
+      "message": "Markera text du vill komma ihåg och hitta den snabbt i ditt Evernote-konto. Markerade ändringar du gör i Clearly uppdateras automatiskt i ditt Evernote-konto."
+   },
+   "inside__features__highlighting__title": {
+      "message": "Markera"
+   },
+   "inside__features__related_notes__text": {
+      "message": "Upptäck anteckningar i ditt Evernote-kontor som är relaterade till den sida du visar. Tillhörande anteckningar visas längst ner i artikeln eller på höger sida om det finns tillräckligt utrymme."
+   },
+   "inside__features__related_notes__title": {
+      "message": "Förknippade anteckningar"
+   },
+   "inside__features__smart_filing__text": {
+      "message": "Tilldelar automatiskt taggar till dina webbklipp och sparar dem i lämplig anteckningsbok för att du ska slippa göra det."
+   },
+   "inside__features__smart_filing__title": {
+      "message": "Smart arkivering"
+   },
+   "inside__features__speech__no_language_explanation": {
+      "message": "Evernote Clearly kunde inte avgöra artikelns språk. Om du känner igen språket väljer du det här nedanför, så spelar vi upp det."
+   },
+   "inside__features__speech__no_language_title": {
+      "message": "Språket stöds inte"
+   },
+   "inside__features__speech__text": {
+      "message": "Luta dig bakåt och låt Clearly läsa blogginlägg, artiklar och webbsidor åt dig, tack vare den nya Text-till-tal-funktionen, som är tillgänglig exklusivt för Evernote Premium-prenumeranter."
+   },
+   "inside__features__speech__text__available": {
+      "message": "Text till tal på 21 språk:"
+   },
+   "inside__features__speech__text__available_languages": {
+      "message": "Engelska, japanska, spanska, franska, tyska, kinesiska, koreanska, arabiska, tjeckiska, danska, nederländska, finska, grekiska, ungerska, italienska, norska, polska, portugisiska, ryska, svenska och turkiska."
+   },
+   "inside__features__speech__text__cancel": {
+      "message": "Avbryt"
+   },
+   "inside__features__speech__text__language": {
+      "message": "Språket stöds inte"
+   },
+   "inside__features__speech__text__play": {
+      "message": "Spela med det här språket"
+   },
+   "inside__features__speech__text__powered": {
+      "message": "Evernote Clearly tillhandahålls av [=service]."
+   },
+   "inside__features__speech__text__requires": {
+      "message": "Kräver [=product]."
+   },
+   "inside__features__speech__text__try": {
+      "message": "Testa Text till tal"
+   },
+   "inside__features__speech__text__upgrade": {
+      "message": "Uppgradera till Evernote Premium"
+   },
+   "inside__features__speech__title": {
+      "message": "Text till tal"
+   },
+   "inside__features__title__all": {
+      "message": "Välkommen till nya Evernote Clearly"
+   },
+   "inside__features__title__new": {
+      "message": "Du har en ny version av Evernote Clearly"
+   },
+   "inside__filing_info__add_tag": {
+      "message": "Lägg till en tagg"
+   },
+   "inside__filing_info__change_notebook": {
+      "message": "Ändra anteckningsbok"
+   },
+   "inside__filing_info__clipped": {
+      "message": "Klipp"
+   },
+   "inside__filing_info__default_notebook": {
+      "message": "Din standardanteckningsbok"
+   },
+   "inside__filing_info__edit": {
+      "message": "Redigera"
+   },
+   "inside__filing_info__find_notebook": {
+      "message": "Hitta ett häfte"
+   },
+   "inside__filing_info__no_tags": {
+      "message": "Taggar tillåts inte"
+   },
+   "inside__filing_info__open_note": {
+      "message": "Öppen anteckning"
+   },
+   "inside__filing_info__refresh_notebooks": {
+      "message": "Uppdatera listan med anteckningsböcker"
+   },
+   "inside__filing_info__refresh_tags": {
+      "message": "Uppdatera listan med taggar"
+   },
+   "inside__filing_info__remove_tag": {
+      "message": "Ta bort etikett"
+   },
+   "inside__filing_info__sentence": {
+      "message": "Utklippt till anteckningsboken [=notebook] och taggat med [=tags]."
+   },
+   "inside__filing_info__sentence_and": {
+      "message": "och"
+   },
+   "inside__filing_info__sentence_no_tags": {
+      "message": "Utklippt till anteckningsboken [=notebook]."
+   },
+   "inside__filing_info__sentence_other_tags": {
+      "message": "andra taggar"
+   },
+   "inside__filing_info__title_normal": {
+      "message": "Sparad i:"
+   },
+   "inside__filing_info__title_smart": {
+      "message": "Smart sparad i:"
+   },
+   "inside__filing_info__view": {
+      "message": "Vy"
+   },
+   "inside__footer__button": {
+      "message": "Skapa konto"
+   },
+   "inside__footer__text": {
+      "message": "Skaffa ett gratis Evernote-konto för att spara den här artikeln och visa den senare på vilken enhet som helst."
+   },
+   "inside__login__button_cancel__label": {
+      "message": "Avbryt"
+   },
+   "inside__login__button_do__label": {
+      "message": "Logga in"
+   },
+   "inside__login__create_account": {
+      "message": "Skapa ett konto"
+   },
+   "inside__login__email__error__format": {
+      "message": "E-postadressen innehåller ogiltiga tecken."
+   },
+   "inside__login__email__error__invalid": {
+      "message": "Inte en giltig, aktiv användare."
+   },
+   "inside__login__email__error__length": {
+      "message": "E-postadressen måste vara mellan 1 och 64 tecken lång."
+   },
+   "inside__login__email__error__required": {
+      "message": "E-postadress krävs"
+   },
+   "inside__login__email__label": {
+      "message": "E-postadresser"
+   },
+   "inside__login__general__error": {
+      "message": "Autentiseringen misslyckades."
+   },
+   "inside__login__heading": {
+      "message": "Logga in till Evernote"
+   },
+   "inside__login__password__error__format": {
+      "message": "Lösenordet innehåller ogiltiga tecken."
+   },
+   "inside__login__password__error__invalid": {
+      "message": "E-postadressen och lösenordet matchar inte någon befintlig användare."
+   },
+   "inside__login__password__error__length": {
+      "message": "Lösenordet måste vara mellan 6 och 64 tecken långt."
+   },
+   "inside__login__password__error__required": {
+      "message": "Lösenord är obligatoriskt."
+   },
+   "inside__login__password__error__reset": {
+      "message": "Ditt lösenord har gått ut. Återställ det nu."
+   },
+   "inside__login__password__error__timeout": {
+      "message": "Inloggningssessionen överskred tidsgränsen. Försök igen."
+   },
+   "inside__login__password__label": {
+      "message": "Lösenord"
+   },
+   "inside__login__rememberMe__label": {
+      "message": "Kom ihåg mig"
+   },
+   "inside__login__spinner": {
+      "message": "Loggar in i Evernote"
+   },
+   "inside__menu__clip_to_evernote__tooltip": {
+      "message": "Klipp till Evernote."
+   },
+   "inside__menu__close__tooltip": {
+      "message": "Dölj överlägg."
+   },
+   "inside__menu__fitts__tooltip": {
+      "message": "Dölj överlägg."
+   },
+   "inside__menu__highlight_to_evernote__tooltip": {
+      "message": "Framhäv."
+   },
+   "inside__menu__print__tooltip": {
+      "message": "Skriv ut."
+   },
+   "inside__menu__settings__tooltip": {
+      "message": "Visa teman."
+   },
+   "inside__menu__speak__forward__tooltip": {
+      "message": "Gå framåt"
+   },
+   "inside__menu__speak__pause__tooltip": {
+      "message": "Paus"
+   },
+   "inside__menu__speak__play__tooltip": {
+      "message": "Spela"
+   },
+   "inside__menu__speak__rewind__tooltip": {
+      "message": "Gå bakåt"
+   },
+   "inside__menu__speak__tooltip": {
+      "message": "Text till tal"
+   },
+   "inside__misc__clipping__doing": {
+      "message": "Klipper..."
+   },
+   "inside__misc__clipping__failed": {
+      "message": "Klippning misslyckades."
+   },
+   "inside__misc__login_request": {
+      "message": "Klicka på Clearly-ikonen i verktygsfältet om du vill logga in på Evernote."
+   },
+   "inside__misc__login_request__chrome": {
+      "message": "Klicka på Clearly-ikonen i verktygsfältet i Chrome om du vill logga in på Evernote."
+   },
+   "inside__misc__login_request__firefox": {
+      "message": "Klicka på Clearly-ikonen i verktygsfältet i Firefox om du vill logga in på Evernote."
+   },
+   "inside__misc__login_request__opera": {
+      "message": "Klicka på Clearly-ikonen i verktygsfältet i Opera om du vill logga in på Evernote."
+   },
+   "inside__misc__page": {
+      "message": "Sida [=page]"
+   },
+   "inside__related_notes__disable_long": {
+      "message": "Vill du inaktivera tillhörande anteckningar?"
+   },
+   "inside__related_notes__disable_short": {
+      "message": "Inaktivera?"
+   },
+   "inside__related_notes__title": {
+      "message": "Förknippade anteckningar"
+   },
+   "inside__reminder__button": {
+      "message": "Läs med Clearly"
+   },
+   "inside__reminder__heading": {
+      "message": "Få ut mer av din onlineläsning med Clearly"
+   },
+   "inside__reminder__text": {
+      "message": "Ta bort all oreda i en artikel med bara ett klick. Med ytterligare ett klick kan du spara vilken artikel som helst i Evernote för alltid. Prova det nu!"
+   },
+   "inside__rtl__ltr__label": {
+      "message": "Vänster till höger"
+   },
+   "inside__rtl__main__label": {
+      "message": "Textorientering?"
+   },
+   "inside__rtl__rtl__label": {
+      "message": "Höger till vänster"
+   },
+   "inside__settings__fontSize__large": {
+      "message": "stor"
+   },
+   "inside__settings__fontSize__medium": {
+      "message": "medium"
+   },
+   "inside__settings__fontSize__small": {
+      "message": "liten"
+   },
+   "inside__settings__more_options": {
+      "message": "Fler alternativ"
+   },
+   "inside__settings__theme__1": {
+      "message": "Tidningspapper"
+   },
+   "inside__settings__theme__2": {
+      "message": "Anmärkningsvärt"
+   },
+   "inside__settings__theme__3": {
+      "message": "Nattuggla"
+   },
+   "inside__settings__theme__custom": {
+      "message": "Anpassad"
+   },
+   "inside__two_factor__button_do__label": {
+      "message": "Fortsätt"
+   },
+   "inside__two_factor__button_help__label": {
+      "message": "Jag behöver hjälp med att få en verifieringskod"
+   },
+   "inside__two_factor__code__error__format": {
+      "message": "Verifieringskoden ska bara innehålla siffror."
+   },
+   "inside__two_factor__code__error__invalid": {
+      "message": "Verifieringskoden är felaktig."
+   },
+   "inside__two_factor__code__error__length": {
+      "message": "Verifieringskoden måste vara minst 6 tecken lång."
+   },
+   "inside__two_factor__code__error__required": {
+      "message": "Verifieringskoden är obligatorisk."
+   },
+   "inside__two_factor__code__label": {
+      "message": "Sexsiffrig kod"
+   },
+   "inside__two_factor__message__google": {
+      "message": "Ange den verifieringskod som visas i din Google-autentiseringsapp."
+   },
+   "inside__two_factor__message__sms": {
+      "message": "Vi skickade ett SMS med en verifieringskod till"
+   },
+   "meta_extension_author": {
+      "message": "Evernote Corp."
+   },
+   "meta_extension_description": {
+      "message": "Clearly gör att artiklar och webbsidor blir rena och lättlästa. Spara dem till Evernote så att du kan läsa dem var som helst."
+   },
+   "meta_extension_name": {
+      "message": "Clearly"
+   },
+   "options__account__sign_out": {
+      "message": "Fast inloggad som [[=username]]."
+   },
+   "options__account__sign_out_link": {
+      "message": "Logga ut."
+   },
+   "options__account__signed_out": {
+      "message": "Du är inte fast inloggad. Klicka på Evernote-ikonen på Clearly-sidoraden för att logga in."
+   },
+   "options__base__label": {
+      "message": "Grundläggande CSS"
+   },
+   "options__box_width__label": {
+      "message": "Linjebredd"
+   },
+   "options__button__more_options": {
+      "message": "Fler alternativ"
+   },
+   "options__button__reset_custom": {
+      "message": "Återställ"
+   },
+   "options__button__save_custom": {
+      "message": "Spara tema"
+   },
+   "options__button__save_general": {
+      "message": "Spara alternativ"
+   },
+   "options__clip_notebook__business": {
+      "message": "Anteckningsböcker för företag"
+   },
+   "options__clip_notebook__default": {
+      "message": "Standard"
+   },
+   "options__clip_notebook__shared": {
+      "message": "Delade anteckningsböcker"
+   },
+   "options__clip_notebook__smart__label": {
+      "message": "Använd smart arkivering"
+   },
+   "options__clip_notebook__specific__label": {
+      "message": "Använd en specifik anteckningsbok"
+   },
+   "options__clip_notebook__your": {
+      "message": "Dina anteckningsböcker"
+   },
+   "options__clip_tag__smart__label": {
+      "message": "Använd smart arkivering"
+   },
+   "options__clip_tag__specific__label": {
+      "message": "Använd en specifik tagg"
+   },
+   "options__color_background__label": {
+      "message": "Bakgrundsfärg"
+   },
+   "options__color_links__label": {
+      "message": "Länkfärg"
+   },
+   "options__color_text__label": {
+      "message": "Förgrundsfärg"
+   },
+   "options__custom_css__label": {
+      "message": "Anpassad CSS"
+   },
+   "options__footnote_links__label": {
+      "message": "Länkar som fotnoter"
+   },
+   "options__keys_activation__label": {
+      "message": "Visa sida i Clearly"
+   },
+   "options__keys_clip__label": {
+      "message": "Klipp till Evernote"
+   },
+   "options__keys_highlight__label": {
+      "message": "Framhäv"
+   },
+   "options__keys_speech__label": {
+      "message": "Text till tal"
+   },
+   "options__large_graphics__label": {
+      "message": "Stor grafik"
+   },
+   "options__message__keys": {
+      "message": "För att ändra ska du placera markören i fältet och trycka tangentkombinationen."
+   },
+   "options__message__keys_firefox": {
+      "message": "Starta om webbläsaren efter att du har sparat."
+   },
+   "options__message__notebook": {
+      "message": "Anteckningsbok att klippa till när du klipper till Evernote."
+   },
+   "options__message__open_notes_in": {
+      "message": "När du öppnar anteckningar från Clearly, använd en Evernote-klient."
+   },
+   "options__message__related_notes": {
+      "message": "Låt Evernote hämta klipp från ditt konto som kan vara relevanta för det du läser nu."
+   },
+   "options__message__smart_filing": {
+      "message": "Låt Evernote avgöra vilken anteckningsbok klippen passar i och vilka taggar de ska få."
+   },
+   "options__message__tags": {
+      "message": "Taggar att använda när du skickar klipp till Evernote."
+   },
+   "options__misc__print_preview": {
+      "message": "Förhandsgranskning"
+   },
+   "options__misc__reset_theme": {
+      "message": "Återställ anpassat tema"
+   },
+   "options__misc__reset_theme__confirm": {
+      "message": "Detta kommer att ändra värdena för det anpassade temat till samma värden som för standardtemat. Är du säker på att du vill göra detta?"
+   },
+   "options__misc__saved": {
+      "message": "Inställningarna kommer att gälla på alla nya flikar du använder Clearly på."
+   },
+   "options__misc__saving": {
+      "message": "Sparar"
+   },
+   "options__open_notes_in__desktop__label": {
+      "message": "Skrivbordsklient"
+   },
+   "options__open_notes_in__web__label": {
+      "message": "Webbklient"
+   },
+   "options__related_notes__disabled__label": {
+      "message": "Inaktivera tillhörande anteckningar"
+   },
+   "options__related_notes__enabled__label": {
+      "message": "Aktivera tillhörande anteckningar"
+   },
+   "options__related_notes__just_at_bottom__label": {
+      "message": "Aktivera tillhörande anteckningar, men visa endast i nederkant"
+   },
+   "options__smart_filing__disabled__label": {
+      "message": "Inaktivera smart arkivering"
+   },
+   "options__smart_filing__enabled__label": {
+      "message": "Aktivera smart arkivering"
+   },
+   "options__smart_filing__just_notebooks__label": {
+      "message": "Aktivera smart lagring, men endast för anteckningsböcker"
+   },
+   "options__smart_filing__just_tags__label": {
+      "message": "Aktivera smart lagring, men endast för taggar"
+   },
+   "options__smart_filing_for_business__notebooks__label": {
+      "message": "Även för företagsanteckningsböcker"
+   },
+   "options__smart_filing_for_business__tags__label": {
+      "message": "Även för företagstaggar"
+   },
+   "options__speech_demo__label": {
+      "message": "Demo"
+   },
+   "options__speech_gender__label": {
+      "message": "Röst för läsning"
+   },
+   "options__speech_speed__label": {
+      "message": "Hastighet för läsning"
+   },
+   "options__text_align__label": {
+      "message": "Textjustering"
+   },
+   "options__text_font__label": {
+      "message": "Teckensnitt för brödtext"
+   },
+   "options__text_font_header__label": {
+      "message": "Teckensnitt för rubrik"
+   },
+   "options__text_font_monospace__label": {
+      "message": "Jämnbreda teckensnitt"
+   },
+   "options__text_line_height__label": {
+      "message": "Linjehöjd"
+   },
+   "options__text_size__label": {
+      "message": "Grundläggande teckensnittsstorlek"
+   },
+   "options__title__custom": {
+      "message": "Anpassat tema"
+   },
+   "options__title__features": {
+      "message": "Clearly-funktioner"
+   },
+   "options__title__general": {
+      "message": "Alternativ"
+   },
+   "options__title__page": {
+      "message": "Clearly / Alternativ"
+   },
+   "options__title__speech": {
+      "message": "Text till tal"
+   },
+   "options__title__sub__account": {
+      "message": "Konto"
+   },
+   "options__title__sub__keyboard": {
+      "message": "Kortkommandon"
+   },
+   "options__title__sub__notebook": {
+      "message": "Val av anteckningsbok"
+   },
+   "options__title__sub__open_notes_in": {
+      "message": "Öppna anteckningar i"
+   },
+   "options__title__sub__related_notes": {
+      "message": "Förknippade anteckningar"
+   },
+   "options__title__sub__smart_filing": {
+      "message": "Smart arkivering"
+   },
+   "options__title__sub__tags": {
+      "message": "Taggval"
+   },
+   "options__values__base__Blueprint": {
+      "message": "Blåkopia"
+   },
+   "options__values__base__None": {
+      "message": "Ingen"
+   },
+   "options__values__base__Theme_1": {
+      "message": "Klassisk"
+   },
+   "options__values__base__Theme_2": {
+      "message": "Modern"
+   },
+   "options__values__base__Theme_3": {
+      "message": "Natt"
+   },
+   "options__values__footnote_links__Always": {
+      "message": "Alltid"
+   },
+   "options__values__footnote_links__Never": {
+      "message": "Aldrig"
+   },
+   "options__values__footnote_links__On_Print": {
+      "message": "I tryck"
+   },
+   "options__values__large_graphics__Do_Nothing": {
+      "message": "Visa alltid"
+   },
+   "options__values__large_graphics__Hide_Always": {
+      "message": "Dölj alltid"
+   },
+   "options__values__large_graphics__Hide_on_Print": {
+      "message": "Dölj i tryck"
+   },
+   "options__values__menu_placement__Bottom_Right": {
+      "message": "Längst ned till höger"
+   },
+   "options__values__menu_placement__Top_Right": {
+      "message": "Längst upp till höger"
+   },
+   "options__values__speech_gender__default": {
+      "message": "Förinställd"
+   },
+   "options__values__speech_gender__female": {
+      "message": "Kvinnlig (om sådan är tillgänglig)"
+   },
+   "options__values__speech_gender__male": {
+      "message": "Manlig (om sådan är tillgänglig)"
+   },
+   "options__values__speech_speed__fast": {
+      "message": "Snabb"
+   },
+   "options__values__speech_speed__faster": {
+      "message": "Snabbare"
+   },
+   "options__values__speech_speed__fastest": {
+      "message": "Snabbast"
+   },
+   "options__values__speech_speed__normal": {
+      "message": "Normal"
+   },
+   "options__values__speech_speed__slow": {
+      "message": "Långsam"
+   },
+   "options__values__speech_speed__slower": {
+      "message": "Långsammare"
+   },
+   "options__values__speech_speed__slowest": {
+      "message": "Långsammast"
+   },
+   "options__values__text_align__Justified": {
+      "message": "Justerat"
+   },
+   "options__values__text_align__Normal": {
+      "message": "Normal"
+   },
+   "register__after__1": {
+      "message": "Ditt Evernote-konto är nu anslutet till Clearly."
+   },
+   "register__after__2": {
+      "message": "Klicka på Evernote-ikonen i Clearlys sidofält för att spara en artikel direkt."
+   },
+   "register__after__3": {
+      "message": "Skaffa Evernote på alla dina enheter för att läsa var som helst, när som helst."
+   },
+   "register__after__heading": {
+      "message": "Registrering slutförd"
+   },
+   "register__agree": {
+      "message": "Genom att klicka på ”Registrera dig” godkänner du vår [=terms] och [=privacy]."
+   },
+   "register__agree__privacy": {
+      "message": "Personuppgiftspolicy"
+   },
+   "register__agree__terms": {
+      "message": "Användarvillkor"
+   },
+   "register__button": {
+      "message": "Bli medlem"
+   },
+   "register__captcha__error__incorrect": {
+      "message": "Felaktig Captcha."
+   },
+   "register__captcha__error__required": {
+      "message": "Captcha är obligatoriskt."
+   },
+   "register__captcha__label": {
+      "message": "Captcha"
+   },
+   "register__email__error__conflict": {
+      "message": "E-postadressen är redan kopplad till ett konto."
+   },
+   "register__evernote_heading": {
+      "message": "Ditt livsverk"
+   },
+   "register__evernote_text": {
+      "message": "Oavsett vad du gör är Evernote arbetsytan som får jobbet gjort."
+   },
+   "register__page_title": {
+      "message": "Clearly / Registrera"
+   },
+   "register__text": {
+      "message": "Genom att använda Clearly med ett Evernote-konto kan du spara alla dina artiklar och läsa dem senare på valfri enhet."
+   }
+}

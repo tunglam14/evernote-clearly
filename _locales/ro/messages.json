@@ -1,0 +1,698 @@
+{
+   "chrome_browser_action": {
+      "message": "Vezi această pagină cu Clearly."
+   },
+   "chrome_context_menu": {
+      "message": "Clearly"
+   },
+   "firefox_button": {
+      "message": "Clearly"
+   },
+   "firefox_button_tooltip": {
+      "message": "Vezi această pagină cu Clearly."
+   },
+   "firefox_context_menu": {
+      "message": "Clearly"
+   },
+   "firefox_menu": {
+      "message": "Clearly"
+   },
+   "inside__blank__heading": {
+      "message": "Sfaturi pentru utilizarea Evernote Clearly"
+   },
+   "inside__blank__text": {
+      "message": "Clearly este în prezent proiectat să funcționeze pe paginile de articol. O pagină de articol este orice pagină care conține un bloc mare de text - cum ar fi, de exemplu, un articol de ziar sau post pe blog."
+   },
+   "inside__features__clipping__text": {
+      "message": "Salvați ceea ce citiți în contul dvs. Evernote cu un singur clic. Accesați clipuri de pe orice dispozitiv, oricând, în Evernote."
+   },
+   "inside__features__clipping__title": {
+      "message": "Clip la Evernote."
+   },
+   "inside__features__close2": {
+      "message": "Închide"
+   },
+   "inside__features__eula": {
+      "message": "Acordul de licență pentru utilizatorul final"
+   },
+   "inside__features__eula_notice": {
+      "message": "Prin folosirea Clearly, sunteți de acord cu [EULA =]."
+   },
+   "inside__features__highlighting__text": {
+      "message": "Evidențiați textul pe care doriți să vi-l amintiți și găsiți-l rapid o în contul dvs. Evernote. Evidențierea modificărilor pe care le faceți în Clearly va fi actualizată automat în contul dvs. Evernote."
+   },
+   "inside__features__highlighting__title": {
+      "message": "Evidențiere"
+   },
+   "inside__features__related_notes__text": {
+      "message": "Redescoperi magic notele din contul dvs. Evernote, care sunt legate de pagina pe care o vizualizați. Notele relative sunt afișate în partea de jos a articolului sau pe partea dreaptă, dacă spațiul o permite."
+   },
+   "inside__features__related_notes__title": {
+      "message": "Note relative"
+   },
+   "inside__features__smart_filing__text": {
+      "message": "Atribuie automat etichetele la clipurile Web și le salvează în notebook-urile corespunzătoare, astfel încât să nu fie necesar să o faceți dumneavoastră."
+   },
+   "inside__features__smart_filing__title": {
+      "message": "Umplere inteligentă"
+   },
+   "inside__features__speech__no_language_explanation": {
+      "message": "Evernote Clearly nu a putut determina limba acestui articol. Dacă recunoașteți limba, selectați-o mai jos si vom reda."
+   },
+   "inside__features__speech__no_language_title": {
+      "message": "Limba nu este acceptată"
+   },
+   "inside__features__speech__text": {
+      "message": "Așezați-vă și lăsați Clearly să vă citească mesajele din blog, articole, pagini web, etc. mulțumită noii facilități Text 2 Speech, disponibilă exclusiv pentru abonații Premium Evernote."
+   },
+   "inside__features__speech__text__available": {
+      "message": "Text to Speech în 21 de limbi:"
+   },
+   "inside__features__speech__text__available_languages": {
+      "message": "Engleză, japoneză, spaniolă, franceză, germană, chineză, coreeană, arabă, cehă, daneză, olandeză, finlandeză, greacă, maghiară, italiană, norvegiană, poloneză, portugheză, rusă, suedeză și turcă."
+   },
+   "inside__features__speech__text__cancel": {
+      "message": "Anulare"
+   },
+   "inside__features__speech__text__language": {
+      "message": "Limba nu este acceptată"
+   },
+   "inside__features__speech__text__play": {
+      "message": "Redă folosind această limbă"
+   },
+   "inside__features__speech__text__powered": {
+      "message": "Evernote Clearly folosește [= serviciu]."
+   },
+   "inside__features__speech__text__requires": {
+      "message": "Cerințe [= produs]."
+   },
+   "inside__features__speech__text__try": {
+      "message": "Încercați Text to Speech"
+   },
+   "inside__features__speech__text__upgrade": {
+      "message": "Actualizează la Evernote Premium"
+   },
+   "inside__features__speech__title": {
+      "message": "Text to Speech"
+   },
+   "inside__features__title__all": {
+      "message": "Bine ați venit la noul Evernote Clearly"
+   },
+   "inside__features__title__new": {
+      "message": "Aveți o nouă versiune a Evernote Clearly"
+   },
+   "inside__filing_info__add_tag": {
+      "message": "Add a tag"
+   },
+   "inside__filing_info__change_notebook": {
+      "message": "Change notebook"
+   },
+   "inside__filing_info__clipped": {
+      "message": "Decupaje"
+   },
+   "inside__filing_info__default_notebook": {
+      "message": "Notebook-ul implicit"
+   },
+   "inside__filing_info__edit": {
+      "message": "Modifică"
+   },
+   "inside__filing_info__find_notebook": {
+      "message": "Caută un caiet"
+   },
+   "inside__filing_info__no_tags": {
+      "message": "Tags not allowed"
+   },
+   "inside__filing_info__open_note": {
+      "message": "Deschideți nota"
+   },
+   "inside__filing_info__refresh_notebooks": {
+      "message": "Refresh notebooks list"
+   },
+   "inside__filing_info__refresh_tags": {
+      "message": "Refresh tags list"
+   },
+   "inside__filing_info__remove_tag": {
+      "message": "Eliminați eticheta"
+   },
+   "inside__filing_info__sentence": {
+      "message": "Decupat în [= notebook] notebook, și etichetat cu [=tags]."
+   },
+   "inside__filing_info__sentence_and": {
+      "message": "și"
+   },
+   "inside__filing_info__sentence_no_tags": {
+      "message": "Decupat în notebook-ul [= notebook]."
+   },
+   "inside__filing_info__sentence_other_tags": {
+      "message": "alte etichete"
+   },
+   "inside__filing_info__title_normal": {
+      "message": "Arhivat în:"
+   },
+   "inside__filing_info__title_smart": {
+      "message": "Arhivat inteligent în:"
+   },
+   "inside__filing_info__view": {
+      "message": "Vizualizare"
+   },
+   "inside__footer__button": {
+      "message": "Creați Cont"
+   },
+   "inside__footer__text": {
+      "message": "Obțineți un cont gratuit Evernote pentru a salva acest articol și a-l vizualiza mai târziu pe orice dispozitiv"
+   },
+   "inside__login__button_cancel__label": {
+      "message": "Anulare"
+   },
+   "inside__login__button_do__label": {
+      "message": "Conectați-vă"
+   },
+   "inside__login__create_account": {
+      "message": "Crează un cont"
+   },
+   "inside__login__email__error__format": {
+      "message": "E-mailul conține caractere nepermise."
+   },
+   "inside__login__email__error__invalid": {
+      "message": "Nu este un utilizator valid, activ."
+   },
+   "inside__login__email__error__length": {
+      "message": "Emailul trebuie să aibă lungimea între 1 și 64 caractere"
+   },
+   "inside__login__email__error__required": {
+      "message": "Este necesar un e-mail"
+   },
+   "inside__login__email__label": {
+      "message": "Adresa de email"
+   },
+   "inside__login__general__error": {
+      "message": "Autentificare nereușită."
+   },
+   "inside__login__heading": {
+      "message": "Conectați-vă la Evernote"
+   },
+   "inside__login__password__error__format": {
+      "message": "Parola conține caractere nepermise."
+   },
+   "inside__login__password__error__invalid": {
+      "message": "Emailul și parola nu se potrivesc cu utilizatorul existent."
+   },
+   "inside__login__password__error__length": {
+      "message": "Parola trebuie să aibă lungimea între 6 și 64 de caractere."
+   },
+   "inside__login__password__error__required": {
+      "message": "Este necesară o parolă."
+   },
+   "inside__login__password__error__reset": {
+      "message": "Parola dvs. a expirat. Vă rugăm să o resetați acum."
+   },
+   "inside__login__password__error__timeout": {
+      "message": "Sesiunea de autentificare este temporizată. Vă rugăm să încercați din nou."
+   },
+   "inside__login__password__label": {
+      "message": "Parolă"
+   },
+   "inside__login__rememberMe__label": {
+      "message": "Ține-mă minte"
+   },
+   "inside__login__spinner": {
+      "message": "Conectare la Evernote"
+   },
+   "inside__menu__clip_to_evernote__tooltip": {
+      "message": "Clip la Evernote."
+   },
+   "inside__menu__close__tooltip": {
+      "message": "Ascundeți suprapunerea."
+   },
+   "inside__menu__fitts__tooltip": {
+      "message": "Ascundeți suprapunerea."
+   },
+   "inside__menu__highlight_to_evernote__tooltip": {
+      "message": "Evidențiați."
+   },
+   "inside__menu__print__tooltip": {
+      "message": "Imprimă"
+   },
+   "inside__menu__settings__tooltip": {
+      "message": "AratăTeme."
+   },
+   "inside__menu__speak__forward__tooltip": {
+      "message": "Mergi înainte"
+   },
+   "inside__menu__speak__pause__tooltip": {
+      "message": "Pauză"
+   },
+   "inside__menu__speak__play__tooltip": {
+      "message": "Redă"
+   },
+   "inside__menu__speak__rewind__tooltip": {
+      "message": "Spre înapoi"
+   },
+   "inside__menu__speak__tooltip": {
+      "message": "Text to Speech"
+   },
+   "inside__misc__clipping__doing": {
+      "message": "decupare..."
+   },
+   "inside__misc__clipping__failed": {
+      "message": "Decuparea a eșuat."
+   },
+   "inside__misc__login_request": {
+      "message": "To sign in to Evernote, please click the Clearly icon in the toolbar."
+   },
+   "inside__misc__login_request__chrome": {
+      "message": "Pentru a vă autentifica în Evernote vă rugăm să faceți ckick pe pictograma Clearly în bara de instrumente Chrome"
+   },
+   "inside__misc__login_request__firefox": {
+      "message": "To sign in to Evernote, please click the Clearly icon in Firefox's toolbar."
+   },
+   "inside__misc__login_request__opera": {
+      "message": "To sign in to Evernote, please click the Clearly icon in Opera's toolbar."
+   },
+   "inside__misc__page": {
+      "message": "Pagina  [=page]"
+   },
+   "inside__related_notes__disable_long": {
+      "message": "Vreți să dezactivați notele relative?"
+   },
+   "inside__related_notes__disable_short": {
+      "message": "Dezactivați?"
+   },
+   "inside__related_notes__title": {
+      "message": "Note relative"
+   },
+   "inside__reminder__button": {
+      "message": "Citește cu Clearly"
+   },
+   "inside__reminder__heading": {
+      "message": "Obțineți mai mult din citirea online, cu Clearly"
+   },
+   "inside__reminder__text": {
+      "message": "Cu un singur click eliminăi toate punctele de distragere din articol. Cu încă un click salvează orice articol în Evernote, pentru totdeauna. Încearcă-l acum!"
+   },
+   "inside__rtl__ltr__label": {
+      "message": "Stânga la dreapta"
+   },
+   "inside__rtl__main__label": {
+      "message": "Direcția textului?"
+   },
+   "inside__rtl__rtl__label": {
+      "message": "De la dreapta la stânga"
+   },
+   "inside__settings__fontSize__large": {
+      "message": "mare"
+   },
+   "inside__settings__fontSize__medium": {
+      "message": "mediu"
+   },
+   "inside__settings__fontSize__small": {
+      "message": "mic"
+   },
+   "inside__settings__more_options": {
+      "message": "Mai multe optiuni"
+   },
+   "inside__settings__theme__1": {
+      "message": "Hârtie de ziar"
+   },
+   "inside__settings__theme__2": {
+      "message": "Notabil"
+   },
+   "inside__settings__theme__3": {
+      "message": "Bufniță"
+   },
+   "inside__settings__theme__custom": {
+      "message": "Particular"
+   },
+   "inside__two_factor__button_do__label": {
+      "message": "Continuaţi"
+   },
+   "inside__two_factor__button_help__label": {
+      "message": "Am nevoie de ajutor pentru a obține un cod de verificare"
+   },
+   "inside__two_factor__code__error__format": {
+      "message": "Codul de verificare ar trebui să fie doar cifre."
+   },
+   "inside__two_factor__code__error__invalid": {
+      "message": "Codul de verificare este incorect."
+   },
+   "inside__two_factor__code__error__length": {
+      "message": "Codul de verificare trebuie să fie de cel puțin 6 caractere."
+   },
+   "inside__two_factor__code__error__required": {
+      "message": "Este necesar codul de verificare."
+   },
+   "inside__two_factor__code__label": {
+      "message": "cod din 6 cifre"
+   },
+   "inside__two_factor__message__google": {
+      "message": "Introduceți codul de verificare afișat în aplicația Google Authenticator."
+   },
+   "inside__two_factor__message__sms": {
+      "message": "Am trimis un mesaj text cu un cod de verificare la"
+   },
+   "meta_extension_author": {
+      "message": "Evernote Corp."
+   },
+   "meta_extension_description": {
+      "message": "Clearly face postări pe blog, articole și pagini web curate și ușor de citit. Salvați-le la Evernote pentru a le citi oriunde."
+   },
+   "meta_extension_name": {
+      "message": "Clearly"
+   },
+   "options__account__sign_out": {
+      "message": "Permanent conectat ca [[= nume de utilizator]]."
+   },
+   "options__account__sign_out_link": {
+      "message": "Deconectare"
+   },
+   "options__account__signed_out": {
+      "message": "Nu sunteți conectat permanent. Faceți clic pe pictograma Evernote, în bara laterală Clearly, pentru a vă conecta"
+   },
+   "options__base__label": {
+      "message": "Baza CSS"
+   },
+   "options__box_width__label": {
+      "message": "Lățimea Liniei"
+   },
+   "options__button__more_options": {
+      "message": "Mai multe optiuni"
+   },
+   "options__button__reset_custom": {
+      "message": "Resetare"
+   },
+   "options__button__save_custom": {
+      "message": "Salvați Tema"
+   },
+   "options__button__save_general": {
+      "message": "Salvare opțiuni"
+   },
+   "options__clip_notebook__business": {
+      "message": "Notebook-uri Business"
+   },
+   "options__clip_notebook__default": {
+      "message": "Implicit"
+   },
+   "options__clip_notebook__shared": {
+      "message": "Notebook-uri partajate"
+   },
+   "options__clip_notebook__smart__label": {
+      "message": "Folosiți Umplerea inteligentă"
+   },
+   "options__clip_notebook__specific__label": {
+      "message": "Utilizați un Notebook specific"
+   },
+   "options__clip_notebook__your": {
+      "message": "Notebook-urile dvs."
+   },
+   "options__clip_tag__smart__label": {
+      "message": "Folosiți Umplerea inteligentă"
+   },
+   "options__clip_tag__specific__label": {
+      "message": "Folosiți o etichetă spcifică"
+   },
+   "options__color_background__label": {
+      "message": "Culoare fundal"
+   },
+   "options__color_links__label": {
+      "message": "Culoare Linkuri"
+   },
+   "options__color_text__label": {
+      "message": "Culoare prim-plan"
+   },
+   "options__custom_css__label": {
+      "message": "CSS personalizat"
+   },
+   "options__footnote_links__label": {
+      "message": "Link-uri ca note de subsol"
+   },
+   "options__keys_activation__label": {
+      "message": "Vezi pagina în Clearly"
+   },
+   "options__keys_clip__label": {
+      "message": "Decupați si trimiteţi către Evernote"
+   },
+   "options__keys_highlight__label": {
+      "message": "Evidențiați"
+   },
+   "options__keys_speech__label": {
+      "message": "Text to Speech"
+   },
+   "options__large_graphics__label": {
+      "message": "Grafica mare"
+   },
+   "options__message__keys": {
+      "message": "Pentru a schimba, plasați cursorul în câmp și apăsați asocierea de taste de pe tastatură."
+   },
+   "options__message__keys_firefox": {
+      "message": "Reporniți browser-ul dvs., după salvare."
+   },
+   "options__message__notebook": {
+      "message": "Notebook pentru decupat, atunci când trimiteți la Evernote."
+   },
+   "options__message__open_notes_in": {
+      "message": "Când se deschid note din Clearly, utilizați un anumit client Evernote."
+   },
+   "options__message__related_notes": {
+      "message": "Lasă Evernote să descarce clipuri din contul dvs. care ar putea fi relevante pentru ceea ce citiți acum."
+   },
+   "options__message__smart_filing": {
+      "message": "Lasă Evernote să determine ce clipuri de notebook ar trebui să meargă, și ce etichete ar trebui să obțină."
+   },
+   "options__message__tags": {
+      "message": "Etichete de aplicat, atunci când detașați la Evernote."
+   },
+   "options__misc__print_preview": {
+      "message": "Previzualizare la imprimare"
+   },
+   "options__misc__reset_theme": {
+      "message": "Resetați Tema personalizată"
+   },
+   "options__misc__reset_theme__confirm": {
+      "message": "Aceasta va seta valorile temei personalizate la aceleași valori cu cele implicite. Sunteți sigur că vreți să faceți asta?"
+   },
+   "options__misc__saved": {
+      "message": "Setări vor fi în vigoare la orice file noi pe care le utilizați cu Clearly."
+   },
+   "options__misc__saving": {
+      "message": "Salvare"
+   },
+   "options__open_notes_in__desktop__label": {
+      "message": "Spațiul de lucru client"
+   },
+   "options__open_notes_in__web__label": {
+      "message": "Web client"
+   },
+   "options__related_notes__disabled__label": {
+      "message": "Dezactivați notele aferente"
+   },
+   "options__related_notes__enabled__label": {
+      "message": "Activați notele aferente"
+   },
+   "options__related_notes__just_at_bottom__label": {
+      "message": "Activați notele aferente, dar afișați numai în partea de jos"
+   },
+   "options__smart_filing__disabled__label": {
+      "message": "Dezactivați Depunerea inteligentă"
+   },
+   "options__smart_filing__enabled__label": {
+      "message": "Activați Depunerea inteligentă"
+   },
+   "options__smart_filing__just_notebooks__label": {
+      "message": "Activează umplerea inteligentă, dar doar pentru Notebook-uri"
+   },
+   "options__smart_filing__just_tags__label": {
+      "message": "Activează umplerea inteligentă, dar doar pentru etichete"
+   },
+   "options__smart_filing_for_business__notebooks__label": {
+      "message": "Și pentru Notebook-uri de Business"
+   },
+   "options__smart_filing_for_business__tags__label": {
+      "message": "For Business Tags too"
+   },
+   "options__speech_demo__label": {
+      "message": "Demo"
+   },
+   "options__speech_gender__label": {
+      "message": "Lectură vocală"
+   },
+   "options__speech_speed__label": {
+      "message": "Viteza de citire"
+   },
+   "options__text_align__label": {
+      "message": "Aliniere Text"
+   },
+   "options__text_font__label": {
+      "message": "Font literă"
+   },
+   "options__text_font_header__label": {
+      "message": "Font Antet"
+   },
+   "options__text_font_monospace__label": {
+      "message": "Font Monospace"
+   },
+   "options__text_line_height__label": {
+      "message": "Înălțimea Liniei"
+   },
+   "options__text_size__label": {
+      "message": "Dimensiunea fontului bazei"
+   },
+   "options__title__custom": {
+      "message": "Tema personalizată"
+   },
+   "options__title__features": {
+      "message": "Caracteristici Clearly"
+   },
+   "options__title__general": {
+      "message": "Opțiuni"
+   },
+   "options__title__page": {
+      "message": "Clearly / Opțiuni"
+   },
+   "options__title__speech": {
+      "message": "Text to Speech"
+   },
+   "options__title__sub__account": {
+      "message": "Cont"
+   },
+   "options__title__sub__keyboard": {
+      "message": "Scurtături de la tastatură"
+   },
+   "options__title__sub__notebook": {
+      "message": "Selecția Notebook-ului"
+   },
+   "options__title__sub__open_notes_in": {
+      "message": "Deschide note în"
+   },
+   "options__title__sub__related_notes": {
+      "message": "Note relative"
+   },
+   "options__title__sub__smart_filing": {
+      "message": "Umplere inteligentă"
+   },
+   "options__title__sub__tags": {
+      "message": "Selecția etichetei"
+   },
+   "options__values__base__Blueprint": {
+      "message": "Blueprint"
+   },
+   "options__values__base__None": {
+      "message": "Nici"
+   },
+   "options__values__base__Theme_1": {
+      "message": "Clasic"
+   },
+   "options__values__base__Theme_2": {
+      "message": "Modern"
+   },
+   "options__values__base__Theme_3": {
+      "message": "Pe timp de noapte"
+   },
+   "options__values__footnote_links__Always": {
+      "message": "Întotdeauna"
+   },
+   "options__values__footnote_links__Never": {
+      "message": "Niciodată"
+   },
+   "options__values__footnote_links__On_Print": {
+      "message": "Imprimă"
+   },
+   "options__values__large_graphics__Do_Nothing": {
+      "message": "Afișați întotdeauna"
+   },
+   "options__values__large_graphics__Hide_Always": {
+      "message": "Ascundeți întotdeauna"
+   },
+   "options__values__large_graphics__Hide_on_Print": {
+      "message": "Ascundeți la Imprimare"
+   },
+   "options__values__menu_placement__Bottom_Right": {
+      "message": "Dreapta jos"
+   },
+   "options__values__menu_placement__Top_Right": {
+      "message": "Dreapta sus"
+   },
+   "options__values__speech_gender__default": {
+      "message": "Implicit"
+   },
+   "options__values__speech_gender__female": {
+      "message": "Feminin (dacă este disponibil)"
+   },
+   "options__values__speech_gender__male": {
+      "message": "Masculin (dacă este disponibil)"
+   },
+   "options__values__speech_speed__fast": {
+      "message": "Rapid"
+   },
+   "options__values__speech_speed__faster": {
+      "message": "Mai repede"
+   },
+   "options__values__speech_speed__fastest": {
+      "message": "Cel mai rapid"
+   },
+   "options__values__speech_speed__normal": {
+      "message": "Normal"
+   },
+   "options__values__speech_speed__slow": {
+      "message": "Lent"
+   },
+   "options__values__speech_speed__slower": {
+      "message": "Mai lent"
+   },
+   "options__values__speech_speed__slowest": {
+      "message": "Cel mai lent"
+   },
+   "options__values__text_align__Justified": {
+      "message": "Justified"
+   },
+   "options__values__text_align__Normal": {
+      "message": "Normal"
+   },
+   "register__after__1": {
+      "message": "Contul tău Evernote este acum împerecheat cu Clearly"
+   },
+   "register__after__2": {
+      "message": "Fă click pe pictograma Evernote în bara laterală Clearly pentru a salva instantaneu un articol"
+   },
+   "register__after__3": {
+      "message": "Luați-vă Evernote pe toate dispozitivele pentru a citi oriunde, oricând"
+   },
+   "register__after__heading": {
+      "message": "Înregistrare completă"
+   },
+   "register__agree": {
+      "message": "Făcând clic pe ”sign in” sunteti de acord cu  [=terms] și [=privacy] noastre"
+   },
+   "register__agree__privacy": {
+      "message": "Politica de confidențialitate"
+   },
+   "register__agree__terms": {
+      "message": "Termeni de utilizare"
+   },
+   "register__button": {
+      "message": "Înscriere"
+   },
+   "register__captcha__error__incorrect": {
+      "message": "Captcha este incorect."
+   },
+   "register__captcha__error__required": {
+      "message": "Captcha este necesar"
+   },
+   "register__captcha__label": {
+      "message": "Captcha"
+   },
+   "register__email__error__conflict": {
+      "message": "Acest Email este deja asociat cu un cont"
+   },
+   "register__evernote_heading": {
+      "message": "Munca ta de o viață"
+   },
+   "register__evernote_text": {
+      "message": "Pentru tot ce faci, Evernote este spațiul de lucru unde lucrurile sunt făcute"
+   },
+   "register__page_title": {
+      "message": "Clearly / Înregistrare"
+   },
+   "register__text": {
+      "message": "Folosind Clearly cu un cont Evernote îți va permite să-ți salvezi toate articolele și să le citești mai târziu pe orice dispozitiv."
+   }
+}

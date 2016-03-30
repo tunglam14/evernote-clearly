@@ -1,0 +1,698 @@
+{
+   "chrome_browser_action": {
+      "message": "ดูหน้านี้ใน Clearly"
+   },
+   "chrome_context_menu": {
+      "message": "Clearly"
+   },
+   "firefox_button": {
+      "message": "Clearly"
+   },
+   "firefox_button_tooltip": {
+      "message": "ดูหน้านี้ด้วย Clearly"
+   },
+   "firefox_context_menu": {
+      "message": "Clearly"
+   },
+   "firefox_menu": {
+      "message": "Clearly"
+   },
+   "inside__blank__heading": {
+      "message": "เคล็ดลับการใช้ Evernote Clearly"
+   },
+   "inside__blank__text": {
+      "message": "ขณะนี้ Clearly ได้รับการออกแบบให้ทำงานใน หน้าบทความ หน้าบทความคือหน้าใดๆ ที่มีกลุ่มข้อความขนาดใหญ่หนึ่งกลุ่ม เช่น บทความในหนังสือพิมพ์หรือโพสต์ในบล็อก"
+   },
+   "inside__features__clipping__text": {
+      "message": "บันทึกสิ่งที่คุณกำลังอ่านในบัญชี Evernote ของคุณด้วยการคลิกเดียว เข้าถึงคลิปต่างๆ ได้จากอุปกรณ์ใดๆ ได้ทุกเมื่อที่ต้องการใน Evernote"
+   },
+   "inside__features__clipping__title": {
+      "message": "คลิปลงใน Evernote"
+   },
+   "inside__features__close2": {
+      "message": "ปิด"
+   },
+   "inside__features__eula": {
+      "message": "ข้อตกลงใช้งานสำหรับผู้ใช้ปลายทาง"
+   },
+   "inside__features__eula_notice": {
+      "message": "ด้วยการใช้ Clearly แสดงว่าคุณได้ยอมรับใน [=eula] ของเรา"
+   },
+   "inside__features__highlighting__text": {
+      "message": "เน้นข้อความที่คุณต้องการจดจำ และค้นหาได้อย่างรวดเร็วในบัญชี Evernote ของคุณ การเน้นที่คุณกระทำใน Clearly จะถูกอัพเดตในบัญชี Evernote ของคุณโดยอัตโนมัติ"
+   },
+   "inside__features__highlighting__title": {
+      "message": "การเน้น"
+   },
+   "inside__features__related_notes__text": {
+      "message": "การค้นหาบันทึกย่อใหม่อย่างอัศจรรย์จากบัญชี Evernote ของคุณที่เกี่ยวข้องกับเพจที่คุณกำลังดู บันทึกย่อที่เกี่ยวข้องจะแสดงอยู่ที่ด้านล่างของบทความ  หรืออยู่ทางด้านขวาหากมีพื้นที่ว่าง"
+   },
+   "inside__features__related_notes__title": {
+      "message": "บันทึกย่อที่เกี่ยวข้อง"
+   },
+   "inside__features__smart_filing__text": {
+      "message": "กำหนดแท็กในคลิปบนเว็บของคุณโดยอัตโนมัติและบันทึกในสมุดบันทึกย่อที่เหมาะสม ดังนั้นคุณไม่จำเป็นต้องทำ"
+   },
+   "inside__features__smart_filing__title": {
+      "message": "Smart Filing"
+   },
+   "inside__features__speech__no_language_explanation": {
+      "message": "Evernote Clearly ไม่สามารถระบุภาษาของบทความนี้ได้ หากคุณรู้จักภาษานี้ โปรดเลือกด้านล่างแล้วเราจะแสดงเป็นภาษานั้น"
+   },
+   "inside__features__speech__no_language_title": {
+      "message": "ไม่รองรับภาษา"
+   },
+   "inside__features__speech__text": {
+      "message": "นั่งลงและให้ Clearly อ่านโพสต์ในบล็อก บทความ และเว็บเพจให้กับคุณด้วยคุณลักษณะข้อความเป็นคำพูดใหม่ ซึ่งสามารถใช้ได้เป็นพิเศษสำหรับสมาชิก Evernote ระดับพรีเมียมเท่านั้น"
+   },
+   "inside__features__speech__text__available": {
+      "message": "ข้อความเป็นคำพูดใน 21 ภาษา:"
+   },
+   "inside__features__speech__text__available_languages": {
+      "message": "อังกฤษ, ญี่ปุ่น, สเปน, ฝรั่งเศส, เยอรมัน, จีน, เกาหลี, อาราบิก, เชค, เดนมาร์ก, ฮอลแลนด์, ฟินแลนด์, กรีก, ฮังการี, อิตาลี, นอร์เวย์, โปแลนด์, โปรตุเกส, รัสเซีย, สวีเดน และตุรกี"
+   },
+   "inside__features__speech__text__cancel": {
+      "message": "ยกเลิก"
+   },
+   "inside__features__speech__text__language": {
+      "message": "ไม่รองรับภาษา"
+   },
+   "inside__features__speech__text__play": {
+      "message": "เล่นโดยใช้ภาษานี้"
+   },
+   "inside__features__speech__text__powered": {
+      "message": "Evernote Clearly สนับสนุนโดย [=service]"
+   },
+   "inside__features__speech__text__requires": {
+      "message": "ต้องมี [=product]"
+   },
+   "inside__features__speech__text__try": {
+      "message": "ลองข้อความเป็นคำพูด"
+   },
+   "inside__features__speech__text__upgrade": {
+      "message": "อัพเกรดเป็น Evernote ระดับพรีเมียม"
+   },
+   "inside__features__speech__title": {
+      "message": "ข้อความเป็นคำพูด"
+   },
+   "inside__features__title__all": {
+      "message": "ขอต้อนรับเข้าสู่ Evernote Clearly ใหม่"
+   },
+   "inside__features__title__new": {
+      "message": "คุณมีรุ่นใหม่ของ Evernote Clearly"
+   },
+   "inside__filing_info__add_tag": {
+      "message": "เพิ่มแท็ก"
+   },
+   "inside__filing_info__change_notebook": {
+      "message": "เปลี่ยนแปลงสมุดบันทึก"
+   },
+   "inside__filing_info__clipped": {
+      "message": "คลิป"
+   },
+   "inside__filing_info__default_notebook": {
+      "message": "สมุดบันทึกเริ่มต้นของคุณ"
+   },
+   "inside__filing_info__edit": {
+      "message": "แก้ไข"
+   },
+   "inside__filing_info__find_notebook": {
+      "message": "ค้นหาสมุดบันทึก"
+   },
+   "inside__filing_info__no_tags": {
+      "message": "ไม่อนุญาตให้ใช้แท็ก"
+   },
+   "inside__filing_info__open_note": {
+      "message": "เปิดบันทึก"
+   },
+   "inside__filing_info__refresh_notebooks": {
+      "message": "รีเฟรชรายการสมุดบันทึก"
+   },
+   "inside__filing_info__refresh_tags": {
+      "message": "รีเฟรชรายการแท็ก"
+   },
+   "inside__filing_info__remove_tag": {
+      "message": "เอาแท็กออก"
+   },
+   "inside__filing_info__sentence": {
+      "message": "คลิปลงในสมุดบันทึก [=notebook] และแท็กด้วย [=tags]"
+   },
+   "inside__filing_info__sentence_and": {
+      "message": "และ"
+   },
+   "inside__filing_info__sentence_no_tags": {
+      "message": "คลิปลงในสมุดบันทึก [=notebook]"
+   },
+   "inside__filing_info__sentence_other_tags": {
+      "message": "แท็กอื่น"
+   },
+   "inside__filing_info__title_normal": {
+      "message": "จัดเก็บไฟล์ใน:"
+   },
+   "inside__filing_info__title_smart": {
+      "message": "จัดเก็บไฟล์อัจฉริยะใน:"
+   },
+   "inside__filing_info__view": {
+      "message": "ดู"
+   },
+   "inside__footer__button": {
+      "message": "สร้างบัญชี"
+   },
+   "inside__footer__text": {
+      "message": "รับบัญชี Evernote ฟรีเพื่อบันทึกบทความนี้และดูบทความในภายหลังในอุปกรณ์ใดๆ"
+   },
+   "inside__login__button_cancel__label": {
+      "message": "ยกเลิก"
+   },
+   "inside__login__button_do__label": {
+      "message": "ลงชื่อเข้าใช้"
+   },
+   "inside__login__create_account": {
+      "message": "สร้างบัญชี"
+   },
+   "inside__login__email__error__format": {
+      "message": "อีเมลมีอักขระที่ไม่ถูกต้อง"
+   },
+   "inside__login__email__error__invalid": {
+      "message": "ไม่ใช่ผู้ใช้ที่ถูกต้องและใช้งานอยู่"
+   },
+   "inside__login__email__error__length": {
+      "message": "อีเมลต้องมีความยาวอักขระระหว่าง 1 ถึง 64 ตัว"
+   },
+   "inside__login__email__error__required": {
+      "message": "ต้องมีอีเมล"
+   },
+   "inside__login__email__label": {
+      "message": "อีเมล"
+   },
+   "inside__login__general__error": {
+      "message": "การรับรองความถูกต้องล้มเหลว"
+   },
+   "inside__login__heading": {
+      "message": "ลงชื่อเข้าใช้ Evernote"
+   },
+   "inside__login__password__error__format": {
+      "message": "รหัสผ่านมีอักขระที่ไม่ถูกต้อง โปรดแก้ไขก่อน"
+   },
+   "inside__login__password__error__invalid": {
+      "message": "อีเมลและรหัสผ่านไม่ตรงกับผู้ใช้ที่มีอยู่"
+   },
+   "inside__login__password__error__length": {
+      "message": "รหัสผ่านต้องมีความยาวอักขระระหว่าง 6 ถึง 64 ตัว"
+   },
+   "inside__login__password__error__required": {
+      "message": "ต้องระบุรหัสผ่าน"
+   },
+   "inside__login__password__error__reset": {
+      "message": "รหัสผ่านของคุณหมดอายุ โปรดกำหนดใหม่ตอนนี้"
+   },
+   "inside__login__password__error__timeout": {
+      "message": "หมดเวลาเซสชันการเข้าสู่ระบบ โปรดลองอีกครั้ง"
+   },
+   "inside__login__password__label": {
+      "message": "รหัสผ่าน"
+   },
+   "inside__login__rememberMe__label": {
+      "message": "จดจำฉันไว้"
+   },
+   "inside__login__spinner": {
+      "message": "การลงชื่อเข้าใช้ Evernote"
+   },
+   "inside__menu__clip_to_evernote__tooltip": {
+      "message": "คลิปลงใน Evernote."
+   },
+   "inside__menu__close__tooltip": {
+      "message": "ซ่อนโอเวอร์เลย์"
+   },
+   "inside__menu__fitts__tooltip": {
+      "message": "ซ่อนโอเวอร์เลย์"
+   },
+   "inside__menu__highlight_to_evernote__tooltip": {
+      "message": "เน้น"
+   },
+   "inside__menu__print__tooltip": {
+      "message": "พิมพ์"
+   },
+   "inside__menu__settings__tooltip": {
+      "message": "แสดงธีม"
+   },
+   "inside__menu__speak__forward__tooltip": {
+      "message": "ไปข้างหน้า"
+   },
+   "inside__menu__speak__pause__tooltip": {
+      "message": "พัก"
+   },
+   "inside__menu__speak__play__tooltip": {
+      "message": "เล่น"
+   },
+   "inside__menu__speak__rewind__tooltip": {
+      "message": "ย้อนกลับ"
+   },
+   "inside__menu__speak__tooltip": {
+      "message": "ข้อความเป็นคำพูด"
+   },
+   "inside__misc__clipping__doing": {
+      "message": "กำลังคลิป..."
+   },
+   "inside__misc__clipping__failed": {
+      "message": "การคลิปล้มเหลว"
+   },
+   "inside__misc__login_request": {
+      "message": "เมื่อต้องการลงชื่อเข้าใช้ใน Evernote โปรดคลิ๊กไอคอน Clearly ในแถบเครื่องมือ"
+   },
+   "inside__misc__login_request__chrome": {
+      "message": "เมื่อต้องการลงชื่อเข้าใช้ใน Evernote โปรดคลิ๊กที่ไอคอน Clearly ในแถบเครื่องมือของ Chrome"
+   },
+   "inside__misc__login_request__firefox": {
+      "message": "เมื่อต้องการลงชื่อเข้าใช้ใน Evernote โปรดคลิ๊กที่ไอคอน Clearly ในแถบเครื่องมือของ Firefox"
+   },
+   "inside__misc__login_request__opera": {
+      "message": "เมื่อต้องการลงชื่อเข้าใช้ใน Evernote โปรดคลิ๊กที่ไอคอน Clearly ในแถบเครื่องมือของ Opera"
+   },
+   "inside__misc__page": {
+      "message": "เพจ [=page]"
+   },
+   "inside__related_notes__disable_long": {
+      "message": "คุณต้องการปิดใช้งานบันทึกย่อที่เกี่ยวข้องหรือไม่?"
+   },
+   "inside__related_notes__disable_short": {
+      "message": "ปิดใช้งานหรือไม่?"
+   },
+   "inside__related_notes__title": {
+      "message": "บันทึกย่อที่เกี่ยวข้อง"
+   },
+   "inside__reminder__button": {
+      "message": "อ่านด้วย Clearly"
+   },
+   "inside__reminder__heading": {
+      "message": "รับประโยชน์เพิ่มขึ้นจากการอ่านออนไลน์ ด้วย Clearly"
+   },
+   "inside__reminder__text": {
+      "message": "เพียงคลิกเดียว สามารถกำจัดสิ่งรบกวนทั้งหมดของบทความออกได้ ด้วยการคลิกอีกครั้งเดียว ก็สามารถบันทึกบทความไว้ใน Evernote ได้ตลอดกาล ทดลองตอนนี้!"
+   },
+   "inside__rtl__ltr__label": {
+      "message": "ซ้ายไปขวา"
+   },
+   "inside__rtl__main__label": {
+      "message": "ทิศทางของข้อความ?"
+   },
+   "inside__rtl__rtl__label": {
+      "message": "ขวาไปซ้าย"
+   },
+   "inside__settings__fontSize__large": {
+      "message": "ใหญ่"
+   },
+   "inside__settings__fontSize__medium": {
+      "message": "กลาง"
+   },
+   "inside__settings__fontSize__small": {
+      "message": "เล็ก"
+   },
+   "inside__settings__more_options": {
+      "message": "ตัวเลือกเพิ่มเติม"
+   },
+   "inside__settings__theme__1": {
+      "message": "กระดาษหนังสือพิมพ์"
+   },
+   "inside__settings__theme__2": {
+      "message": "โดดเด่น"
+   },
+   "inside__settings__theme__3": {
+      "message": "ตัวอักษรขาวบนพื้นดำ"
+   },
+   "inside__settings__theme__custom": {
+      "message": "กำหนดเอง"
+   },
+   "inside__two_factor__button_do__label": {
+      "message": "ต่อไป"
+   },
+   "inside__two_factor__button_help__label": {
+      "message": "ฉันต้องการความช่วยเหลือในการรับรหัสการตรวจสอบ"
+   },
+   "inside__two_factor__code__error__format": {
+      "message": "รหัสการตรวจสอบควรเป็นตัวเลขเท่านั้น"
+   },
+   "inside__two_factor__code__error__invalid": {
+      "message": "รหัสการตรวจสอบไม่ถูกต้อง"
+   },
+   "inside__two_factor__code__error__length": {
+      "message": "รหัสการตรวจสอบควรมีความยาวอักขระอย่างน้อย 6 ตัว"
+   },
+   "inside__two_factor__code__error__required": {
+      "message": "ต้องมีรหัสการตรวจสอบ"
+   },
+   "inside__two_factor__code__label": {
+      "message": "รหัสหกหลัก"
+   },
+   "inside__two_factor__message__google": {
+      "message": "ป้อนรหัสที่แสดงที่แสดงในแอพฯ การรับรองความถูกต้องของ Google ของคุณ"
+   },
+   "inside__two_factor__message__sms": {
+      "message": "เราส่งข้อความที่มีรหัสการตรวจสอบไปยัง"
+   },
+   "meta_extension_author": {
+      "message": "Evernote Corp."
+   },
+   "meta_extension_description": {
+      "message": "Clearly ทำให้โพสต์ในบล็อก บทความ และเว็บเพจสะอาดและอ่านได้ง่าย บันทึกลงใน Evernote เพื่ออ่านในที่ใดก็ได้"
+   },
+   "meta_extension_name": {
+      "message": "Clearly"
+   },
+   "options__account__sign_out": {
+      "message": "ลงชื่อเข้าใช้อย่างถาวรเป็น [[=username]]"
+   },
+   "options__account__sign_out_link": {
+      "message": "ลงชื่อออก"
+   },
+   "options__account__signed_out": {
+      "message": "คุณไม่ได้ลงชื่อเข้าใช้อย่างถาวร คลิกที่ไอคอน Evernote ในแถบด้านข้าง Clearly เพื่อลงชื่อเข้าใช้"
+   },
+   "options__base__label": {
+      "message": "CSS พื้นฐาน"
+   },
+   "options__box_width__label": {
+      "message": "ความกว้างของบรรทัด"
+   },
+   "options__button__more_options": {
+      "message": "ตัวเลือกเพิ่มเติม"
+   },
+   "options__button__reset_custom": {
+      "message": "ตั้งค่าใหม่"
+   },
+   "options__button__save_custom": {
+      "message": "บันทึกธีม"
+   },
+   "options__button__save_general": {
+      "message": "บันทึกตัวเลือก"
+   },
+   "options__clip_notebook__business": {
+      "message": "สมุดบันทึกทางธุรกิจ"
+   },
+   "options__clip_notebook__default": {
+      "message": "ค่าปริยาย"
+   },
+   "options__clip_notebook__shared": {
+      "message": "สมุดบันทึกที่ใช้ร่วมกัน"
+   },
+   "options__clip_notebook__smart__label": {
+      "message": "ใช้ Smart Filing"
+   },
+   "options__clip_notebook__specific__label": {
+      "message": "ใช้สมุดบันทึกที่ระบุ"
+   },
+   "options__clip_notebook__your": {
+      "message": "สมุดบันทึกของคุณ"
+   },
+   "options__clip_tag__smart__label": {
+      "message": "ใช้ Smart Filing"
+   },
+   "options__clip_tag__specific__label": {
+      "message": "ใช้แท็กที่ระบุ"
+   },
+   "options__color_background__label": {
+      "message": "สีพื้นหลัง"
+   },
+   "options__color_links__label": {
+      "message": "สีของลิงก์"
+   },
+   "options__color_text__label": {
+      "message": "สีพื้นหน้า"
+   },
+   "options__custom_css__label": {
+      "message": "CSS ที่กำหนดเอง"
+   },
+   "options__footnote_links__label": {
+      "message": "ลิงก์เป็นเชิงอรรถ"
+   },
+   "options__keys_activation__label": {
+      "message": "ดูหน้าใน Clearly"
+   },
+   "options__keys_clip__label": {
+      "message": "คลิปลงใน Evernote"
+   },
+   "options__keys_highlight__label": {
+      "message": "เน้น"
+   },
+   "options__keys_speech__label": {
+      "message": "ข้อความเป็นคำพูด"
+   },
+   "options__large_graphics__label": {
+      "message": "กราฟิกขนาดใหญ่"
+   },
+   "options__message__keys": {
+      "message": "หากต้องการเปลี่ยน ให้วางเคอร์เซอร์ในช่องข้อมูล แล้วกดปุ่มบนแป้นพิมพ์พร้อมกัน"
+   },
+   "options__message__keys_firefox": {
+      "message": "เริ่มเบราว์เซอร์ของคุณใหม่ หลังจากบันทึก"
+   },
+   "options__message__notebook": {
+      "message": "สมุดบันทึกที่จะคลิป เมื่อคุณคลิปลงใน Evernote"
+   },
+   "options__message__open_notes_in": {
+      "message": "เมื่อเปิดบันทึกย่อจาก Clearly ให้ใช้ Evernote ไคลเอ็นต์ที่ระบุ"
+   },
+   "options__message__related_notes": {
+      "message": "ให้ Evernote ดึงคลิปจากบัญชีของคุณ ซึ่งอาจเกี่ยวข้องกับสิ่งที่คุณกำลังอ่านอยู่ตอนนี้"
+   },
+   "options__message__smart_filing": {
+      "message": "ให้ Evernote กำหนดว่าคลิปสมุดบันทึกใดที่ควรเข้าไปดู และแท็กใดที่ควรรับ"
+   },
+   "options__message__tags": {
+      "message": "แท็กที่จะใช้เมื่อคุณตัดใน Evernote"
+   },
+   "options__misc__print_preview": {
+      "message": "ตัวอย่างก่อนพิมพ์"
+   },
+   "options__misc__reset_theme": {
+      "message": "ตั้งค่าธีมที่กำหนดเอง"
+   },
+   "options__misc__reset_theme__confirm": {
+      "message": "ขั้นตอนนี้จะตั้งค่าธีมที่กำหนดเองของคุณให้เป็นเหมือนกับค่าธีมเริ่มต้น คุณแน่ใจหรือว่าต้องการดำเนินการนี้"
+   },
+   "options__misc__saved": {
+      "message": "การตั้งค่าจะมีผลต่อแท็บใหม่ใดๆ ที่คุณใช้ Clearly"
+   },
+   "options__misc__saving": {
+      "message": "กำลังบันทึก"
+   },
+   "options__open_notes_in__desktop__label": {
+      "message": "ไคลเอ็นต์ของเดสก์ท็อป"
+   },
+   "options__open_notes_in__web__label": {
+      "message": "ไคลเอ็นต์ของเว็บ"
+   },
+   "options__related_notes__disabled__label": {
+      "message": "ปิดใช้งานบันทึกย่อที่เกี่ยวข้อง"
+   },
+   "options__related_notes__enabled__label": {
+      "message": "เปิดใช้งานบันทึกย่อที่เกี่ยวข้อง"
+   },
+   "options__related_notes__just_at_bottom__label": {
+      "message": "เปิดใช้งานบันทึกย่อที่เกี่ยวข้อง แต่แสดงที่ด้านล่างเท่านั้น"
+   },
+   "options__smart_filing__disabled__label": {
+      "message": "ปิดใช้งาน Smart Filing"
+   },
+   "options__smart_filing__enabled__label": {
+      "message": "เปิดใช้งาน Smart Filing"
+   },
+   "options__smart_filing__just_notebooks__label": {
+      "message": "เปิดใช้งาน Smart Filing สำหรับสมุดบันทึกเท่านั้น"
+   },
+   "options__smart_filing__just_tags__label": {
+      "message": "เปิดใช้งาน Smart Filing แต่เฉพาะแท็กเท่านั้น"
+   },
+   "options__smart_filing_for_business__notebooks__label": {
+      "message": "สำหรับสมุดบันทึกทางธุรกิจเช่นกัน"
+   },
+   "options__smart_filing_for_business__tags__label": {
+      "message": "สำหรับแท็กธุรกิจด้วย"
+   },
+   "options__speech_demo__label": {
+      "message": "สาธิต"
+   },
+   "options__speech_gender__label": {
+      "message": "เสียงในการอ่าน"
+   },
+   "options__speech_speed__label": {
+      "message": "ความเร็วในการอ่าน"
+   },
+   "options__text_align__label": {
+      "message": "จัดแนวข้อความ"
+   },
+   "options__text_font__label": {
+      "message": "แบบอักษรของเนื้อความ"
+   },
+   "options__text_font_header__label": {
+      "message": "แบบอักษรส่วนหัว"
+   },
+   "options__text_font_monospace__label": {
+      "message": "แบบอักษรที่มีช่องว่างเท่ากัน"
+   },
+   "options__text_line_height__label": {
+      "message": "ความสูงของบรรทัด"
+   },
+   "options__text_size__label": {
+      "message": "ขนาดแบบอักษรพื้นฐาน"
+   },
+   "options__title__custom": {
+      "message": "ธีมที่กำหนดเอง"
+   },
+   "options__title__features": {
+      "message": "Clearly คุณลักษณะ"
+   },
+   "options__title__general": {
+      "message": "ตัวเลือก"
+   },
+   "options__title__page": {
+      "message": "Clearly / ตัวเลือก"
+   },
+   "options__title__speech": {
+      "message": "ข้อความเป็นคำพูด"
+   },
+   "options__title__sub__account": {
+      "message": "บัญชี"
+   },
+   "options__title__sub__keyboard": {
+      "message": "ทางลัดแป้นพิมพ์"
+   },
+   "options__title__sub__notebook": {
+      "message": "การเลือกสมุดบันทึก"
+   },
+   "options__title__sub__open_notes_in": {
+      "message": "เปิดบันทึกย่อใน"
+   },
+   "options__title__sub__related_notes": {
+      "message": "บันทึกย่อที่เกี่ยวข้อง"
+   },
+   "options__title__sub__smart_filing": {
+      "message": "Smart Filing"
+   },
+   "options__title__sub__tags": {
+      "message": "การเลือกแท็ก"
+   },
+   "options__values__base__Blueprint": {
+      "message": "แบบพิมพ์เขียว"
+   },
+   "options__values__base__None": {
+      "message": "ไม่มี"
+   },
+   "options__values__base__Theme_1": {
+      "message": "คลาสสิก"
+   },
+   "options__values__base__Theme_2": {
+      "message": "ทันสมัย"
+   },
+   "options__values__base__Theme_3": {
+      "message": "เวลากลางคืน"
+   },
+   "options__values__footnote_links__Always": {
+      "message": "เสมอ"
+   },
+   "options__values__footnote_links__Never": {
+      "message": "ไม่เคย"
+   },
+   "options__values__footnote_links__On_Print": {
+      "message": "ในงานพิมพ์"
+   },
+   "options__values__large_graphics__Do_Nothing": {
+      "message": "แสดงเสมอ"
+   },
+   "options__values__large_graphics__Hide_Always": {
+      "message": "ซ่อนเสมอ"
+   },
+   "options__values__large_graphics__Hide_on_Print": {
+      "message": "ซ่อนเมื่อพิมพ์"
+   },
+   "options__values__menu_placement__Bottom_Right": {
+      "message": "ล่างขวา"
+   },
+   "options__values__menu_placement__Top_Right": {
+      "message": "ขวาบน"
+   },
+   "options__values__speech_gender__default": {
+      "message": "ค่าเริ่มต้น"
+   },
+   "options__values__speech_gender__female": {
+      "message": "ผู้หญิง (หากใช้ได้)"
+   },
+   "options__values__speech_gender__male": {
+      "message": "ผู้ชาย (หากใช้ได้)"
+   },
+   "options__values__speech_speed__fast": {
+      "message": "เร็ว"
+   },
+   "options__values__speech_speed__faster": {
+      "message": "เร็วขึ้น"
+   },
+   "options__values__speech_speed__fastest": {
+      "message": "เร็วที่สุด"
+   },
+   "options__values__speech_speed__normal": {
+      "message": "ปกติ"
+   },
+   "options__values__speech_speed__slow": {
+      "message": "ช้า"
+   },
+   "options__values__speech_speed__slower": {
+      "message": "ช้าลง"
+   },
+   "options__values__speech_speed__slowest": {
+      "message": "ช้าที่สุด"
+   },
+   "options__values__text_align__Justified": {
+      "message": "ชิดขอบ"
+   },
+   "options__values__text_align__Normal": {
+      "message": "ปกติ"
+   },
+   "register__after__1": {
+      "message": "บัญชี Evernote ของคุณได้จับคู่กับ Clearly แล้วตอนนี้"
+   },
+   "register__after__2": {
+      "message": "คลิกไอคอน Evernote ในแถบด้านข้างของ Clearly เพื่อบันทึกบทความได้ทันที"
+   },
+   "register__after__3": {
+      "message": "รับ Evernote บนอุปกรณ์ทั้งหมดของคุณเพื่ออ่านได้ทุกที่ทุกเวลา"
+   },
+   "register__after__heading": {
+      "message": "การลงทะเบียนเสร็จสมบูรณ์"
+   },
+   "register__agree": {
+      "message": "เมื่อคลิก 'ลงทะเบียน' แสดงว่าคุณยอมรับใน [=terms] และ [=privacy] ของเรา"
+   },
+   "register__agree__privacy": {
+      "message": "นโยบายความเป็นส่วนตัว"
+   },
+   "register__agree__terms": {
+      "message": "เงื่อนไขการใช้บริการ"
+   },
+   "register__button": {
+      "message": "ลงทะเบียน"
+   },
+   "register__captcha__error__incorrect": {
+      "message": "Captcha ไม่ถูกต้อง"
+   },
+   "register__captcha__error__required": {
+      "message": "ต้องมี Captcha"
+   },
+   "register__captcha__label": {
+      "message": "Captcha"
+   },
+   "register__email__error__conflict": {
+      "message": "อีเมลได้เชื่อมโยงกับบัญชีแล้ว"
+   },
+   "register__evernote_heading": {
+      "message": "งานในชีวิตคุณ"
+   },
+   "register__evernote_text": {
+      "message": "สำหรับทุกสิ่งที่คุณจะทำ Evernote คือพื้นที่ทำงานที่ช่วยจัดการทุกอย่างได้"
+   },
+   "register__page_title": {
+      "message": "Clearly / ลงทะเบียน"
+   },
+   "register__text": {
+      "message": "การใช้ Clearly กับบัญชี Evernote จะทำให้คุณสามารถบันทึกบทความของคุณทั้งหมดและอ่านบนอุปกรณ์ต่างๆ ได้ในภายหลัง"
+   }
+}

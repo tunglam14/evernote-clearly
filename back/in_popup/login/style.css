@@ -1,0 +1,230 @@
+
+/* frame */
+/* ===== */
+
+    html.popup, body.popup { padding: 0; margin: 0; }
+
+
+
+     html.popup { width: 418px; height: 269px; }
+    body.popup { padding: 4px; }
+
+
+    body.popup #bodyContent { padding: 20px; background-color: #f3f2ee; }
+    #login__container { position: relative; width: 370px; height: 221px; }
+
+
+/* cover */
+/* ===== */
+    
+    body.showCover #cover { display: block; }
+    #cover {
+        position: fixed; top: 0; left: 0;
+        width: 100%; height: 100%;
+        background-color: #fff;
+        z-index: 10;
+        display: none;
+    }
+
+/* general */
+/* ======= */
+
+    .theFont
+    {
+        font-family: Helvetica, Arial, sans-serif !important;
+        font-size: 13px; line-height: 1;
+        color: #454545;
+    }
+
+    .dialogInput
+    {
+        font-family: Helvetica, Arial, sans-serif !important;
+        font-size: 13px; line-height: 16px;
+        margin: 0;
+        height: 16px;
+        background-color: #fff; color: #2E2F29;
+        border: 1px solid #DDDAD6; border-radius: 5px;
+        padding: 10px; padding-top: 7px; padding-bottom: 7px;
+    }
+
+    .dialogButton
+    {
+        margin: 0;
+        padding: 8px 12px;
+        font-family: Helvetica, Arial, sans-serif !important; font-size: 13px; font-weight: bold; line-height: 18px;
+        text-align: center; text-shadow: 0 1px rgba(255, 255, 255, .7);
+        color: #3e3e37;
+        border: 1px solid #ccccc5; border-radius: 5px;
+        background: #dfdfd6; /* Old browsers */
+        background: -moz-linear-gradient(top, #e6e6df 0%, #dfdfd6 20%, #dfdfd6 80%, #e6e6df 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e6e6df), color-stop(20%,#dfdfd6), color-stop(80%,#dfdfd6), color-stop(100%,#e6e6df)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top, #e6e6df 0%,#dfdfd6 20%,#dfdfd6 80%,#e6e6df 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top, #e6e6df 0%,#dfdfd6 20%,#dfdfd6 80%,#e6e6df 100%); /* Opera11.10+ */
+        background: -ms-linear-gradient(top, #e6e6df 0%,#dfdfd6 20%,#dfdfd6 80%,#e6e6df 100%); /* IE10+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6e6df', endColorstr='#e6e6df',GradientType=0 ); /* IE6-9 */
+        background: linear-gradient(top, #e6e6df 0%,#dfdfd6 20%,#dfdfd6 80%,#e6e6df 100%); /* W3C Chrome10+,Safari5.1+ */
+    }
+    
+    .dialogError { color: #FF0000; /* font-style: italic; */ }
+    a { text-decoration: none; color: #009900 !important; }
+
+
+
+/* top */
+/* === */
+
+    #login__container #login__logo__cn { background-position: 0px -40px; }
+    #login__container a.loginLogo
+    {
+        position: absolute;
+        top: 0px; left: 0px;
+        width: 198px; height: 40px;
+        background-image: url('chrome-extension://iooicodkiihhpojmmeghjclgihfjdjhj/front/img/evernote-logo.png');
+        background-position: top left; background-repeat: no-repeat;
+    }
+    
+    #login__container_which #login__logo__cn { display: none; }
+    #login__container_which #login__logo__in { display: block; }
+
+    #login__container_which.cn #login__logo__cn { display: block; }
+    #login__container_which.cn #login__logo__in { display: none; }
+    
+    #login__container_which.cn_in #login__logo__cn { display: block; }
+    #login__container_which.cn_in #login__logo__in { display: none; }
+
+    #login__spinner
+    {
+        display: none;
+        position: absolute;
+        top: 3px; left: 205px;
+        width: 32px; height: 32px;
+        background-image: url('chrome-extension://iooicodkiihhpojmmeghjclgihfjdjhj/front/img/loading--small.gif');
+    }
+    #login__container_which.cn_in #login__spinner { left: 129px; }
+    #login__container.showSpinner #login__spinner { display: block; }
+    
+    #login__container a.registerLink {
+        position: absolute; top: 10px; right: 0;
+        line-height: 16px; color: #848486 !important;
+    }
+    
+    #login__container_which #login__register__cn { display: none; }
+    #login__container_which #login__register__in { display: inline; }
+    
+    #login__container_which.cn_in #login__register__in { display: none; }
+    #login__container_which.cn_in #login__register__cn { display: inline; }
+
+    #login__container_which.cn #login__register__in { display: none; }
+    #login__container_which.cn #login__register__cn { display: inline; }
+    
+    
+/* middle */
+/* ====== */
+
+    #login__container .dialogError { display: none; overflow: hidden; z-index: 1000; }
+    #login__container .dialogError::after {
+        content: " "; background-color: #fff;
+        display: block; position: absolute;
+        bottom: 0; left: 0;
+        height: 6px; width: 100%;
+    }
+
+    #login__container .dialogError,
+    #login__container label.dialogInput { cursor: text; }
+
+    #login__container .dialogInput { position: absolute; left: 0; width: 348px; }
+    
+    #login__email, #login__email__label, #login__email__error { top: 70px; }
+    #login__password, #login__password__label, #login__password__error { top: 116px; }
+    
+    #login__container.showEmailError #login__email__error { display: block; }
+    #login__container.showPasswordError #login__password__error { display: block; }
+    #login__container.showCodeError #two_factor__code__error { display: block; }
+
+
+/* bottom */
+/* ====== */
+    
+    #login__container_which #login__button_do,
+    #login__container_which #two_factor__button_do {
+        position: absolute;
+        bottom: 0; left: 0px;
+        padding-left: 24px; padding-right: 24px;
+    }
+    
+    /* switchers */
+    #login__container_which a.loginSwitcher {
+        display: none;
+        position: absolute; bottom: 10px; right: 0;
+        line-height: 16px;
+        padding-right: 22px;
+        background-image: url('chrome-extension://iooicodkiihhpojmmeghjclgihfjdjhj/front/img/dialog--login--arrow.png');
+        background-position: center right; background-repeat: no-repeat;
+        color: #555 !important; text-shadow: 0 1px rgba(255, 255, 255, .7);
+    }
+    
+    #login__container_which.cn_in #login__switch_to_in { display: block; }
+    #login__container_which.in_cn #login__switch_to_cn { display: block; }
+    
+/* two-factor, password-reset */
+/* ========================== */
+
+    #two_factor, #password_reset {
+        display: none;
+        position: absolute;
+        width: 100%; height: 164px;
+        top: 57px; left: 0;
+        z-index: 100; background-color: #F3F2EE;
+    }
+    
+    #login__container.twoFactor #two_factor { display: block; }
+    #login__container.twoFactor a.registerLink { display: none !important; }
+
+    #login__container.passwordReset #password_reset { display: block; }
+    #login__container.passwordReset a.registerLink { display: none !important; }
+
+    /* two-factor */
+    /* ========== */
+
+        #two_factor div.two_factor__message { 
+            position: absolute; top: 11px; background-color: #f3f2ee;
+            line-height: 1.4; width: 256px; 
+        }
+    
+        #two_factor div.two_factor__img {
+            position: absolute; 
+            top: 0px; right: -115px;
+            width: 95px; height: 74px;
+            background-repeat: no-repeat;
+        }
+    
+        #two_factor__message__google div.two_factor__img { background-image: url('chrome-extension://iooicodkiihhpojmmeghjclgihfjdjhj/front/img/dialog--login--two-factor--google.png'); }
+        #two_factor__message__sms div.two_factor__img { background-image: url('chrome-extension://iooicodkiihhpojmmeghjclgihfjdjhj/front/img/dialog--login--two-factor--sms.png'); }
+    
+        #login__container #two_factor .dialogInput {
+            top: 59px;
+            width: 246px;
+        }
+        #two_factor__help {
+            position: absolute;
+            bottom: 13px; right: 0; width: 220px; line-height: 1.2 !important;
+            white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+        }
+
+    /* password-reset */
+    /* ============== */
+
+        #login_reset__message { position: absolute; top: 11px; line-height: 1.4; }
+        #login__container #login_reset__button { position: absolute; bottom: 0; }
+
+
+@media (min--moz-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2)
+{
+    #login__spinner { background-image: url('chrome-extension://iooicodkiihhpojmmeghjclgihfjdjhj/front/img/loading--small@2x.gif'); background-size: 32px 32px; }
+
+    #login__container a.loginLogo { background-image: url('chrome-extension://iooicodkiihhpojmmeghjclgihfjdjhj/front/img/evernote-logo@2x.png'); background-size: 198px 80px; }
+    #login__container_which a.loginSwitcher { background-image: url('chrome-extension://iooicodkiihhpojmmeghjclgihfjdjhj/front/img/dialog--login--arrow@2x.png'); background-size: 14px 14px; }
+    
+    #two_factor__message__google div.two_factor__img { background-image: url('chrome-extension://iooicodkiihhpojmmeghjclgihfjdjhj/front/img/dialog--login--two-factor--google@2x.png'); background-size: 95px 74px; }
+    #two_factor__message__sms div.two_factor__img { background-image: url('chrome-extension://iooicodkiihhpojmmeghjclgihfjdjhj/front/img/dialog--login--two-factor--sms@2x.png'); background-size: 95px 74px; }
+}

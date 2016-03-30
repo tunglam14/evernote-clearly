@@ -1,0 +1,698 @@
+{
+   "chrome_browser_action": {
+      "message": "Просмотреть эту страницу в Clearly"
+   },
+   "chrome_context_menu": {
+      "message": "Clearly"
+   },
+   "firefox_button": {
+      "message": "Clearly"
+   },
+   "firefox_button_tooltip": {
+      "message": "Показать эту страницу в Clearly"
+   },
+   "firefox_context_menu": {
+      "message": "Clearly"
+   },
+   "firefox_menu": {
+      "message": "Clearly"
+   },
+   "inside__blank__heading": {
+      "message": "Советы по использованию Evernote Clearly"
+   },
+   "inside__blank__text": {
+      "message": "Приложение Clearly разработано специально для работы со статьями. Статья - это любая страница, содержащая большой блок текста, как, например, новостная информация или запись в блоге."
+   },
+   "inside__features__clipping__text": {
+      "message": "Добавляйте все, что читаете, в аккаунт Evernote простым нажатием кнопки. Получите доступ к сохраненным страницам с любого устройства и в любое время."
+   },
+   "inside__features__clipping__title": {
+      "message": "Добавить в Evernote"
+   },
+   "inside__features__close2": {
+      "message": "Закрыть"
+   },
+   "inside__features__eula": {
+      "message": "Пользовательское соглашение"
+   },
+   "inside__features__eula_notice": {
+      "message": "Пользуясь приложением Clearly, вы соглашаетесь с нашим [=eula]."
+   },
+   "inside__features__highlighting__text": {
+      "message": "Выделяйте текст, который хотите запомнить и вы сможете быстро найти его в своем аккаунте Evernote. Все изменения, связанные с выделением текста, которые вы делаете в Clearly, будут автоматически сохраняться в вашем аккаунте Evernote."
+   },
+   "inside__features__highlighting__title": {
+      "message": "Выделение"
+   },
+   "inside__features__related_notes__text": {
+      "message": "Заметки из вашего аккаунта Evernote, которые так или иначе связаны с просматриваемой веб-страницей, волшебным образом напомнят о себе. Похожие заметки отображаются в нижней части статьи или, если позволяет место, справа от текста."
+   },
+   "inside__features__related_notes__title": {
+      "message": "Похожие заметки"
+   },
+   "inside__features__smart_filing__text": {
+      "message": "Автоматически присваивает метки скопированным страницам и сохраняет их в нужный блокнот, освобождая вас от этой работы."
+   },
+   "inside__features__smart_filing__title": {
+      "message": "Умная категоризация"
+   },
+   "inside__features__speech__no_language_explanation": {
+      "message": "Evernote Clearly не удалось определить язык данной статьи. Если вы знаете какой это язык, пожалуйста, укажите его."
+   },
+   "inside__features__speech__no_language_title": {
+      "message": "Язык не поддерживается"
+   },
+   "inside__features__speech__text": {
+      "message": "Садитесь поудобнее и позвольте Clearly прочитать для вас посты из блогов, статьи и веб-страницы. Теперь это возможно благодаря новой эксклюзивной функции преобразования текста в речь, которая доступна только обладателям Evernote Premium."
+   },
+   "inside__features__speech__text__available": {
+      "message": "Функция преобразования текста в речь доступна на 21 языке:"
+   },
+   "inside__features__speech__text__available_languages": {
+      "message": "Английский, японский, испанский, французский, немецкий, китайский, корейский, арабский, чешский, датский, голландский, финский, греческий, венгерский, итальянский, норвежский, польский, португальский, русский, шведский и турецкий."
+   },
+   "inside__features__speech__text__cancel": {
+      "message": "Отмена"
+   },
+   "inside__features__speech__text__language": {
+      "message": "Язык не поддерживается"
+   },
+   "inside__features__speech__text__play": {
+      "message": "Использовать этот язык"
+   },
+   "inside__features__speech__text__powered": {
+      "message": "Evernote Clearly использует [=service]."
+   },
+   "inside__features__speech__text__requires": {
+      "message": "Требуется [=product]."
+   },
+   "inside__features__speech__text__try": {
+      "message": "Попробовать"
+   },
+   "inside__features__speech__text__upgrade": {
+      "message": "Перейти на Evernote Premium"
+   },
+   "inside__features__speech__title": {
+      "message": "Преобразование текста в речь"
+   },
+   "inside__features__title__all": {
+      "message": "Добро пожаловать в новый Evernote Clearly!"
+   },
+   "inside__features__title__new": {
+      "message": "У вас установлена новая версия Evernote Clearly"
+   },
+   "inside__filing_info__add_tag": {
+      "message": "Добавить метку"
+   },
+   "inside__filing_info__change_notebook": {
+      "message": "Изменить блокнот"
+   },
+   "inside__filing_info__clipped": {
+      "message": "Добавлено"
+   },
+   "inside__filing_info__default_notebook": {
+      "message": "Ваш блокнот по умолчанию"
+   },
+   "inside__filing_info__edit": {
+      "message": "Редактировать"
+   },
+   "inside__filing_info__find_notebook": {
+      "message": "Поиск блокнота"
+   },
+   "inside__filing_info__no_tags": {
+      "message": "Метки запрещены"
+   },
+   "inside__filing_info__open_note": {
+      "message": "Открыть заметку"
+   },
+   "inside__filing_info__refresh_notebooks": {
+      "message": "Обновить список блокнотов"
+   },
+   "inside__filing_info__refresh_tags": {
+      "message": "Обновить список меток"
+   },
+   "inside__filing_info__remove_tag": {
+      "message": "Снять метку"
+   },
+   "inside__filing_info__sentence": {
+      "message": "Сохранено в блокнот [=notebook] с метками [=tags]."
+   },
+   "inside__filing_info__sentence_and": {
+      "message": "и"
+   },
+   "inside__filing_info__sentence_no_tags": {
+      "message": "Сохранено в блокнот [=notebook]."
+   },
+   "inside__filing_info__sentence_other_tags": {
+      "message": "другие метки"
+   },
+   "inside__filing_info__title_normal": {
+      "message": "Заполнить:"
+   },
+   "inside__filing_info__title_smart": {
+      "message": "Умная категоризация:"
+   },
+   "inside__filing_info__view": {
+      "message": "Посмотреть"
+   },
+   "inside__footer__button": {
+      "message": "Создать аккаунт"
+   },
+   "inside__footer__text": {
+      "message": "Зарегистрируйте бесплатный аккаунт Evernote, чтобы сохранить статью и прочитать на любом из ваших устройств в удобное время."
+   },
+   "inside__login__button_cancel__label": {
+      "message": "Отмена"
+   },
+   "inside__login__button_do__label": {
+      "message": "Войти"
+   },
+   "inside__login__create_account": {
+      "message": "Создать аккаунт"
+   },
+   "inside__login__email__error__format": {
+      "message": "Адрес электронной почты содержит неправильные символы."
+   },
+   "inside__login__email__error__invalid": {
+      "message": "Пользователя не существует или аккаунт не активирован."
+   },
+   "inside__login__email__error__length": {
+      "message": "Адрес электронной почты может иметь длину от 1 до 64 символов."
+   },
+   "inside__login__email__error__required": {
+      "message": "Требуется адрес эл. почты."
+   },
+   "inside__login__email__label": {
+      "message": "Адрес электронной почты"
+   },
+   "inside__login__general__error": {
+      "message": "Авторизация не удалась."
+   },
+   "inside__login__heading": {
+      "message": "Вход в Evernote"
+   },
+   "inside__login__password__error__format": {
+      "message": "Пароль содержит неправильные символы."
+   },
+   "inside__login__password__error__invalid": {
+      "message": "Адрес эл. почты и пароль не соответствуют существующему пользователю."
+   },
+   "inside__login__password__error__length": {
+      "message": "Пароль может иметь длину от 6 до 64 символов."
+   },
+   "inside__login__password__error__required": {
+      "message": "Требуется пароль."
+   },
+   "inside__login__password__error__reset": {
+      "message": "Срок действия вашего пароля истек. Установите новый пароль прямо сейчас."
+   },
+   "inside__login__password__error__timeout": {
+      "message": "Время сессии истекло. Пожалуйста, попробуйте еще раз."
+   },
+   "inside__login__password__label": {
+      "message": "Пароль"
+   },
+   "inside__login__rememberMe__label": {
+      "message": "Запомнить меня"
+   },
+   "inside__login__spinner": {
+      "message": "Входим в Evernote"
+   },
+   "inside__menu__clip_to_evernote__tooltip": {
+      "message": "Добавить в Evernote"
+   },
+   "inside__menu__close__tooltip": {
+      "message": "Скрыть наложенный слой"
+   },
+   "inside__menu__fitts__tooltip": {
+      "message": "Скрыть наложенный слой"
+   },
+   "inside__menu__highlight_to_evernote__tooltip": {
+      "message": "Выделение"
+   },
+   "inside__menu__print__tooltip": {
+      "message": "Печать"
+   },
+   "inside__menu__settings__tooltip": {
+      "message": "Показать темы"
+   },
+   "inside__menu__speak__forward__tooltip": {
+      "message": "Вперед"
+   },
+   "inside__menu__speak__pause__tooltip": {
+      "message": "Приостановить"
+   },
+   "inside__menu__speak__play__tooltip": {
+      "message": "Прослушать"
+   },
+   "inside__menu__speak__rewind__tooltip": {
+      "message": "Назад"
+   },
+   "inside__menu__speak__tooltip": {
+      "message": "Преобразование текста в речь"
+   },
+   "inside__misc__clipping__doing": {
+      "message": "Копирую..."
+   },
+   "inside__misc__clipping__failed": {
+      "message": "Ошибка копирования."
+   },
+   "inside__misc__login_request": {
+      "message": "Для входа в Evernote нажмите на иконку Clearly в панели инструментов."
+   },
+   "inside__misc__login_request__chrome": {
+      "message": "Для входа в Evernote нажмите на иконку Clearly в панели инструментов Chrome."
+   },
+   "inside__misc__login_request__firefox": {
+      "message": "Для входа в Evernote нажмите на иконку Clearly в панели инструментов Firefox."
+   },
+   "inside__misc__login_request__opera": {
+      "message": "Для входа в Evernote нажмите на иконку Clearly в панели инструментов Opera."
+   },
+   "inside__misc__page": {
+      "message": "Страница [=page]"
+   },
+   "inside__related_notes__disable_long": {
+      "message": "Вы хотите отключить похожие заметки?"
+   },
+   "inside__related_notes__disable_short": {
+      "message": "Отключить?"
+   },
+   "inside__related_notes__title": {
+      "message": "Похожие заметки"
+   },
+   "inside__reminder__button": {
+      "message": "Прочитеть в Clearly"
+   },
+   "inside__reminder__heading": {
+      "message": "Clearly предлагает удобный интерфейс для чтения"
+   },
+   "inside__reminder__text": {
+      "message": "Одним нажатием кнопки вы можете очистить статью от лишних и отвлекающих элементов. Еще одним нажатием сохраните статью в Evernote навсегда. Попробуйте прямо сейчас!"
+   },
+   "inside__rtl__ltr__label": {
+      "message": "Слева направо"
+   },
+   "inside__rtl__main__label": {
+      "message": "Направление текста?"
+   },
+   "inside__rtl__rtl__label": {
+      "message": "Справа налево"
+   },
+   "inside__settings__fontSize__large": {
+      "message": "большой"
+   },
+   "inside__settings__fontSize__medium": {
+      "message": "средний"
+   },
+   "inside__settings__fontSize__small": {
+      "message": "маленький"
+   },
+   "inside__settings__more_options": {
+      "message": "Больше настроек"
+   },
+   "inside__settings__theme__1": {
+      "message": "Печатная"
+   },
+   "inside__settings__theme__2": {
+      "message": "Простая"
+   },
+   "inside__settings__theme__3": {
+      "message": "Полуночная"
+   },
+   "inside__settings__theme__custom": {
+      "message": "Пользовательская"
+   },
+   "inside__two_factor__button_do__label": {
+      "message": "Продолжить"
+   },
+   "inside__two_factor__button_help__label": {
+      "message": "Мне нужна помощь в получении кода подтверждения"
+   },
+   "inside__two_factor__code__error__format": {
+      "message": "Код подтверждения может содержать только числа."
+   },
+   "inside__two_factor__code__error__invalid": {
+      "message": "Неверный код подтверждения."
+   },
+   "inside__two_factor__code__error__length": {
+      "message": "Код подтверждения должен быть не менее 6 символов."
+   },
+   "inside__two_factor__code__error__required": {
+      "message": "Необходим код подтверждения."
+   },
+   "inside__two_factor__code__label": {
+      "message": "Шестизначный код"
+   },
+   "inside__two_factor__message__google": {
+      "message": "Введите код подтверждения, который вы видите в вашем приложении Google Authenticator."
+   },
+   "inside__two_factor__message__sms": {
+      "message": "Текстовое сообщение с кодом подтверждения отправлено на номер"
+   },
+   "meta_extension_author": {
+      "message": "Evernote Corp."
+   },
+   "meta_extension_description": {
+      "message": "Clearly делает блоги, статьи и веб-страницы удобными для чтения в браузере. Сохраните их в Evernote и читайте в любом месте."
+   },
+   "meta_extension_name": {
+      "message": "Clearly"
+   },
+   "options__account__sign_out": {
+      "message": "Войти как [[=username]]."
+   },
+   "options__account__sign_out_link": {
+      "message": "Выйти."
+   },
+   "options__account__signed_out": {
+      "message": "Вы не вошли в систему. Чтобы войти, нажмите на иконку Evernote в панели инструментов Clearly."
+   },
+   "options__base__label": {
+      "message": "Базовый CSS"
+   },
+   "options__box_width__label": {
+      "message": "Ширина строки"
+   },
+   "options__button__more_options": {
+      "message": "Больше настроек"
+   },
+   "options__button__reset_custom": {
+      "message": "Сбросить"
+   },
+   "options__button__save_custom": {
+      "message": "Сохранить тему"
+   },
+   "options__button__save_general": {
+      "message": "Сохранить настройки"
+   },
+   "options__clip_notebook__business": {
+      "message": "Бизнес-блокноты"
+   },
+   "options__clip_notebook__default": {
+      "message": "По умолчанию"
+   },
+   "options__clip_notebook__shared": {
+      "message": "Общие блокноты"
+   },
+   "options__clip_notebook__smart__label": {
+      "message": "Использовать умную категоризацию"
+   },
+   "options__clip_notebook__specific__label": {
+      "message": "Использовать конкретный блокнот"
+   },
+   "options__clip_notebook__your": {
+      "message": "Ваши блокноты"
+   },
+   "options__clip_tag__smart__label": {
+      "message": "Использовать умную категоризацию"
+   },
+   "options__clip_tag__specific__label": {
+      "message": "Использовать конкретную метку"
+   },
+   "options__color_background__label": {
+      "message": "Цвет фона"
+   },
+   "options__color_links__label": {
+      "message": "Цвет ссылок"
+   },
+   "options__color_text__label": {
+      "message": "Цвет текста"
+   },
+   "options__custom_css__label": {
+      "message": "Пользовательские CSS"
+   },
+   "options__footnote_links__label": {
+      "message": "Ссылки в виде сноски"
+   },
+   "options__keys_activation__label": {
+      "message": "Открытие страницы в Clearly"
+   },
+   "options__keys_clip__label": {
+      "message": "Добавить в Evernote"
+   },
+   "options__keys_highlight__label": {
+      "message": "Выделение"
+   },
+   "options__keys_speech__label": {
+      "message": "Преобразование текста в речь"
+   },
+   "options__large_graphics__label": {
+      "message": "Большие графики"
+   },
+   "options__message__keys": {
+      "message": "Для изменения поместите курсор в поле и нажмите комбинацию клавиш на клавиатуре."
+   },
+   "options__message__keys_firefox": {
+      "message": "Перезагрузите браузер после сохранения."
+   },
+   "options__message__notebook": {
+      "message": "Блокнот, в который будут сохраняться заметки сделанные с помощью Clearly."
+   },
+   "options__message__open_notes_in": {
+      "message": "При открытии заметок из Clearly используется выбранный клиент Evernote."
+   },
+   "options__message__related_notes": {
+      "message": "Позволяет Evernote показывать заметки из вашего аккаунта, которые могут быть связаны с тем, что вы сейчас читаете."
+   },
+   "options__message__smart_filing": {
+      "message": "Позволяет Evernote определять, в какой блокнот помещать заметки и какие метки им присваивать."
+   },
+   "options__message__tags": {
+      "message": "Присваиваемые метки в процессе копирования в Evernote"
+   },
+   "options__misc__print_preview": {
+      "message": "Предварительный просмотр"
+   },
+   "options__misc__reset_theme": {
+      "message": "Сброс пользовательской темы"
+   },
+   "options__misc__reset_theme__confirm": {
+      "message": "Это действие приведет к сбросу ваших настроек и возвращению к теме по умолчанию. Вы действительно хотите осуществить это действие?"
+   },
+   "options__misc__saved": {
+      "message": "Настройки будут действовать на любой новой вкладке при использовании Clearly."
+   },
+   "options__misc__saving": {
+      "message": "Сохранение"
+   },
+   "options__open_notes_in__desktop__label": {
+      "message": "Приложение для компьютера"
+   },
+   "options__open_notes_in__web__label": {
+      "message": "Веб клиент"
+   },
+   "options__related_notes__disabled__label": {
+      "message": "Отключить похожие заметки"
+   },
+   "options__related_notes__enabled__label": {
+      "message": "Включить похожие заметки"
+   },
+   "options__related_notes__just_at_bottom__label": {
+      "message": "Включить похожие заметки, показывая их только внизу"
+   },
+   "options__smart_filing__disabled__label": {
+      "message": "Отключить умную категоризацию"
+   },
+   "options__smart_filing__enabled__label": {
+      "message": "Включить умную категоризацию"
+   },
+   "options__smart_filing__just_notebooks__label": {
+      "message": "Включить умную категоризацию, но только для блокнотов"
+   },
+   "options__smart_filing__just_tags__label": {
+      "message": "Включить умную категоризацию, но только для меток"
+   },
+   "options__smart_filing_for_business__notebooks__label": {
+      "message": "Также для бизнес-блокнотов"
+   },
+   "options__smart_filing_for_business__tags__label": {
+      "message": "Для бизнес-меток тоже"
+   },
+   "options__speech_demo__label": {
+      "message": "Демо"
+   },
+   "options__speech_gender__label": {
+      "message": "Голос"
+   },
+   "options__speech_speed__label": {
+      "message": "Скорость чтения"
+   },
+   "options__text_align__label": {
+      "message": "Выровнять текст"
+   },
+   "options__text_font__label": {
+      "message": "Шрифт для основного текста"
+   },
+   "options__text_font_header__label": {
+      "message": "Шрифт для заголовков"
+   },
+   "options__text_font_monospace__label": {
+      "message": "Моноширинный шрифт"
+   },
+   "options__text_line_height__label": {
+      "message": "Высота строки"
+   },
+   "options__text_size__label": {
+      "message": "Базовый размер шрифта"
+   },
+   "options__title__custom": {
+      "message": "Пользовательская тема"
+   },
+   "options__title__features": {
+      "message": "Функции Clearly"
+   },
+   "options__title__general": {
+      "message": "Настройки"
+   },
+   "options__title__page": {
+      "message": "Clearly / Настройки"
+   },
+   "options__title__speech": {
+      "message": "Преобразование текста в речь"
+   },
+   "options__title__sub__account": {
+      "message": "Аккаунт"
+   },
+   "options__title__sub__keyboard": {
+      "message": "Сочетания клавиш"
+   },
+   "options__title__sub__notebook": {
+      "message": "Выбор блокнота"
+   },
+   "options__title__sub__open_notes_in": {
+      "message": "Открыть заметки в"
+   },
+   "options__title__sub__related_notes": {
+      "message": "Похожие заметки"
+   },
+   "options__title__sub__smart_filing": {
+      "message": "Умная категоризация"
+   },
+   "options__title__sub__tags": {
+      "message": "Выбор метки"
+   },
+   "options__values__base__Blueprint": {
+      "message": "Документация"
+   },
+   "options__values__base__None": {
+      "message": "Нет"
+   },
+   "options__values__base__Theme_1": {
+      "message": "Классический"
+   },
+   "options__values__base__Theme_2": {
+      "message": "Современный"
+   },
+   "options__values__base__Theme_3": {
+      "message": "Ночное время"
+   },
+   "options__values__footnote_links__Always": {
+      "message": "Всегда"
+   },
+   "options__values__footnote_links__Never": {
+      "message": "Никогда"
+   },
+   "options__values__footnote_links__On_Print": {
+      "message": "На печать"
+   },
+   "options__values__large_graphics__Do_Nothing": {
+      "message": "Показывать всегда"
+   },
+   "options__values__large_graphics__Hide_Always": {
+      "message": "Всегда скрывать"
+   },
+   "options__values__large_graphics__Hide_on_Print": {
+      "message": "Не отображать при печати"
+   },
+   "options__values__menu_placement__Bottom_Right": {
+      "message": "Справа внизу"
+   },
+   "options__values__menu_placement__Top_Right": {
+      "message": "Справа наверху"
+   },
+   "options__values__speech_gender__default": {
+      "message": "По умолчанию"
+   },
+   "options__values__speech_gender__female": {
+      "message": "Женский (если доступно)"
+   },
+   "options__values__speech_gender__male": {
+      "message": "Мужской (если доступно)"
+   },
+   "options__values__speech_speed__fast": {
+      "message": "Быстрая"
+   },
+   "options__values__speech_speed__faster": {
+      "message": "Быстрее"
+   },
+   "options__values__speech_speed__fastest": {
+      "message": "Самая быстрая"
+   },
+   "options__values__speech_speed__normal": {
+      "message": "Обычная"
+   },
+   "options__values__speech_speed__slow": {
+      "message": "Медленная"
+   },
+   "options__values__speech_speed__slower": {
+      "message": "Медленнее"
+   },
+   "options__values__speech_speed__slowest": {
+      "message": "Самая медленная"
+   },
+   "options__values__text_align__Justified": {
+      "message": "Выровненный по ширине"
+   },
+   "options__values__text_align__Normal": {
+      "message": "Обычный"
+   },
+   "register__after__1": {
+      "message": "Ваш аккаунт Evernote теперь связан с Clearly."
+   },
+   "register__after__2": {
+      "message": "Нажмите на иконку Evernote в панели инструментов Clearly, чтобы сохранить статью в аккаунт."
+   },
+   "register__after__3": {
+      "message": "Установите Evernote на все устройства, чтобы читать сохраненные статьи в любое время."
+   },
+   "register__after__heading": {
+      "message": "Процесс регистрации завершен"
+   },
+   "register__agree": {
+      "message": "Создавая аккаунт, я соглашаюсь со следующими документами: [=terms] и [=privacy]."
+   },
+   "register__agree__privacy": {
+      "message": "Политика конфиденциальности"
+   },
+   "register__agree__terms": {
+      "message": "Условия обслуживания"
+   },
+   "register__button": {
+      "message": "Создать аккаунт"
+   },
+   "register__captcha__error__incorrect": {
+      "message": "Цифры введены неверно."
+   },
+   "register__captcha__error__required": {
+      "message": "Поле Captcha не может быть пустым."
+   },
+   "register__captcha__label": {
+      "message": "Captcha"
+   },
+   "register__email__error__conflict": {
+      "message": "Этот адрес эл. поты уже связан с аккаунтом."
+   },
+   "register__evernote_heading": {
+      "message": "Ваше рабочее пространство на каждый день"
+   },
+   "register__evernote_text": {
+      "message": "Чем бы вы ни занимались, Evernote предлагает рабочее пространство для решения поставленных задач."
+   },
+   "register__page_title": {
+      "message": "Clearly / Зарегистрироваться"
+   },
+   "register__text": {
+      "message": "Совместное использование Evernote и Clearly позволит вам сохранять все интересующие вас статьи на будущее. Вы сможете прочитать их на любом устройстве, которым вы пользуетесь."
+   }
+}

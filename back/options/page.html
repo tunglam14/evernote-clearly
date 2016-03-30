@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />    
+
+    <title translate="title__page"></title>
+    <link rel="icon" href="chrome-extension://iooicodkiihhpojmmeghjclgihfjdjhj/front/img/favicon.ico"/>
+
+    <link rel="stylesheet" href="chrome-extension://iooicodkiihhpojmmeghjclgihfjdjhj/front/the_components/reformat/css/base__blueprint.css"/>
+    <link rel="stylesheet" href="chrome-extension://iooicodkiihhpojmmeghjclgihfjdjhj/back/options/style.css"/>
+</head>
+<body id="body" class="showCover">
+
+    <div id="cover"></div>
+    
+    <div id="sidebar">
+        <div id="sidebar__menu">
+            <a id="sidebar__menu__general" href="#"><span translate="title__general"></span></a>
+            <a id="sidebar__menu__custom" href="#"><span translate="title__custom"></span></a>
+            <a id="sidebar__menu__features" href="#"><span translate="title__features"></span></a>
+
+        </div>
+        <div id="sidebar__logo"></div>
+        <div id="sidebar__shading"></div>
+        <div id="sidebar__copyright">Copyright 2011-2015,<br/>Evernote Corporation.<br/>All rights reserved.</div>
+        <div id="sidebar__licenses"><a href="#">Legal Notices</a>.</div>
+    </div>
+
+    <div id="spinner">
+        <div id="spinner__image"></div>
+        <div id="spinner__text"><span translate="misc__saving"></span></div>
+    </div>
+
+    <div id="views">
+        <div class="view" id="view__general">
+            
+            <div class="view_separator" id="view__general__separator__1"></div>
+                
+                <div class="view__general__subtitle" id="view__general__subtitle__keyboard" translate="title__sub__keyboard"></div>
+                <div class="message" id="view__general__message__keys" translate="message__keys"></div>
+                
+                <table cellspacing="0" cellpadding="0" border="0" class="controlTable" id="keys_activation__controlTable"><tr>
+                    <td class="label"><label for="keys_activation__control" translate="keys_activation__label"></label></td>
+                    <td class="control">
+                        <input id="keys_activation__control"/>
+                    </td>
+                </tr></table>
+            
+                <table cellspacing="0" cellpadding="0" border="0" class="controlTable" id="keys_clip__controlTable"><tr>
+                    <td class="label"><label for="keys_clip__control" translate="keys_clip__label"></label></td>
+                    <td class="control">
+                        <input id="keys_clip__control"/>
+                    </td>
+                </tr></table>
+            
+                <table cellspacing="0" cellpadding="0" border="0" class="controlTable" id="keys_highlight__controlTable"><tr>
+                    <td class="label"><label for="keys_highlight__control" translate="keys_highlight__label"></label></td>
+                    <td class="control">
+                        <input id="keys_highlight__control"/>
+                    </td>
+                </tr></table>
+            
+            <div class="view_separator" id="view__general__separator__2"></div>
+            
+                <div class="view__general__subtitle" id="view__general__subtitle__tags" translate="title__sub__tags"></div>
+                <div class="message" id="view__general__message__tags" translate="message__tags"></div>
+                
+                <table cellspacing="0" cellpadding="0" border="0" class="controlTable withRadio" id="clip_tag__smart__controlTable">
+                <tr>
+                    <td class="radio"><input type="checkbox" id="clip_tag__radio__smart"/></td>
+                    <td class="label"><label for="clip_tag__radio__smart" translate="clip_tag__smart__label"></label></td>
+                    <td class="control"><div id="smart_filing_for_business__tags__container">
+                        <table cellspacing="0" cellpadding="0" border="0" id="smart_filing_for_business__tags__controlTable">
+                        <tr>
+                            <td class="radio"><input type="checkbox" id="smart_filing_for_business__tags__control"/></td>
+                            <td class="label"><label for="smart_filing_for_business__tags__control" translate="smart_filing_for_business__tags__label"></label></td>
+                        </tr>
+                        </table>
+                    </div></td>
+                </tr>
+                </table>
+            
+                <table cellspacing="0" cellpadding="0" border="0" class="controlTable withRadio" id="clip_tag__specific__controlTable">
+                <tr>
+                    <td class="radio"><input type="checkbox" id="clip_tag__radio__specific"/></td>
+                    <td class="label"><label for="clip_tag__radio__specific" translate="clip_tag__specific__label"></label></td>
+                    <td class="control">
+                        <input id="clip_tag__control"/>
+                    </td>
+                </tr>
+                </table>
+            
+            <div class="view_separator" id="view__general__separator__3"></div>
+            
+                <div class="view__general__subtitle" id="view__general__subtitle__notebook" translate="title__sub__notebook"></div>
+                <div class="message" id="view__general__message__notebook" translate="message__notebook"></div>
+            
+                <table cellspacing="0" cellpadding="0" border="0" class="controlTable withRadio" id="clip_notebook__smart__controlTable">
+                <tr>
+                    <td class="radio"><input type="radio" id="clip_notebook__radio__smart" name="clip_notebook__radio"/></td>
+                    <td class="label"><label for="clip_notebook__radio__smart" translate="clip_notebook__smart__label"></label></td>
+                    <td class="control"><div id="smart_filing_for_business__notebooks__container">
+                        <table cellspacing="0" cellpadding="0" border="0" id="smart_filing_for_business__notebooks__controlTable">
+                        <tr>
+                            <td class="radio"><input type="checkbox" id="smart_filing_for_business__notebooks__control"/></td>
+                            <td class="label"><label for="smart_filing_for_business__notebooks__control" translate="smart_filing_for_business__notebooks__label"></label></td>
+                        </tr>
+                        </table>
+                    </div></td>
+                </tr>
+                </table>
+                
+                <table cellspacing="0" cellpadding="0" border="0" class="controlTable withRadio" id="clip_notebook__specific__controlTable">
+                <tr>
+                    <td class="radio"><input type="radio" id="clip_notebook__radio__specific" name="clip_notebook__radio"/></td>
+                    <td class="label"><label for="clip_notebook__radio__specific" translate="clip_notebook__specific__label"></label></td>
+                    <td class="control"><select id="clip_notebook_id__control"><option value=""></option></select></td>
+                </tr>
+                </table>
+            
+            <!-- <div class="view_separator" id="view__general__separator__4"></div>
+            
+                <div class="view__general__subtitle" id="view__general__subtitle__smart_filing" translate="title__sub__smart_filing"></div>
+                <div class="message" id="view__general__message__smart_filing" translate="message__smart_filing"></div>
+            
+                <table cellspacing="0" cellpadding="0" border="0" class="controlTable withRadio withoutControl" id="smart_filing__enabled__controlTable">
+                <tr>
+                    <td class="radio"><input type="radio" id="smart_filing__radio__enabled" name="smart_filing__radio"/></td>
+                    <td class="label"><label for="smart_filing__radio__enabled" translate="smart_filing__enabled__label"></label></td>
+                </tr>
+                </table>
+            
+                <table cellspacing="0" cellpadding="0" border="0" class="controlTable withRadio withoutControl" id="smart_filing__just_notebooks__controlTable">
+                <tr>
+                    <td class="radio"><input type="radio" id="smart_filing__radio__just_notebooks" name="smart_filing__radio"/></td>
+                    <td class="label"><label for="smart_filing__radio__just_notebooks" translate="smart_filing__just_notebooks__label"></label></td>
+                </tr>
+                </table>
+            
+                <table cellspacing="0" cellpadding="0" border="0" class="controlTable withRadio withoutControl" id="smart_filing__just_tags__controlTable">
+                <tr>
+                    <td class="radio"><input type="radio" id="smart_filing__radio__just_tags" name="smart_filing__radio"/></td>
+                    <td class="label"><label for="smart_filing__radio__just_tags" translate="smart_filing__just_tags__label"></label></td>
+                </tr>
+                </table>
+                
+                <table cellspacing="0" cellpadding="0" border="0" class="controlTable withRadio withoutControl" id="smart_filing__disabled__controlTable">
+                <tr>
+                    <td class="radio"><input type="radio" id="smart_filing__radio__disabled" name="smart_filing__radio"/></td>
+                    <td class="label"><label for="smart_filing__radio__disabled" translate="smart_filing__disabled__label"></label></td>
+                </tr>
+                </table> -->
+                
+            <div class="view_separator" id="view__general__separator__5"></div>
+            
+                <div class="view__general__subtitle" id="view__general__subtitle__related_notes" translate="title__sub__related_notes"></div>
+                <div class="message" id="view__general__message__related_notes" translate="message__related_notes"></div>
+            
+                <table cellspacing="0" cellpadding="0" border="0" class="controlTable withRadio withoutControl" id="related_notes__enabled__controlTable">
+                <tr>
+                    <td class="radio"><input type="radio" id="related_notes__radio__enabled" name="related_notes__radio"/></td>
+                    <td class="label"><label for="related_notes__radio__enabled" translate="related_notes__enabled__label"></label></td>
+                </tr>
+                </table>
+            
+                <table cellspacing="0" cellpadding="0" border="0" class="controlTable withRadio withoutControl" id="related_notes__just_at_bottom__controlTable">
+                <tr>
+                    <td class="radio"><input type="radio" id="related_notes__radio__just_at_bottom" name="related_notes__radio"/></td>
+                    <td class="label"><label for="related_notes__radio__just_at_bottom" translate="related_notes__just_at_bottom__label"></label></td>
+                </tr>
+                </table>
+                
+                <table cellspacing="0" cellpadding="0" border="0" class="controlTable withRadio withoutControl" id="related_notes__disabled__controlTable">
+                <tr>
+                    <td class="radio"><input type="radio" id="related_notes__radio__disabled" name="related_notes__radio"/></td>
+                    <td class="label"><label for="related_notes__radio__disabled" translate="related_notes__disabled__label"></label></td>
+                </tr>
+                </table>
+            
+            <div class="view_separator" id="view__general__separator__6"></div>
+            
+                <div class="view__general__subtitle" id="view__general__subtitle__open_notes_in" translate="title__sub__open_notes_in"></div>
+                <div class="message" id="view__general__message__open_notes_in" translate="message__open_notes_in"></div>
+            
+                <table cellspacing="0" cellpadding="0" border="0" class="controlTable withRadio withoutControl" id="open_notes_in__web__controlTable">
+                <tr>
+                    <td class="radio"><input type="radio" id="open_notes_in__radio__web" name="open_notes_in__radio"/></td>
+                    <td class="label"><label for="open_notes_in__radio__web" translate="open_notes_in__web__label"></label></td>
+                </tr>
+                </table>
+            
+                <table cellspacing="0" cellpadding="0" border="0" class="controlTable withRadio withoutControl" id="open_notes_in__desktop__controlTable">
+                <tr>
+                    <td class="radio"><input type="radio" id="open_notes_in__radio__desktop" name="open_notes_in__radio"/></td>
+                    <td class="label"><label for="open_notes_in__radio__desktop" translate="open_notes_in__desktop__label"></label></td>
+                </tr>
+                </table>
+            
+            <div class="view_separator" id="view__general__separator__7"></div>
+            
+                <div class="view__general__subtitle" id="view__general__subtitle__account" translate="title__sub__account"></div>
+                <div id="account__container"></div>
+                
+            <div class="view_separator" id="view__general__separator__8"></div>
+            
+            <div class="view_ending" id="view__general__ending"></div>
+                
+        </div>
+        <div class="view" id="view__custom">
+            
+            <div class="view_separator" id="view__custom__separator__1"></div>
+                
+                <table cellspacing="0" cellpadding="0" border="0" class="controlTable" id="text_font__controlTable"><tr>
+                    <td class="label"><label for="text_font__control" translate="text_font__label"></label></td>
+                    <td class="control">
+                        <select id="text_font__select">
+                            <option value="PT Serif">PT Serif</option>
+                            <option value="Crimson Text">Crimson Text</option>
+                            <option value="Droid Serif">Droid Serif</option>
+                            <option value="Tinos">Tinos</option>
+                            <option value="Neuton">Neuton</option>
+                            <option value="Vollkorn">Vollkorn</option>
+                            <option value="Cardo">Cardo</option>
+                            <option value="Bentham">Bentham</option>
+                            <option value="Cantarell">Cantarell</option>
+                            <option value="Droid Sans">Droid Sans</option>
+                            <option value="Molengo">Molengo</option>
+                            <option value="Allerta">Allerta</option>
+                            <option value="Ubuntu">Ubuntu</option>
+                            <option value="Inconsolata">Inconsolata</option>
+                            <option value="Droid Sans Mono">Droid Sans Mono</option>
+                            <option value="Georgia">Georgia</option>
+                            <option value="Times, Times New Roman">Times, Times New Roman</option>
+                            <option value="Palatino, Palatino Linotype">Palatino, Palatino Linotype</option>
+                            <option value="Helvetica">Helvetica</option>
+                            <option value="Arial">Arial</option>
+                            <option value="Verdana">Verdana</option>
+                            <option value="Geneva">Geneva</option>
+                            
+                        </select>
+                    </td>
+                </tr></table>
+            
+                <table cellspacing="0" cellpadding="0" border="0" class="controlTable" id="text_font_header__controlTable"><tr>
+                    <td class="label"><label for="text_font_header__control" translate="text_font_header__label"></label></td>
+                    <td class="control">
+                        <select id="text_font_header__select">
+                            <option value="PT Serif">PT Serif</option>
+                            <option value="Crimson Text">Crimson Text</option>
+                            <option value="Droid Serif">Droid Serif</option>
+                            <option value="Tinos">Tinos</option>
+                            <option value="Neuton">Neuton</option>
+                            <option value="Vollkorn">Vollkorn</option>
+                            <option value="Cardo">Cardo</option>
+                            <option value="Bentham">Bentham</option>
+                            <option value="Cantarell">Cantarell</option>
+                            <option value="Droid Sans">Droid Sans</option>
+                            <option value="Molengo">Molengo</option>
+                            <option value="Allerta">Allerta</option>
+                            <option value="Ubuntu">Ubuntu</option>
+                            <option value="Inconsolata">Inconsolata</option>
+                            <option value="Droid Sans Mono">Droid Sans Mono</option>
+                            <option value="Georgia">Georgia</option>
+                            <option value="Times, Times New Roman">Times, Times New Roman</option>
+                            <option value="Palatino, Palatino Linotype">Palatino, Palatino Linotype</option>
+                            <option value="Helvetica">Helvetica</option>
+                            <option value="Arial">Arial</option>
+                            <option value="Verdana">Verdana</option>
+                            <option value="Geneva">Geneva</option>
+                            
+                        </select>
+                    </td>
+                </tr></table>
+            
+                <table cellspacing="0" cellpadding="0" border="0" class="controlTable" id="text_font_monospace__controlTable"><tr>
+                    <td class="label"><label for="text_font_monospace__control" translate="text_font_monospace__label"></label></td>
+                    <td class="control">
+                        <select id="text_font_monospace__select">
+                            <option value="Courier New, Courier">Courier New, Courier</option>
+                            <option value="Lucida Console">Lucida Console</option>
+                            <option value="Andale Mono">Andale Mono</option>
+                            <option value="Monaco">Monaco</option>
+                            <option value="Inconsolata">Inconsolata</option>
+                            <option value="Droid Sans Mono">Droid Sans Mono</option>
+                            <option value="Cousine">Cousine</option>
+                            <option value="Anonymous Pro">Anonymous Pro</option>
+                            
+                        </select>
+                    </td>
+                </tr></table>
+            
+            <div class="controls_separator" id="controls__separator__1"></div>
+            
+                <table cellspacing="0" cellpadding="0" border="0" class="controlTable" id="color_background__controlTable"><tr>
+                    <td class="label"><label for="color_background__control" translate="color_background__label"></label></td>
+                    <td class="control"><div class="minicolors_container">
+                        <input id="color_background__control"/>
+                    </div></td>
+                </tr></table>
+            
+                <table cellspacing="0" cellpadding="0" border="0" class="controlTable" id="color_text__controlTable"><tr>
+                    <td class="label"><label for="color_text__control" translate="color_text__label"></label></td>
+                    <td class="control"><div class="minicolors_container">
+                        <input id="color_text__control"/>
+                    </div></td>
+                </tr></table>
+            
+                <table cellspacing="0" cellpadding="0" border="0" class="controlTable" id="color_links__controlTable"><tr>
+                    <td class="label"><label for="color_links__control" translate="color_links__label"></label></td>
+                    <td class="control"><div class="minicolors_container">
+                        <input id="color_links__control"/>
+                    </div></td>
+                </tr></table>
+            
+            <div class="controls_separator" id="controls__separator__2"></div>
+                
+                <table cellspacing="0" cellpadding="0" border="0" class="controlTable smaller" id="text_size__controlTable"><tr>
+                    <td class="label"><label for="text_size__control" translate="text_size__label"></label></td>
+                    <td class="control">
+                        <input id="text_size__control"/>
+                    </td>
+                </tr></table>
+                
+                <table cellspacing="0" cellpadding="0" border="0" class="controlTable smaller" id="text_line_height__controlTable"><tr>
+                    <td class="label"><label for="text_line_height__control" translate="text_line_height__label"></label></td>
+                    <td class="control">
+                        <input id="text_line_height__control"/>
+                    </td>
+                </tr></table>
+            
+                <table cellspacing="0" cellpadding="0" border="0" class="controlTable smaller" id="box_width__controlTable"><tr>
+                    <td class="label"><label for="box_width__control" translate="box_width__label"></label></td>
+                    <td class="control">
+                        <input id="box_width__control"/>
+                    </td>
+                </tr></table>
+            
+            <div class="view_separator" id="view__custom__separator__2"></div>
+            <div class="view_separator" id="view__custom__separator__3"></div>
+            
+                <table cellspacing="0" cellpadding="0" border="0" class="controlTable" id="base__controlTable"><tr>
+                    <td class="label"><label for="base__control" translate="base__label"></label></td>
+                    <td class="control">
+                        <select id="base__control">
+                            <option value="blueprint" translate="values__base__Blueprint__not_translated"></option>
+                            <option value="theme-1" translate="values__base__Theme_1__not_translated"></option>
+                            <option value="theme-2" translate="values__base__Theme_2__not_translated"></option>
+                            <option value="theme-3" translate="values__base__Theme_3__not_translated"></option>
+                            <option value="" translate="values__base__None"></option>
+                        </select>
+                    </td>
+                </tr></table>
+            
+                <table cellspacing="0" cellpadding="0" border="0" class="controlTable" id="text_align__controlTable"><tr>
+                    <td class="label"><label for="text_align__control" translate="text_align__label"></label></td>
+                    <td class="control">
+                        <select id="text_align__control">
+                            <option value="normal" translate="values__text_align__Normal"></option>
+                            <option value="justified" translate="values__text_align__Justified"></option>
+                        </select>
+                    </td>
+                </tr></table>
+            
+            <div class="controls_separator" id="controls__separator__3"></div>
+                
+                <table cellspacing="0" cellpadding="0" border="0" class="controlTable" id="footnote_links__controlTable"><tr>
+                    <td class="label"><label for="footnote_links__control" translate="footnote_links__label"></label></td>
+                    <td class="control">
+                        <select id="footnote_links__control">
+                            <option value="on_print" translate="values__footnote_links__On_Print"></option>
+                            <option value="always" translate="values__footnote_links__Always"></option>
+                            <option value="never" translate="values__footnote_links__Never"></option>
+                        </select>
+                    </td>
+                </tr></table>
+            
+                <table cellspacing="0" cellpadding="0" border="0" class="controlTable" id="large_graphics__controlTable"><tr>
+                    <td class="label"><label for="large_graphics__control" translate="large_graphics__label"></label></td>
+                    <td class="control">
+                        <select id="large_graphics__control">
+                            <option value="do_nothing" translate="values__large_graphics__Do_Nothing"></option>
+                            <option value="hide_on_print" translate="values__large_graphics__Hide_on_Print"></option>
+                            <option value="hide_always" translate="values__large_graphics__Hide_Always"></option>
+                        </select>
+                    </td>
+                </tr></table>
+            
+            <div class="controls_separator" id="controls__separator__4"></div>
+            
+                <table cellspacing="0" cellpadding="0" border="0" class="controlTable" id="custom_css__controlTable"><tr>
+                    <td class="label"><label for="custom_css__control" translate="custom_css__label"></label></td>
+                    <td class="control">
+                        <textarea id="custom_css__control"></textarea>
+                    </td>
+                </tr></table>
+            
+                <a href="#" id="preview__custom_theme__print"></a>
+                <a href="#" id="preview__custom_theme__reset"></a>
+                <div id="preview__custom_theme"></div>
+                
+            <div class="view_ending" id="view__custom__ending"></div>
+            
+        </div>
+        <div class="view" id="view__features">
+            
+                <div class="view_separator" id="view__custom__separator__1"></div>
+            
+                <table cellspacing="0" cellpadding="0" border="0">
+                    <tr id="features__clipping">
+                        <td class="image"><div class="feature_image"></div></td>
+                        <td class="text">
+                            <div class="feature_title"><span translate="features__clipping__title"></span></div>
+                            <div class="feature_text"><span translate="features__clipping__text"></span></div>
+                        </td>
+                    </tr>
+                </table>
+                
+                <table cellspacing="0" cellpadding="0" border="0">
+                    <tr id="features__highlighting">
+                        <td class="image"><div class="feature_image"></div></td>
+                        <td class="text">
+                            <div class="feature_title"><span translate="features__highlighting__title"></span></div>
+                            <div class="feature_text"><span translate="features__highlighting__text"></span></div>
+                        </td>
+                    </tr>
+                </table>
+                
+                <table cellspacing="0" cellpadding="0" border="0">
+                    <tr id="features__related_notes">
+                        <td class="image"><div class="feature_image"></div></td>
+                        <td class="text">
+                            <div class="feature_title"><span translate="features__related_notes__title"></span></div>
+                            <div class="feature_text"><span translate="features__related_notes__text"></span></div>
+                        </td>
+                    </tr>
+                </table>
+                
+                <table cellspacing="0" cellpadding="0" border="0">
+                    <tr id="features__smart_filing">
+                        <td class="image"><div class="feature_image"></div></td>
+                        <td class="text">
+                            <div class="feature_title"><span translate="features__smart_filing__title"></span></div>
+                            <div class="feature_text"><span translate="features__smart_filing__text"></span></div>
+                        </td>
+                    </tr>
+                </table>
+                    
+                <div id="features__eula_notice"><span translate="features__eula_notice"></span></div>
+                
+                <div class="view_ending" id="view__features__ending"></div>
+                
+        </div>
+
+    </div>
+    
+    <div id="overlays">
+        <div id="licenses" class="overlayed">
+            <div class="overlay"></div>
+            <div class="frame">
+                <div class="inner">
+                    <h1>Clearly uses the following open-source software:</h1>
+                    <!--<ul>
+                        <li><a href="#jquery">jQuery</a></li>
+                        <li><a href="#flexselect">FlexSelect</a></li>
+                        <li><a href="#liquidmetal">LiquidMetal</a></li>
+                        <li><a href="#minicolors">MiniColors</a></li>
+                    </ul>-->
+                    
+                    
+                    <div><h2 id="jquery">jQuery</h2>
+                    <pre>jQuery JavaScript Library v1.6.1
+                    http://jquery.com/
+                    
+                    Copyright 2011, John Resig
+                    Dual licensed under the MIT or GPL Version 2 licenses.
+                    http://jquery.org/license
+                    
+                    Includes Sizzle.js
+                    http://sizzlejs.com/
+                    Copyright 2011, The Dojo Foundation
+                    Released under the MIT, BSD, and GPL Licenses.
+                    
+                    Copyright (c) 2011 John Resig, http://jquery.com/
+                    </pre></div>
+                    
+                    
+                    <div><h2 id="flexselect">FlexSelect</h2>
+                    <pre>flexselect: a jQuery plugin, version: 0.2.2 (2011-07-20)
+                    
+                    FlexSelect is a jQuery plugin that makes it easy to convert a select box into
+                    a Quicksilver-style, autocompleting, flex matching selection tool.
+                    
+                    For usage and examples, visit:
+                    http://rmm5t.github.com/jquery-flexselect/
+                    
+                    Licensed under the MIT:
+                    http://www.opensource.org/licenses/mit-license.php
+                    
+                    Copyright (c) 2009, Ryan McGeary (ryanonjavascript -[at]- mcgeary [*dot*] org)
+                    </pre></div>
+                    
+                    
+                    <div><h2 id="liquidmetal">LiquidMetal</h2>
+                    <pre>LiquidMetal, version: 0.1 (2009-02-05)
+                    
+                    A mimetic poly-alloy of Quicksilver's scoring algorithm, essentially
+                    LiquidMetal.
+                    
+                    For usage and examples, visit:
+                    http://github.com/rmm5t/liquidmetal
+                    
+                    Licensed under the MIT:
+                    http://www.opensource.org/licenses/mit-license.php
+                    
+                    Copyright (c) 2009, Ryan McGeary (ryanonjavascript -[at]- mcgeary [*dot*] org)
+                    </pre></div>
+                    
+                    
+                    <div><h2 id="minicolors">MiniColors</h2>
+                    <pre>jQuery miniColors: A small color selector
+                    
+                    Copyright 2011 Cory LaViska for A Beautiful Site, LLC. (http://abeautifulsite.net/)
+                    http://abeautifulsite.net/blog/2011/02/jquery-minicolors-a-color-selector-for-input-controls/
+                    
+                    Dual licensed under the MIT or GPL Version 2 licenses
+                    </pre></div>
+                    
+                    
+                    <div><h2 id="minicolors">JABSORB</h2>
+                    <pre>jabsorb: a Java to JavaScript Advanced Object Request Broker
+                    http://www.jabsorb.org
+                    
+                    Copyright 2007-2009 The jabsorb team
+                    Copyright (c) 2005 Michael Clark, Metaparadigm Pte Ltd
+                    Copyright (c) 2003-2004 Jan-Klaas Kollhof
+                    
+                    This code is based on original code from the json-rpc-java library
+                    which was originally based on Jan-Klaas' JavaScript o lait library
+                    (jsolait).
+                    
+                    Licensed under the Apache License, Version 2.0 (the "License");
+                    you may not use this file except in compliance with the License.
+                    You may obtain a copy of the License at
+                    
+                      http://www.apache.org/licenses/LICENSE-2.0
+                    
+                    Unless required by applicable law or agreed to in writing, software
+                    distributed under the License is distributed on an "AS IS" BASIS,
+                    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+                    See the License for the specific language governing permissions and
+                    limitations under the License.
+                    </pre></div>
+                    
+                    
+                    <!--<div><h2 id="mit">The MIT License</h2>
+                    <pre>Permission is hereby granted, free of charge, to any person obtaining
+                    a copy of this software and associated documentation files (the
+                    "Software"), to deal in the Software without restriction, including
+                    without limitation the rights to use, copy, modify, merge, publish,
+                    distribute, sublicense, and/or sell copies of the Software, and to
+                    permit persons to whom the Software is furnished to do so, subject to
+                    the following conditions:
+                    
+                    The above copyright notice and this permission notice shall be
+                    included in all copies or substantial portions of the Software.
+                    
+                    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+                    EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+                    MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+                    NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+                    LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+                    OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+                    WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+                    </pre></div>
+                    -->
+                </div>
+            </div>
+        </div>
+        <div id="eula" class="overlayed">
+            <div class="overlay"></div>
+            <div class="frame">
+                <div class="inner">
+                    <h1>End User License Agreement</h1>
+                    
+                    <p>IMPORTANT NOTICE: THIS IS A LEGAL AGREEMENT BETWEEN EVERNOTE AND THE PARTY THAT DOWNLOADS, INSTALLS AND/OR USES THE SOFTWARE PROVIDED BY EVERNOTE, EACH OF WHOM ACCEPTS THE TERMS OF THIS AGREEMENT FOR HERSELF, HIMSELF OR ITSELF (AS APPLICABLE, "LICENSEE"). IF YOU RESIDE IN THE UNITED STATES OR CANADA, THIS CONTRACT WILL BE WITH EVERNOTE CORPORATION, AND, IF YOU RESIDE OUTSIDE OF THE UNITED STATES AND CANADA, THIS CONTRACT WILL BE WITH EVERNOTE GMBH, A WHOLLY-OWNED SUBSIDIARY OF EVERNOTE CORPORATION. (EVERNOTE CORPORATION AND EVERNOTE GMBH, AS APPLICABLE, MAY BE REFERRED TO IN THIS AGREEMENT AS "EVERNOTE"). EVERNOTE SOFTWARE IS LICENSED AND NOT SOLD AND THE RIGHTS TO USE THE SOFTWARE ARE SET FORTH IN THIS AGREEMENT. AS DESCRIBED BELOW, USING THE SOFTWARE ALSO OPERATES AS YOUR CONSENT TO THE TRANSMISSION OF CERTAIN INFORMATION AND DATA DURING ACTIVATION, USE, OBTAINING SOFTWARE UPDATES AND FOR INTERNET-BASED SERVICES.</p>
+                    <p>CAREFULLY READ THE FOLLOWING TERMS APPLICABLE TO THE LICENSE OF THE EVERNOTE APPLICATION SOFTWARE AND ANY OTHER SOFTWARE PROVIDED TO LICENSEE BY EVERNOTE PURSUANT TO WARRANTY, MAINTENANCE AND SUPPORT OR OTHERWISE, ALL OF WHICH ARE INCLUDED WITHIN THE DEFINITION OF "SOFTWARE" BELOW. THESE TERMS AND CONDITIONS SHALL CONSTITUTE A LEGALLY BINDING AGREEMENT BY AND BETWEEN EVERNOTE AND LICENSEE. LICENSEE'S ACCEPTANCE ACCORDING TO THE TERMS HEREIN AND/OR LICENSEE'S INSTALLATION, REPRODUCTION OR USE OF THE SOFTWARE ALSO SIGNIFIES LICENSEE'S AGREEMENT TO BE LEGALLY BOUND BY THESE TERMS AND CONDITIONS.</p>
+                    <p>PLEASE NOTE THAT YOU NEED NOT AGREE TO BE BOUND BY THIS AGREEMENT. HOWEVER, IF YOU DO NOT AGREE TO BE LEGALLY BOUND BY THE TERMS AND CONDITIONS SET FORTH HEREIN, YOU ARE NOT PERMITTED TO INSTALL, COPY, USE OR TRANSFER THE SOFTWARE AND SHALL NOT HAVE ANY RIGHTS HEREUNDER AS A "LICENSEE." IF YOU DO NOT AGREE TO BE BOUND BY THIS AGREEMENT, YOU SHOULD PROMPTLY UNINSTALL THE SOFTWARE. NO ADDITIONAL OR CONTRARY TERMS TO THIS AGREEMENT SHALL APPLY UNLESS AGREED TO IN A WRITTEN AGREEMENT BETWEEN LICENSEE AND EVERNOTE.</p>
+                    
+                    <h2>1. DEFINITIONS.</h2>
+                    <p>For the purposes of this Agreement, the following definitions shall apply:</p>
+                    
+                    <p>1.1 "Derivative Work" means a work that is based upon or derived from the Software, such as a revision, modification, translation, abridgment, condensation or expansion, or any form in which Software may be recast, transformed or adapted, which, if prepared without the express written consent of Evernote, would constitute copyright infringement.</p>
+                    <p>1.2 "Evernote Service" means the Evernote software service that enables Registered Users to store, organize, search and share text, documents, images and sounds, and upload and sync the same through one or more Certified Device(s).</p>
+                    <p>1.3 "Evernote Site" means the Internet site(s) published by Evernote and applicable to the Software and/or Evernote Service, as they may change from time to time, including, without limitation, the site which is currently located at www.evernote.com.</p>
+                    <p>1.4 "Evernote Terms of Service" means the then applicable terms and conditions governing the use of the Evernote Service, as published at the Evernote Site.</p>
+                    <p>1.5 "Individual Computer" means any general-purpose computing device (desktop, laptop, netbook, tablet, smart phone) that is operated by one human user at a time for that user's benefit (e.g., not as a server or in any partition of a computer system). Licensee may access the Software operating on an Individual Computer through a remote device without any additional license.</p>
+                    <p>1.6 "Object Code" means the form of computer program or portion thereof that can be executed by a computer without further modification.</p>
+                    <p>1.7 "Registered User" means any individual who has registered at the Evernote Site for either a premium account or free account to use the Evernote Service.</p>
+                    <p>1.8 "Software" means, collectively, (i) that version of the Evernote application software reflected in text accessed within the Evernote application software, (ii) all updates, upgrades, patches, bug fixes and modifications thereto that may be released by Evernote and made available to Licensee from time to time, if any, in Object Code form and (iii) all written information and materials provided to Licensee with and regarding the Evernote application software, including, without limitation, in the "About" tab or other settings information areas within the particular application (which information may be referred to herein as "Documentation").</p>
+                    <p>1.9 "Source Code" means the human-readable form of the code and related system documentation for the Software, including all comments and any procedural code such as job control language.</p>
+                    <p>1.10 "Supported Device" means the type of Individual Computer (e.g., iPad) or the Individual Computer running a certain operating system (e.g., Windows) for which the Software is designed and offered for use. Evernote identifies the Supported Device for the Software by name in connection with the link through which the Software is made available for download or on the written software application description in the materials provided by Evernote with the Software.</p>
+                    
+                    
+                    <h2>2. SOFTWARE LICENSES; GENERAL RESTRICTIONS.</h2>
+                    
+                    <h3>2.1 License Grants.</h3>
+                    <p>(a) Subject to the terms and conditions contained herein, Licensee is hereby granted, and Licensee accepts, a non-exclusive, non-transferable, fully-paid license (i) to install and use the Software on one or more Supported Devices owned or controlled by Licensee and (ii) during such period of time that Licensee is a Registered User, use the Software to enable interaction between the Evernote Service and the Supported Device on which the Software is installed, subject to the Evernote Terms of Service.</p>
+                    <p>(b) Subject to the terms and conditions contained herein, Evernote hereby grants Licensee a non-exclusive, non-transferable license to make a reasonable number of copies of the Software without modification for Licensee's personal use. Licensee agrees that this License Agreement applies to all such copies.</p>
+                    <p>(c) Certain computer software components licensed by one or more third-parties may be provided with the Software. Evernote grants Licensee a non-exclusive, non-transferable, fully-paid license to use one copy of any third- party software provided by Evernote with the Software ("Third-Party Software") on the terms herein and such terms (if any) as may be set forth in the Documentation (including any additional terms therein), provided that: TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, ALL THIRD-PARTY SOFTWARE IS PROVIDED "AS IS" AND WITH ALL FAULTS. THE PROVISIONS REGARDING DISCLAIMER OF WARRANTIES, EXCLUSION OF CONSEQUENTIAL AND CERTAIN OTHER DAMAGES AND LIMITATION OF LIABILITY IN SECTIONS 6 AND 7 BELOW SHALL APPLY TO SUCH THIRD-PARTY SOFTWARE.</p>
+                    
+                    <h3>2.2 General License Restrictions.</h3>
+                    <p>Licensee shall only use the Software for Licensee's personal use on a Supported Device and, in connection with the Evernote Service, as permitted by the Evernote Terms of Service. Licensee shall not cause or permit the renting, leasing, sublicensing or selling, or any dissemination or other distribution of copies of, the Software by any means or in any form to any person, and shall not permit others to use the Software via a timesharing, outsourcing, service bureau, application service provider, managed service provider or similar arrangement. Licensee may not use the Software in any way that is intended to circumvent the Evernote Terms of Service or to otherwise violate any law or regulation. Licensee shall not use or distribute as a separate or stand alone executable file, product or server any Third-Party Software or use such Third-Party Software except as a component part of the Software. Licensee agrees not to, directly or indirectly, take any action to modify, translate, decompile, reverse engineer, reverse compile, convert to another programming language or otherwise attempt to derive Source Code from the Software or any internal data files generated by the Software, or perform any similar type of operation on any software or firmware acquired under this Agreement, in any fashion or for any purpose whatsoever, except to the extent the foregoing restriction is expressly prohibited by applicable law notwithstanding this limitation. Licensee also acknowledges and agrees any such works are Derivative Works and acknowledges that Evernote retains ownership of the copyright in any Derivative Works and is not granting any right to make, use, publish or distribute any Derivative Works of the Software. Licensee shall not modify or delete any Evernote or thirdparty proprietary rights notices appearing in the Software, or any Third-Party Software, and will implement any changes to such notices, if feasible, that Evernote may reasonably request. Licensee acknowledges and agrees that the technology manifested in the operation of the Software constitutes the valuable trade secrets and know-how of Evernote and its suppliers and, to the extent Licensee discovers any such trade secrets, Licensee will not disclose them to any third party. Licensee acknowledges and agrees that this Agreement in no way shall be construed to provide to Licensee any express or implied license to use or otherwise exploit the Software or any portion thereof except as specifically set forth in this Agreement, and all rights not expressly granted to Licensee are reserved by Evernote. Licensee has no right to transfer any interest in or to any Software, except as permitted by the express terms in this Agreement. The license granted herein is neither contingent on the delivery of any future functionality or features nor dependent on any oral or written public comments made by Evernote regarding future functionality or features.</p>
+                    
+                    <h2>3. OWNERSHIP OF SOFTWARE.</h2>
+                    <p>Evernote's ownership interests in the Software are protected by United States and other applicable copyright, patent and other laws and international treaty provisions. Except for the limited license rights specifically granted to Licensee in this Agreement, all rights, title and interests, including without limitation intellectual property rights, in and to the Software, including all Derivative Works thereof, (and all copies thereof and related materials that are produced or shipped to Licensee under this Agreement), belong to and shall be retained by Evernote or its suppliers, as applicable. Licensee acknowledges that the development of the Software is an ongoing process and that Licensee and other licensees of the Software benefit from the improvements resulting from such ongoing development. In order to facilitate such ongoing development, Licensee may provide certain suggestions, documentation, materials and other data to Evernote regarding the use, improvement or applications of the Software (the "Contributed Ideas"), and Licensee hereby acknowledges and agrees that all Contributed Ideas may be used by Evernote in the development of the Software and/or related products and services. Unless specifically provided in a writing signed by Evernote and Licensee and specifically relating to the disclosure of any Contributed Ideas, and notwithstanding any provision in this Agreement to the contrary, Licensee hereby grants to Evernote the irrevocable, perpetual, nonexclusive, worldwide, royalty-free right and license to disclose, use and incorporate the Contributed Ideas in connection with the development of the Software and/or related products and services, and the demonstration, display, license, reproduction, modification and distribution and sale of the Software and/or related products and services, without any obligation to provide any accounting or other reporting.</p>
+                    
+                    <h2>4. SOFTWARE SUPPORT; INTERACTION WITH EVERNOTE.</h2>
+                    <p>4.1 Support of Licensee. During the term of this Agreement, Evernote shall use its commercially reasonable efforts to provide technical support of the Software to Licensee according to its then applicable support policies. Such technical support shall be available by email communication in the English language, and any other language that may be available from time to time, during Evernote's regular business hours, subject to further restrictions, which may be set forth at the Evernote Site or otherwise published by Evernote and provided or made available to Licensee.</p>
+                    <p>4.2 Information Sharing and Interactions. During installation of the Software and from time to time thereafter when Licensee uses the Software, the Software will send information about the Software and the Individual Computer on which the Software is installed to Evernote. This information includes the version of the Software, the language of the Software (e.g., English, Japanese, etc.), the Internet protocol address of the Individual Computer and the Individual Computer's hardware configuration. Evernote does not use this information to identify personal information regarding Licensee. Evernote does use this information to ensure that Licensee is operating the most current version of the Software and, if there is a newer release of the Software, enable Licensee to download and install the current version appropriate for the Individual Computer. Depending upon the settings in the Software, updates to the Software may be installed automatically without Licensee's separate consent. In addition, Evernote will use the information provided to Evernote to enable interaction of the Individual Computer with the Evernote Service, if Licensee is a Registered User. Licensee may customize the interactions with Evernote through the settings found within the Software to limit or, in certain cases, eliminate such interactions. Evernote will use digital certificates to confirm Licensee's identity for the purpose of enabling standard encryption of content transmitted between Licensee's Individual Computer and the Evernote Service. In an effort to protect the security of such transmissions, Licensee cannot disable the use of such digital certificates in connection with the use of the Evernote Service. By using the Software, Licensee consents to the sharing of the information and interactions described herein and, by using the Software with the Evernote Service, Licensee also consents to the use of information described in the then current Evernote Privacy Policy published at the Evernote Site.</p>
+                    
+                    <h2>5. TERM AND TERMINATION.</h2>
+                    <p>This Agreement shall commence on the earlier date of delivery or download of the Software, shall be confirmed upon and by the installation of the Software on any computer device and shall continue for so long as Licensee complies with the terms herein, subject to termination or expiration in accordance with the terms provided herein. This Agreement shall automatically terminate, without notice, upon any failure by Licensee to comply with the terms of this Agreement. Upon the termination of this Agreement, all licenses and other rights granted to Licensee hereunder shall immediately terminate. Notwithstanding any termination of this Agreement, the provisions of Sections 3 (Ownership of Software), 6.2 (Disclaimer of Warranties), 7 (Limitations on Liability), 11 (General Provisions) and this Section 5 shall survive and continue to be legally binding upon Licensee and Evernote.</p>
+                    
+                    <h2>6. SOFTWARE WARRANTY AND DISCLAIMER OF WARRANTIES; SOFTWARE WARRANTY REMEDY.</h2>
+                    <h3>6.1 Limited Warranty.</h3>
+                    <p>Evernote hereby warrants to Licensee that the Software will perform substantially in accordance with the functional description applicable thereto at the Evernote Site if used in accordance with the terms of this Agreement and any applicable directions or requirements in the Documentation. The foregoing warranty is extended to the initial Licensee only, is not transferable and shall be in effect for thirty (30) days immediately following Licensee's receipt of the Software (the "Software Warranty Period"). Licensee's sole and exclusive remedy and the entire liability of Evernote and its suppliers and licensors for any breach of this limited warranty will be, at Evernote's option, repair or replacement of the Software, if such breach is reported prior to the expiration of the Warranty Period to Evernote or the Evernote authorized distributor that supplied the Software to Licensee (the "Software Warranty Remedy"). Evernote may require that Licensee return or certify the destruction of all copies of the Software to Evernote or to the authorized distributor in order to receive the designated remedy hereunder. Any replacement Software provided pursuant to this Section 6.1 will be covered by the warranty in this Section 6.1 for the remainder of the original Software Warranty Period or for 30 days from the date on which Licensee receives such repaired or replacement Software, whichever is longer.</p>
+                    
+                    <h3>6.2 Disclaimer of Warranties.</h3>
+                    <p>(a) EXCEPT AS EXPRESSLY PROVIDED IN SECTION 6.1, THE SOFTWARE IS BEING PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND AND EVERNOTE HEREBY DISCLAIMS ALL OTHER WARRANTIES, EXPRESS OR IMPLIED, ORAL OR WRITTEN, WITH RESPECT TO THE SOFTWARE, INCLUDING, WITHOUT LIMITATION, ANY AND ALL IMPLIED WARRANTIES AS TO THE CONDITION, NONINFRINGEMENT, MERCHANTABILITY, DESIGN, OPERATION OR FITNESS FOR ANY PARTICULAR PURPOSE. NO ORAL OR WRITTEN INFORMATION OR ADVICE GIVEN BY EVERNOTE, ITS RESELLERS AND/OR ITS OR THEIR AGENTS OR EMPLOYEES, SHALL CREATE A WARRANTY OR IN ANY WAY INCREASE OR MODIFY THE SCOPE OF THE WARRANTIES EXPRESSLY SET FORTH HEREIN. If Licensee's legal jurisdiction provides that a certain implied warranty may not be disclaimed, such implied warranty shall only apply to defects discovered during the period of the express Software Warranty Period provided herein. There is no implied warranty for defects discovered after the expiration of such Software Warranty Period. Some legal jurisdictions do not allow limitations on how long an implied warranty lasts, so these limitations may not apply to Licensee.</p>
+                    <p>(b) EXCEPT AS EXPRESSLY PROVIDED IN SECTION 6.1, EVERNOTE DOES NOT WARRANT THAT THE SOFTWARE WILL MEET ALL REQUIREMENTS OF LICENSEE, OR THAT THE OPERATION OF THE SOFTWARE WILL BE UNINTERRUPTED OR ERROR FREE, OR THAT ALL SOFTWARE DEFECTS WILL BE CORRECTED. FURTHER, EVERNOTE IS NOT RESPONSIBLE FOR ANY DEFECT OR ERROR RESULTING FROM: (I) THE MODIFICATION, MISUSE OR DAMAGE OF THE SOFTWARE BY PARTIES OTHER THAN EVERNOTE OR PARTIES PERFORMING AS A CONTRACTOR TO, AND AT THE DIRECTION OF, EVERNOTE, (II) LICENSEE'S FAILURE TO IMPLEMENT ALL BUG FIXES OR OTHER DEFECT CORRECTIONS WHICH ARE MADE AVAILABLE BY EVERNOTE, (III) USE OF THE SOFTWARE IN A MANNER INCONSISTENT WITH THE DIRECTIONS PROVIDED IN THE DOCUMENTATION OR AS PERMITTED BY THIS AGREEMENT, (IV) ANY COMPUTER VIRUS OR (V) ANY DEFECT IN OR FAILURE OF ANY THIRD PARTY'S INDIVIDUAL COMPUTER, EQUIPMENT, NETWORK OR SOFTWARE, OR FOR ANY USER ERROR. EVERNOTE DOES NOT WARRANT AND SHALL HAVE NO LIABILITY WITH RESPECT TO NON-EVERNOTE PRODUCTS OR SERVICES INCLUDING, WITHOUT LIMITATION, THIRD-PARTY SOFTWARE OR HARDWARE, INTERNET CONNECTIONS OR CONNECTIVITY OR COMPUTER NETWORKS.</p>
+                    
+                    <h2>7. LIMITATIONS ON LIABILITY.</h2>
+                    <h3>7.1 Consequential Damages.</h3>
+                    <p>IN NO EVENT SHALL EVERNOTE BE LIABLE TO LICENSEE FOR ANY LOSS OF OR DAMAGE TO DATA OR OTHER PERSONAL OR BUSINESS INFORMATION, LOST PROFITS OR USE OF THE SOFTWARE, OR FOR ANY SPECIAL, INCIDENTAL, INDIRECT OR CONSEQUENTIAL DAMAGES ARISING OUT OF OR IN CONNECTION WITH THIS AGREEMENT, INCLUDING THE INSTALLATION, USE OR PERFORMANCE, OR INABILITY TO USE, THE SOFTWARE, EVEN IF EVERNOTE HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.</p>
+                    
+                    <h3>7.2 Limitation.</h3>
+                    <p>EVERNOTE PROVIDES THE SOFTWARE AT NO CHARGE TO LICENSEE. IN CONSIDERATION FOR, AND AS A FUNDAMENTAL AND EXPRESS CONDITION OF ENABLING USE OF THE SOFTWARE WITHOUT CHARGE, AND NOTWITHSTANDING ANY PROVISION IN THIS AGREEMENT TO THE CONTRARY, EVERNOTE SHALL NOT HAVE ANY LIABILITY FOR ANY MATTER ARISING OUT OF THE SUBJECT MATTER OF THIS AGREEMENT, WHETHER IN CONTRACT, TORT OR OTHERWISE, EXCEPT THE SOFTWARE WARRANTY REMEDY. THE LIMITATIONS HEREIN SHALL APPLY EVEN IF THE SOFTWARE WARRANTY REMEDY DOES NOT FULLY COMPENSATE LICENSEE FOR ANY OR ALL LOSSES, OR IF EVERNOTE KNEW OR SHOULD HAVE KNOWN ABOUT THE POSSIBILITY OF CONSEQUENTIAL DAMAGES. SOME LEGAL JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THE ABOVE LIMITATION OR EXCLUSION MAY NOT APPLY TO LICENSEE IF LICENSEE RESIDES IN CERTAIN JURISDICTIONS.</p>
+                    
+                    <h2>8. COMPLIANCE WITH EXPORT LAWS.</h2>
+                    <p>Licensee acknowledges that the Software is subject to laws and regulations of the United States restricting the export thereof to foreign jurisdictions and agrees to comply with all applicable United States and foreign international laws, including, without limitation, the rules and regulations promulgated from time to time by the Bureau of Export Administration, United States Department of Commerce. Without limiting the foregoing, Licensee shall not download, and if downloaded shall not install or shall immediately uninstall and destroy, the Software if Licensee's download, installation or use of the Software is prohibited under applicable laws. By installing or using the Software, Licensee agrees to the foregoing and certifies that it is not located in, under the control of, or a national or resident of any country or on any list of countries to which the United States has embargoed goods or on the United States Treasury Department's list of Specially Designated Nations or the United States Commerce Department's Table of Denial Orders. Licensee shall not export, re-export, transfer or divert directly or indirectly, the Software, Documentation or other information or materials provided hereunder, or the output thereof, to any restricted place or person for which the United States or any other relevant jurisdiction requires any export license or other governmental approval at the time of export without first obtaining such license or approval. Evernote has no responsibility for compliance with such laws and regulations by Licensee. Licensee hereby agrees to indemnify and hold harmless Evernote from and against all claims, losses, damages, liabilities, costs and expenses, including reasonable attorneys' fees, to the extent such claims arise out of any breach of this Section 8.</p>
+                    
+                    <h2>9. HIGH RISK ACTIVITIES.</h2>
+                    <p>The Software is not fault-tolerant for, and is not designed or intended for use in, hazardous environments requiring fail-safe performance, including, without limitation, in the operation of nuclear facilities, aircraft navigation or communication systems, air traffic control, weapons systems, direct life-support machines or any other application in which the failure of the Software could lead directly to death, personal injury or severe physical or property damage (collectively, "High Risk Activities"). Evernote expressly disclaims any express or implied warranty of fitness for High Risk Activities.</p>
+                    
+                    <h2>10. UNITED STATES GOVERNMENT.</h2>
+                    <p>The Software and Documentation are "commercial computer software" and "commercial computer software documentation," respectively, pursuant to DFAR Section 227.7202 and FAR Section 12.212, as applicable. Any use, modification, reproduction, release, performance, display or disclosure of the Software by the United States Government shall be governed solely by the terms of this Agreement, except to the extent expressly permitted by the terms of this Agreement.</p>
+                    
+                    <h2>11. GENERAL PROVISIONS.</h2>
+                    <h3>11.1 Entire Agreement; Amendment.</h3>
+                    <p>This Agreement constitutes the entire agreement with regard to the subject matter hereof. No waiver, consent, modification or change of terms of this Agreement shall bind any party unless in writing signed by such party, and then such waiver, consent, modification or change shall be effective only in the specific instance and for the specific purpose given.</p>
+                    
+                    <h3>11.2 Relationship.</h3>
+                    <p>No agency, partnership, joint venture or employment is created between the parties hereto as a result of this Agreement. Neither party is authorized to create any obligation, expressed or implied, on behalf of the other party, or to exercise any control over the other party's methods of operation, except as specifically provided herein.</p>
+                    
+                    <h3>11.3 Governing Law.</h3>
+                    <p>This Agreement shall be governed by and construed in accordance with the laws of the State of California, United States of America, without regard to its choice of law provisions, and shall not be governed by the provisions of the Convention on Contracts for the International Sale of Goods. If you are provided a translation of this Agreement in a language other than English, such translation is offered as a convenience and, if there is any conflict between such translation and the English language version, the English version of this Agreement shall govern, to the extent not expressly prohibited by the law in your jurisdiction. If you have not received the English version of this Agreement, you may find it at the Evernote Corporation web site (www.evernote.com) or by contacting Evernote and requesting a copy.</p>
+                    
+                    <h3>11.4 Waiver.</h3>
+                    <p>The waiver by any party hereto of a breach or a default of any provision of this Agreement by another party shall not be construed as a waiver of any succeeding breach of the same or any other provision, nor shall any delay or omission on the part of either party to exercise or avail itself of any right, power or privilege that it has, or may have hereunder, operate as a waiver of any right, power or privilege by such party.</p>
+                    
+                    <h3>11.5 Headings.</h3>
+                    <p>Captions and headings contained in this Agreement have been included for ease of reference and convenience and shall not be considered in interpreting or construing this Agreement.</p>
+                    
+                    <h3>11.6 Assignment; Successors.</h3>
+                    <p>The terms and conditions of this Agreement shall inure to the benefit of and be enforceable by the parties hereto and their permitted successors and assigns; provided, that the only permitted successor or assignee shall be a party that acquires all or substantially all of the business and assets of Evernote, whether by merger, sale of assets or otherwise by operation of law. Licensee shall not assign this Agreement or any right, interest or obligation under this Agreement, or in or relating to the Software. Any attempted assignment or delegation in contravention of this provision shall be void and ineffective.</p>
+                    
+                    <h3>11.7 Notices.</h3>
+                    <p>Any notice or communication from one party to the other required or permitted to be given hereunder shall be in writing and either personally delivered, sent by postal service or sent via courier (with evidence of delivery in any case). All notices shall be in English and shall be effective upon actual receipt, irrespective of the date appearing thereon. Unless otherwise requested, all notices to Evernote shall be to the attention of "Compliance."</p>
+                    
+                    <h3>11.8 Contact.</h3>
+                    <p>If you have any questions concerning these terms and conditions, you may do so at the following address:</p>
+                    
+                    <table cellspacing="0" cellpadding="5" border="1">
+                        <tr>
+                            <th>&nbsp;</th>
+                            <th>In the USA or Canada</th>
+                            <th>Outside the USA and Canada</th>
+                        </tr>
+                        <tr>
+                            <th>Mail:</th>
+                            <td>Evernote Corporation<br />305 Walnut Street<br />Redwood City, CA 94065<br />Attn: General Counsel</td>
+                            <td>Evernote GmbH<br />Joseffstrasse 59<br />8005, Zurich, Switzerland<br />Attn: Legal Notice</td>
+                        </tr>
+                        <tr>
+                            <th>Email:</th>
+                            <td>legalnotice@evernote.com</td>
+                            <td>legalnotice@evernote.com</td>
+                        </tr>
+                        <tr>
+                            <th>Phone:</th>
+                            <td>650.41.NOTES (650.416.6837)</td>
+                            <td>+1.650.41.NOTES (650.416.6837)</td>
+                        </tr>
+                    </table>
+                    
+                    <p>If you would like to contact Evernote for any other reason relating to use of the Software, you may do so at this address: us-support@evernote.com.</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="preview__custom_theme__contents" style="display: none;">
+        <h1>Lorem Ipsum</h1>
+        <p>Courtesy of <a href="http://en.wikipedia.org/wiki/Lorem_ipsum" title="Sample Link">Wikipedia</a>.</p>
+        
+        <p>In publishing and graphic design, <strong>lorem ipsum</strong> is placeholder text commonly used to demonstrate the graphic elements of a document or visual presentation &mdash; i.e. font, typography, and layout. The lorem ipsum text is typically a section of a Latin text by Cicero, with words altered, added, and removed &mdash; which makes it nonsensical in meaning.</p>
+        <p>A common form of lorem ipsum text reads as follows:</p>
+        <blockquote>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </blockquote>
+        <p>Many variations on the standard lorem ipsum text exist; some with little resemblance to the original. There are versions that have additional letters &mdash; such as k, w, and z &mdash; that were uncommon or missing in the Latin language; these were added to achieve a distribution of letters that more closely approximates English.</p>
+        
+        <hr/>
+        
+        <ol>
+            <li><a href="http://en.wikipedia.org/wiki/Sample" title="Sample Link">A Link</a></li>
+            <li><del>Deleted</del></li>
+        </ol>
+        
+        <ul>
+            <li><strong>Strong | Bold</strong></li>
+            <li><em>Emphasis | Italic</em></li>
+        </ul>
+        
+        <hr/>
+        
+        <h1>Level 01 Heading</h1>
+        <h2 id="internal_link_target">Level 02 Heading</h2>
+        <h3>Level 03 Heading</h3>
+        <h4>Level 04 Heading</h4>
+        <h5>Level 05 Heading</h5>
+        <h6>Level 06 Heading</h6>
+        
+        <hr/>
+        
+        <table>
+            <caption>Table: Jimi Hendrix - albums</caption>
+            <thead>
+                <tr>
+                    <th>Album</th>
+                    <th>Year</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <td>Album</td>
+                    <td>Year</td>
+                    <td>Price</td>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td>Are You Experienced </td>
+                    <td>1967</td>
+                    <td>$10.00</td>
+                </tr>
+                <tr>
+                  <td>Axis: Bold as Love</td>
+                  <td>1967</td>
+                  <td>$12.00</td>
+                </tr>
+                <tr>
+                    <td>Electric Ladyland</td>
+                    <td>1968</td>
+                    <td>$10.00</td>
+                </tr>
+                <tr>
+                    <td>Band of Gypsys</td>
+                    <td>1970</td>
+                    <td>$12.00</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <hr />
+        
+        <pre>
+        And some fixed width text.
+        As a matter of fact, this is a bit of Clearly's own code.
+        
+        var _coverElement = document.createElement('div');
+        _coverElement.setAttribute('id', 'cover');
+        _coverElement.setAttribute('style', 'display: none');
+        
+        _body.appendChild(_coverElement);</pre>
+        
+    </div>
+
+    <!-- libs/ -->
+        <link href="chrome-extension://iooicodkiihhpojmmeghjclgihfjdjhj/back/third_party/mini_colors/jquery.minicolors.css" rel="stylesheet" type="text/css"/>
+        <link href="chrome-extension://iooicodkiihhpojmmeghjclgihfjdjhj/back/third_party/flex_select/flexselect.css" rel="stylesheet" type="text/css"/>
+
+        <script type="text/javascript" src="chrome-extension://iooicodkiihhpojmmeghjclgihfjdjhj/front/third_party/jquery/jquery.js"></script>
+        <script type="text/javascript" src="chrome-extension://iooicodkiihhpojmmeghjclgihfjdjhj/front/third_party/jquery/jquery.custom_easings.js"></script>
+
+        <script type="text/javascript" src="chrome-extension://iooicodkiihhpojmmeghjclgihfjdjhj/back/third_party/mini_colors/jquery.minicolors.js"></script>
+        <script type="text/javascript" src="chrome-extension://iooicodkiihhpojmmeghjclgihfjdjhj/back/third_party/flex_select/liquidmetal.js"></script>
+        <script type="text/javascript" src="chrome-extension://iooicodkiihhpojmmeghjclgihfjdjhj/back/third_party/flex_select/jquery.flexselect.js"></script>
+        
+        <script type="text/javascript" src="chrome-extension://iooicodkiihhpojmmeghjclgihfjdjhj/front/the_components/reformat/reformat.js"></script>
+    <!-- /libs -->
+
+    <!-- scripts/ -->
+        <script type="text/javascript" src="chrome-extension://iooicodkiihhpojmmeghjclgihfjdjhj/back/options/global.js"></script>
+
+        <script type="text/javascript" src="chrome-extension://iooicodkiihhpojmmeghjclgihfjdjhj/back/third_party/_wrapped/json_rpc.js"></script>
+        <script type="text/javascript" src="chrome-extension://iooicodkiihhpojmmeghjclgihfjdjhj/back/third_party/_wrapped/fiji_xhr.js"></script>
+        <script type="text/javascript" src="chrome-extension://iooicodkiihhpojmmeghjclgihfjdjhj/back/third_party/_wrapped/md5.js"></script>
+        <script type="text/javascript" src="chrome-extension://iooicodkiihhpojmmeghjclgihfjdjhj/back/third_party/_wrapped/xor.js"></script>
+
+        <script type="text/javascript" src="chrome-extension://iooicodkiihhpojmmeghjclgihfjdjhj/back/options/back.js"></script>
+        <script type="text/javascript" src="chrome-extension://iooicodkiihhpojmmeghjclgihfjdjhj/back/options/front.js"></script>
+    <!-- /scripts -->
+
+</body>
+</html>

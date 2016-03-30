@@ -1,0 +1,51 @@
+
+    #text a:link { -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; -o-transition: all 0.3s ease; }
+    #text #relatedNotes a { -webkit-transition-duration: 0s; -moz-transition-duration: 0s; -o-transition-duration: 0s; }
+
+    #text a:hover, #text a:active { color: #44bde8; }
+    
+    #text blockquote { color: #c1bfbf; border-color: #c1bfbf; }
+
+    #text thead { background-color: #4f4f4f; }
+    #text tr:nth-child(even) { background: #404040; }
+
+    #text hr { border-color: #c5c5c5; }
+
+    /* the nigh owl theme is dark */
+    /* so a lot of stuff needs to be different for it to look good */
+    /* the below is made to work with the Clearly extension */
+    /* if this doesn't mesh with your file structure, you can override the path to css files completely, duplicate this entire directory, and modify at will */
+
+    #clearly_speech_now_speaking:before {
+        background-color: #44bde8 !important;
+    }
+    
+    html.clearly_highlighting_enabled ::-moz-selection { background: rgba(151, 192, 204, 0.99) !important; color: #08090e !important; }
+    html.clearly_highlighting_enabled ::selection { background: rgba(151, 192, 204, 0.99) !important; color: #08090e !important; }
+    #text em.clearly_highlight_element
+    {
+        /* background-color: #97C0CC; */
+        /* color: #08090e; */
+        
+        background-image: url('../../highlight/img/highlight--blue.png') !important;
+        background-repeat: repeat-x;
+        background-position: top left, bottom left;
+        background-size: 100% 100%;
+    }
+    
+    html.clearly_highlighting_enabled #box,
+    html.clearly_highlighting_enabled #background
+    {
+        cursor: url('../../highlight/img/highlight--cursor-dark.png') 14 16, text !important;
+    }
+    
+    #text #relatedNotes #relatedNotes__close { background-image: url('../../../img/overlay--close-sprite.png') !important; }
+
+    #text #accountFooter__logo { background-image: url('../../../img/footer--logo--white.png') !important; }
+
+    @media (min--moz-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2)
+    {
+        #text em.clearly_highlight_element { background-image: url('../../highlight/img/highlight--blue@2x.png') !important; }
+        #text #relatedNotes #relatedNotes__close { background-image: url('../../../img/overlay--close-sprite@2x.png') !important; background-size: 36px 18px; }
+        #text #accountFooter__logo { background-image: url('../../../img/footer--logo--white@2x.png') !important; background-size: 26px 31px; }
+    }

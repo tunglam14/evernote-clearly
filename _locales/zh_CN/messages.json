@@ -1,0 +1,698 @@
+{
+   "chrome_browser_action": {
+      "message": "在“悦读”中查看此页面"
+   },
+   "chrome_context_menu": {
+      "message": "印象笔记·悦读"
+   },
+   "firefox_button": {
+      "message": "印象笔记·悦读"
+   },
+   "firefox_button_tooltip": {
+      "message": "使用“悦读”查看此页面"
+   },
+   "firefox_context_menu": {
+      "message": "印象笔记·悦读"
+   },
+   "firefox_menu": {
+      "message": "印象笔记·悦读"
+   },
+   "inside__blank__heading": {
+      "message": "印象笔记·悦读使用技巧"
+   },
+   "inside__blank__text": {
+      "message": "“悦读”目前仅为文章页面浏览设计。文章页面是包含一大块文本的任何页面，比如新闻文章或博客贴文。"
+   },
+   "inside__features__clipping__text": {
+      "message": "点击一下，即可把你阅读的内容剪藏到印象笔记帐户，随时随地在任何设备上都可以读取印象笔记。"
+   },
+   "inside__features__clipping__title": {
+      "message": "剪藏至印象笔记"
+   },
+   "inside__features__close2": {
+      "message": "关闭"
+   },
+   "inside__features__eula": {
+      "message": "最终用户许可协议"
+   },
+   "inside__features__eula_notice": {
+      "message": "使用印象笔记·悦读，表示你同意我们的[=eula]。"
+   },
+   "inside__features__highlighting__text": {
+      "message": "想记住的文字设成高亮显示，在印象笔记帐户中快速看到。在印象笔记·悦读中所作的高亮修改，将会自动更新到印象笔记帐户中。"
+   },
+   "inside__features__highlighting__title": {
+      "message": "高亮"
+   },
+   "inside__features__related_notes__text": {
+      "message": "让你神奇的重新发现印象笔记帐户里那些和你正在阅读的相关笔记。如果页面空间允许，相关笔记会显示在你正在阅读的文章底部或者右侧。"
+   },
+   "inside__features__related_notes__title": {
+      "message": "相关笔记"
+   },
+   "inside__features__smart_filing__text": {
+      "message": "为保存的网页自动添加标签，并保存到恰当的笔记本。"
+   },
+   "inside__features__smart_filing__title": {
+      "message": "智能归档"
+   },
+   "inside__features__speech__no_language_explanation": {
+      "message": "印象笔记·悦读无法改变文章语言。如果你认识这种语言，在下面进行选择，我们将会为你朗读。"
+   },
+   "inside__features__speech__no_language_title": {
+      "message": "语言暂不支持"
+   },
+   "inside__features__speech__text": {
+      "message": "印象笔记·悦读新增“文本转语音”功能，让你可以一边休息，一边听印象笔记·悦读为你朗读博客和网页上的文章等内容，此为印象笔记高级帐户专享功能。"
+   },
+   "inside__features__speech__text__available": {
+      "message": "支持21种语言："
+   },
+   "inside__features__speech__text__available_languages": {
+      "message": "英语、日语、西班牙语、法语、德语、汉语、韩语、阿拉伯语、捷克语、丹麦语、芬兰语、希腊语、匈牙利语、意大利语、挪威语、波兰语、葡萄牙语、俄语、瑞典语和土耳其语。"
+   },
+   "inside__features__speech__text__cancel": {
+      "message": "取消"
+   },
+   "inside__features__speech__text__language": {
+      "message": "语言暂不支持"
+   },
+   "inside__features__speech__text__play": {
+      "message": "用这种语言朗读"
+   },
+   "inside__features__speech__text__powered": {
+      "message": "印象笔记·悦读由[=service]提供技术支持。"
+   },
+   "inside__features__speech__text__requires": {
+      "message": "需要[=product]。"
+   },
+   "inside__features__speech__text__try": {
+      "message": "体验“文本转语音”功能"
+   },
+   "inside__features__speech__text__upgrade": {
+      "message": "升级到 印象笔记 高级版"
+   },
+   "inside__features__speech__title": {
+      "message": "文本转语音"
+   },
+   "inside__features__title__all": {
+      "message": "欢迎使用全新的印象笔记·悦读"
+   },
+   "inside__features__title__new": {
+      "message": "有新版印象笔记·悦读可用"
+   },
+   "inside__filing_info__add_tag": {
+      "message": "添加标签"
+   },
+   "inside__filing_info__change_notebook": {
+      "message": "更换笔记本"
+   },
+   "inside__filing_info__clipped": {
+      "message": "已剪藏"
+   },
+   "inside__filing_info__default_notebook": {
+      "message": "默认笔记本"
+   },
+   "inside__filing_info__edit": {
+      "message": "编辑"
+   },
+   "inside__filing_info__find_notebook": {
+      "message": "查找笔记本"
+   },
+   "inside__filing_info__no_tags": {
+      "message": "不允许加标签"
+   },
+   "inside__filing_info__open_note": {
+      "message": "打开笔记"
+   },
+   "inside__filing_info__refresh_notebooks": {
+      "message": "刷新笔记本列表"
+   },
+   "inside__filing_info__refresh_tags": {
+      "message": "刷新标签列表"
+   },
+   "inside__filing_info__remove_tag": {
+      "message": "移除标签"
+   },
+   "inside__filing_info__sentence": {
+      "message": "剪藏到[=notebook]笔记本，设置标签为[=tags]。"
+   },
+   "inside__filing_info__sentence_and": {
+      "message": "和"
+   },
+   "inside__filing_info__sentence_no_tags": {
+      "message": "剪藏到[=notebook]笔记本。"
+   },
+   "inside__filing_info__sentence_other_tags": {
+      "message": "其他标签"
+   },
+   "inside__filing_info__title_normal": {
+      "message": "存档："
+   },
+   "inside__filing_info__title_smart": {
+      "message": "智能存档："
+   },
+   "inside__filing_info__view": {
+      "message": "查看"
+   },
+   "inside__footer__button": {
+      "message": "创建帐户"
+   },
+   "inside__footer__text": {
+      "message": "免费注册印象笔记帐户以保存文章，以后随时在手机、平板或电脑上阅读。"
+   },
+   "inside__login__button_cancel__label": {
+      "message": "取消"
+   },
+   "inside__login__button_do__label": {
+      "message": "登录"
+   },
+   "inside__login__create_account": {
+      "message": "创建一个帐户"
+   },
+   "inside__login__email__error__format": {
+      "message": "电子邮箱包含非法字符。"
+   },
+   "inside__login__email__error__invalid": {
+      "message": "非有效的活动用户。"
+   },
+   "inside__login__email__error__length": {
+      "message": "电子邮箱长度必须在1到64个字符之间。"
+   },
+   "inside__login__email__error__required": {
+      "message": "请填写电子邮箱。"
+   },
+   "inside__login__email__label": {
+      "message": "电子邮箱"
+   },
+   "inside__login__general__error": {
+      "message": "验证失败"
+   },
+   "inside__login__heading": {
+      "message": "登录印象笔记"
+   },
+   "inside__login__password__error__format": {
+      "message": "密码中包含非法字符。"
+   },
+   "inside__login__password__error__invalid": {
+      "message": "帐户不存在。"
+   },
+   "inside__login__password__error__length": {
+      "message": "密码长度必须在6到64个字符之间。"
+   },
+   "inside__login__password__error__required": {
+      "message": "需要密码。"
+   },
+   "inside__login__password__error__reset": {
+      "message": "密码已经过期，请立即重新设置。"
+   },
+   "inside__login__password__error__timeout": {
+      "message": "登录会话已超时。请稍后再试。"
+   },
+   "inside__login__password__label": {
+      "message": "密码"
+   },
+   "inside__login__rememberMe__label": {
+      "message": "记住我"
+   },
+   "inside__login__spinner": {
+      "message": "登录印象笔记"
+   },
+   "inside__menu__clip_to_evernote__tooltip": {
+      "message": "剪藏至印象笔记"
+   },
+   "inside__menu__close__tooltip": {
+      "message": "隐藏覆盖"
+   },
+   "inside__menu__fitts__tooltip": {
+      "message": "隐藏覆盖"
+   },
+   "inside__menu__highlight_to_evernote__tooltip": {
+      "message": "高亮显示"
+   },
+   "inside__menu__print__tooltip": {
+      "message": "打印"
+   },
+   "inside__menu__settings__tooltip": {
+      "message": "显示主题"
+   },
+   "inside__menu__speak__forward__tooltip": {
+      "message": "前进"
+   },
+   "inside__menu__speak__pause__tooltip": {
+      "message": "暂停"
+   },
+   "inside__menu__speak__play__tooltip": {
+      "message": "播放"
+   },
+   "inside__menu__speak__rewind__tooltip": {
+      "message": "后退"
+   },
+   "inside__menu__speak__tooltip": {
+      "message": "文本转语音"
+   },
+   "inside__misc__clipping__doing": {
+      "message": "正在剪藏..."
+   },
+   "inside__misc__clipping__failed": {
+      "message": "剪辑失败"
+   },
+   "inside__misc__login_request": {
+      "message": "请点击工具栏上的印象笔记·悦读图标，马上登录印象笔记。"
+   },
+   "inside__misc__login_request__chrome": {
+      "message": "请点击Chrome工具栏上的印象笔记·悦读图标，以登录印象笔记。"
+   },
+   "inside__misc__login_request__firefox": {
+      "message": "请点击 Firefox 工具栏上的印象笔记·悦读图标，马上登录印象笔记。"
+   },
+   "inside__misc__login_request__opera": {
+      "message": "请点击 Opera' 工具栏上的印象笔记·悦读图标，马上登录印象笔记。"
+   },
+   "inside__misc__page": {
+      "message": "[=page] 页"
+   },
+   "inside__related_notes__disable_long": {
+      "message": "你想关闭相关笔记功能吗？"
+   },
+   "inside__related_notes__disable_short": {
+      "message": "停用"
+   },
+   "inside__related_notes__title": {
+      "message": "相关笔记"
+   },
+   "inside__reminder__button": {
+      "message": "用印象笔记·悦读看网页"
+   },
+   "inside__reminder__heading": {
+      "message": "印象笔记·悦读，享受简洁的网页"
+   },
+   "inside__reminder__text": {
+      "message": "一键去广告，清空所有干扰，享受专注阅读。再点击一次，即可永久保存到印象笔记。立即试试！"
+   },
+   "inside__rtl__ltr__label": {
+      "message": "从左到右"
+   },
+   "inside__rtl__main__label": {
+      "message": "文本方向？"
+   },
+   "inside__rtl__rtl__label": {
+      "message": "从右到左"
+   },
+   "inside__settings__fontSize__large": {
+      "message": "大"
+   },
+   "inside__settings__fontSize__medium": {
+      "message": "中"
+   },
+   "inside__settings__fontSize__small": {
+      "message": "小"
+   },
+   "inside__settings__more_options": {
+      "message": "更多选项"
+   },
+   "inside__settings__theme__1": {
+      "message": "报纸模式"
+   },
+   "inside__settings__theme__2": {
+      "message": "普通模式"
+   },
+   "inside__settings__theme__3": {
+      "message": "反白模式"
+   },
+   "inside__settings__theme__custom": {
+      "message": "自定义"
+   },
+   "inside__two_factor__button_do__label": {
+      "message": "继续"
+   },
+   "inside__two_factor__button_help__label": {
+      "message": "我需要获取验证码方面的帮助"
+   },
+   "inside__two_factor__code__error__format": {
+      "message": "验证码必须是数字。"
+   },
+   "inside__two_factor__code__error__invalid": {
+      "message": "验证码错误。"
+   },
+   "inside__two_factor__code__error__length": {
+      "message": "验证码至少需要6位。"
+   },
+   "inside__two_factor__code__error__required": {
+      "message": "验证码必填。"
+   },
+   "inside__two_factor__code__label": {
+      "message": "六位代码"
+   },
+   "inside__two_factor__message__google": {
+      "message": "输入Google验证应用中显示的验证码。"
+   },
+   "inside__two_factor__message__sms": {
+      "message": "我们已经发送了一个包含验证码的文本消息至"
+   },
+   "meta_extension_author": {
+      "message": "Evernote Corp."
+   },
+   "meta_extension_description": {
+      "message": "“悦读”可使博文、文章和网页变得简明而又易于阅读。将其保存至印象笔记以便随时随地阅读。"
+   },
+   "meta_extension_name": {
+      "message": "印象笔记·悦读"
+   },
+   "options__account__sign_out": {
+      "message": "以 [[=username]] 身份永久登录。"
+   },
+   "options__account__sign_out_link": {
+      "message": "注销。"
+   },
+   "options__account__signed_out": {
+      "message": "你不是永久登录，点击印象笔记图标，在侧边栏进行登录。"
+   },
+   "options__base__label": {
+      "message": "基础 CSS"
+   },
+   "options__box_width__label": {
+      "message": "行宽"
+   },
+   "options__button__more_options": {
+      "message": "更多选项"
+   },
+   "options__button__reset_custom": {
+      "message": "重置"
+   },
+   "options__button__save_custom": {
+      "message": "保存主题"
+   },
+   "options__button__save_general": {
+      "message": "保存选项"
+   },
+   "options__clip_notebook__business": {
+      "message": "工作笔记本"
+   },
+   "options__clip_notebook__default": {
+      "message": "默认"
+   },
+   "options__clip_notebook__shared": {
+      "message": "共享笔记本"
+   },
+   "options__clip_notebook__smart__label": {
+      "message": "使用智能归档"
+   },
+   "options__clip_notebook__specific__label": {
+      "message": "使用指定笔记本"
+   },
+   "options__clip_notebook__your": {
+      "message": "你的笔记本"
+   },
+   "options__clip_tag__smart__label": {
+      "message": "使用智能归档"
+   },
+   "options__clip_tag__specific__label": {
+      "message": "使用指定标签"
+   },
+   "options__color_background__label": {
+      "message": "背景颜色"
+   },
+   "options__color_links__label": {
+      "message": "链接颜色"
+   },
+   "options__color_text__label": {
+      "message": "前景颜色"
+   },
+   "options__custom_css__label": {
+      "message": "自定义 CSS"
+   },
+   "options__footnote_links__label": {
+      "message": "链接为脚注"
+   },
+   "options__keys_activation__label": {
+      "message": "在“悦读”中查看页面"
+   },
+   "options__keys_clip__label": {
+      "message": "剪藏至 印象笔记"
+   },
+   "options__keys_highlight__label": {
+      "message": "高亮显示"
+   },
+   "options__keys_speech__label": {
+      "message": "文本转语音"
+   },
+   "options__large_graphics__label": {
+      "message": "大型图形"
+   },
+   "options__message__keys": {
+      "message": "如要更改，将光标置于字段中，然后在你的键盘上敲出键盘组合。"
+   },
+   "options__message__keys_firefox": {
+      "message": "保存后重启浏览器"
+   },
+   "options__message__notebook": {
+      "message": "剪藏到印象笔记中的此笔记本中。"
+   },
+   "options__message__open_notes_in": {
+      "message": "请使用印象笔记客户端打开印象笔记·悦读笔记。"
+   },
+   "options__message__related_notes": {
+      "message": "允许印象笔记获取帐户中可能与当前正在阅读的内容有关的剪藏。"
+   },
+   "options__message__smart_filing": {
+      "message": "由印象笔记智能选择目标笔记本和需要添加的标签。"
+   },
+   "options__message__tags": {
+      "message": "剪藏至印象笔记时需要添加的标签。"
+   },
+   "options__misc__print_preview": {
+      "message": "打印预览"
+   },
+   "options__misc__reset_theme": {
+      "message": "重置自定义主题"
+   },
+   "options__misc__reset_theme__confirm": {
+      "message": "重置后，你的自定义主题将会返回默认主题。确定重置吗？"
+   },
+   "options__misc__saved": {
+      "message": "设置将会在你所使用的“悦读”上的任何新选项卡上生效。"
+   },
+   "options__misc__saving": {
+      "message": "正在保存"
+   },
+   "options__open_notes_in__desktop__label": {
+      "message": "桌面客户端"
+   },
+   "options__open_notes_in__web__label": {
+      "message": "网页客户端"
+   },
+   "options__related_notes__disabled__label": {
+      "message": "禁用相关笔记搜索"
+   },
+   "options__related_notes__enabled__label": {
+      "message": "启用相关笔记搜索"
+   },
+   "options__related_notes__just_at_bottom__label": {
+      "message": "只在底部显示相关笔记"
+   },
+   "options__smart_filing__disabled__label": {
+      "message": "禁用智能归档"
+   },
+   "options__smart_filing__enabled__label": {
+      "message": "启用智能填充"
+   },
+   "options__smart_filing__just_notebooks__label": {
+      "message": "仅针对笔记本启动智能填充。"
+   },
+   "options__smart_filing__just_tags__label": {
+      "message": "只对标签启用智能填充"
+   },
+   "options__smart_filing_for_business__notebooks__label": {
+      "message": "包括企业笔记本"
+   },
+   "options__smart_filing_for_business__tags__label": {
+      "message": "包括企业标签"
+   },
+   "options__speech_demo__label": {
+      "message": "演示"
+   },
+   "options__speech_gender__label": {
+      "message": "朗读声音"
+   },
+   "options__speech_speed__label": {
+      "message": "朗读速度"
+   },
+   "options__text_align__label": {
+      "message": "文本对齐"
+   },
+   "options__text_font__label": {
+      "message": "正文字体"
+   },
+   "options__text_font_header__label": {
+      "message": "标题字体"
+   },
+   "options__text_font_monospace__label": {
+      "message": "固定宽度字体"
+   },
+   "options__text_line_height__label": {
+      "message": "行高"
+   },
+   "options__text_size__label": {
+      "message": "基础字体大小"
+   },
+   "options__title__custom": {
+      "message": "自定义主题"
+   },
+   "options__title__features": {
+      "message": "印象笔记·悦读功能"
+   },
+   "options__title__general": {
+      "message": "选项"
+   },
+   "options__title__page": {
+      "message": "“悦读”/ 选项"
+   },
+   "options__title__speech": {
+      "message": "文本转语音"
+   },
+   "options__title__sub__account": {
+      "message": "帐户"
+   },
+   "options__title__sub__keyboard": {
+      "message": "键盘快捷键"
+   },
+   "options__title__sub__notebook": {
+      "message": "笔记本选择"
+   },
+   "options__title__sub__open_notes_in": {
+      "message": "打开笔记"
+   },
+   "options__title__sub__related_notes": {
+      "message": "相关笔记"
+   },
+   "options__title__sub__smart_filing": {
+      "message": "智能归档"
+   },
+   "options__title__sub__tags": {
+      "message": "标签选择"
+   },
+   "options__values__base__Blueprint": {
+      "message": "蓝本"
+   },
+   "options__values__base__None": {
+      "message": "无"
+   },
+   "options__values__base__Theme_1": {
+      "message": "经典"
+   },
+   "options__values__base__Theme_2": {
+      "message": "现代"
+   },
+   "options__values__base__Theme_3": {
+      "message": "夜晚"
+   },
+   "options__values__footnote_links__Always": {
+      "message": "始终"
+   },
+   "options__values__footnote_links__Never": {
+      "message": "从不"
+   },
+   "options__values__footnote_links__On_Print": {
+      "message": "打印时"
+   },
+   "options__values__large_graphics__Do_Nothing": {
+      "message": "始终显示"
+   },
+   "options__values__large_graphics__Hide_Always": {
+      "message": "始终隐藏"
+   },
+   "options__values__large_graphics__Hide_on_Print": {
+      "message": "打印时隐藏"
+   },
+   "options__values__menu_placement__Bottom_Right": {
+      "message": "右下"
+   },
+   "options__values__menu_placement__Top_Right": {
+      "message": "右上"
+   },
+   "options__values__speech_gender__default": {
+      "message": "默认"
+   },
+   "options__values__speech_gender__female": {
+      "message": "女声（如果可用）"
+   },
+   "options__values__speech_gender__male": {
+      "message": "男声（如果可用）"
+   },
+   "options__values__speech_speed__fast": {
+      "message": "快"
+   },
+   "options__values__speech_speed__faster": {
+      "message": "较快"
+   },
+   "options__values__speech_speed__fastest": {
+      "message": "最快"
+   },
+   "options__values__speech_speed__normal": {
+      "message": "正常"
+   },
+   "options__values__speech_speed__slow": {
+      "message": "慢"
+   },
+   "options__values__speech_speed__slower": {
+      "message": "较慢"
+   },
+   "options__values__speech_speed__slowest": {
+      "message": "最慢"
+   },
+   "options__values__text_align__Justified": {
+      "message": "两端对齐"
+   },
+   "options__values__text_align__Normal": {
+      "message": "正常"
+   },
+   "register__after__1": {
+      "message": "你的印象笔记帐户已成功匹配印象笔记·悦读。"
+   },
+   "register__after__2": {
+      "message": "点击印象笔记·悦读侧边栏中的印象笔记图标，立即保存文章。"
+   },
+   "register__after__3": {
+      "message": "在所有电脑、手机和平板上安装印象笔记，方便随时随地阅读。"
+   },
+   "register__after__heading": {
+      "message": "注册完成"
+   },
+   "register__agree": {
+      "message": "点击“注册”，表示你同意我们的[=terms]和[=privacy]。"
+   },
+   "register__agree__privacy": {
+      "message": "隐私条款"
+   },
+   "register__agree__terms": {
+      "message": "服务条款"
+   },
+   "register__button": {
+      "message": "注册"
+   },
+   "register__captcha__error__incorrect": {
+      "message": "验证码不正确。"
+   },
+   "register__captcha__error__required": {
+      "message": "请填写验证码。"
+   },
+   "register__captcha__label": {
+      "message": "验证码"
+   },
+   "register__email__error__conflict": {
+      "message": "已存在绑定此电子邮箱的帐户。"
+   },
+   "register__evernote_heading": {
+      "message": "人生总有些目标"
+   },
+   "register__evernote_text": {
+      "message": "印象笔记是你全力以赴的工作空间。"
+   },
+   "register__page_title": {
+      "message": "印象笔记·悦读 / 注册"
+   },
+   "register__text": {
+      "message": "印象笔记帐户可以为你保存印象笔记·悦读的文章，方便以后查看。"
+   }
+}

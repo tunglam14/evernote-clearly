@@ -1,0 +1,89 @@
+
+/* meyer reset -- http://meyerweb.com/eric/tools/css/reset/ , v2.0 | 20110126 | License: none (public domain) */
+/* =========== */
+
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed, 
+    figure, figcaption, footer, header, hgroup, 
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+
+    ol, ul { list-style: none; }
+    blockquote, q { quotes: none; }
+    blockquote:before, blockquote:after,
+    q:before, q:after { content: ''; content: none; }
+    table { border-collapse: collapse; border-spacing: 0; }
+
+    article, aside, details, figcaption, figure, 
+    footer, header, hgroup, menu, nav, section { display: block; }
+
+
+/* styles */
+/* ====== */
+
+    /* headings */
+    #text h1, #text h2, #text h3, #text h4, #text h5, #text h6 { font-weight: bold; }
+    #text h1 { font-size: 1.875em; /*30 / 16*/ line-height: 1.6em; /* 48 / 30*/ }
+    #text h2, #text h3 { font-size: 1.3125em; /*21 / 16*/ line-height: 1.15; /*24 / 21*/ margin-top: 2.285714em;  /*48 / 21*/ margin-bottom: 1.15em;/*24 / 21*/    }    
+    #text h2 { font-weight: bold; }
+    #text h3 { font-weight: normal; }
+    #text h4 { font-size: 1.125em;/*18 / 16*/    margin-top: 2.67em; /*48 / 18*/ }
+    #text h5, #text h6 { font-size: 1em; }
+
+    /* sections */
+    #text section { margin-top: 1.5em !important; padding-top: 1.5em !important; }
+
+    /* links */
+    #text a { text-decoration: underline; }
+    
+    /* block spacing */
+    #text p, #text blockquote, #text div { margin-bottom: 1.5em; }
+    #text h1, #text h2, #text h3, #text h4, #text h5, #text h6 { margin-bottom: 1.5em; }
+    #text div.separator { padding-top: 1.5em; padding-bottom: 1.5em; }
+    #text div.readableLargeImageContainer, #text div.readableLargeObjectContainer, #text figure { margin-bottom: 1em; margin-top:1em; }
+    
+    /* blockquote */
+    #text blockquote { font-style: italic; border-left: 3px solid; margin-left: 2em; padding-left: 1em; }
+    
+    /* lists */
+    #text ul, #text ol { margin: 0 0 1.5em 1.5em; }
+    #text ol li { list-style-type: decimal; list-style-position: outside; }
+    #text ul li { list-style-type: disc; list-style-position: outside; }
+
+    /* tables */
+    #text table { margin-top: 1.5em; /*24 / 16*/    font-size: 1em; /*16px*/ /* width: 100%; */ }
+    #text thead th, #text tfoot th { padding: .25em .25em .25em .5em; /*4px 4px 4px 8px*/ text-transform: uppercase; }
+    #text th { text-align: left; }
+    #text td { vertical-align: top; padding: .25em .25em .25em .5em; /*4px 4px 4px 8px*/ }
+    
+    /* formatting */    
+    #text em, #text i { font-style: italic; }
+    #text strong, #text b { font-weight: bold; }
+    
+    /* preformatted */
+    #text pre, #text code, #text tt { font-size: .875em; /*14 / 16*/ line-height: 1.714285em; /*24 / 14*/ }
+    
+    /* some fixes */
+    #text h1 { line-height: 1.3em; font-weight: normal; margin-bottom: 0.5em; }
+    #text h1 + h2 { margin-top: .2em; margin-bottom: 2.15em; font-size: .875em; }
+    #text p + ul, #text h2 + ul, #text p + ol, #text h2 + ol { margin-top:-1em; }
+    #text h3 + ul, #text h4 + ul, #text h5 + ul, #text h6 + ul, #text h3 + ol, #text h4 + ol, #text h5 + ol, #text h6 + ol { margin-top: .5em; }
+    #text h2, #text h3 { margin-bottom: .75em; }
+    #text hr { border-top: none; border-right: none; border-bottom: 1px solid; border-left: none; }
+    #text pre code, #text code pre { font-size: 1.15em; }
+        

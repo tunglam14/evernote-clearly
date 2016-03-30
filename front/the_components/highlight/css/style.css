@@ -1,0 +1,33 @@
+
+/* selection */ 
+html.clearly_highlighting_enabled ::-moz-selection { background: rgba(246, 238, 150, 0.99); } 
+html.clearly_highlighting_enabled ::selection { background: rgba(246, 238, 150, 0.99); } 
+    
+/* cursor -- cursor and hot-spot position; requires a default cursor, after the URL one */ 
+html.clearly_highlighting_enabled { /* images.css */ } 
+
+/* highlight tag */ 
+em.clearly_highlight_element { 
+    font-style: inherit !important; font-weight: inherit !important; 
+    background-repeat: repeat-x; background-position: top left; background-size: 100% 100%; 
+    /* images.css */
+} 
+
+/* the delete-buttons are positioned relative to this */ 
+em.clearly_highlight_element.clearly_highlight_first { position: relative; } 
+
+/* delete buttons */ 
+em.clearly_highlight_element a.clearly_highlight_delete_element:hover { background-position: -34px 0px; } 
+em.clearly_highlight_element a.clearly_highlight_delete_element { 
+    display: none; cursor: pointer; 
+    padding: 0; margin: 0; line-height: 0; 
+    position: absolute; width: 34px; height: 34px; left: -17px; top: -17px; 
+    background-repeat: no-repeat; background-position: 0px 0px; 
+    /* images.css */
+}
+
+/* retina */ 
+@media (min--moz-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) { 
+    em.clearly_highlight_element { /* images.css */ } 
+    em.clearly_highlight_element a.clearly_highlight_delete_element { background-size: 68px 34px; /* images.css */ } 
+} 

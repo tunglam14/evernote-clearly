@@ -1,0 +1,7 @@
+
+    #text blockquote { border-color: #bababa; color: #656565; }
+
+    #text thead { background-color: #dadada; }
+    #text tr:nth-child(even) { background: #e8e7e7; }
+
+    #text hr { border-color: #c5c5c5; }

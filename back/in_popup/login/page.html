@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html id="html" class="popup">
+<head>
+    <script type="text/javascript" src="chrome-extension://iooicodkiihhpojmmeghjclgihfjdjhj/front/third_party/jquery/jquery.js"></script>
+<script type="text/javascript" src="chrome-extension://iooicodkiihhpojmmeghjclgihfjdjhj/back/content__popup.js"></script>
+    <link rel="stylesheet" href="chrome-extension://iooicodkiihhpojmmeghjclgihfjdjhj/back/in_popup/login/style.css" type="text/css" />
+</head>
+<body id="body" class="popup showCover">
+    <div id="cover"></div>
+    <div id="bodyContent">
+        <div id="login__container" class="theFont"><div id="login__container_which">
+            <div id="two_factor">
+                <div id="two_factor__message__google" class="two_factor__message">
+                    <span translate="two_factor__message__google"></span>
+                    <div class="two_factor__img"></div>
+                </div>
+                <div id="two_factor__message__sms" class="two_factor__message">
+                    <span translate="two_factor__message__sms"></span>
+                    <span id="two_factor__message__sms__number"></span>
+                    <div class="two_factor__img"></div>
+                </div>
+
+                <input id="two_factor__code" class="dialogInput theFont" type="text" maxlength="64" tabindex="1" value="" translate="two_factor__code__label"/>
+                <label id="two_factor__code__label" class="dialogInput" translate="two_factor__code__label"></label>
+                <div id="two_factor__code__error" class="dialogInput dialogError"></div>
+
+                <input id="two_factor__button_do" type="button" class="dialogButton theFont" tabindex="4" translate="two_factor__button_do__label"/>
+
+                <a class="theFont" id="two_factor__help" href="#"><span translate="two_factor__button_help__label"></span></a>
+            </div>
+
+            <div id="password_reset">
+                <div class="theFont" id="login_reset__message"><span translate="login__password__error__reset"></span></div>
+                <input id="login_reset__button" type="button" class="dialogButton theFont" translate="two_factor__button_do__label"/>
+            </div>
+
+            <a class="loginLogo" id="login__logo__in" href="https://www.evernote.com/" target="_blank"></a>
+            <a class="loginLogo" id="login__logo__cn" href="https://app.yinxiang.com/" target="_blank"></a>
+            <div id="login__spinner"></div>
+
+            <a class="registerLink theFont" id="login__register__in" href="#" target="_blank"><span translate="login__create_account"></span></a>
+            <a class="registerLink theFont" id="login__register__cn" href="#" target="_blank"><span translate="login__create_account"></span></a>
+
+            <input id="login__email" class="dialogInput theFont" type="text" maxlength="64" tabindex="1" value="" translate="login__email__label"/>
+            <label id="login__email__label" class="dialogInput" translate="login__email__label"></label>
+            <div id="login__email__error" class="dialogInput dialogError"></div>
+
+            <input id="login__password" class="dialogInput theFont" type="password" maxlength="64" tabindex="2" value="" translate="login__password__label"/>
+            <label id="login__password__label" class="dialogInput" translate="login__password__label"></span></label>
+            <div id="login__password__error" class="dialogInput dialogError"></div>
+
+            <a class="loginSwitcher theFont" id="login__switch_to_cn" href="#">&#20999;&#25442;&#21040; &#21360;&#35937;&#31508;&#35760;</a>
+            <a class="loginSwitcher theFont" id="login__switch_to_in" href="#">&#20999;&#25442;&#21040; Evernote &#22269;&#38469;&#29256;</a>
+
+            <input id="login__button_do" type="button" class="dialogButton theFont" tabindex="4" translate="login__button_do__label"/>
+        </div></div>
+    </div>
+</body>
+</html>

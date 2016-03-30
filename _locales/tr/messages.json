@@ -1,0 +1,698 @@
+{
+   "chrome_browser_action": {
+      "message": "Bu sayfayı Clearly'de görüntüleyin."
+   },
+   "chrome_context_menu": {
+      "message": "Clearly"
+   },
+   "firefox_button": {
+      "message": "Clearly"
+   },
+   "firefox_button_tooltip": {
+      "message": "Bu sayfayı Clearly ile görüntüleyin."
+   },
+   "firefox_context_menu": {
+      "message": "Clearly"
+   },
+   "firefox_menu": {
+      "message": "Clearly"
+   },
+   "inside__blank__heading": {
+      "message": "Evernote Clearly'nin kullanımıyla ilgili ipuçları"
+   },
+   "inside__blank__text": {
+      "message": "Clearly şu anda makale sayfaları üzerinde çalışacak şekilde tasarlanmıştır. Gazete makalesi veya blog gönderisi gibi büyük bir metin bloğu içeren her türlü sayfa, makale sayfasıdır."
+   },
+   "inside__features__clipping__text": {
+      "message": "Okuduklarınızı tek tıklamayla Evernote hesabınıza kaydedin. Evernote'taki kırpılan öğelere istediğiniz cihazdan dilediğiniz zaman ulaşın."
+   },
+   "inside__features__clipping__title": {
+      "message": "Kırp ve Evernote'a Gönder"
+   },
+   "inside__features__close2": {
+      "message": "Kapat"
+   },
+   "inside__features__eula": {
+      "message": "Son Kullanıcı Lisans Anlaşması"
+   },
+   "inside__features__eula_notice": {
+      "message": "Clearly'yi kullanarak, [=eula] şartlarımızı kabul ediyorsunuz."
+   },
+   "inside__features__highlighting__text": {
+      "message": "Hatırlamak istediğiniz metni vurgulayın ve Evernote hesabınızda hızlıca bulun. Clearly'de yaptığınız vurgulama değişiklikleri otomatik olarak Evernote hesabınızda güncellenir."
+   },
+   "inside__features__highlighting__title": {
+      "message": "Vurgulama"
+   },
+   "inside__features__related_notes__text": {
+      "message": "Görüntülemekte olduğunuz sayfayla ilgili notları Evernote hesabınızda yeniden keşfedin. İlgili Notlar, alan izin verdiği takdirde makalenin sonunda ya da sağ tarafta görüntülenir."
+   },
+   "inside__features__related_notes__title": {
+      "message": "İlgili Notlar"
+   },
+   "inside__features__smart_filing__text": {
+      "message": "Web'den kırptığınız öğelere otomatik olarak etiket atar ve bunları uygun not defterlerine sizin için kaydeder."
+   },
+   "inside__features__smart_filing__title": {
+      "message": "Akıllı Dosyalama"
+   },
+   "inside__features__speech__no_language_explanation": {
+      "message": "Evernote Clearly bu makalenin dilini algılayamadı. Dilin hangisini olduğunu biliyorsanız, aşağıdan seçin; böylece makaleyi oynatabiliriz."
+   },
+   "inside__features__speech__no_language_title": {
+      "message": "Dil desteklenmiyor"
+   },
+   "inside__features__speech__text": {
+      "message": "Arkanıza yaslanın ve yalnızca Evernote Premium abonelerinin kullanabileceği yeni Metinden Konuşmaya özelliği sayesinde blog yayınlarını, makaleleri ve web sayfalarını sizin için okurken Clearly'yi dinleyin."
+   },
+   "inside__features__speech__text__available": {
+      "message": "21 dilde Metinden Konuşmaya:"
+   },
+   "inside__features__speech__text__available_languages": {
+      "message": "İngilizce, Japonca, İspanyolca, Fransızca, Almanca, Çince, Korece, Arapça, Çekçe, Danca, Felemenkçe, Fince, Yunanca, Macarca, İtalyanca, Norveççe, Lehçe, Portekizce, Rusça, İsveççe ve Türkçe."
+   },
+   "inside__features__speech__text__cancel": {
+      "message": "İptal"
+   },
+   "inside__features__speech__text__language": {
+      "message": "Dil desteklenmiyor"
+   },
+   "inside__features__speech__text__play": {
+      "message": "Bu dili kullanarak oynat"
+   },
+   "inside__features__speech__text__powered": {
+      "message": "Evernote Clearly, [=service] tarafından desteklenmektedir."
+   },
+   "inside__features__speech__text__requires": {
+      "message": "[=product] gerektirir."
+   },
+   "inside__features__speech__text__try": {
+      "message": "Metinden Konuşmaya Özelliğini Deneyin"
+   },
+   "inside__features__speech__text__upgrade": {
+      "message": "Evernote Premium'a Yükselt"
+   },
+   "inside__features__speech__title": {
+      "message": "Metinden Konuşmaya"
+   },
+   "inside__features__title__all": {
+      "message": "Yeni Evernote Clearly uygulamasına hoş geldiniz"
+   },
+   "inside__features__title__new": {
+      "message": "Evernote Clearly'nin yeni sürümüne sahipsiniz"
+   },
+   "inside__filing_info__add_tag": {
+      "message": "Etiket ekle"
+   },
+   "inside__filing_info__change_notebook": {
+      "message": "Not defterini değiştir"
+   },
+   "inside__filing_info__clipped": {
+      "message": "Kırpılan"
+   },
+   "inside__filing_info__default_notebook": {
+      "message": "Varsayılan Not Defteriniz"
+   },
+   "inside__filing_info__edit": {
+      "message": "Düzenle"
+   },
+   "inside__filing_info__find_notebook": {
+      "message": "Not defteri bul"
+   },
+   "inside__filing_info__no_tags": {
+      "message": "Etiketlere izin verilmez"
+   },
+   "inside__filing_info__open_note": {
+      "message": "Notu aç"
+   },
+   "inside__filing_info__refresh_notebooks": {
+      "message": "Not defteri listesini yenile"
+   },
+   "inside__filing_info__refresh_tags": {
+      "message": "Etiket listesini yenile"
+   },
+   "inside__filing_info__remove_tag": {
+      "message": "Etiketi kaldır"
+   },
+   "inside__filing_info__sentence": {
+      "message": "[=not defteri] not defterine kırpıldı ve [=etiketler] ile etiketlendi."
+   },
+   "inside__filing_info__sentence_and": {
+      "message": "ve"
+   },
+   "inside__filing_info__sentence_no_tags": {
+      "message": "[=not defteri] not defterine kırpıldı."
+   },
+   "inside__filing_info__sentence_other_tags": {
+      "message": "diğer etiketler"
+   },
+   "inside__filing_info__title_normal": {
+      "message": "Dosyalama Konumu:"
+   },
+   "inside__filing_info__title_smart": {
+      "message": "Akıllı Dosyalama Konumu:"
+   },
+   "inside__filing_info__view": {
+      "message": "Görüntüle"
+   },
+   "inside__footer__button": {
+      "message": "Hesap oluştur"
+   },
+   "inside__footer__text": {
+      "message": "Bu makaleyi kaydedip herhangi bir cihazda sonra görüntülemek için ücretsiz bir Evernote hesabı edinin."
+   },
+   "inside__login__button_cancel__label": {
+      "message": "İptal"
+   },
+   "inside__login__button_do__label": {
+      "message": "Oturum aç"
+   },
+   "inside__login__create_account": {
+      "message": "Hesap oluştur"
+   },
+   "inside__login__email__error__format": {
+      "message": "E-posta hatalı karakterler içeriyor."
+   },
+   "inside__login__email__error__invalid": {
+      "message": "Geçerli ve etkin olmayan kullanıcı."
+   },
+   "inside__login__email__error__length": {
+      "message": "E-posta, 6 ve 255 karakter arasında olmalıdır."
+   },
+   "inside__login__email__error__required": {
+      "message": "E-posta zorunludur."
+   },
+   "inside__login__email__label": {
+      "message": "E-posta adresi"
+   },
+   "inside__login__general__error": {
+      "message": "Yetkilendirme başarısız."
+   },
+   "inside__login__heading": {
+      "message": "Evernote'ta oturum aç"
+   },
+   "inside__login__password__error__format": {
+      "message": "Parola hatalı karakterler içeriyor."
+   },
+   "inside__login__password__error__invalid": {
+      "message": "E-posta ve parola varolan kullanıcıyla eşleşmiyor."
+   },
+   "inside__login__password__error__length": {
+      "message": "Parola 6 ile 64 karakter arasında olmalıdır."
+   },
+   "inside__login__password__error__required": {
+      "message": "Parola zorunludur."
+   },
+   "inside__login__password__error__reset": {
+      "message": "Parolanızın süresi doldu. Lütfen şimdi sıfırlayın."
+   },
+   "inside__login__password__error__timeout": {
+      "message": "Oturum zaman aşımına uğradı. Lütfen tekrar deneyin."
+   },
+   "inside__login__password__label": {
+      "message": "Parola"
+   },
+   "inside__login__rememberMe__label": {
+      "message": "Beni hatırla"
+   },
+   "inside__login__spinner": {
+      "message": "Evernote'ta oturum açılıyor"
+   },
+   "inside__menu__clip_to_evernote__tooltip": {
+      "message": "Kırp ve Evernote'a Gönder."
+   },
+   "inside__menu__close__tooltip": {
+      "message": "Bindirmeyi sakla."
+   },
+   "inside__menu__fitts__tooltip": {
+      "message": "Bindirmeyi sakla."
+   },
+   "inside__menu__highlight_to_evernote__tooltip": {
+      "message": "Vurgula."
+   },
+   "inside__menu__print__tooltip": {
+      "message": "Yazdır."
+   },
+   "inside__menu__settings__tooltip": {
+      "message": "Temaları göster."
+   },
+   "inside__menu__speak__forward__tooltip": {
+      "message": "İleri Git"
+   },
+   "inside__menu__speak__pause__tooltip": {
+      "message": "Duraklat"
+   },
+   "inside__menu__speak__play__tooltip": {
+      "message": "Oynat"
+   },
+   "inside__menu__speak__rewind__tooltip": {
+      "message": "Geri Git"
+   },
+   "inside__menu__speak__tooltip": {
+      "message": "Metinden Konuşmaya"
+   },
+   "inside__misc__clipping__doing": {
+      "message": "Kırpılıyor..."
+   },
+   "inside__misc__clipping__failed": {
+      "message": "Kırpma işlemi başarısız."
+   },
+   "inside__misc__login_request": {
+      "message": "Evernote'a giriş yapmak için, lütfen araç çubuğundaki Clearly simgesine tıklayın."
+   },
+   "inside__misc__login_request__chrome": {
+      "message": "Evernote'a giriş yapmak için lütfen Chrome'un araç çubuğundaki Clearly simgesine tıklayın."
+   },
+   "inside__misc__login_request__firefox": {
+      "message": "Evernote'a giriş yapmak için lütfen Firefox'un araç çubuğundaki Clearly simgesine tıklayın."
+   },
+   "inside__misc__login_request__opera": {
+      "message": "Evernote'a giriş yapmak için, lütfen Opera'nın araç çubuğundaki Clearly simgesine tıklayın."
+   },
+   "inside__misc__page": {
+      "message": "Sayfa [=page]"
+   },
+   "inside__related_notes__disable_long": {
+      "message": "İlgili Notları devre dışı bırakmak ister misiniz?"
+   },
+   "inside__related_notes__disable_short": {
+      "message": "Devre dışı bırakılsın mı?"
+   },
+   "inside__related_notes__title": {
+      "message": "İlgili Notlar"
+   },
+   "inside__reminder__button": {
+      "message": "Clearly ile okuyun"
+   },
+   "inside__reminder__heading": {
+      "message": "Clearly ile çevrimiçi okumalardan daha fazla yararlanın"
+   },
+   "inside__reminder__text": {
+      "message": "Sadece tek bir tıklamayla herhangi bir makaleyi dikkat dağıtan tüm öğelerden arındırın. Bir tıklama daha yaparak makaleyi sonsuza kadar Evernote'ta saklayın. Hemen deneyin!"
+   },
+   "inside__rtl__ltr__label": {
+      "message": "Soldan-Sağa"
+   },
+   "inside__rtl__main__label": {
+      "message": "Metin yönü?"
+   },
+   "inside__rtl__rtl__label": {
+      "message": "Sağdan-Sola"
+   },
+   "inside__settings__fontSize__large": {
+      "message": "büyük"
+   },
+   "inside__settings__fontSize__medium": {
+      "message": "orta"
+   },
+   "inside__settings__fontSize__small": {
+      "message": "küçük"
+   },
+   "inside__settings__more_options": {
+      "message": "Daha çok seçenek"
+   },
+   "inside__settings__theme__1": {
+      "message": "Gazete Kağıdı"
+   },
+   "inside__settings__theme__2": {
+      "message": "Not Edilebilir"
+   },
+   "inside__settings__theme__3": {
+      "message": "Gece Kuşu"
+   },
+   "inside__settings__theme__custom": {
+      "message": "Özel"
+   },
+   "inside__two_factor__button_do__label": {
+      "message": "Devam"
+   },
+   "inside__two_factor__button_help__label": {
+      "message": "Onaylama kodu almak için yardıma ihtiyacım var"
+   },
+   "inside__two_factor__code__error__format": {
+      "message": "Onay kodunda yalnızca sayı bulunmalıdır."
+   },
+   "inside__two_factor__code__error__invalid": {
+      "message": "Onay kodu yanlış."
+   },
+   "inside__two_factor__code__error__length": {
+      "message": "Onay kodu en az 6 karakter uzunluğunda olmalıdır."
+   },
+   "inside__two_factor__code__error__required": {
+      "message": "Onay kodu zorunludur."
+   },
+   "inside__two_factor__code__label": {
+      "message": "Altı haneli kod"
+   },
+   "inside__two_factor__message__google": {
+      "message": "Google Authenticator uygulamanızda görüntülenen doğrulama kodunu girin."
+   },
+   "inside__two_factor__message__sms": {
+      "message": "Şu numaraya onay kodu içeren bir metin mesajı gönderdik"
+   },
+   "meta_extension_author": {
+      "message": "Evernote Corp."
+   },
+   "meta_extension_description": {
+      "message": "Clearly blogları, yazıları ve web sayfalarını net ve okuması kolay hale getirir. Bunları her yerde okumak için Evernote'a kaydedin."
+   },
+   "meta_extension_name": {
+      "message": "Clearly"
+   },
+   "options__account__sign_out": {
+      "message": "[[=username]] olarak kalıcı oturum açıldı."
+   },
+   "options__account__sign_out_link": {
+      "message": "Oturumu kapat."
+   },
+   "options__account__signed_out": {
+      "message": "Kalıcı olarak oturum açmadınız. Oturum açmak için Clearly yan çubuğundaki Evernote simgesini tıklatın."
+   },
+   "options__base__label": {
+      "message": "Temel CSS"
+   },
+   "options__box_width__label": {
+      "message": "Satır Genişliği"
+   },
+   "options__button__more_options": {
+      "message": "Daha Çok Seçenek"
+   },
+   "options__button__reset_custom": {
+      "message": "Sıfırla"
+   },
+   "options__button__save_custom": {
+      "message": "Temayı Kaydet"
+   },
+   "options__button__save_general": {
+      "message": "Kaydetme Seçenekleri"
+   },
+   "options__clip_notebook__business": {
+      "message": "İş Not Defterleri"
+   },
+   "options__clip_notebook__default": {
+      "message": "Varsayılan"
+   },
+   "options__clip_notebook__shared": {
+      "message": "Paylaşılan Not Defterleri"
+   },
+   "options__clip_notebook__smart__label": {
+      "message": "Akıllı Dosyalama Kullan"
+   },
+   "options__clip_notebook__specific__label": {
+      "message": "Belirli Bir Not Defteri Kullan"
+   },
+   "options__clip_notebook__your": {
+      "message": "Not Defterleriniz"
+   },
+   "options__clip_tag__smart__label": {
+      "message": "Akıllı Dosyalama Kullan"
+   },
+   "options__clip_tag__specific__label": {
+      "message": "Belirli Bir Etiket Kullan"
+   },
+   "options__color_background__label": {
+      "message": "Arka Plan Rengi"
+   },
+   "options__color_links__label": {
+      "message": "Bağlantı Rengi"
+   },
+   "options__color_text__label": {
+      "message": "Ön Plan Rengi"
+   },
+   "options__custom_css__label": {
+      "message": "Özel CSS"
+   },
+   "options__footnote_links__label": {
+      "message": "Alt Bilgi Olarak Bağlantılar"
+   },
+   "options__keys_activation__label": {
+      "message": "Sayfayı Clearly'de görüntüle"
+   },
+   "options__keys_clip__label": {
+      "message": "Kırp ve Evernote'a Gönder"
+   },
+   "options__keys_highlight__label": {
+      "message": "Vurgula"
+   },
+   "options__keys_speech__label": {
+      "message": "Metinden Konuşmaya"
+   },
+   "options__large_graphics__label": {
+      "message": "Büyük Resimler"
+   },
+   "options__message__keys": {
+      "message": "Değiştirmek için, imleci alana getirin ve klavyenizde tuş kombinasyonuna basın."
+   },
+   "options__message__keys_firefox": {
+      "message": "Kaydettikten sonra tarayıcınızı yeniden başlatın."
+   },
+   "options__message__notebook": {
+      "message": "Evernote'a Kırpma yapıldığında hedef not defteri"
+   },
+   "options__message__open_notes_in": {
+      "message": "Clearly'den notlar açarken, belirli bir Evernote istemcisi kullanın."
+   },
+   "options__message__related_notes": {
+      "message": "Evernote'un hesabınızdan şu an okuduğunuzla ilgili olabilecek klipler getirmesini sağlayın."
+   },
+   "options__message__smart_filing": {
+      "message": "Evernote'un hangi Not defteri kliplerine girip hangi Etiketleri getirmesi gerektiğine karar vermesini sağlayın."
+   },
+   "options__message__tags": {
+      "message": "Evernote'a klip gönderdiğinizde uygulanacak etiketler."
+   },
+   "options__misc__print_preview": {
+      "message": "Yazdırma Önizleme"
+   },
+   "options__misc__reset_theme": {
+      "message": "Özel Temayı Sıfırla"
+   },
+   "options__misc__reset_theme__confirm": {
+      "message": "Bu işlem, özel temanızın değerini varsayılan temanızın değerleriyle aynı yapacak. Bunu yapmak istediğinizden emin misiniz?"
+   },
+   "options__misc__saved": {
+      "message": "Ayarlar, Clearly'yi kullandığınız tüm yeni sekmelerde geçerli olacaktır."
+   },
+   "options__misc__saving": {
+      "message": "Kaydediliyor"
+   },
+   "options__open_notes_in__desktop__label": {
+      "message": "Masaüstü istemcisi"
+   },
+   "options__open_notes_in__web__label": {
+      "message": "Web istemcisi"
+   },
+   "options__related_notes__disabled__label": {
+      "message": "İlgili Notları Devre Dışı Bırak"
+   },
+   "options__related_notes__enabled__label": {
+      "message": "İlgili Notları Etkinleştir"
+   },
+   "options__related_notes__just_at_bottom__label": {
+      "message": "İlgili Notları etkinleştir ve yalnızca altta göster"
+   },
+   "options__smart_filing__disabled__label": {
+      "message": "Akıllı Dosyalama'yı Devre Dışı Bırak"
+   },
+   "options__smart_filing__enabled__label": {
+      "message": "Akıllı Dosyalama'yı Etkinleştir"
+   },
+   "options__smart_filing__just_notebooks__label": {
+      "message": "Akıllı Dosyalamayı yalnızca Not Defterleri için etkinleştir"
+   },
+   "options__smart_filing__just_tags__label": {
+      "message": "Akıllı Dosyalamayı yalnızca Etiketler için etkinleştir"
+   },
+   "options__smart_filing_for_business__notebooks__label": {
+      "message": "İş Not Defterleri İçin de Mevcut"
+   },
+   "options__smart_filing_for_business__tags__label": {
+      "message": "Business Etiketleri İçin de"
+   },
+   "options__speech_demo__label": {
+      "message": "Demo"
+   },
+   "options__speech_gender__label": {
+      "message": "Okuma Sesi"
+   },
+   "options__speech_speed__label": {
+      "message": "Okuma Hızı"
+   },
+   "options__text_align__label": {
+      "message": "Metin Hizalama"
+   },
+   "options__text_font__label": {
+      "message": "Gövde Yazı Tipi"
+   },
+   "options__text_font_header__label": {
+      "message": "Başlık Yazı Tipi"
+   },
+   "options__text_font_monospace__label": {
+      "message": "Eş Aralıklı Yazı Tipi"
+   },
+   "options__text_line_height__label": {
+      "message": "Satır Yüksekliği"
+   },
+   "options__text_size__label": {
+      "message": "Taban Yazı Tipi Boyutu"
+   },
+   "options__title__custom": {
+      "message": "Özel Tema"
+   },
+   "options__title__features": {
+      "message": "Clearly Özellikleri"
+   },
+   "options__title__general": {
+      "message": "Seçenekler"
+   },
+   "options__title__page": {
+      "message": "Clearly / Seçenekler"
+   },
+   "options__title__speech": {
+      "message": "Metinden Konuşmaya"
+   },
+   "options__title__sub__account": {
+      "message": "Hesap"
+   },
+   "options__title__sub__keyboard": {
+      "message": "Klavye kısayolları"
+   },
+   "options__title__sub__notebook": {
+      "message": "Not Defteri Seçimi"
+   },
+   "options__title__sub__open_notes_in": {
+      "message": "Notları şurada aç"
+   },
+   "options__title__sub__related_notes": {
+      "message": "İlgili Notlar"
+   },
+   "options__title__sub__smart_filing": {
+      "message": "Akıllı Dosyalama"
+   },
+   "options__title__sub__tags": {
+      "message": "Etiket Seçimi"
+   },
+   "options__values__base__Blueprint": {
+      "message": "Mavi Baskı"
+   },
+   "options__values__base__None": {
+      "message": "Hiçbiri"
+   },
+   "options__values__base__Theme_1": {
+      "message": "Klasik"
+   },
+   "options__values__base__Theme_2": {
+      "message": "Modern"
+   },
+   "options__values__base__Theme_3": {
+      "message": "Gece"
+   },
+   "options__values__footnote_links__Always": {
+      "message": "Her zaman"
+   },
+   "options__values__footnote_links__Never": {
+      "message": "Hiçbir zaman"
+   },
+   "options__values__footnote_links__On_Print": {
+      "message": "Yazdırılıyor"
+   },
+   "options__values__large_graphics__Do_Nothing": {
+      "message": "Her Zaman Göster"
+   },
+   "options__values__large_graphics__Hide_Always": {
+      "message": "Her Zaman Sakla"
+   },
+   "options__values__large_graphics__Hide_on_Print": {
+      "message": "Yazdırırken Sakla"
+   },
+   "options__values__menu_placement__Bottom_Right": {
+      "message": "Alt Sağ"
+   },
+   "options__values__menu_placement__Top_Right": {
+      "message": "Üst Sağ"
+   },
+   "options__values__speech_gender__default": {
+      "message": "Varsayılan"
+   },
+   "options__values__speech_gender__female": {
+      "message": "Kadın (mevcutsa)"
+   },
+   "options__values__speech_gender__male": {
+      "message": "Erkek (mevcutsa)"
+   },
+   "options__values__speech_speed__fast": {
+      "message": "Hızlı"
+   },
+   "options__values__speech_speed__faster": {
+      "message": "Daha Hızlı"
+   },
+   "options__values__speech_speed__fastest": {
+      "message": "En Hızlı"
+   },
+   "options__values__speech_speed__normal": {
+      "message": "Normal"
+   },
+   "options__values__speech_speed__slow": {
+      "message": "Yavaş"
+   },
+   "options__values__speech_speed__slower": {
+      "message": "Daha Yavaş"
+   },
+   "options__values__speech_speed__slowest": {
+      "message": "En Yavaş"
+   },
+   "options__values__text_align__Justified": {
+      "message": "Yaslanmış"
+   },
+   "options__values__text_align__Normal": {
+      "message": "Normal"
+   },
+   "register__after__1": {
+      "message": "Evernote hesabınız artık Clearly ile eşleşmiştir."
+   },
+   "register__after__2": {
+      "message": "Bu makaleyi anında kaydetmek için Clearly'nin kenar çubuğundaki Evernote simgesine tıklayın."
+   },
+   "register__after__3": {
+      "message": "Her yerde her zaman okumak için tüm cihazlarınız için Evernote edinin."
+   },
+   "register__after__heading": {
+      "message": "Kayıt tamamlanmıştır"
+   },
+   "register__agree": {
+      "message": "'Üye ol' öğesine tıklayarak [=terms] ve [=privacy] şartlarımızı kabul ediyorsunuz."
+   },
+   "register__agree__privacy": {
+      "message": "Gizlilik Politikası"
+   },
+   "register__agree__terms": {
+      "message": "Hizmet Koşulları"
+   },
+   "register__button": {
+      "message": "Kaydol"
+   },
+   "register__captcha__error__incorrect": {
+      "message": "Captcha yanlış."
+   },
+   "register__captcha__error__required": {
+      "message": "Captcha zorunludur."
+   },
+   "register__captcha__label": {
+      "message": "Captcha"
+   },
+   "register__email__error__conflict": {
+      "message": "E-posta zaten bir hesapla ilişkilendirilmiş."
+   },
+   "register__evernote_heading": {
+      "message": "Hayatınızın işi"
+   },
+   "register__evernote_text": {
+      "message": "Yaptığınız her şeyde Evernote en ideal çalışma alanıdır."
+   },
+   "register__page_title": {
+      "message": "Clearly / Kaydol"
+   },
+   "register__text": {
+      "message": "Clearly'yi Evernote hesabıyla kullanmak, tüm makalelerinizi kaydedip onları sonra herhangi bir cihazda okumanızı sağlar."
+   }
+}

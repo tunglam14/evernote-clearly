@@ -1,0 +1,698 @@
+{
+   "chrome_browser_action": {
+      "message": "在 Clearly 中檢視此頁面。"
+   },
+   "chrome_context_menu": {
+      "message": "Clearly"
+   },
+   "firefox_button": {
+      "message": "Clearly"
+   },
+   "firefox_button_tooltip": {
+      "message": "使用 Clearly 檢視此頁面。"
+   },
+   "firefox_context_menu": {
+      "message": "Clearly"
+   },
+   "firefox_menu": {
+      "message": "Clearly"
+   },
+   "inside__blank__heading": {
+      "message": "Evernote Clearly 的使用提示"
+   },
+   "inside__blank__text": {
+      "message": "Clearly 目前主要設計來用於文章頁面。文章頁面是包含大量文字區塊的頁面，例如，就像報紙文章或部落格張貼一樣。"
+   },
+   "inside__features__clipping__text": {
+      "message": "只要點按一下滑鼠即可將您正在閱讀的內容儲存至 Evernote 帳戶。在 Evernote 中，可在任何時間透過任何裝置存取擷取。"
+   },
+   "inside__features__clipping__title": {
+      "message": "擷取至 Evernote"
+   },
+   "inside__features__close2": {
+      "message": "關閉"
+   },
+   "inside__features__eula": {
+      "message": "終端使用者授權合約"
+   },
+   "inside__features__eula_notice": {
+      "message": "使用 Clearly，即代表您同意我們的 [=eula]。"
+   },
+   "inside__features__highlighting__text": {
+      "message": "將您希望記住的文字反白，並且快速地在 Evernote 帳戶中找到。您在 Clearly 所做的反白顯示變更將會自動在 Evernote 帳戶中更新。"
+   },
+   "inside__features__highlighting__title": {
+      "message": "反白顯示"
+   },
+   "inside__features__related_notes__text": {
+      "message": "神奇地重新發現 Evernote 帳戶中與您正在瀏覽的網頁相關的記事。在文章下面或是右側 (如果空間許可) 會顯示「相關記事」。"
+   },
+   "inside__features__related_notes__title": {
+      "message": "相關記事"
+   },
+   "inside__features__smart_filing__text": {
+      "message": "自動為您的網頁擷取指派標籤，並且將其儲存至適當的記事本中，不需勞煩您動手。"
+   },
+   "inside__features__smart_filing__title": {
+      "message": "智慧填入"
+   },
+   "inside__features__speech__no_language_explanation": {
+      "message": "Evernote Clearly 無法確定此文章的語言。如果您認得此語言，請在下方選擇，我們將會以此語言播放。"
+   },
+   "inside__features__speech__no_language_title": {
+      "message": "不支援的語音"
+   },
+   "inside__features__speech__text": {
+      "message": "針對 Evernote 專業版訂閱者獨家提供的全新「文字轉語音」功能，讓您只要坐在沙發上即可由 Clearly 為您朗讀部落格貼文、文章和網頁。"
+   },
+   "inside__features__speech__text__available": {
+      "message": "「文字轉語音」功能支援 21 種語言："
+   },
+   "inside__features__speech__text__available_languages": {
+      "message": "英語、日語、西班牙語、法語、德語、中文、韓語、阿拉伯語、捷克語、丹麥語、荷蘭語、芬蘭語、希臘語、匈牙利語、義大利語、挪威語、波蘭語、葡萄牙語、俄語、瑞典語以及土耳其語。"
+   },
+   "inside__features__speech__text__cancel": {
+      "message": "取消"
+   },
+   "inside__features__speech__text__language": {
+      "message": "不支援的語音"
+   },
+   "inside__features__speech__text__play": {
+      "message": "使用此語言播放"
+   },
+   "inside__features__speech__text__powered": {
+      "message": "Evernote Clearly 是由 [=service] 提供技術支援。"
+   },
+   "inside__features__speech__text__requires": {
+      "message": "需要 [=product]。"
+   },
+   "inside__features__speech__text__try": {
+      "message": "試用「文字轉語音」"
+   },
+   "inside__features__speech__text__upgrade": {
+      "message": "升級至 Evernote 專業版"
+   },
+   "inside__features__speech__title": {
+      "message": "文字轉語音"
+   },
+   "inside__features__title__all": {
+      "message": "歡迎使用全新的 Evernote Clearly"
+   },
+   "inside__features__title__new": {
+      "message": "您有新版的 Evernote Clearly"
+   },
+   "inside__filing_info__add_tag": {
+      "message": "加上標籤"
+   },
+   "inside__filing_info__change_notebook": {
+      "message": "變更記事本"
+   },
+   "inside__filing_info__clipped": {
+      "message": "已擷取"
+   },
+   "inside__filing_info__default_notebook": {
+      "message": "您的預設記事本"
+   },
+   "inside__filing_info__edit": {
+      "message": "編輯"
+   },
+   "inside__filing_info__find_notebook": {
+      "message": "尋找記事本"
+   },
+   "inside__filing_info__no_tags": {
+      "message": "標籤不被允許"
+   },
+   "inside__filing_info__open_note": {
+      "message": "開啟記事"
+   },
+   "inside__filing_info__refresh_notebooks": {
+      "message": "重新整理記事本清單"
+   },
+   "inside__filing_info__refresh_tags": {
+      "message": "重新整理標籤清單"
+   },
+   "inside__filing_info__remove_tag": {
+      "message": "移除標籤"
+   },
+   "inside__filing_info__sentence": {
+      "message": "擷取至 [=notebook] 記事本，標記為 [=tags]。"
+   },
+   "inside__filing_info__sentence_and": {
+      "message": "與"
+   },
+   "inside__filing_info__sentence_no_tags": {
+      "message": "擷取至 [=notebook] 記事本。"
+   },
+   "inside__filing_info__sentence_other_tags": {
+      "message": "其他標籤"
+   },
+   "inside__filing_info__title_normal": {
+      "message": "歸檔位置："
+   },
+   "inside__filing_info__title_smart": {
+      "message": "智慧歸檔位置："
+   },
+   "inside__filing_info__view": {
+      "message": "檢視"
+   },
+   "inside__footer__button": {
+      "message": "建立帳戶"
+   },
+   "inside__footer__text": {
+      "message": "立刻註冊免費 Evernote 帳號，即可保存此文章，並可稍後在任何裝置上閱讀。"
+   },
+   "inside__login__button_cancel__label": {
+      "message": "取消"
+   },
+   "inside__login__button_do__label": {
+      "message": "登入"
+   },
+   "inside__login__create_account": {
+      "message": "建立帳戶"
+   },
+   "inside__login__email__error__format": {
+      "message": "電子郵件中包含錯誤字元。"
+   },
+   "inside__login__email__error__invalid": {
+      "message": "不是有效且使用中的使用者。"
+   },
+   "inside__login__email__error__length": {
+      "message": "電子郵件必須介於 1 到 64 個字元長度之間。"
+   },
+   "inside__login__email__error__required": {
+      "message": "必須輸入電子郵件。"
+   },
+   "inside__login__email__label": {
+      "message": "電子郵件地址"
+   },
+   "inside__login__general__error": {
+      "message": "驗證失敗。"
+   },
+   "inside__login__heading": {
+      "message": "登入 Evernote"
+   },
+   "inside__login__password__error__format": {
+      "message": "密碼中包含錯誤字元。"
+   },
+   "inside__login__password__error__invalid": {
+      "message": "電子郵件與密碼與現有的使用者不相符。"
+   },
+   "inside__login__password__error__length": {
+      "message": "密碼必須介於 6 到 64 個字元長度之間。"
+   },
+   "inside__login__password__error__required": {
+      "message": "密碼必填。"
+   },
+   "inside__login__password__error__reset": {
+      "message": "您的密碼已過期。請立即重新設定。"
+   },
+   "inside__login__password__error__timeout": {
+      "message": "登入工作階段已逾期，請再試一次。"
+   },
+   "inside__login__password__label": {
+      "message": "密碼"
+   },
+   "inside__login__rememberMe__label": {
+      "message": "記住我"
+   },
+   "inside__login__spinner": {
+      "message": "登入 Evernote"
+   },
+   "inside__menu__clip_to_evernote__tooltip": {
+      "message": "擷取至Evernote。"
+   },
+   "inside__menu__close__tooltip": {
+      "message": "隱藏覆蓋圖。"
+   },
+   "inside__menu__fitts__tooltip": {
+      "message": "隱藏覆蓋圖。"
+   },
+   "inside__menu__highlight_to_evernote__tooltip": {
+      "message": "反白。"
+   },
+   "inside__menu__print__tooltip": {
+      "message": "列印。"
+   },
+   "inside__menu__settings__tooltip": {
+      "message": "顯示主題。"
+   },
+   "inside__menu__speak__forward__tooltip": {
+      "message": "快轉"
+   },
+   "inside__menu__speak__pause__tooltip": {
+      "message": "暫停"
+   },
+   "inside__menu__speak__play__tooltip": {
+      "message": "播放"
+   },
+   "inside__menu__speak__rewind__tooltip": {
+      "message": "倒轉"
+   },
+   "inside__menu__speak__tooltip": {
+      "message": "文字轉語音"
+   },
+   "inside__misc__clipping__doing": {
+      "message": "擷取中..."
+   },
+   "inside__misc__clipping__failed": {
+      "message": "擷取失敗。"
+   },
+   "inside__misc__login_request": {
+      "message": "若要登入 Evernote，請點擊工具列中的 Clearly 圖示。"
+   },
+   "inside__misc__login_request__chrome": {
+      "message": "若要登入 Evernote，請點擊 Chrome 工具列中的 Clearly 標誌。"
+   },
+   "inside__misc__login_request__firefox": {
+      "message": "若要登入 Evernote，請點擊 Firefox 工具列中的 Clearly 圖示。"
+   },
+   "inside__misc__login_request__opera": {
+      "message": "若要登入 Evernote，請點擊 Opera 工具列中的 Clearly 圖示。"
+   },
+   "inside__misc__page": {
+      "message": "頁面 [=page]"
+   },
+   "inside__related_notes__disable_long": {
+      "message": "您是否要停用相關記事？"
+   },
+   "inside__related_notes__disable_short": {
+      "message": "停用？"
+   },
+   "inside__related_notes__title": {
+      "message": "相關記事"
+   },
+   "inside__reminder__button": {
+      "message": "使用 Clearly 閱讀"
+   },
+   "inside__reminder__heading": {
+      "message": "使用 Clearly，體驗絕佳線上閱讀經驗。"
+   },
+   "inside__reminder__text": {
+      "message": "只要點按一下滑鼠即可撇除一切干擾、專注閱讀。再一點即可將您正在閱讀的內容儲存至 Evernote 帳戶，永久儲存。現在就試試！"
+   },
+   "inside__rtl__ltr__label": {
+      "message": "從左到右"
+   },
+   "inside__rtl__main__label": {
+      "message": "文字方向？"
+   },
+   "inside__rtl__rtl__label": {
+      "message": "從右到左"
+   },
+   "inside__settings__fontSize__large": {
+      "message": "大"
+   },
+   "inside__settings__fontSize__medium": {
+      "message": "中"
+   },
+   "inside__settings__fontSize__small": {
+      "message": "小"
+   },
+   "inside__settings__more_options": {
+      "message": "更多選項"
+   },
+   "inside__settings__theme__1": {
+      "message": "報紙模式"
+   },
+   "inside__settings__theme__2": {
+      "message": "一般"
+   },
+   "inside__settings__theme__3": {
+      "message": "黑底白字"
+   },
+   "inside__settings__theme__custom": {
+      "message": "自訂"
+   },
+   "inside__two_factor__button_do__label": {
+      "message": "繼續"
+   },
+   "inside__two_factor__button_help__label": {
+      "message": "我需要幫助以取得驗證碼"
+   },
+   "inside__two_factor__code__error__format": {
+      "message": "驗證碼只含有數字"
+   },
+   "inside__two_factor__code__error__invalid": {
+      "message": "驗證碼不正確。"
+   },
+   "inside__two_factor__code__error__length": {
+      "message": "驗證碼必須至少為 6 個字元。"
+   },
+   "inside__two_factor__code__error__required": {
+      "message": "必須輸入驗證碼。"
+   },
+   "inside__two_factor__code__label": {
+      "message": "六位數代碼"
+   },
+   "inside__two_factor__message__google": {
+      "message": "輸入 Google Authenticator 應用程式中所顯示的驗證碼。"
+   },
+   "inside__two_factor__message__sms": {
+      "message": "我們已傳送含有驗證碼的文字訊息至"
+   },
+   "meta_extension_author": {
+      "message": "Evernote Corp."
+   },
+   "meta_extension_description": {
+      "message": "Clearly 可使部落格發佈、文章與網頁乾淨而容易閱讀。 請將其儲存至 Evernote 以便於任何位置閱讀。"
+   },
+   "meta_extension_name": {
+      "message": "Clearly"
+   },
+   "options__account__sign_out": {
+      "message": "作為 [[=username]] 永久登入。"
+   },
+   "options__account__sign_out_link": {
+      "message": "登出。"
+   },
+   "options__account__signed_out": {
+      "message": "您尚未永久登入。在 Clearly 資訊看板中按一下 Evernote 圖示登入。"
+   },
+   "options__base__label": {
+      "message": "基礎 CSS"
+   },
+   "options__box_width__label": {
+      "message": "行寬"
+   },
+   "options__button__more_options": {
+      "message": "更多選項"
+   },
+   "options__button__reset_custom": {
+      "message": "重設"
+   },
+   "options__button__save_custom": {
+      "message": "儲存主題"
+   },
+   "options__button__save_general": {
+      "message": "儲存選項"
+   },
+   "options__clip_notebook__business": {
+      "message": "商業記事本"
+   },
+   "options__clip_notebook__default": {
+      "message": "預設值"
+   },
+   "options__clip_notebook__shared": {
+      "message": "已共用的記事本"
+   },
+   "options__clip_notebook__smart__label": {
+      "message": "使用智慧填入"
+   },
+   "options__clip_notebook__specific__label": {
+      "message": "使用指定的記事本"
+   },
+   "options__clip_notebook__your": {
+      "message": "您的記事本"
+   },
+   "options__clip_tag__smart__label": {
+      "message": "使用智慧填入"
+   },
+   "options__clip_tag__specific__label": {
+      "message": "使用特定的標籤"
+   },
+   "options__color_background__label": {
+      "message": "背景顏色"
+   },
+   "options__color_links__label": {
+      "message": "連結顏色"
+   },
+   "options__color_text__label": {
+      "message": "前景顏色"
+   },
+   "options__custom_css__label": {
+      "message": "自訂 CSS"
+   },
+   "options__footnote_links__label": {
+      "message": "連結為註腳"
+   },
+   "options__keys_activation__label": {
+      "message": "在 Clearly 中檢視頁面"
+   },
+   "options__keys_clip__label": {
+      "message": "擷取至 Evernote"
+   },
+   "options__keys_highlight__label": {
+      "message": "反白"
+   },
+   "options__keys_speech__label": {
+      "message": "文字轉語音"
+   },
+   "options__large_graphics__label": {
+      "message": "大型圖形"
+   },
+   "options__message__keys": {
+      "message": "若要變更，請將游標置於欄位中，然後按下鍵盤上的組合鍵。"
+   },
+   "options__message__keys_firefox": {
+      "message": "儲存後重新啟動瀏覽器。"
+   },
+   "options__message__notebook": {
+      "message": "當您擷取至 Evernote 時應該擷取至的記事本。"
+   },
+   "options__message__open_notes_in": {
+      "message": "從 Clearly 開啟記事時，請使用特定的 Evernote 用戶端。"
+   },
+   "options__message__related_notes": {
+      "message": "讓 Evernote 取得帳戶中可能與您正在閱讀的內容有關的擷取內容。"
+   },
+   "options__message__smart_filing": {
+      "message": "讓 Evernote 決定應該進入記事本擷取中的什麼部分，以及應該獲得什麼標籤。"
+   },
+   "options__message__tags": {
+      "message": "當您擷取 Evernote 時應該套用的標籤。"
+   },
+   "options__misc__print_preview": {
+      "message": "列印預覽"
+   },
+   "options__misc__reset_theme": {
+      "message": "重設自訂主題"
+   },
+   "options__misc__reset_theme__confirm": {
+      "message": "確定要將您的自訂主題設定成與系統預設主題一樣嗎？"
+   },
+   "options__misc__saved": {
+      "message": "設定將在您使用 Clearly 的任何新標籤上生效。"
+   },
+   "options__misc__saving": {
+      "message": "儲存中"
+   },
+   "options__open_notes_in__desktop__label": {
+      "message": "桌面用戶端"
+   },
+   "options__open_notes_in__web__label": {
+      "message": "網頁用戶端"
+   },
+   "options__related_notes__disabled__label": {
+      "message": "停用相關記事"
+   },
+   "options__related_notes__enabled__label": {
+      "message": "啟用相關記事"
+   },
+   "options__related_notes__just_at_bottom__label": {
+      "message": "啟用相關記事，但僅在底部顯示"
+   },
+   "options__smart_filing__disabled__label": {
+      "message": "停用智慧歸檔"
+   },
+   "options__smart_filing__enabled__label": {
+      "message": "啟用智慧填入"
+   },
+   "options__smart_filing__just_notebooks__label": {
+      "message": "啟用智慧填入功能，但僅適用於記事本"
+   },
+   "options__smart_filing__just_tags__label": {
+      "message": "啟用智慧填入，但僅適用於標籤"
+   },
+   "options__smart_filing_for_business__notebooks__label": {
+      "message": "企業記事本亦適用"
+   },
+   "options__smart_filing_for_business__tags__label": {
+      "message": "亦適用於企業標籤"
+   },
+   "options__speech_demo__label": {
+      "message": "試用版"
+   },
+   "options__speech_gender__label": {
+      "message": "朗讀語音"
+   },
+   "options__speech_speed__label": {
+      "message": "朗讀速度"
+   },
+   "options__text_align__label": {
+      "message": "對齊文字"
+   },
+   "options__text_font__label": {
+      "message": "本文字型"
+   },
+   "options__text_font_header__label": {
+      "message": "標題字型"
+   },
+   "options__text_font_monospace__label": {
+      "message": "Monospace 字型"
+   },
+   "options__text_line_height__label": {
+      "message": "行高"
+   },
+   "options__text_size__label": {
+      "message": "基本字型大小"
+   },
+   "options__title__custom": {
+      "message": "自訂主題"
+   },
+   "options__title__features": {
+      "message": "Clearly 功能"
+   },
+   "options__title__general": {
+      "message": "選項"
+   },
+   "options__title__page": {
+      "message": "Clearly / 選項"
+   },
+   "options__title__speech": {
+      "message": "文字轉語音"
+   },
+   "options__title__sub__account": {
+      "message": "帳戶"
+   },
+   "options__title__sub__keyboard": {
+      "message": "鍵盤捷徑"
+   },
+   "options__title__sub__notebook": {
+      "message": "記事本選取項目"
+   },
+   "options__title__sub__open_notes_in": {
+      "message": "記事開啟方式"
+   },
+   "options__title__sub__related_notes": {
+      "message": "相關記事"
+   },
+   "options__title__sub__smart_filing": {
+      "message": "智慧填入"
+   },
+   "options__title__sub__tags": {
+      "message": "標籤選取項目"
+   },
+   "options__values__base__Blueprint": {
+      "message": "藍圖"
+   },
+   "options__values__base__None": {
+      "message": "無"
+   },
+   "options__values__base__Theme_1": {
+      "message": "經典"
+   },
+   "options__values__base__Theme_2": {
+      "message": "現代"
+   },
+   "options__values__base__Theme_3": {
+      "message": "夜間"
+   },
+   "options__values__footnote_links__Always": {
+      "message": "永遠"
+   },
+   "options__values__footnote_links__Never": {
+      "message": "絕不"
+   },
+   "options__values__footnote_links__On_Print": {
+      "message": "開啟列印"
+   },
+   "options__values__large_graphics__Do_Nothing": {
+      "message": "始終顯示"
+   },
+   "options__values__large_graphics__Hide_Always": {
+      "message": "永遠隱藏"
+   },
+   "options__values__large_graphics__Hide_on_Print": {
+      "message": "列印時隱藏"
+   },
+   "options__values__menu_placement__Bottom_Right": {
+      "message": "右下方"
+   },
+   "options__values__menu_placement__Top_Right": {
+      "message": "右上方"
+   },
+   "options__values__speech_gender__default": {
+      "message": "預設值"
+   },
+   "options__values__speech_gender__female": {
+      "message": "女性 (若支援)"
+   },
+   "options__values__speech_gender__male": {
+      "message": "男性 (若支援)"
+   },
+   "options__values__speech_speed__fast": {
+      "message": "快"
+   },
+   "options__values__speech_speed__faster": {
+      "message": "較快"
+   },
+   "options__values__speech_speed__fastest": {
+      "message": "最快"
+   },
+   "options__values__speech_speed__normal": {
+      "message": "正常"
+   },
+   "options__values__speech_speed__slow": {
+      "message": "慢"
+   },
+   "options__values__speech_speed__slower": {
+      "message": "較慢"
+   },
+   "options__values__speech_speed__slowest": {
+      "message": "最慢"
+   },
+   "options__values__text_align__Justified": {
+      "message": "左右對齊"
+   },
+   "options__values__text_align__Normal": {
+      "message": "正常"
+   },
+   "register__after__1": {
+      "message": "您的 Clearly 已綁定 Evernote 帳戶。"
+   },
+   "register__after__2": {
+      "message": "在 Clearly 資訊看板中按一下 Evernote 圖示即可立即將文章儲存起來。"
+   },
+   "register__after__3": {
+      "message": "在您所有的電腦和裝置上安裝 Evernote，以便隨處檢視您的記事及記事本。"
+   },
+   "register__after__heading": {
+      "message": "註冊已完成"
+   },
+   "register__agree": {
+      "message": "點擊註冊即代表您同意我們的 [=terms] 以及 [=privacy]。"
+   },
+   "register__agree__privacy": {
+      "message": "隱私權政策"
+   },
+   "register__agree__terms": {
+      "message": "服務條款"
+   },
+   "register__button": {
+      "message": "註冊"
+   },
+   "register__captcha__error__incorrect": {
+      "message": "驗證碼不正確。"
+   },
+   "register__captcha__error__required": {
+      "message": "驗證碼必填。"
+   },
+   "register__captcha__label": {
+      "message": "驗證碼"
+   },
+   "register__email__error__conflict": {
+      "message": "此電子郵件已註冊了 Evernote 帳戶。"
+   },
+   "register__evernote_heading": {
+      "message": "您的人生職志"
+   },
+   "register__evernote_text": {
+      "message": "無論志在何方，Evernote 是您無所不在的工作空間，助您全力以赴。"
+   },
+   "register__page_title": {
+      "message": "Clearly / 註冊"
+   },
+   "register__text": {
+      "message": "登入 Evernote 帳戶使用 Clearly，可以先儲存想讀的文章，日後使用任何裝置都可閱讀。"
+   }
+}

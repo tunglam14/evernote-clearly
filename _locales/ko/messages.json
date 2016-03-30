@@ -1,0 +1,698 @@
+{
+   "chrome_browser_action": {
+      "message": "Clearly에서 이 페이지 보기."
+   },
+   "chrome_context_menu": {
+      "message": "Clearly"
+   },
+   "firefox_button": {
+      "message": "Clearly"
+   },
+   "firefox_button_tooltip": {
+      "message": "Clearly에서 이 페이지를 보기."
+   },
+   "firefox_context_menu": {
+      "message": "Clearly"
+   },
+   "firefox_menu": {
+      "message": "Clearly"
+   },
+   "inside__blank__heading": {
+      "message": "Evernote Clearly 사용 팁"
+   },
+   "inside__blank__text": {
+      "message": "Clearly는 현재 기사 페이지에서 실행하도록 설계되었습니다. 기사 페이지는 신문 기사 또는 블로그 게시물과 같이 하나의 대규모 텍스트 블록 — 이 포함된 페이지입니다."
+   },
+   "inside__features__clipping__text": {
+      "message": "한 번의 클릭으로 Evernote 계정에서 읽고 있는 내용을 저장해 보십시오. Evernote에서 언제든지 모든 장치에서 클립한 내용을 확인할 수 있습니다."
+   },
+   "inside__features__clipping__title": {
+      "message": "Evernote로 스크랩"
+   },
+   "inside__features__close2": {
+      "message": "닫기"
+   },
+   "inside__features__eula": {
+      "message": "최종 사용자 사용권 계약"
+   },
+   "inside__features__eula_notice": {
+      "message": "Clearly를 사용하면 저희 [=eula]에 동의하는 것입니다."
+   },
+   "inside__features__highlighting__text": {
+      "message": "회원님의 Evernote 계정에서 기억에 남기고 싶은 텍스트를 강조 표시한 후 빠르게 찾아 보십시오. Clearly에서 변경한 내용을 강조표시하면 회원님의 Evernote계정에 변경 내용이 자동으로 업데이트됩니다."
+   },
+   "inside__features__highlighting__title": {
+      "message": "강조표시"
+   },
+   "inside__features__related_notes__text": {
+      "message": "보고 있는 페이지와 관련된 회원님의 Evernote 계정에서 노트를 놀라울 정도로 빠르게 검색해 보십시오. 관련 노트가 공간이 허용되는 경우 오른쪽에 표시되거나 보고 있는 항목의 하단에 표시됩니다."
+   },
+   "inside__features__related_notes__title": {
+      "message": "관련 노트"
+   },
+   "inside__features__smart_filing__text": {
+      "message": "회원님의 웹 클립에 자동으로 태그를 달고 적절한 노트북에 저장해 주므로, 직접 하실 필요가 없습니다."
+   },
+   "inside__features__smart_filing__title": {
+      "message": "스마트 파일링"
+   },
+   "inside__features__speech__no_language_explanation": {
+      "message": "Evernote Clearly가 이 글의 언어를 감지할 수 없습니다. 어떤 언어인지 아신다면, 아래에서 선택해 주세요. 그 언어로 재생하겠습니다."
+   },
+   "inside__features__speech__no_language_title": {
+      "message": "지원되지 않는 언어"
+   },
+   "inside__features__speech__text": {
+      "message": "자리에 앉아 Cleary가 블로그 글이나 신문기사, 웹페이지를 읽어주는 걸 들어보세요. Evernote 프리미엄 사용자들에게만 제공되는 텍스트음성변환(TTS) 기능입니다."
+   },
+   "inside__features__speech__text__available": {
+      "message": "21개 언어를 지원하는 텍스트음성변환(TTS) 기능:"
+   },
+   "inside__features__speech__text__available_languages": {
+      "message": "영어, 일본어, 스페인어, 프랑스어, 독일어, 중국어, 한국어, 아랍어, 체코어, 덴마크어, 네덜란드어, 핀란드어, 그리스어, 헝가리어, 이탈리아어, 노르웨이어, 폴란드어, 포르투갈어, 러시아어, 스웨덴어, 터키어."
+   },
+   "inside__features__speech__text__cancel": {
+      "message": "취소"
+   },
+   "inside__features__speech__text__language": {
+      "message": "지원되지 않는 언어"
+   },
+   "inside__features__speech__text__play": {
+      "message": "이 언어로 재생"
+   },
+   "inside__features__speech__text__powered": {
+      "message": "Evernote Clearly는 [=service]에 의해 제공됩니다."
+   },
+   "inside__features__speech__text__requires": {
+      "message": "[=product]가 필요합니다."
+   },
+   "inside__features__speech__text__try": {
+      "message": "텍스트음성변환(TTS)을 사용해 보세요"
+   },
+   "inside__features__speech__text__upgrade": {
+      "message": "Evernote 프리미엄으로 업그레이드"
+   },
+   "inside__features__speech__title": {
+      "message": "텍스트음성변환(TTS)"
+   },
+   "inside__features__title__all": {
+      "message": "새로운 Evernote Clearly가 인사드립니다"
+   },
+   "inside__features__title__new": {
+      "message": "Evernote Clearly의 새로운 버전을 사용하고 계십니다"
+   },
+   "inside__filing_info__add_tag": {
+      "message": "태그 추가"
+   },
+   "inside__filing_info__change_notebook": {
+      "message": "노트북 변경"
+   },
+   "inside__filing_info__clipped": {
+      "message": "스크랩됨"
+   },
+   "inside__filing_info__default_notebook": {
+      "message": "회원님의 기본 노트북"
+   },
+   "inside__filing_info__edit": {
+      "message": "편집"
+   },
+   "inside__filing_info__find_notebook": {
+      "message": "노트북 찾기"
+   },
+   "inside__filing_info__no_tags": {
+      "message": "태그가 허용되지 않습니다"
+   },
+   "inside__filing_info__open_note": {
+      "message": "노트 열기"
+   },
+   "inside__filing_info__refresh_notebooks": {
+      "message": "노트북 목록 새로 고침"
+   },
+   "inside__filing_info__refresh_tags": {
+      "message": "태그 목록 새로 고침"
+   },
+   "inside__filing_info__remove_tag": {
+      "message": "태그 제거"
+   },
+   "inside__filing_info__sentence": {
+      "message": "[=notebook] 노트북에 스크랩하고 [=tags] 태그를 지정했습니다."
+   },
+   "inside__filing_info__sentence_and": {
+      "message": "그리고"
+   },
+   "inside__filing_info__sentence_no_tags": {
+      "message": "[=notebook] 노트북에 스크랩했습니다."
+   },
+   "inside__filing_info__sentence_other_tags": {
+      "message": "기타 태그"
+   },
+   "inside__filing_info__title_normal": {
+      "message": "보관 장소:"
+   },
+   "inside__filing_info__title_smart": {
+      "message": "스마트한 보관:"
+   },
+   "inside__filing_info__view": {
+      "message": "보기"
+   },
+   "inside__footer__button": {
+      "message": "계정 만들기"
+   },
+   "inside__footer__text": {
+      "message": "이 기사를 저장해 두었다가 나중에 어느 장치에서나 다시 보려면 무료 Evernote 계정에 가입하세요."
+   },
+   "inside__login__button_cancel__label": {
+      "message": "취소"
+   },
+   "inside__login__button_do__label": {
+      "message": "로그인"
+   },
+   "inside__login__create_account": {
+      "message": "계정 만들기"
+   },
+   "inside__login__email__error__format": {
+      "message": "이메일에 잘못된 문자가 있습니다."
+   },
+   "inside__login__email__error__invalid": {
+      "message": "올바른 활성 사용자가 아닙니다."
+   },
+   "inside__login__email__error__length": {
+      "message": "이메일은 1자에서 64자 사이여야 합니다."
+   },
+   "inside__login__email__error__required": {
+      "message": "이메일은 필수 입력 항목입니다."
+   },
+   "inside__login__email__label": {
+      "message": "이메일 주소"
+   },
+   "inside__login__general__error": {
+      "message": "인증 실패"
+   },
+   "inside__login__heading": {
+      "message": "Evernote에 로그인"
+   },
+   "inside__login__password__error__format": {
+      "message": "비밀번호에 사용할 수 없는 문자가 있습니다."
+   },
+   "inside__login__password__error__invalid": {
+      "message": "이메일 및 비밀번호가 기존 사용자와 일치하지 않습니다."
+   },
+   "inside__login__password__error__length": {
+      "message": "비밀번호는 6글자에서 64글자 사이여야 합니다."
+   },
+   "inside__login__password__error__required": {
+      "message": "비밀번호가 필요합니다."
+   },
+   "inside__login__password__error__reset": {
+      "message": "비밀번호가 만료되었습니다. 지금 재설정하세요."
+   },
+   "inside__login__password__error__timeout": {
+      "message": "로그인 세션이 만료되었습니다. 다시 시도해 주세요."
+   },
+   "inside__login__password__label": {
+      "message": "비밀번호"
+   },
+   "inside__login__rememberMe__label": {
+      "message": "내 정보 기억"
+   },
+   "inside__login__spinner": {
+      "message": "Evernote에 로그인 중"
+   },
+   "inside__menu__clip_to_evernote__tooltip": {
+      "message": "Evernote로 스크랩"
+   },
+   "inside__menu__close__tooltip": {
+      "message": "오버레이를 숨깁니다."
+   },
+   "inside__menu__fitts__tooltip": {
+      "message": "오버레이를 숨깁니다."
+   },
+   "inside__menu__highlight_to_evernote__tooltip": {
+      "message": "강조표시."
+   },
+   "inside__menu__print__tooltip": {
+      "message": "인쇄"
+   },
+   "inside__menu__settings__tooltip": {
+      "message": "테마 표시"
+   },
+   "inside__menu__speak__forward__tooltip": {
+      "message": "다음으로"
+   },
+   "inside__menu__speak__pause__tooltip": {
+      "message": "일시 중지"
+   },
+   "inside__menu__speak__play__tooltip": {
+      "message": "재생"
+   },
+   "inside__menu__speak__rewind__tooltip": {
+      "message": "이전으로"
+   },
+   "inside__menu__speak__tooltip": {
+      "message": "텍스트음성변환(TTS)"
+   },
+   "inside__misc__clipping__doing": {
+      "message": "스크랩 중..."
+   },
+   "inside__misc__clipping__failed": {
+      "message": "스크랩하지 못했습니다."
+   },
+   "inside__misc__login_request": {
+      "message": "Evernote에 로그인하려면 도구 모음에 있는 Clearly 아이콘을 클릭하세요."
+   },
+   "inside__misc__login_request__chrome": {
+      "message": "Evernote에 로그인하려면 Chrome의 도구 모음에 있는 Clearly 아이콘을 클릭하세요."
+   },
+   "inside__misc__login_request__firefox": {
+      "message": "Evernote에 로그인하려면 Firefox의 도구 모음에 있는 Clearly 아이콘을 클릭하세요."
+   },
+   "inside__misc__login_request__opera": {
+      "message": "Evernote에 로그인하려면 Opera의 도구 모음에 있는 Clearly 아이콘을 클릭하세요."
+   },
+   "inside__misc__page": {
+      "message": "페이지 [=page]"
+   },
+   "inside__related_notes__disable_long": {
+      "message": "관련 노트를 비활성화하시겠습니까?"
+   },
+   "inside__related_notes__disable_short": {
+      "message": "비활성화?"
+   },
+   "inside__related_notes__title": {
+      "message": "관련 노트"
+   },
+   "inside__reminder__button": {
+      "message": "Clearly로 읽기"
+   },
+   "inside__reminder__heading": {
+      "message": "Clearly를 사용해 온라인 독서의 효율을 높이세요"
+   },
+   "inside__reminder__text": {
+      "message": "한 번의 클릭으로 기사에서 모든 방해 요소를 제거하세요. 한 번 더 클릭하면 기사가 Evernote에 영구히 저장됩니다. 지금 사용해 보세요!"
+   },
+   "inside__rtl__ltr__label": {
+      "message": "왼쪽에서 오른쪽으로"
+   },
+   "inside__rtl__main__label": {
+      "message": "텍스트 방향은?"
+   },
+   "inside__rtl__rtl__label": {
+      "message": "오른쪽에서 왼쪽으로"
+   },
+   "inside__settings__fontSize__large": {
+      "message": "크게"
+   },
+   "inside__settings__fontSize__medium": {
+      "message": "중간"
+   },
+   "inside__settings__fontSize__small": {
+      "message": "작게"
+   },
+   "inside__settings__more_options": {
+      "message": "기타 옵션"
+   },
+   "inside__settings__theme__1": {
+      "message": "신문지"
+   },
+   "inside__settings__theme__2": {
+      "message": "주요기사"
+   },
+   "inside__settings__theme__3": {
+      "message": "밤부엉이"
+   },
+   "inside__settings__theme__custom": {
+      "message": "사용자 지정"
+   },
+   "inside__two_factor__button_do__label": {
+      "message": "계속"
+   },
+   "inside__two_factor__button_help__label": {
+      "message": "인증코드를 받는 데 도움이 필요해요"
+   },
+   "inside__two_factor__code__error__format": {
+      "message": "인증코드는 숫자여야 합니다."
+   },
+   "inside__two_factor__code__error__invalid": {
+      "message": "인증코드가 잘못되었습니다."
+   },
+   "inside__two_factor__code__error__length": {
+      "message": "인증코드는 적어도 6자 이상이어야 합니다."
+   },
+   "inside__two_factor__code__error__required": {
+      "message": "인증코드가 필요합니다."
+   },
+   "inside__two_factor__code__label": {
+      "message": "여섯 자리 코드"
+   },
+   "inside__two_factor__message__google": {
+      "message": "Google 인증 앱에 표시된 인증코드를 입력하세요."
+   },
+   "inside__two_factor__message__sms": {
+      "message": "인증코드가 담긴 문자 메시지를 다음 번호로 전송했습니다:"
+   },
+   "meta_extension_author": {
+      "message": "Evernote Corp."
+   },
+   "meta_extension_description": {
+      "message": "Clearly를 사용하면 블로그 게시물, 기사, 웹 페이지를 읽기 쉽도록 깔끔하게 정리할 수 있습니다. Evernote에 해당 콘텐츠를 저장하여 어디서나 읽을 수도 있습니다."
+   },
+   "meta_extension_name": {
+      "message": "Clearly"
+   },
+   "options__account__sign_out": {
+      "message": "[[=username]](으)로 영구히 로그인되었습니다."
+   },
+   "options__account__sign_out_link": {
+      "message": "로그아웃"
+   },
+   "options__account__signed_out": {
+      "message": "영구히 로그인되지 않았습니다. Clearly 사이드바에서 Evernote 아이콘을 클릭하여 로그인하십시오."
+   },
+   "options__base__label": {
+      "message": "기본 CSS"
+   },
+   "options__box_width__label": {
+      "message": "행 너비"
+   },
+   "options__button__more_options": {
+      "message": "기타 옵션"
+   },
+   "options__button__reset_custom": {
+      "message": "초기화"
+   },
+   "options__button__save_custom": {
+      "message": "테마 저장"
+   },
+   "options__button__save_general": {
+      "message": "옵션 저장"
+   },
+   "options__clip_notebook__business": {
+      "message": "비즈니스 노트북"
+   },
+   "options__clip_notebook__default": {
+      "message": "기본값"
+   },
+   "options__clip_notebook__shared": {
+      "message": "공유 노트북"
+   },
+   "options__clip_notebook__smart__label": {
+      "message": "스마트 파일링 기능 사용"
+   },
+   "options__clip_notebook__specific__label": {
+      "message": "특정 노트북 사용"
+   },
+   "options__clip_notebook__your": {
+      "message": "회원님의 노트북"
+   },
+   "options__clip_tag__smart__label": {
+      "message": "스마트 파일링 기능 사용"
+   },
+   "options__clip_tag__specific__label": {
+      "message": "특정 태그 사용"
+   },
+   "options__color_background__label": {
+      "message": "배경색"
+   },
+   "options__color_links__label": {
+      "message": "링크색"
+   },
+   "options__color_text__label": {
+      "message": "전경색"
+   },
+   "options__custom_css__label": {
+      "message": "사용자 지정 CSS"
+   },
+   "options__footnote_links__label": {
+      "message": "각주로 링크 표시하기"
+   },
+   "options__keys_activation__label": {
+      "message": "Clearly에서 페이지 보기"
+   },
+   "options__keys_clip__label": {
+      "message": "Evernote로 스크랩"
+   },
+   "options__keys_highlight__label": {
+      "message": "강조표시"
+   },
+   "options__keys_speech__label": {
+      "message": "텍스트음성변환(TTS)"
+   },
+   "options__large_graphics__label": {
+      "message": "대형 그래픽"
+   },
+   "options__message__keys": {
+      "message": "변경을 위해서는 커서를 필드에 놓고 키보드상으로 키 조합을 입력하세요."
+   },
+   "options__message__keys_firefox": {
+      "message": "저장 후 브라우저를 다시 시작하세요."
+   },
+   "options__message__notebook": {
+      "message": "Evernote로 스크랩 시 사용할 대상 노트북입니다."
+   },
+   "options__message__open_notes_in": {
+      "message": "Clearly에서 노트를 열 때, 지정한 Evernote 클라이언트를 사용합니다."
+   },
+   "options__message__related_notes": {
+      "message": "Evernote가 사용자의 계정에서 현재 읽고 있는 내용과 관련될 수 있는 클립을 가져오도록 합니다."
+   },
+   "options__message__smart_filing": {
+      "message": "Evernote가 삽입해야 할 노트북 클립과 해당 클립에 적용해야 할 태그를 결정하도록 합니다."
+   },
+   "options__message__tags": {
+      "message": "Evernote로 스크랩 시 적용할 태그입니다."
+   },
+   "options__misc__print_preview": {
+      "message": "인쇄 미리보기"
+   },
+   "options__misc__reset_theme": {
+      "message": "사용자 테마 초기화"
+   },
+   "options__misc__reset_theme__confirm": {
+      "message": "사용자 테마 값이 기본 테마 값으로 설정됩니다. 이 작업을 정말 수행할까요?"
+   },
+   "options__misc__saved": {
+      "message": "Clearly를 사용하는 모든 새탭에 현재 설정이 적용됩니다."
+   },
+   "options__misc__saving": {
+      "message": "저장 중"
+   },
+   "options__open_notes_in__desktop__label": {
+      "message": "데스크톱 클라이언트"
+   },
+   "options__open_notes_in__web__label": {
+      "message": "웹 클라이언트"
+   },
+   "options__related_notes__disabled__label": {
+      "message": "관련 노트 사용 안 함"
+   },
+   "options__related_notes__enabled__label": {
+      "message": "관련 노트 사용"
+   },
+   "options__related_notes__just_at_bottom__label": {
+      "message": "관련 노트 사용(맨 아래에 표시)"
+   },
+   "options__smart_filing__disabled__label": {
+      "message": "스마트 파일링 사용 안 함"
+   },
+   "options__smart_filing__enabled__label": {
+      "message": "스마트 파일링 기능 사용"
+   },
+   "options__smart_filing__just_notebooks__label": {
+      "message": "노트북에만 스마트 파일링 기능 사용"
+   },
+   "options__smart_filing__just_tags__label": {
+      "message": "태그에만 스마트 파일링 기능 사용"
+   },
+   "options__smart_filing_for_business__notebooks__label": {
+      "message": "비즈니스 노트북도"
+   },
+   "options__smart_filing_for_business__tags__label": {
+      "message": "비즈니스 태그용으로도"
+   },
+   "options__speech_demo__label": {
+      "message": "데모"
+   },
+   "options__speech_gender__label": {
+      "message": "음성"
+   },
+   "options__speech_speed__label": {
+      "message": "읽기 속도"
+   },
+   "options__text_align__label": {
+      "message": "텍스트 정렬"
+   },
+   "options__text_font__label": {
+      "message": "본문 글꼴"
+   },
+   "options__text_font_header__label": {
+      "message": "머리글 글꼴"
+   },
+   "options__text_font_monospace__label": {
+      "message": "고정 글꼴"
+   },
+   "options__text_line_height__label": {
+      "message": "행 높이"
+   },
+   "options__text_size__label": {
+      "message": "기본 글꼴 크기"
+   },
+   "options__title__custom": {
+      "message": "사용자 테마"
+   },
+   "options__title__features": {
+      "message": "Clearly의 기능들"
+   },
+   "options__title__general": {
+      "message": "옵션"
+   },
+   "options__title__page": {
+      "message": "Clearly/옵션"
+   },
+   "options__title__speech": {
+      "message": "텍스트음성변환(TTS)"
+   },
+   "options__title__sub__account": {
+      "message": "계정"
+   },
+   "options__title__sub__keyboard": {
+      "message": "바로가기 키"
+   },
+   "options__title__sub__notebook": {
+      "message": "노트북 선택"
+   },
+   "options__title__sub__open_notes_in": {
+      "message": "노트 열기"
+   },
+   "options__title__sub__related_notes": {
+      "message": "관련 노트"
+   },
+   "options__title__sub__smart_filing": {
+      "message": "스마트한 정리"
+   },
+   "options__title__sub__tags": {
+      "message": "태그 선택"
+   },
+   "options__values__base__Blueprint": {
+      "message": "청사진"
+   },
+   "options__values__base__None": {
+      "message": "없음"
+   },
+   "options__values__base__Theme_1": {
+      "message": "클래식"
+   },
+   "options__values__base__Theme_2": {
+      "message": "모던"
+   },
+   "options__values__base__Theme_3": {
+      "message": "야간"
+   },
+   "options__values__footnote_links__Always": {
+      "message": "항상"
+   },
+   "options__values__footnote_links__Never": {
+      "message": "하지 않음"
+   },
+   "options__values__footnote_links__On_Print": {
+      "message": "인쇄 시"
+   },
+   "options__values__large_graphics__Do_Nothing": {
+      "message": "항상 표시"
+   },
+   "options__values__large_graphics__Hide_Always": {
+      "message": "항상 숨기기"
+   },
+   "options__values__large_graphics__Hide_on_Print": {
+      "message": "인쇄 시 숨기기"
+   },
+   "options__values__menu_placement__Bottom_Right": {
+      "message": "오른쪽 아래"
+   },
+   "options__values__menu_placement__Top_Right": {
+      "message": "오른쪽 위"
+   },
+   "options__values__speech_gender__default": {
+      "message": "기본값"
+   },
+   "options__values__speech_gender__female": {
+      "message": "여성 (가능한 경우)"
+   },
+   "options__values__speech_gender__male": {
+      "message": "남성 (가능한 경우)"
+   },
+   "options__values__speech_speed__fast": {
+      "message": "빠르게"
+   },
+   "options__values__speech_speed__faster": {
+      "message": "더 빠르게"
+   },
+   "options__values__speech_speed__fastest": {
+      "message": "가장 빠르게"
+   },
+   "options__values__speech_speed__normal": {
+      "message": "보통"
+   },
+   "options__values__speech_speed__slow": {
+      "message": "느리게"
+   },
+   "options__values__speech_speed__slower": {
+      "message": "더 느리게"
+   },
+   "options__values__speech_speed__slowest": {
+      "message": "가장 느리게"
+   },
+   "options__values__text_align__Justified": {
+      "message": "맞춤"
+   },
+   "options__values__text_align__Normal": {
+      "message": "보통"
+   },
+   "register__after__1": {
+      "message": "이제 Evernote 계정이 Clearly에 연결되었습니다."
+   },
+   "register__after__2": {
+      "message": "Clearly 사이드바에서 Evernote 아이콘을 클릭하여 기사를 곧바로 저장하세요."
+   },
+   "register__after__3": {
+      "message": "사용하시는 모든 장치에 Evernote를 설치해 언제 어디서든 읽으세요."
+   },
+   "register__after__heading": {
+      "message": "등록 완료"
+   },
+   "register__agree": {
+      "message": "'가입'을 클릭함으로써 [=terms] 및 [=privacy]에 동의합니다."
+   },
+   "register__agree__privacy": {
+      "message": "개인정보 보호정책"
+   },
+   "register__agree__terms": {
+      "message": "사용 약관"
+   },
+   "register__button": {
+      "message": "가입"
+   },
+   "register__captcha__error__incorrect": {
+      "message": "캡챠가 잘못되었습니다."
+   },
+   "register__captcha__error__required": {
+      "message": "캡챠가 필요합니다."
+   },
+   "register__captcha__label": {
+      "message": "캡챠"
+   },
+   "register__email__error__conflict": {
+      "message": "이메일과 이미 연결된 계정이 있습니다."
+   },
+   "register__evernote_heading": {
+      "message": "인생의 작품"
+   },
+   "register__evernote_text": {
+      "message": "어떤 일을 하시든 Evernote는 그 일을 완수하기 위한 업무 공간이 됩니다."
+   },
+   "register__page_title": {
+      "message": "Clearly / 등록"
+   },
+   "register__text": {
+      "message": "Evernote 계정과 함께 Clearly를 사용하면 모든 기사를 저장했다가 나중에 어느 장치에서나 읽을 수 있습니다."
+   }
+}

@@ -1,0 +1,698 @@
+{
+   "chrome_browser_action": {
+      "message": "このページを Clearly で表示"
+   },
+   "chrome_context_menu": {
+      "message": "Clearly"
+   },
+   "firefox_button": {
+      "message": "Clearly"
+   },
+   "firefox_button_tooltip": {
+      "message": "このページを Clearly で表示"
+   },
+   "firefox_context_menu": {
+      "message": "Clearly"
+   },
+   "firefox_menu": {
+      "message": "Clearly"
+   },
+   "inside__blank__heading": {
+      "message": "Evernote Clearly を使用するためのヒント"
+   },
+   "inside__blank__text": {
+      "message": "Clearly は現在、記事ページ上で動作するよう設計されています。記事ページとは、新聞記事やブログ記事など、1 つの大きなテキストの固まりを含むページを指します。"
+   },
+   "inside__features__clipping__text": {
+      "message": "読んでいる内容をワンクリックで Evernote アカウントに保存。いつでもどのデバイスからでも、Evernote 内のクリップにアクセスできます。"
+   },
+   "inside__features__clipping__title": {
+      "message": "Evernote にクリップ"
+   },
+   "inside__features__close2": {
+      "message": "閉じる"
+   },
+   "inside__features__eula": {
+      "message": "使用許諾契約 (EULA)"
+   },
+   "inside__features__eula_notice": {
+      "message": "Clearly を使用することにより、[=eula]に同意したとみなされます。"
+   },
+   "inside__features__highlighting__text": {
+      "message": "覚えておきたいテキストを強調表示しておけば、Evernote アカウントで見たときに素早く見つけられます。Clearly で加えた強調表示は、自動的に Evernote アカウントに反映されます。"
+   },
+   "inside__features__highlighting__title": {
+      "message": "強調表示"
+   },
+   "inside__features__related_notes__text": {
+      "message": "表示中のページに関連するノートを Evernote アカウントから再発見。関連するノートは記事の下側、またはスペースがある場合は右側に表示されます。"
+   },
+   "inside__features__related_notes__title": {
+      "message": "関連するノート"
+   },
+   "inside__features__smart_filing__text": {
+      "message": "Web ​​クリップに自動的にタグを割り当て、適切なノートブックに保存します。"
+   },
+   "inside__features__smart_filing__title": {
+      "message": "スマートファイリング"
+   },
+   "inside__features__speech__no_language_explanation": {
+      "message": "Evernote Clearly はこの記事の言語を判別できませんでした。言語を以下から選択すると、再生します。"
+   },
+   "inside__features__speech__no_language_title": {
+      "message": "言語に対応していません"
+   },
+   "inside__features__speech__text": {
+      "message": "Clearly にテキスト読み上げ機能が搭載され、ブログポストや記事、Web ページを音声変換できるようになりました。Evernote プレミアムユーザ専用機能です。"
+   },
+   "inside__features__speech__text__available": {
+      "message": "21 ヶ国語に対応:"
+   },
+   "inside__features__speech__text__available_languages": {
+      "message": "日本語、英語、スペイン語、フランス語、ドイツ語、中国語、韓国語、アラビア語、イタリア語、オランダ語、ギリシャ語、スウェーデン語、チェコ語、デンマーク語、トルコ語、ノルウェー語、ハンガリー語、フィンランド語、ポーランド語、ポルトガル語、ロシア語。"
+   },
+   "inside__features__speech__text__cancel": {
+      "message": "キャンセル"
+   },
+   "inside__features__speech__text__language": {
+      "message": "言語に対応していません"
+   },
+   "inside__features__speech__text__play": {
+      "message": "この言語で再生"
+   },
+   "inside__features__speech__text__powered": {
+      "message": "Evernote Clearly には、 [=service] の技術が使われています。"
+   },
+   "inside__features__speech__text__requires": {
+      "message": "[=product] が必要です。"
+   },
+   "inside__features__speech__text__try": {
+      "message": "読み上げ機能を試す"
+   },
+   "inside__features__speech__text__upgrade": {
+      "message": "Evernote プレミアムにアップグレード"
+   },
+   "inside__features__speech__title": {
+      "message": "テキスト読み上げ"
+   },
+   "inside__features__title__all": {
+      "message": "生まれ変わった Evernote Clearly へようこそ"
+   },
+   "inside__features__title__new": {
+      "message": "Evernote Clearly の新バージョンをご利用です"
+   },
+   "inside__filing_info__add_tag": {
+      "message": "タグを追加"
+   },
+   "inside__filing_info__change_notebook": {
+      "message": "ノートブックを変更"
+   },
+   "inside__filing_info__clipped": {
+      "message": "クリップ済み"
+   },
+   "inside__filing_info__default_notebook": {
+      "message": "既定のノートブック"
+   },
+   "inside__filing_info__edit": {
+      "message": "編集"
+   },
+   "inside__filing_info__find_notebook": {
+      "message": "ノートブックを検索"
+   },
+   "inside__filing_info__no_tags": {
+      "message": "タグは使えません"
+   },
+   "inside__filing_info__open_note": {
+      "message": "ノートを開く"
+   },
+   "inside__filing_info__refresh_notebooks": {
+      "message": "ノートブックリストを更新"
+   },
+   "inside__filing_info__refresh_tags": {
+      "message": "タグリストを更新"
+   },
+   "inside__filing_info__remove_tag": {
+      "message": "タグを削除"
+   },
+   "inside__filing_info__sentence": {
+      "message": "[=notebook] ノートブックにクリップし、[=tags] でタグ付けされました。"
+   },
+   "inside__filing_info__sentence_and": {
+      "message": "と"
+   },
+   "inside__filing_info__sentence_no_tags": {
+      "message": "[=notebook] ノートブックにクリップされました。"
+   },
+   "inside__filing_info__sentence_other_tags": {
+      "message": "他のタグ"
+   },
+   "inside__filing_info__title_normal": {
+      "message": "保存場所:"
+   },
+   "inside__filing_info__title_smart": {
+      "message": "スマート保存場所:"
+   },
+   "inside__filing_info__view": {
+      "message": "表示"
+   },
+   "inside__footer__button": {
+      "message": "アカウントを作成"
+   },
+   "inside__footer__text": {
+      "message": "無料で Evernote アカウントを作成すれば、この記事を保存してどのデバイスからも読めるようになります。"
+   },
+   "inside__login__button_cancel__label": {
+      "message": "キャンセル"
+   },
+   "inside__login__button_do__label": {
+      "message": "サインイン"
+   },
+   "inside__login__create_account": {
+      "message": "アカウントを作成"
+   },
+   "inside__login__email__error__format": {
+      "message": "メールアドレスに無効な文字が含まれています。"
+   },
+   "inside__login__email__error__invalid": {
+      "message": "有効なアクティブユーザが存在しません。"
+   },
+   "inside__login__email__error__length": {
+      "message": "メールアドレスの長さは 1〜64 文字にする必要があります。"
+   },
+   "inside__login__email__error__required": {
+      "message": "メールアドレスが必要です。"
+   },
+   "inside__login__email__label": {
+      "message": "メールアドレス"
+   },
+   "inside__login__general__error": {
+      "message": "認証に失敗しました。"
+   },
+   "inside__login__heading": {
+      "message": "Evernote にサインイン"
+   },
+   "inside__login__password__error__format": {
+      "message": "パスワードに不正な文字が含まれています。"
+   },
+   "inside__login__password__error__invalid": {
+      "message": "メールアドレスとパスワードが登録済みユーザと一致しません。"
+   },
+   "inside__login__password__error__length": {
+      "message": "パスワードは 6〜64 文字の長さにしてください。"
+   },
+   "inside__login__password__error__required": {
+      "message": "パスワードは必須項目です。"
+   },
+   "inside__login__password__error__reset": {
+      "message": "パスワードの期限が切れました。今すぐ再設定をお願いします。"
+   },
+   "inside__login__password__error__timeout": {
+      "message": "ログインのセッションがタイムアウトになりました。再度お試しください。"
+   },
+   "inside__login__password__label": {
+      "message": "パスワード"
+   },
+   "inside__login__rememberMe__label": {
+      "message": "ログイン情報を記憶する"
+   },
+   "inside__login__spinner": {
+      "message": "Evernote にサインイン中"
+   },
+   "inside__menu__clip_to_evernote__tooltip": {
+      "message": "Evernote にクリップ"
+   },
+   "inside__menu__close__tooltip": {
+      "message": "オーバーレイを隠す"
+   },
+   "inside__menu__fitts__tooltip": {
+      "message": "オーバーレイを隠す"
+   },
+   "inside__menu__highlight_to_evernote__tooltip": {
+      "message": "強調表示"
+   },
+   "inside__menu__print__tooltip": {
+      "message": "印刷"
+   },
+   "inside__menu__settings__tooltip": {
+      "message": "テーマを表示"
+   },
+   "inside__menu__speak__forward__tooltip": {
+      "message": "進む"
+   },
+   "inside__menu__speak__pause__tooltip": {
+      "message": "停止"
+   },
+   "inside__menu__speak__play__tooltip": {
+      "message": "再生"
+   },
+   "inside__menu__speak__rewind__tooltip": {
+      "message": "戻る"
+   },
+   "inside__menu__speak__tooltip": {
+      "message": "テキスト読み上げ"
+   },
+   "inside__misc__clipping__doing": {
+      "message": "クリップ中..."
+   },
+   "inside__misc__clipping__failed": {
+      "message": "クリップできませんでした。"
+   },
+   "inside__misc__login_request": {
+      "message": "Evernote にサインインするには、ツールバーにある Clearly のアイコンをクリックしてください。"
+   },
+   "inside__misc__login_request__chrome": {
+      "message": "Evernote にサインインするには、Chrome ツールバーにある Clearly のアイコンをクリックしてください。"
+   },
+   "inside__misc__login_request__firefox": {
+      "message": "Evernote にサインインするには、Firefox ツールバーにある Clearly のアイコンをクリックしてください。"
+   },
+   "inside__misc__login_request__opera": {
+      "message": "Evernote にサインインするには、Opera ツールバーにある Clearly のアイコンをクリックしてください。"
+   },
+   "inside__misc__page": {
+      "message": "ページ [=page]"
+   },
+   "inside__related_notes__disable_long": {
+      "message": "関連ノート機能を無効にしますか？"
+   },
+   "inside__related_notes__disable_short": {
+      "message": "無効にしますか？"
+   },
+   "inside__related_notes__title": {
+      "message": "関連するノート"
+   },
+   "inside__reminder__button": {
+      "message": "Clearly で読む"
+   },
+   "inside__reminder__heading": {
+      "message": "Clearly を使うとオンライン記事が読みやすくなります"
+   },
+   "inside__reminder__text": {
+      "message": "ワンクリックするだけで、記事以外の不要な部分が消えます。そしてもう 1 回クリックすると、記事をずっと Evernote に保存しておけます。ぜひお試しください！"
+   },
+   "inside__rtl__ltr__label": {
+      "message": "左から右"
+   },
+   "inside__rtl__main__label": {
+      "message": "テキストの方向？"
+   },
+   "inside__rtl__rtl__label": {
+      "message": "右から左"
+   },
+   "inside__settings__fontSize__large": {
+      "message": "大"
+   },
+   "inside__settings__fontSize__medium": {
+      "message": "中"
+   },
+   "inside__settings__fontSize__small": {
+      "message": "小"
+   },
+   "inside__settings__more_options": {
+      "message": "その他のオプション"
+   },
+   "inside__settings__theme__1": {
+      "message": "Newsprint"
+   },
+   "inside__settings__theme__2": {
+      "message": "Notable"
+   },
+   "inside__settings__theme__3": {
+      "message": "Night Owl"
+   },
+   "inside__settings__theme__custom": {
+      "message": "カスタム"
+   },
+   "inside__two_factor__button_do__label": {
+      "message": "続ける"
+   },
+   "inside__two_factor__button_help__label": {
+      "message": "確認コードが取得できません"
+   },
+   "inside__two_factor__code__error__format": {
+      "message": "確認コードには数字のみが使用されます。"
+   },
+   "inside__two_factor__code__error__invalid": {
+      "message": "確認コードが正しくありません。"
+   },
+   "inside__two_factor__code__error__length": {
+      "message": "確認コードは最低 6 文字以上です。"
+   },
+   "inside__two_factor__code__error__required": {
+      "message": "確認コードが必要です。"
+   },
+   "inside__two_factor__code__label": {
+      "message": "6 桁のコード"
+   },
+   "inside__two_factor__message__google": {
+      "message": "Google 認証システムアプリに表示された確認コードを入力します。"
+   },
+   "inside__two_factor__message__sms": {
+      "message": "確認コードを記載したテキストメッセージを次の宛先に送信しました:"
+   },
+   "meta_extension_author": {
+      "message": "Evernote Corp."
+   },
+   "meta_extension_description": {
+      "message": "Clearly はブログポストや記事、Web ページをきれいにし、簡単に読めるようにします。Evernote に保存すれば、どこでも読めるようになります。"
+   },
+   "meta_extension_name": {
+      "message": "Clearly"
+   },
+   "options__account__sign_out": {
+      "message": "[[=username]] でサインインしています。"
+   },
+   "options__account__sign_out_link": {
+      "message": "サインアウト"
+   },
+   "options__account__signed_out": {
+      "message": "サインインしていません。Clearly のサイドバーにある Evernote アイコンをクリックして、サインインして下さい。"
+   },
+   "options__base__label": {
+      "message": "基本 CSS"
+   },
+   "options__box_width__label": {
+      "message": "行の幅"
+   },
+   "options__button__more_options": {
+      "message": "その他のオプション"
+   },
+   "options__button__reset_custom": {
+      "message": "リセット"
+   },
+   "options__button__save_custom": {
+      "message": "テーマを保存"
+   },
+   "options__button__save_general": {
+      "message": "オプションを保存"
+   },
+   "options__clip_notebook__business": {
+      "message": "ビジネスノートブック"
+   },
+   "options__clip_notebook__default": {
+      "message": "デフォルト"
+   },
+   "options__clip_notebook__shared": {
+      "message": "共有ノートブック"
+   },
+   "options__clip_notebook__smart__label": {
+      "message": "スマートファイリングを使用"
+   },
+   "options__clip_notebook__specific__label": {
+      "message": "特定のノートブックを使用"
+   },
+   "options__clip_notebook__your": {
+      "message": "自分のノートブック"
+   },
+   "options__clip_tag__smart__label": {
+      "message": "スマートファイリングを使用"
+   },
+   "options__clip_tag__specific__label": {
+      "message": "特定のタグを使用"
+   },
+   "options__color_background__label": {
+      "message": "背景色"
+   },
+   "options__color_links__label": {
+      "message": "リンク色"
+   },
+   "options__color_text__label": {
+      "message": "前景色"
+   },
+   "options__custom_css__label": {
+      "message": "カスタム CSS"
+   },
+   "options__footnote_links__label": {
+      "message": "リンクの脚注表示"
+   },
+   "options__keys_activation__label": {
+      "message": "ページを Clearly で表示"
+   },
+   "options__keys_clip__label": {
+      "message": "Evernote にクリップ"
+   },
+   "options__keys_highlight__label": {
+      "message": "強調表示"
+   },
+   "options__keys_speech__label": {
+      "message": "テキスト読み上げ"
+   },
+   "options__large_graphics__label": {
+      "message": "大きな画像"
+   },
+   "options__message__keys": {
+      "message": "変更するには、項目にカーソルを移動し、キーボードでキーの組み合わせを押して下さい。"
+   },
+   "options__message__keys_firefox": {
+      "message": "保存後はブラウザを再起動して下さい"
+   },
+   "options__message__notebook": {
+      "message": "Evernote にクリップする際の保存先ノートブック。"
+   },
+   "options__message__open_notes_in": {
+      "message": "Clearly からノートを開く際、特定の Evernote クライアントを使用。"
+   },
+   "options__message__related_notes": {
+      "message": "アカウント内から表示内容に関連していそうなクリップを表示​​。"
+   },
+   "options__message__smart_filing": {
+      "message": "クリップの保存先ノートブック、付けるとよいタグを自動的に判別。"
+   },
+   "options__message__tags": {
+      "message": "Evernote にクリップすると適用されるタグ。"
+   },
+   "options__misc__print_preview": {
+      "message": "印刷プレビュー"
+   },
+   "options__misc__reset_theme": {
+      "message": "カスタムテーマをリセット"
+   },
+   "options__misc__reset_theme__confirm": {
+      "message": "これにより、カスタムテーマの数値がデフォルト設定に戻されます。この操作を実行しますか？"
+   },
+   "options__misc__saved": {
+      "message": "Clearly を使った新しいタブすべてに設定が反映されます。"
+   },
+   "options__misc__saving": {
+      "message": "保存中"
+   },
+   "options__open_notes_in__desktop__label": {
+      "message": "デスクトップクライアント"
+   },
+   "options__open_notes_in__web__label": {
+      "message": "Web クライアント"
+   },
+   "options__related_notes__disabled__label": {
+      "message": "関連ノートを無効化"
+   },
+   "options__related_notes__enabled__label": {
+      "message": "関連ノートを有効化"
+   },
+   "options__related_notes__just_at_bottom__label": {
+      "message": "関連ノートを有効化（下部にのみ表示）"
+   },
+   "options__smart_filing__disabled__label": {
+      "message": "スマートファイリングを無効化"
+   },
+   "options__smart_filing__enabled__label": {
+      "message": "スマートファイリングを有効化"
+   },
+   "options__smart_filing__just_notebooks__label": {
+      "message": "スマートファイリングを有効化（ノートブックのみ）"
+   },
+   "options__smart_filing__just_tags__label": {
+      "message": "スマートファイリングを有効化（タグのみ）"
+   },
+   "options__smart_filing_for_business__notebooks__label": {
+      "message": "ビジネスノートブックにも適用"
+   },
+   "options__smart_filing_for_business__tags__label": {
+      "message": "ビジネスタグにも適用"
+   },
+   "options__speech_demo__label": {
+      "message": "デモ"
+   },
+   "options__speech_gender__label": {
+      "message": "読み上げの声"
+   },
+   "options__speech_speed__label": {
+      "message": "読み上げ速度"
+   },
+   "options__text_align__label": {
+      "message": "テキスト揃え"
+   },
+   "options__text_font__label": {
+      "message": "本文フォント"
+   },
+   "options__text_font_header__label": {
+      "message": "見出しフォント"
+   },
+   "options__text_font_monospace__label": {
+      "message": "等幅フォント"
+   },
+   "options__text_line_height__label": {
+      "message": "行の高さ"
+   },
+   "options__text_size__label": {
+      "message": "基本フォントサイズ"
+   },
+   "options__title__custom": {
+      "message": "カスタムテーマ"
+   },
+   "options__title__features": {
+      "message": "Clearly 機能"
+   },
+   "options__title__general": {
+      "message": "オプション"
+   },
+   "options__title__page": {
+      "message": "Clearly / 設定"
+   },
+   "options__title__speech": {
+      "message": "テキスト読み上げ"
+   },
+   "options__title__sub__account": {
+      "message": "アカウント"
+   },
+   "options__title__sub__keyboard": {
+      "message": "キーボードショートカット"
+   },
+   "options__title__sub__notebook": {
+      "message": "ノートブックの選択"
+   },
+   "options__title__sub__open_notes_in": {
+      "message": "ノートを開く:"
+   },
+   "options__title__sub__related_notes": {
+      "message": "関連するノート"
+   },
+   "options__title__sub__smart_filing": {
+      "message": "スマートファイリング"
+   },
+   "options__title__sub__tags": {
+      "message": "タグの選択"
+   },
+   "options__values__base__Blueprint": {
+      "message": "Blueprint"
+   },
+   "options__values__base__None": {
+      "message": "なし"
+   },
+   "options__values__base__Theme_1": {
+      "message": "Classic"
+   },
+   "options__values__base__Theme_2": {
+      "message": "Modern"
+   },
+   "options__values__base__Theme_3": {
+      "message": "Night-time"
+   },
+   "options__values__footnote_links__Always": {
+      "message": "常に表示"
+   },
+   "options__values__footnote_links__Never": {
+      "message": "表示しない"
+   },
+   "options__values__footnote_links__On_Print": {
+      "message": "印刷の際"
+   },
+   "options__values__large_graphics__Do_Nothing": {
+      "message": "常に表示"
+   },
+   "options__values__large_graphics__Hide_Always": {
+      "message": "常に非表示"
+   },
+   "options__values__large_graphics__Hide_on_Print": {
+      "message": "印刷時は非表示"
+   },
+   "options__values__menu_placement__Bottom_Right": {
+      "message": "右下"
+   },
+   "options__values__menu_placement__Top_Right": {
+      "message": "右上"
+   },
+   "options__values__speech_gender__default": {
+      "message": "デフォルト"
+   },
+   "options__values__speech_gender__female": {
+      "message": "女性（利用可能な場合）"
+   },
+   "options__values__speech_gender__male": {
+      "message": "男性（利用可能な場合）"
+   },
+   "options__values__speech_speed__fast": {
+      "message": "速く"
+   },
+   "options__values__speech_speed__faster": {
+      "message": "やや速く"
+   },
+   "options__values__speech_speed__fastest": {
+      "message": "最も速く"
+   },
+   "options__values__speech_speed__normal": {
+      "message": "通常"
+   },
+   "options__values__speech_speed__slow": {
+      "message": "ゆっくり"
+   },
+   "options__values__speech_speed__slower": {
+      "message": "ややゆっくり"
+   },
+   "options__values__speech_speed__slowest": {
+      "message": "最もゆっくり"
+   },
+   "options__values__text_align__Justified": {
+      "message": "両端揃え"
+   },
+   "options__values__text_align__Normal": {
+      "message": "通常"
+   },
+   "register__after__1": {
+      "message": "Evernote アカウントが Clearly とペアリングされました。"
+   },
+   "register__after__2": {
+      "message": "すぐに記事を保存するには、Clearly のサイドバーにある Evernote アイコンをクリックしてください。"
+   },
+   "register__after__3": {
+      "message": "お使いのすべてのデバイスに Evernote をダウンロードすれば、場所と時間を問わず読めるようになります。"
+   },
+   "register__after__heading": {
+      "message": "登録が完了しました"
+   },
+   "register__agree": {
+      "message": "「新規登録」をクリックすると、弊社の [=terms] および [=privacy] に同意したとみなされます。"
+   },
+   "register__agree__privacy": {
+      "message": "プライバシーポリシー"
+   },
+   "register__agree__terms": {
+      "message": "サービス利用規約"
+   },
+   "register__button": {
+      "message": "新規登録"
+   },
+   "register__captcha__error__incorrect": {
+      "message": "CAPTCHAが間違っています。"
+   },
+   "register__captcha__error__required": {
+      "message": "CAPTCHAは必須です。"
+   },
+   "register__captcha__label": {
+      "message": "Captcha"
+   },
+   "register__email__error__conflict": {
+      "message": "このメールアドレスは既に別のアカウントに関連付けられています。"
+   },
+   "register__evernote_heading": {
+      "message": "大切な仕事に。"
+   },
+   "register__evernote_text": {
+      "message": "自分のすべての作業を行うワークスペース、それが Evernote です。"
+   },
+   "register__page_title": {
+      "message": "Clearly / 新規登録"
+   },
+   "register__text": {
+      "message": "Clearly を Evernote アカウントで使うことにより、気に入った記事を何でも保存し、後から自分のデバイスで読めるようになります。"
+   }
+}

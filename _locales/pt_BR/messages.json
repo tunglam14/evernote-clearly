@@ -1,0 +1,698 @@
+{
+   "chrome_browser_action": {
+      "message": "Exibir esta página no Clearly."
+   },
+   "chrome_context_menu": {
+      "message": "Clearly"
+   },
+   "firefox_button": {
+      "message": "Clearly"
+   },
+   "firefox_button_tooltip": {
+      "message": "Exibir esta página com o Clearly."
+   },
+   "firefox_context_menu": {
+      "message": "Clearly"
+   },
+   "firefox_menu": {
+      "message": "Clearly"
+   },
+   "inside__blank__heading": {
+      "message": "Dicas para usar o Evernote Clearly"
+   },
+   "inside__blank__text": {
+      "message": "O Clearly foi projetado para funcionar em páginas de artigos. Uma página de artigo corresponde a qualquer página com um grande bloco de texto como, por exemplo, um artigo de jornal ou postagem em blog."
+   },
+   "inside__features__clipping__text": {
+      "message": "Salve o que você está lendo em sua conta do Evernote com um único clique. Acesse capturas de qualquer dispositivo e em qualquer lugar no Evernote."
+   },
+   "inside__features__clipping__title": {
+      "message": "Capture para Evernote"
+   },
+   "inside__features__close2": {
+      "message": "Fechar"
+   },
+   "inside__features__eula": {
+      "message": "Contrato de Licença de Usuário Final"
+   },
+   "inside__features__eula_notice": {
+      "message": "Ao usar o Clearly, você concorda com o nosso [=eula]."
+   },
+   "inside__features__highlighting__text": {
+      "message": "Realce o texto que deseja lembrar e encontrar rapidamente em sua conta do Evernote. Os realces feitos no Clearly serão atualizados automaticamente em sua conta do Evernote."
+   },
+   "inside__features__highlighting__title": {
+      "message": "Realçando"
+   },
+   "inside__features__related_notes__text": {
+      "message": "Redescubra notas da sua conta do Evernote relacionadas à página que você está exibindo como se fosse mágica. As notas relacionadas são exibidas na parte inferior do artigo ou no lado direito quando o espaço permite."
+   },
+   "inside__features__related_notes__title": {
+      "message": "Notas relacionadas"
+   },
+   "inside__features__smart_filing__text": {
+      "message": "Atribui etiquetas automaticamente às suas capturas da Web e as salva no caderno apropriado para que você não precise se preocupar com isso."
+   },
+   "inside__features__smart_filing__title": {
+      "message": "Preenchimento inteligente"
+   },
+   "inside__features__speech__no_language_explanation": {
+      "message": "O Evernote Clearly não pôde determinar o idioma deste artigo. Se você reconhecer o idioma, selecione-o abaixo para execução."
+   },
+   "inside__features__speech__no_language_title": {
+      "message": "Idioma sem suporte"
+   },
+   "inside__features__speech__text": {
+      "message": "Relaxe e deixe o Clearly ler postagens em blogs, artigos e páginas da Web para você graças ao novo recurso Conversão de texto em fala, disponível exclusivamente para assinantes Evernote Premium."
+   },
+   "inside__features__speech__text__available": {
+      "message": "Conversão de texto em fala em 21 idiomas:"
+   },
+   "inside__features__speech__text__available_languages": {
+      "message": "inglês, japonês, espanhol, francês, alemão, chinês, coreano, árabe, tcheco, dinamarquês, holandês, finlandês, grego, húngaro, italiano, norueguês, polonês, português, russo, sueco e turco."
+   },
+   "inside__features__speech__text__cancel": {
+      "message": "Cancelar"
+   },
+   "inside__features__speech__text__language": {
+      "message": "Idioma sem suporte"
+   },
+   "inside__features__speech__text__play": {
+      "message": "Executar usando este idioma"
+   },
+   "inside__features__speech__text__powered": {
+      "message": "O Evernote Clearly foi desenvolvido pela [=service]."
+   },
+   "inside__features__speech__text__requires": {
+      "message": "Requer o [=product]."
+   },
+   "inside__features__speech__text__try": {
+      "message": "Experimentar Conversão de texto em fala"
+   },
+   "inside__features__speech__text__upgrade": {
+      "message": "Atualize para Evernote Premium"
+   },
+   "inside__features__speech__title": {
+      "message": "Conversão de texto em fala"
+   },
+   "inside__features__title__all": {
+      "message": "Bem-vindo ao novo Evernote Clearly"
+   },
+   "inside__features__title__new": {
+      "message": "Você possui uma nova versão do Evernote Clearly"
+   },
+   "inside__filing_info__add_tag": {
+      "message": "Adicione uma etiqueta"
+   },
+   "inside__filing_info__change_notebook": {
+      "message": "Mudar caderno"
+   },
+   "inside__filing_info__clipped": {
+      "message": "Clipe capturado"
+   },
+   "inside__filing_info__default_notebook": {
+      "message": "Seu сaderno padrão"
+   },
+   "inside__filing_info__edit": {
+      "message": "Editar"
+   },
+   "inside__filing_info__find_notebook": {
+      "message": "Encontre um caderno"
+   },
+   "inside__filing_info__no_tags": {
+      "message": "Etiquetas não permitidas"
+   },
+   "inside__filing_info__open_note": {
+      "message": "Abrir nota"
+   },
+   "inside__filing_info__refresh_notebooks": {
+      "message": "Atualize a lista de cadernos"
+   },
+   "inside__filing_info__refresh_tags": {
+      "message": "Atualize a lista de etiquetas"
+   },
+   "inside__filing_info__remove_tag": {
+      "message": "Remover etiqueta"
+   },
+   "inside__filing_info__sentence": {
+      "message": "Capturado no сaderno [=notebook] e marcado com [=tags]."
+   },
+   "inside__filing_info__sentence_and": {
+      "message": "e"
+   },
+   "inside__filing_info__sentence_no_tags": {
+      "message": "Capturado no сaderno [=notebook]."
+   },
+   "inside__filing_info__sentence_other_tags": {
+      "message": "outras etiquetas"
+   },
+   "inside__filing_info__title_normal": {
+      "message": "Arquivado em:"
+   },
+   "inside__filing_info__title_smart": {
+      "message": "Arquivamento inteligente:"
+   },
+   "inside__filing_info__view": {
+      "message": "Exibir"
+   },
+   "inside__footer__button": {
+      "message": "Criar conta"
+   },
+   "inside__footer__text": {
+      "message": "Obtenha uma conta gratuita do Evernote para salvar este artigo e visualizá-lo mais tarde em qualquer dispositivo."
+   },
+   "inside__login__button_cancel__label": {
+      "message": "Cancelar"
+   },
+   "inside__login__button_do__label": {
+      "message": "Entrar"
+   },
+   "inside__login__create_account": {
+      "message": "Crie uma conta"
+   },
+   "inside__login__email__error__format": {
+      "message": "O e-mail contém caracteres incorretos."
+   },
+   "inside__login__email__error__invalid": {
+      "message": "Usuário inválido, inativo."
+   },
+   "inside__login__email__error__length": {
+      "message": "O e-mail deve conter entre 1 e 64 caracteres."
+   },
+   "inside__login__email__error__required": {
+      "message": "E-mail obrigatório."
+   },
+   "inside__login__email__label": {
+      "message": "Endereço de e-mail"
+   },
+   "inside__login__general__error": {
+      "message": "Falha na autenticação."
+   },
+   "inside__login__heading": {
+      "message": "Entrando no Evernote"
+   },
+   "inside__login__password__error__format": {
+      "message": "A senha contém caracteres incorretos."
+   },
+   "inside__login__password__error__invalid": {
+      "message": "O e-mail e a senha não correspondem ao usuário existente."
+   },
+   "inside__login__password__error__length": {
+      "message": "A senha deve conter entre 6 e 64 caracteres."
+   },
+   "inside__login__password__error__required": {
+      "message": "A senha é obrigatória."
+   },
+   "inside__login__password__error__reset": {
+      "message": "Sua senha expirou. Redefina-a agora."
+   },
+   "inside__login__password__error__timeout": {
+      "message": "Tempo limite da sessão de login esgotado. Tente novamente."
+   },
+   "inside__login__password__label": {
+      "message": "Senha"
+   },
+   "inside__login__rememberMe__label": {
+      "message": "Lembre-me"
+   },
+   "inside__login__spinner": {
+      "message": "Entrando no Evernote"
+   },
+   "inside__menu__clip_to_evernote__tooltip": {
+      "message": "Capturar para o Evernote."
+   },
+   "inside__menu__close__tooltip": {
+      "message": "Ocultar a sobreposição."
+   },
+   "inside__menu__fitts__tooltip": {
+      "message": "Ocultar a sobreposição."
+   },
+   "inside__menu__highlight_to_evernote__tooltip": {
+      "message": "Destaque."
+   },
+   "inside__menu__print__tooltip": {
+      "message": "Imprimir."
+   },
+   "inside__menu__settings__tooltip": {
+      "message": "Mostrar temas."
+   },
+   "inside__menu__speak__forward__tooltip": {
+      "message": "Para frente"
+   },
+   "inside__menu__speak__pause__tooltip": {
+      "message": "Pausa"
+   },
+   "inside__menu__speak__play__tooltip": {
+      "message": "Reproduzir"
+   },
+   "inside__menu__speak__rewind__tooltip": {
+      "message": "Para trás"
+   },
+   "inside__menu__speak__tooltip": {
+      "message": "Conversão de texto em fala"
+   },
+   "inside__misc__clipping__doing": {
+      "message": "Capturando..."
+   },
+   "inside__misc__clipping__failed": {
+      "message": "Falha na captura."
+   },
+   "inside__misc__login_request": {
+      "message": "Para entrar no Evernote, por favor, clique no ícone do Clearly na barra de ferramentas."
+   },
+   "inside__misc__login_request__chrome": {
+      "message": "Para entrar no Evernote, por favor, clique no ícone do Clearly na barra de ferramentas do Chrome."
+   },
+   "inside__misc__login_request__firefox": {
+      "message": "Para entrar no Evernote, por favor, clique no ícone do Clearly na barra de ferramentas do Firefox."
+   },
+   "inside__misc__login_request__opera": {
+      "message": "Para entrar no Evernote, por favor, clique no ícone do Clearly na barra de ferramentas do Opera."
+   },
+   "inside__misc__page": {
+      "message": "Página [=page]"
+   },
+   "inside__related_notes__disable_long": {
+      "message": "Deseja desativar as notas relacionadas?"
+   },
+   "inside__related_notes__disable_short": {
+      "message": "Desativar?"
+   },
+   "inside__related_notes__title": {
+      "message": "Notas relacionadas"
+   },
+   "inside__reminder__button": {
+      "message": "Leia com o Clearly"
+   },
+   "inside__reminder__heading": {
+      "message": "Obtenha mais da leitura online com o Clearly"
+   },
+   "inside__reminder__text": {
+      "message": "Com apenas um clique, remova todas as distrações de qualquer artigo. Com mais um clique, salve qualquer artigo no Evernote para sempre. Experimente agora!"
+   },
+   "inside__rtl__ltr__label": {
+      "message": "Esquerda para direita"
+   },
+   "inside__rtl__main__label": {
+      "message": "Direção do texto?"
+   },
+   "inside__rtl__rtl__label": {
+      "message": "Direita para esquerda"
+   },
+   "inside__settings__fontSize__large": {
+      "message": "grande"
+   },
+   "inside__settings__fontSize__medium": {
+      "message": "média"
+   },
+   "inside__settings__fontSize__small": {
+      "message": "pequena"
+   },
+   "inside__settings__more_options": {
+      "message": "Mais opções"
+   },
+   "inside__settings__theme__1": {
+      "message": "Papel-jornal"
+   },
+   "inside__settings__theme__2": {
+      "message": "Notável"
+   },
+   "inside__settings__theme__3": {
+      "message": "Notívago"
+   },
+   "inside__settings__theme__custom": {
+      "message": "Personalizar"
+   },
+   "inside__two_factor__button_do__label": {
+      "message": "Continuar"
+   },
+   "inside__two_factor__button_help__label": {
+      "message": "Preciso de ajuda para obter um código de verificação"
+   },
+   "inside__two_factor__code__error__format": {
+      "message": "O código de verificação deve conter apenas números."
+   },
+   "inside__two_factor__code__error__invalid": {
+      "message": "O código de verificação está incorreto."
+   },
+   "inside__two_factor__code__error__length": {
+      "message": "O código de verificação deve possuir pelos menos 6 caracteres."
+   },
+   "inside__two_factor__code__error__required": {
+      "message": "Código de verificação necessário."
+   },
+   "inside__two_factor__code__label": {
+      "message": "Código de seis dígitos"
+   },
+   "inside__two_factor__message__google": {
+      "message": "Insira o código de verificação exibido em seu app Google Authenticator."
+   },
+   "inside__two_factor__message__sms": {
+      "message": "Enviamos uma mensagem de texto com um código de verificação para"
+   },
+   "meta_extension_author": {
+      "message": "Evernote Corp."
+   },
+   "meta_extension_description": {
+      "message": "O Clearly torna os posts de blogs, artigos e páginas da Web limpas e fáceis de ler. Salve-os no Evernote para ler em qualquer lugar."
+   },
+   "meta_extension_name": {
+      "message": "Clearly"
+   },
+   "options__account__sign_out": {
+      "message": "Permanentemente conectado como [[=username]]."
+   },
+   "options__account__sign_out_link": {
+      "message": "Sair."
+   },
+   "options__account__signed_out": {
+      "message": "Você não está conectado permanentemente. Clique no ícone do Evernote, na barra lateral do Clearly, para entrar."
+   },
+   "options__base__label": {
+      "message": "CSS base"
+   },
+   "options__box_width__label": {
+      "message": "Largura da linha"
+   },
+   "options__button__more_options": {
+      "message": "Mais opções"
+   },
+   "options__button__reset_custom": {
+      "message": "Redefinir"
+   },
+   "options__button__save_custom": {
+      "message": "Salvar tema"
+   },
+   "options__button__save_general": {
+      "message": "Opções de gravação"
+   },
+   "options__clip_notebook__business": {
+      "message": "Cadernos de Negócios"
+   },
+   "options__clip_notebook__default": {
+      "message": "Padrão"
+   },
+   "options__clip_notebook__shared": {
+      "message": "Cadernos compartilhados"
+   },
+   "options__clip_notebook__smart__label": {
+      "message": "Usar Preenchimento Inteligente"
+   },
+   "options__clip_notebook__specific__label": {
+      "message": "Utilizar caderno específico"
+   },
+   "options__clip_notebook__your": {
+      "message": "Seus Cadernos"
+   },
+   "options__clip_tag__smart__label": {
+      "message": "Usar Preenchimento Inteligente"
+   },
+   "options__clip_tag__specific__label": {
+      "message": "Utilizar etiqueta específica"
+   },
+   "options__color_background__label": {
+      "message": "Cor do segundo plano"
+   },
+   "options__color_links__label": {
+      "message": "Cor de links"
+   },
+   "options__color_text__label": {
+      "message": "Cor do primeiro plano"
+   },
+   "options__custom_css__label": {
+      "message": "CSS personalizado"
+   },
+   "options__footnote_links__label": {
+      "message": "Vincula como notas de rodapé"
+   },
+   "options__keys_activation__label": {
+      "message": "Exibir página no Clearly"
+   },
+   "options__keys_clip__label": {
+      "message": "Capture para Evernote"
+   },
+   "options__keys_highlight__label": {
+      "message": "Destaque"
+   },
+   "options__keys_speech__label": {
+      "message": "Conversão de texto em fala"
+   },
+   "options__large_graphics__label": {
+      "message": "Objetos gráficos grandes"
+   },
+   "options__message__keys": {
+      "message": "Para alterar, posicione o cursor no campo e pressione uma combinação de teclas em seu teclado."
+   },
+   "options__message__keys_firefox": {
+      "message": "Após salvar, reinicie o seu navegador."
+   },
+   "options__message__notebook": {
+      "message": "Caderno para inserir a captura quando você capturar para o Evernote."
+   },
+   "options__message__open_notes_in": {
+      "message": "Ao abrir notas do Clearly, use um cliente Evernote específico."
+   },
+   "options__message__related_notes": {
+      "message": "Permita que o Evernote busque capturas em sua conta que possam ser relevantes ao que você está exibindo agora."
+   },
+   "options__message__smart_filing": {
+      "message": "Permita que o Evernote determine quais capturas de cadernos devem ser inseridas e quais etiquetas elas devem receber."
+   },
+   "options__message__tags": {
+      "message": "Etiquetas a serem aplicadas, ao capturar para o Evernote."
+   },
+   "options__misc__print_preview": {
+      "message": "Pré-Visualizar Impressão"
+   },
+   "options__misc__reset_theme": {
+      "message": "Redefinir Tema Personalizado"
+   },
+   "options__misc__reset_theme__confirm": {
+      "message": "Isso irá definir os valores do seu tema personalizado para serem os mesmos valores do tema padrão. Tem certeza de que deseja continuar?"
+   },
+   "options__misc__saved": {
+      "message": "As configurações serão aplicadas a quaisquer novas guias em que você usar o Clearly."
+   },
+   "options__misc__saving": {
+      "message": "Salvando"
+   },
+   "options__open_notes_in__desktop__label": {
+      "message": "Cliente desktop"
+   },
+   "options__open_notes_in__web__label": {
+      "message": "Cliente Web"
+   },
+   "options__related_notes__disabled__label": {
+      "message": "Desativar notas relacionadas"
+   },
+   "options__related_notes__enabled__label": {
+      "message": "Ativar notas relacionadas"
+   },
+   "options__related_notes__just_at_bottom__label": {
+      "message": "Ativar Notas relacionadas, mas mostrar somente embaixo"
+   },
+   "options__smart_filing__disabled__label": {
+      "message": "Desativar arquivamento inteligente"
+   },
+   "options__smart_filing__enabled__label": {
+      "message": "Ativar Arquivamento inteligente"
+   },
+   "options__smart_filing__just_notebooks__label": {
+      "message": "Ativar Preenchimento inteligente, mas apenas para Cadernos"
+   },
+   "options__smart_filing__just_tags__label": {
+      "message": "Ativar Preenchimento inteligente, mas somente para Etiquetas"
+   },
+   "options__smart_filing_for_business__notebooks__label": {
+      "message": "Para Caderno de Negócios também"
+   },
+   "options__smart_filing_for_business__tags__label": {
+      "message": "Para etiquetas profissionais também"
+   },
+   "options__speech_demo__label": {
+      "message": "Demonstração"
+   },
+   "options__speech_gender__label": {
+      "message": "Voz de leitura"
+   },
+   "options__speech_speed__label": {
+      "message": "Velocidade de leitura"
+   },
+   "options__text_align__label": {
+      "message": "Alinhamento de texto"
+   },
+   "options__text_font__label": {
+      "message": "Fonte do corpo"
+   },
+   "options__text_font_header__label": {
+      "message": "Fonte do cabeçalho"
+   },
+   "options__text_font_monospace__label": {
+      "message": "Fonte com espaçamento uniforme"
+   },
+   "options__text_line_height__label": {
+      "message": "Altura da linha"
+   },
+   "options__text_size__label": {
+      "message": "Tamanho de fonte base"
+   },
+   "options__title__custom": {
+      "message": "Tema personalizado"
+   },
+   "options__title__features": {
+      "message": "Recursos do Clearly"
+   },
+   "options__title__general": {
+      "message": "Opções"
+   },
+   "options__title__page": {
+      "message": "Clearly / Opções"
+   },
+   "options__title__speech": {
+      "message": "Conversão de texto em fala"
+   },
+   "options__title__sub__account": {
+      "message": "Conta"
+   },
+   "options__title__sub__keyboard": {
+      "message": "Atalhos do teclado"
+   },
+   "options__title__sub__notebook": {
+      "message": "Seleção de Caderno"
+   },
+   "options__title__sub__open_notes_in": {
+      "message": "Abrir notas no"
+   },
+   "options__title__sub__related_notes": {
+      "message": "Notas relacionadas"
+   },
+   "options__title__sub__smart_filing": {
+      "message": "Preenchimento inteligente"
+   },
+   "options__title__sub__tags": {
+      "message": "Seleção de Etiqueta"
+   },
+   "options__values__base__Blueprint": {
+      "message": "Plano gráfico"
+   },
+   "options__values__base__None": {
+      "message": "Nenhum"
+   },
+   "options__values__base__Theme_1": {
+      "message": "Clássica"
+   },
+   "options__values__base__Theme_2": {
+      "message": "Moderna"
+   },
+   "options__values__base__Theme_3": {
+      "message": "Noturna"
+   },
+   "options__values__footnote_links__Always": {
+      "message": "Sempre"
+   },
+   "options__values__footnote_links__Never": {
+      "message": "Nunca"
+   },
+   "options__values__footnote_links__On_Print": {
+      "message": "Na impressão"
+   },
+   "options__values__large_graphics__Do_Nothing": {
+      "message": "Mostrar sempre"
+   },
+   "options__values__large_graphics__Hide_Always": {
+      "message": "Ocultar sempre"
+   },
+   "options__values__large_graphics__Hide_on_Print": {
+      "message": "Ocultar na impressão"
+   },
+   "options__values__menu_placement__Bottom_Right": {
+      "message": "Inferior direito"
+   },
+   "options__values__menu_placement__Top_Right": {
+      "message": "Superior direito"
+   },
+   "options__values__speech_gender__default": {
+      "message": "Padrão"
+   },
+   "options__values__speech_gender__female": {
+      "message": "Feminina (se disponível)"
+   },
+   "options__values__speech_gender__male": {
+      "message": "Masculina (se disponível)"
+   },
+   "options__values__speech_speed__fast": {
+      "message": "Rápida"
+   },
+   "options__values__speech_speed__faster": {
+      "message": "Mais rápida"
+   },
+   "options__values__speech_speed__fastest": {
+      "message": "A mais rápida"
+   },
+   "options__values__speech_speed__normal": {
+      "message": "Normal"
+   },
+   "options__values__speech_speed__slow": {
+      "message": "Lenta"
+   },
+   "options__values__speech_speed__slower": {
+      "message": "Mais lenta"
+   },
+   "options__values__speech_speed__slowest": {
+      "message": "A mais lenta"
+   },
+   "options__values__text_align__Justified": {
+      "message": "Justificado"
+   },
+   "options__values__text_align__Normal": {
+      "message": "Normal"
+   },
+   "register__after__1": {
+      "message": "A sua conta do Evernote agora está emparelhada com o Clearly."
+   },
+   "register__after__2": {
+      "message": "Clique no ícone do Evernote, na barra lateral do Clearly, para salvar instantaneamente um artigo."
+   },
+   "register__after__3": {
+      "message": "Obtenha o Evernote em todos os seus dispositivos para ler em qualquer lugar, a qualquer hora."
+   },
+   "register__after__heading": {
+      "message": "Registro concluído"
+   },
+   "register__agree": {
+      "message": "Ao clicar em 'Registrar-se', você concorda com os nossos  [=terms] e [=privacy]."
+   },
+   "register__agree__privacy": {
+      "message": "Política de Privacidade"
+   },
+   "register__agree__terms": {
+      "message": "Termos de Serviço"
+   },
+   "register__button": {
+      "message": "Criar conta"
+   },
+   "register__captcha__error__incorrect": {
+      "message": "O CAPTCHA está incorreto."
+   },
+   "register__captcha__error__required": {
+      "message": "O Captcha é necessário."
+   },
+   "register__captcha__label": {
+      "message": "Captcha"
+   },
+   "register__email__error__conflict": {
+      "message": "O e-mail já está associado a uma conta."
+   },
+   "register__evernote_heading": {
+      "message": "O trabalho da sua vida"
+   },
+   "register__evernote_text": {
+      "message": "Para tudo o que você desejar fazer, o Evernote é o escritório moderno ideal para realizar."
+   },
+   "register__page_title": {
+      "message": "Clearly / Registar"
+   },
+   "register__text": {
+      "message": "Usar o Clearly com uma conta do Evernote permitirá que você salve todos os seus artigos e os leia mais tarde em qualquer dispositivo."
+   }
+}
